@@ -1,50 +1,98 @@
 # 比格熊内容创作Skills / bgxiong-content-skills
 
-**独立开源案例与规范仓**（slug: `bgxiong-content-skills`）。  
-与产品仓 `bgxiong-ai-story` **完全独立**：本仓不绑定产品构建/门禁，**禁止回写产品**。
+开源、可导入的 **Content Skills 案例与规范包**。  
+本仓库为 [**比格熊数字导演工作站**](https://www.bgxiong.com)（产品仓 `bgxiong-ai-story`）提供**可安装的 Skills 素材**——分镜规划、镜头/片段提示词优化、生图策略等；**不包含**产品 Host / UI / Rust 运行时。
 
-## 30 秒理解
+> 与产品仓 **完全独立**：可自由贡献与二次分发；**禁止**把本仓改动回写进产品私有实现。契约以产品 `app-contracts` 为准，本仓 `contracts/` 仅为只读 pin。
 
-- 本仓提供可导入的 **Content Skill 包**（`examples/`）+ 契约只读 pin（`contracts/`）+ 作者文档（`packs/`）。
-- 包需导入 **比格熊数字导演**（或兼容 Host）才能执行；本仓**不内嵌** Host / UI / Rust 运行时。
-- 能力闭集：`content.plan` / `generation.policy` / `optimize.storyboard_shot` / `optimize.segment`。
+---
 
-## 导入路径（产品）
+## 这是做什么的？
 
-设置 → 创作 Skills → 导入文件夹 → 选择 `examples/.../<pack>/`。
+比格熊 Host 关闭能力（closed capabilities）包括：
 
-## 目录
+| 能力 | 作用 |
+|------|------|
+| `content.plan` | 故事 → 章节 / 角色 / 场次 / 分镜结构 |
+| `optimize.storyboard_shot` | 单镜提示词优化（武打、微表情、表演等） |
+| `optimize.segment` | 片段级提示词 / 连续性优化 |
+| `generation.policy` | 生图策略（多视角、定妆、九宫格等） |
+
+本仓提供可导入示例（`examples/`）、作者规范（`packs/`）、矩阵与戏种卡（`docs/`），让作者与智能体按统一契约写出**可被工作站直接导入执行**的 Skills。
+
+---
+
+## 怎么使用（导入到比格熊）
+
+1. 安装并打开 **比格熊数字导演工作站**（官网下载：[https://www.bgxiong.com](https://www.bgxiong.com)）。
+2. 打开 **设置 → 创作 Skills**（以客户端实际菜单为准）。
+3. **导入**本仓中的某一个示例文件夹，例如：
+   - `examples/content-plan/28-storyboard-performance`
+   - `examples/optimize/30-optimize-storyboard-fight`
+   - `examples/optimize/31-optimize-storyboard-micro-cu`
+   - `examples/optimize/32-optimize-segment-continuity`
+   - `examples/generation-policy/15-generation-policy-expression-9grid`
+4. 导入后在对应工作流里选用该 Skill（分镜规划 / AI 优化提示词 / 生图策略）。
+5. 可选本地校验：
+
+```bash
+python scripts/validate-example.py examples/optimize/30-optimize-storyboard-fight
+```
+
+PowerShell：
+
+```powershell
+.\scripts\validate-example.ps1 examples\optimize\30-optimize-storyboard-fight
+```
+
+更细的目录与贡献约定见 `docs/USAGE.zh-CN.md`、`AGENT.md`、`NOTICES.md`。
+
+---
+
+## 仓库结构
 
 ```text
 docs/          CASE-MATRIX / INSPIRATIONS / GENRE-* / USAGE
-packs/         AUTHORING / CONTENT_SKILL（人+智能体）
-contracts/     只读 pin 自产品 app-contracts（勿改语义）
+packs/         CONTENT_SKILL 作者规范（中/英）
+contracts/     只读 pin（对齐产品 app-contracts 版本）
 examples/      content-plan / generation-policy / optimize
 scripts/       validate-example.*
-community/     贡献 stub
+community/     贡献入口 stub
 ```
 
-## 贡献规则（ABS / NOTICE）
+## 贡献红线（ABS / NOTICE）
 
-1. **ABS-01** 只抽机制，不整文件搬迁他人 SKILL.md  
-2. **ABS-02** 优先 MIT / Apache-2.0；不明许可只写「启发」  
-3. **ABS-03** IP 脱敏：禁角色名/作品专名照抄  
-4. **ABS-04** 外来概念必须映射本仓闭集  
-5. **ABS-05** 每案例 README 含 SOURCES  
-6. 校验：`python scripts/validate-example.py examples/.../<pack>`  
+1. **ABS-01** 只提炼规则，不整段搬迁第三方 SKILL.md  
+2. **ABS-02** 优先 MIT / Apache-2.0 来源；专有许可只写灵感层  
+3. **ABS-03** IP 安全：禁角色名 / 产品专有口诀硬抄  
+4. **ABS-04** 每条规则映射本仓能力字段  
+5. **ABS-05** 每个包 README 含 SOURCES  
+6. 校验：`python scripts/validate-example.py examples/.../<pack>`
 
-详见 `docs/INSPIRATIONS.md` 与仓根 `NOTICES.md`。
+详见 `docs/INSPIRATIONS.md` 与 `NOTICES.md`。
 
-## Remote
+## 与产品的边界
 
-**暂无公开 Git remote**。本机仓就绪即可；勿推送机密/产品私货。
+| 资产 | 来源 | 本仓 |
+|------|------|------|
+| Host Rust / UI / SQLite | 产品 | **不**收录 |
+| app-contracts JSON | 产品 SSOT | `contracts/` 只读镜像 |
+| 教学案例 | 产品 fixtures 先建 | 拷贝至 `examples/`（产品 fixtures 仍保留） |
 
-## 与产品关系
+---
 
-| 资产 | 真源 | 本仓 |
-|---|---|---|
-| Host Rust / UI / SQLite | 产品 | **无**（产品独有） |
-| app-contracts JSON | 产品 | `contracts/` 只读拷贝 |
-| 教学案例 | 产品 fixtures 先建 | 单向拷贝到 `examples/` |
+## About Beigexiong / 关于比格熊
 
-抽取时间见 `contracts/VERSION`。
+**比格熊数字导演工作站**是装在你电脑上的 AI 导演工具：从一句话创意到故事展开、场次与分镜、批量生图/生视频、配音与导出，尽量在同一桌面客户端走完——数据在本地，模型由你自选，不为网页白板式「一句话出一张图」止步。
+
+- 官网 / 下载：[https://www.bgxiong.com](https://www.bgxiong.com)
+- 客户端版本说明：[https://www.bgxiong.com/client/version.html](https://www.bgxiong.com/client/version.html)
+- 本开源仓：提供可导入的 Content Skills，**服务**于工作站，但仓库本身独立维护。
+
+口号参考：从故事到片段。一个人，也能开拍。
+
+---
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
