@@ -1,0 +1,4 @@
+pin-from=bgxiong-ai-story/packages/app-contracts/v1
+extracted-at=2026-09-14T10:55:35.216867+00:00
+protocol=content-skill-v1@1.1.0 (declared; verify files)
+files=content-skill-bind-ctx.json,content-skill-capabilities.json,content-skill-core-shot-fields.json,content-skill-decision-draft.json,content-skill-finding.json,content-skill-limits.json,content-skill-native-shots-output-schema.json,content-skill-optimize-operations.json,content-skill-optimize-output-schema.json,content-skill-protocol.json,content-skill-public-operations.json,content-skill-scene-binding.json,content-skill-skill-extension.json,content-skill-capabilities.json,optimize-storyboard-shot-official-default.json,optimize-segment-official-default.json,generation-policy.json,generation-policy-official-default.json

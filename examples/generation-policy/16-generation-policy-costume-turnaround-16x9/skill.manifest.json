@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-costume-turnaround-16x9",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例16 · 角色/演员服装转面 16:9",
+  "description": "character 九槽：正面全身、背面全身、面部大特写，再加手腕/鞋/腰/肩袖/后脑勺发型/衣料胸饰下摆；9 视角单图合成一张横版 16:9 服装参考表，也可分张批量。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

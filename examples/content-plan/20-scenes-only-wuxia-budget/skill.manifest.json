@@ -1,0 +1,13 @@
+{
+  "id": "local.example.scenes-only-wuxia-budget",
+  "version": "1.1.0",
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例20 · 只做到场次（武侠字数）",
+  "description": "规划场次为止；文案风格与字数进 directives 与 schema。",
+  "capabilities": [
+    "content.plan"
+  ]
+}

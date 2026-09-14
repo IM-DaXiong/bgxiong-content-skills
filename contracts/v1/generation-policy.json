@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "maxSlotsPerMode": 16,
+  "minSlotsPerMode": 1,
+  "maxArmChars": 8000,
+  "slotIdPattern": "^[a-z][a-z0-9_]{1,31}$",
+  "officialDefaultFile": "generation-policy-official-default.json",
+  "officialPolicyHash": "94c01bb3b89af39d7ce35760dfd64ecbc1affba0f2a1347c3b936752bfcc2ac0",
+  "capabilityGenerationPolicy": "generation.policy",
+  "capabilityContentPlan": "content.plan",
+  "maxSheetLayoutChars": 8000,
+  "allowedSheetAspectRatios": [
+    "16:9",
+    "9:16",
+    "1:1",
+    "4:3",
+    "3:4"
+  ]
+}

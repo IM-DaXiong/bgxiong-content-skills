@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "type": "ContentSkillDecisionDraft",
+  "statuses": ["awaiting_edit", "editing", "committed", "discarded"],
+  "previewMaxChars": 4000,
+  "attachmentRelPrefix": "content_skill_decision/",
+  "attachmentMaxBytes": 262144,
+  "casFields": ["decisionId", "expectedVersion"]
+}

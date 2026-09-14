@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "maxSteps": 64,
+  "maxPlanBytes": 262144,
+  "maxSnapshotBytes": 1048576,
+  "wasm": {
+    "memoryBytes": 67108864,
+    "fuel": 50000000,
+    "wallMs": 30000
+  },
+  "forbiddenImports": [
+    "wasi:filesystem/*",
+    "wasi:sockets/*",
+    "wasi:cli/*",
+    "wasi:http/*",
+    "env",
+    "bgxiong:credentials/*",
+    "bgxiong:sqlite/*",
+    "bgxiong:subprocess/*",
+    "bgxiong:tauri-ipc/*"
+  ],
+  "allowedHostImports": [
+    "bgxiong:content-skill/host@1.0.0"
+  ],
+  "outputSchema": {
+    "maxBytes": 65536,
+    "maxPropertiesPerItem": 32,
+    "skillExtensionMaxKeys": 16,
+    "skillExtensionMaxBytes": 8192,
+    "rawPreviewMaxChars": 4000,
+    "attachmentMaxBytes": 262144
+  },
+  "schemaRepair": {
+    "exactlyOneRound": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "coverage": ["chapters"],
+  "steps": [
+    {
+      "id": "chapters",
+      "op": "plan_chapters",
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      }
+    }
+  ]
+}

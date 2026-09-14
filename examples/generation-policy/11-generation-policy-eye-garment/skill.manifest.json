@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-eye-garment",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例11 · 九槽含眼睛与衣服特写",
+  "description": "view9 后两张改为自写眼睛/衣服特写四臂。演员工作台绑此包再选 9 视角。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

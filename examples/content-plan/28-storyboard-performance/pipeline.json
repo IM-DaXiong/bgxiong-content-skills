@@ -1,0 +1,66 @@
+{
+  "coverage": [
+    "shots"
+  ],
+  "steps": [
+    {
+      "id": "shots",
+      "op": "plan_shots",
+      "bind": {
+        "storyId": ".storyId",
+        "sceneNodeId": ".sceneNodeId",
+        "sourceText": ".sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "Performance storyboard: readable causal chain trigger to residue. Eyes before jaw then breath then hands. Required performanceBeat per shot. Shot size MS/CU/ECU. Camera static/pan/dolly_in. No empty lyricism."
+          }
+        }
+      },
+      "outputSchema": {
+        "shots": {
+          "count": {
+            "const": 6
+          },
+          "item": {
+            "required": [
+              "shotIndex",
+              "content",
+              "angleId",
+              "shotSize",
+              "cameraMove",
+              "performanceBeat"
+            ],
+            "properties": {
+              "shotIndex": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 6
+              },
+              "content": {
+                "type": "string",
+                "minLength": 40,
+                "maxLength": 160
+              },
+              "angleId": {
+                "enum": ["medium", "closeup", "low", "high", "pov"]
+              },
+              "shotSize": {
+                "enum": ["MS", "CU", "ECU"]
+              },
+              "cameraMove": {
+                "enum": ["static", "pan", "dolly_in"]
+              },
+              "performanceBeat": {
+                "type": "string",
+                "maxLength": 80
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

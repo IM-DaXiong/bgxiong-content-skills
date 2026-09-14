@@ -1,0 +1,9 @@
+{
+  "id": "local.example.staged-to-shots",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例3 · 分阶段到分镜",
+  "description": "先规划剧集和场次；仅当故事描述非空时再规划分镜。用 when + $ctx 做运行时分支。不写死 coverage，以免跳过步骤后和声明对不上。"
+}

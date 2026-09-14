@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-storyboard-style",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例13 · 分镜风格 overlay",
+  "description": "绑定后分镜静帧 CONSTRAINTS 媒介锁改为包内 overlay 句子。不新增 styleDomain id。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

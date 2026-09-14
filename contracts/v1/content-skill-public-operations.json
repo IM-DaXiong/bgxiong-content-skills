@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "PublicOpCatalog",
+  "note": "Public as-built names are plan_* (not story.generate*). plan_appearance is not public (D-PD-03 / INV-PROMPT-UI-SSOT-02). plan_continuity is not public. plan_image is catalogued but release-unavailable.",
+  "operations": [
+    {
+      "name": "plan_bible",
+      "version": "1",
+      "capability": "AiGenerateText",
+      "destructive": false,
+      "async": false,
+      "inputSchemaRef": "public/plan_bible/input",
+      "outputSchemaRef": "public/plan_bible/output"
+    },
+    {
+      "name": "plan_chapters",
+      "version": "1",
+      "capability": "AiGenerateText",
+      "destructive": false,
+      "async": false,
+      "inputSchemaRef": "public/plan_chapters/input",
+      "outputSchemaRef": "public/plan_chapters/output"
+    },
+    {
+      "name": "plan_roles",
+      "version": "1",
+      "capability": "AiGenerateText",
+      "destructive": false,
+      "async": false,
+      "inputSchemaRef": "public/plan_roles/input",
+      "outputSchemaRef": "public/plan_roles/output"
+    },
+    {
+      "name": "plan_scenes",
+      "version": "1",
+      "capability": "AiGenerateText",
+      "destructive": false,
+      "async": false,
+      "inputSchemaRef": "public/plan_scenes/input",
+      "outputSchemaRef": "public/plan_scenes/output"
+    },
+    {
+      "name": "plan_shots",
+      "version": "1",
+      "capability": "AiGenerateText",
+      "destructive": false,
+      "async": false,
+      "inputSchemaRef": "public/plan_shots/input",
+      "outputSchemaRef": "public/plan_shots/output"
+    },
+    {
+      "name": "plan_package",
+      "version": "1",
+      "capability": "AiGenerateText",
+      "destructive": false,
+      "async": false,
+      "inputSchemaRef": "public/plan_package/input",
+      "outputSchemaRef": "public/plan_package/output"
+    },
+    {
+      "name": "plan_image",
+      "version": "1",
+      "capability": "AiGenerateImage",
+      "destructive": false,
+      "async": true,
+      "available": false,
+      "unavailableCode": "OP_UNAVAILABLE",
+      "inputSchemaRef": "public/plan_image/input",
+      "outputSchemaRef": "public/plan_image/output"
+    }
+  ]
+}

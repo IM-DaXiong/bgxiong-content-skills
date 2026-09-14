@@ -1,0 +1,23 @@
+{
+  "capability": "optimize.storyboard_shot",
+  "directives": {
+    "prose": {
+      "style": {
+        "mode": "authorText",
+        "text": "Fight-shot optimize: who/what/hit-or-miss/result readable; geography left-right distance weapon state; optional six-beat compress; fightBeat purpose-path-response-contact-next; process-state language; soft violence; no gore, no guns, no minor ages; do not invent dialogue; omit empty context."
+      }
+    }
+  },
+  "outputSchema": {
+    "optimizedPrompt": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    }
+  },
+  "emptyPolicy": {
+    "ifCurrentPromptEmpty": "draftFromContext",
+    "ifContextFieldEmpty": "omitFromPrompt",
+    "forbidHostFabrication": true
+  }
+}

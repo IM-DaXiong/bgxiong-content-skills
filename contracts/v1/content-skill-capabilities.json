@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "ContentSkillCapabilityCatalog",
+  "note": "Closed Host capability set for Content Skill packages. Empty capabilities (and no generation-policy.json) means content.plan. Unknown strings must not become UI category tabs. Do not add free-form category/tags to skill.manifest.",
+  "emptyCapabilitiesMeans": "content.plan",
+  "capabilities": [
+    "content.plan",
+    "generation.policy",
+    "optimize.storyboard_shot",
+    "optimize.segment"
+  ]
+}

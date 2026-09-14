@@ -1,0 +1,23 @@
+{
+  "capability": "optimize.segment",
+  "directives": {
+    "prose": {
+      "style": {
+        "mode": "authorText",
+        "text": "Segment continuity optimize: end-state of this beat must feed the next start; omit empty dialogue fields; output finalPrompt; do not invent lines. Project writing style stays in prompt-profile, not in this Skill."
+      }
+    }
+  },
+  "outputSchema": {
+    "finalPrompt": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    }
+  },
+  "emptyPolicy": {
+    "ifCurrentPromptEmpty": "draftFromContext",
+    "ifContextFieldEmpty": "omitFromPrompt",
+    "forbidHostFabrication": true
+  }
+}

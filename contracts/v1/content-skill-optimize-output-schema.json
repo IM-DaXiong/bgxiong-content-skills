@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "type": "ContentSkillOptimizeOutputSchema",
+  "note": "Optimize package outputSchema is a field map, not a JSON Schema object document. Top-level type=object is rejected.",
+  "storyboardShotRequiredKey": "optimizedPrompt",
+  "segmentRequiredKey": "finalPrompt",
+  "valueShape": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 4000
+  },
+  "allowedDirectiveTopKeys": ["prose"]
+}

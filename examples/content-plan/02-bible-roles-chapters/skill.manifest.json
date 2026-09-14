@@ -1,0 +1,9 @@
+{
+  "id": "local.example.bible-roles-chapters",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例2 · 圣经-角色-剧集",
+  "description": "先立世界观（圣经），再立人物，最后拆剧集。适合空白或只有一句话的故事。不拆场次和分镜。"
+}

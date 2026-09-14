@@ -1,0 +1,12 @@
+{
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "id": "local.example.optimize-storyboard-fight",
+  "version": "1.1.0",
+  "displayName": "案例30 · 武打分镜优化提示词",
+  "language": "declarative",
+  "entry": "pipeline.json",
+  "capabilities": [
+    "optimize.storyboard_shot"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "capability": "optimize.storyboard_shot",
+  "directives": {
+    "prose": {
+      "style": {
+        "mode": "authorText",
+        "text": "Micro-expression CU optimize: lock CU/ECU and static camera; use visible anatomy words; never dump AU codes into the final prompt; do not invent dialogue; omit empty fields."
+      }
+    }
+  },
+  "outputSchema": {
+    "optimizedPrompt": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    }
+  },
+  "emptyPolicy": {
+    "ifCurrentPromptEmpty": "draftFromContext",
+    "ifContextFieldEmpty": "omitFromPrompt",
+    "forbidHostFabrication": true
+  }
+}

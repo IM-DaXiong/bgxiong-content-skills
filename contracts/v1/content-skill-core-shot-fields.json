@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "type": "ShotSkillCoreFields",
+  "coreFields": [
+    "shotIndex",
+    "content",
+    "angleId",
+    "shotSize",
+    "cameraMove",
+    "beat",
+    "lens",
+    "durationHint"
+  ],
+  "notes": "Core fields may project onto canonical shot/segment content after INV-SB-DATA-LEGAL. Author-declared properties outside this closed set write only into skillExtension."
+}

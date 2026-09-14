@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-invalid-no-anchor",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "负例14 · 无第0锚（应拒装）",
+  "description": "故意非法：第0槽 identityAnchor=false。导入必须失败。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

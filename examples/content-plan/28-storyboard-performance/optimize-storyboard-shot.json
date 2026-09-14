@@ -1,0 +1,23 @@
+{
+  "capability": "optimize.storyboard_shot",
+  "directives": {
+    "prose": {
+      "style": {
+        "mode": "authorText",
+        "text": "Optimize performance CU/MS: lock gaze-to-action causality; do not invent dialogue; omit empty context fields; prefer visible action language over abstract emotion words."
+      }
+    }
+  },
+  "outputSchema": {
+    "optimizedPrompt": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    }
+  },
+  "emptyPolicy": {
+    "ifCurrentPromptEmpty": "draftFromContext",
+    "ifContextFieldEmpty": "omitFromPrompt",
+    "forbidHostFabrication": true
+  }
+}

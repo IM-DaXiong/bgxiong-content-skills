@@ -1,0 +1,82 @@
+{
+  "coverage": [
+    "shots"
+  ],
+  "steps": [
+    {
+      "id": "shots",
+      "op": "plan_shots",
+      "bind": {
+        "storyId": ".storyId",
+        "sceneNodeId": ".sceneNodeId",
+        "sourceText": ".sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "武打：动作因果清晰，禁止文言堆砌。"
+          }
+        }
+      },
+      "outputSchema": {
+        "shots": {
+          "count": {
+            "const": 6
+          },
+          "item": {
+            "required": [
+              "shotIndex",
+              "content",
+              "angleId",
+              "shotSize",
+              "cameraMove",
+              "fightBeat"
+            ],
+            "properties": {
+              "shotIndex": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 6
+              },
+              "content": {
+                "type": "string",
+                "minLength": 40,
+                "maxLength": 160
+              },
+              "angleId": {
+                "enum": [
+                  "wide",
+                  "low",
+                  "high",
+                  "medium"
+                ]
+              },
+              "shotSize": {
+                "enum": [
+                  "EWS",
+                  "WS",
+                  "MS",
+                  "CU",
+                  "ECU"
+                ]
+              },
+              "cameraMove": {
+                "enum": [
+                  "handheld",
+                  "dolly_in",
+                  "pan",
+                  "static"
+                ]
+              },
+              "fightBeat": {
+                "type": "string",
+                "maxLength": 80
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

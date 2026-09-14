@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-one-slot-framing",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例12 · 只改右侧半身 framing",
+  "description": "其余槽保持官方，仅右侧转身槽 framing 改为半身。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

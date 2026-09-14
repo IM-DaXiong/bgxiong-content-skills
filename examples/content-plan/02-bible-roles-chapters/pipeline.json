@@ -1,0 +1,31 @@
+{
+  "coverage": ["bible", "roles", "chapters"],
+  "steps": [
+    {
+      "id": "bible",
+      "op": "plan_bible",
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      }
+    },
+    {
+      "id": "roles",
+      "op": "plan_roles",
+      "dependsOn": ["bible"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      }
+    },
+    {
+      "id": "chapters",
+      "op": "plan_chapters",
+      "dependsOn": ["roles"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      }
+    }
+  ]
+}

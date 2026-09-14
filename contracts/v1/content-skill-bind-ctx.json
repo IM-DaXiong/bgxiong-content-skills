@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "ContentSkillBindCtx",
+  "allowedBindKeys": [
+    "storyId",
+    "sourceText",
+    "sceneNodeId",
+    "chapterNodeId",
+    "writeMode",
+    "anchor"
+  ],
+  "allowedDirectiveTopKeys": ["prose", "structure"],
+  "allowedStructureKeys": [
+    "maxChapters",
+    "durationSeconds",
+    "durationSecondsPerChapter",
+    "maxScenesPerChapter"
+  ],
+  "notes": "Do not invent $ctx paths beyond Host injection. literaryMode is a host hint, not prose.style."
+}

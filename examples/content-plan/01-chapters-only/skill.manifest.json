@@ -1,0 +1,9 @@
+{
+  "id": "local.example.chapters-only",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例1 · 只生成剧集",
+  "description": "一条流水线：根据当前故事描述规划剧集大纲。不生成圣经、角色、场次、分镜。"
+}

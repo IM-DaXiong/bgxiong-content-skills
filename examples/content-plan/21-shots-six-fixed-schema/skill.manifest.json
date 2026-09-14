@@ -1,0 +1,13 @@
+{
+  "id": "local.example.shots-six-fixed",
+  "version": "1.1.0",
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例21 · 一场固定 6 镜",
+  "description": "一场必须返回恰好 6 镜，每镜 content/angleId/shotSize/cameraMove。",
+  "capabilities": [
+    "content.plan"
+  ]
+}

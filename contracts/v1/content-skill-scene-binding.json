@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "type": "SceneStoryboardSkillBinding",
+  "unboundPolicy": "strict",
+  "requiredPack": {
+    "op": "plan_shots",
+    "outputSchemaPath": "outputSchema.shots"
+  },
+  "bindKey": ["sceneNodeId", "skillId", "planHash"],
+  "rejectCapabilities": ["generation.policy"]
+}

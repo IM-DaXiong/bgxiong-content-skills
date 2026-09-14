@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "OptimizeOpCatalog",
+  "note": "Package capabilities, not plan_* coverage DAG. Official default optimize must use this same contract.",
+  "operations": [
+    {
+      "name": "optimize_storyboard_shot_prompt",
+      "capability": "optimize.storyboard_shot",
+      "file": "optimize-storyboard-shot.json"
+    },
+    {
+      "name": "optimize_segment_prompt",
+      "capability": "optimize.segment",
+      "file": "optimize-segment.json"
+    }
+  ],
+  "emptyPolicyValues": {
+    "ifCurrentPromptEmpty": ["draftFromContext", "requireUserFill"],
+    "ifContextFieldEmpty": ["omitFromPrompt", "failFast"]
+  }
+}

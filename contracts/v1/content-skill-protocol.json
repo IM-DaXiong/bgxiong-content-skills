@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "protocolId": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "abi": "component-model",
+  "protocolWindow": {
+    "min": "1.1.0",
+    "max": "1.1.0"
+  },
+  "planSchema": "SkillOperationPlan",
+  "stepShape": "bind+directives+outputSchema",
+  "notes": "Language-neutral ABI; Host loads Component only. Python not provided this round. v1.1.0 is a breaking replace: steps must use bind/directives/outputSchema; leftover input is rejected. Skill outputSchema is the LLM return-format SSOT."
+}

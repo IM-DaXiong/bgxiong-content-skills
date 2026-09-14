@@ -1,0 +1,30 @@
+{
+  "coverage": [
+    "scenes"
+  ],
+  "steps": [
+    {
+      "id": "scenes",
+      "op": "plan_scenes",
+      "bind": {
+        "storyId": ".storyId",
+        "sourceText": ".sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "武侠白话：动作因果清楚，禁止堆砌典故。"
+          },
+          "budget": {
+            "unit": "chars",
+            "perScene": {
+              "min": 80,
+              "max": 280
+            }
+          }
+        }
+      }
+    }
+  ]
+}

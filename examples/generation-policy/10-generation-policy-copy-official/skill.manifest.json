@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-copy-official",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例10 · 生图策略原样官方槽",
+  "description": "只改展示名，槽与四臂与官方默认一致。绑定后行为应与未绑 Skill 相同。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

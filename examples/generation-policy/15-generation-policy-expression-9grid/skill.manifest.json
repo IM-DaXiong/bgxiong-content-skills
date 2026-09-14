@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-expression-9grid",
+  "version": "1.1.1",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例15 · 角色/演员表情九宫格",
+  "description": "character 九槽正面半身表情；9 视角可单图合成一张 3×3 sheet，也可分张批量出 9 张。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

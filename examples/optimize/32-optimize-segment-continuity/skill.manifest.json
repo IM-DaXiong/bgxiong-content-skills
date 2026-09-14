@@ -1,0 +1,12 @@
+{
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "id": "local.example.optimize-segment-continuity",
+  "version": "1.1.0",
+  "displayName": "案例32 · 片段连续优化提示词",
+  "language": "declarative",
+  "entry": "pipeline.json",
+  "capabilities": [
+    "optimize.segment"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "hostFamily": "character",
+  "view3": [
+    {
+      "slotId": "calm_neutral",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Calm neutral expression, relaxed eyebrows, natural open eyes, lips gently closed, composed and peaceful face, subtle restrained emotion, looking directly at the camera.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": true,
+      "label": {
+        "zh-CN": "平静 / 面无表情",
+        "en": "Calm / Neutral"
+      }
+    },
+    {
+      "slotId": "joyful_smile",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Bright joyful smile, eyes slightly narrowed with happiness, raised cheeks, natural teeth showing, relaxed eyebrows, warm and cheerful expression, genuine delight.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "开心 / 灿烂笑容",
+        "en": "Joyful smile"
+      }
+    },
+    {
+      "slotId": "angry",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Angry expression, eyebrows strongly furrowed, sharp intense eyes, slightly lowered head, lips tightly pressed, tense facial muscles, restrained but powerful anger.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "生气 / 愤怒",
+        "en": "Angry"
+      }
+    }
+  ],
+  "view4": [
+    {
+      "slotId": "calm_neutral",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Calm neutral expression, relaxed eyebrows, natural open eyes, lips gently closed, composed and peaceful face, subtle restrained emotion, looking directly at the camera.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": true,
+      "label": {
+        "zh-CN": "平静 / 面无表情",
+        "en": "Calm / Neutral"
+      }
+    },
+    {
+      "slotId": "joyful_smile",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Bright joyful smile, eyes slightly narrowed with happiness, raised cheeks, natural teeth showing, relaxed eyebrows, warm and cheerful expression, genuine delight.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "开心 / 灿烂笑容",
+        "en": "Joyful smile"
+      }
+    },
+    {
+      "slotId": "angry",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Angry expression, eyebrows strongly furrowed, sharp intense eyes, slightly lowered head, lips tightly pressed, tense facial muscles, restrained but powerful anger.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "生气 / 愤怒",
+        "en": "Angry"
+      }
+    },
+    {
+      "slotId": "wronged_tearful",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Wronged and tearful expression, slightly raised inner eyebrows, watery eyes, trembling lower lip, cheeks subtly tense, looking as if about to cry, vulnerable and pitiful.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "委屈 / 想哭",
+        "en": "Wronged / Tearful"
+      }
+    }
+  ],
+  "view9": [
+    {
+      "slotId": "calm_neutral",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Calm neutral expression, relaxed eyebrows, natural open eyes, lips gently closed, composed and peaceful face, subtle restrained emotion, looking directly at the camera.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": true,
+      "label": {
+        "zh-CN": "平静 / 面无表情",
+        "en": "Calm / Neutral"
+      }
+    },
+    {
+      "slotId": "joyful_smile",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Bright joyful smile, eyes slightly narrowed with happiness, raised cheeks, natural teeth showing, relaxed eyebrows, warm and cheerful expression, genuine delight.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "开心 / 灿烂笑容",
+        "en": "Joyful smile"
+      }
+    },
+    {
+      "slotId": "angry",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Angry expression, eyebrows strongly furrowed, sharp intense eyes, slightly lowered head, lips tightly pressed, tense facial muscles, restrained but powerful anger.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "生气 / 愤怒",
+        "en": "Angry"
+      }
+    },
+    {
+      "slotId": "wronged_tearful",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Wronged and tearful expression, slightly raised inner eyebrows, watery eyes, trembling lower lip, cheeks subtly tense, looking as if about to cry, vulnerable and pitiful.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "委屈 / 想哭",
+        "en": "Wronged / Tearful"
+      }
+    },
+    {
+      "slotId": "surprised",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Extremely surprised expression, eyes wide open, eyebrows raised high, mouth slightly open, frozen moment of disbelief, strong but natural facial reaction.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "惊讶 / 震惊",
+        "en": "Surprised"
+      }
+    },
+    {
+      "slotId": "confused",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Confused expression, one eyebrow slightly raised, eyes looking suspiciously toward the camera, lips slightly parted, subtle head tilt, puzzled and questioning mood.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "疑惑 / 不理解",
+        "en": "Confused"
+      }
+    },
+    {
+      "slotId": "coquettish",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Cute coquettish expression, slightly puffed cheeks, big sparkling eyes, subtly raised eyebrows, lips gently pursed, playful and adorable expression, charming youthful mood.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "撒娇 / 可爱",
+        "en": "Cute coquettish"
+      }
+    },
+    {
+      "slotId": "disdain",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Speechless disdainful expression, half-lidded eyes, one eyebrow slightly raised, mouth subtly tilted, looking sideways at the camera, restrained sarcasm and unimpressed attitude.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "鄙视 / 无语",
+        "en": "Speechless disdain"
+      }
+    },
+    {
+      "slotId": "smug_smile",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible. Bust portrait, not full body.",
+      "framing": "FRAMING (MANDATORY): front-facing bust portrait (head and shoulders), subject centered, face fills most of the frame, clean simple background, no cropped eyes, no full-body shot.",
+      "suffix": "same character, same face, same hairstyle, same costume, same proportions, front-facing bust portrait, centered composition, clean simple background, cinematic realistic photography, consistent lighting, highly detailed facial features, natural skin texture, expressive eyes, expression reference sheet style, no text, no subtitles, no watermark, no deformation. Expression: Mischievous smug smile, one corner of the mouth raised, slightly narrowed eyes, confident playful expression, subtle teasing attitude, as if secretly pleased with having won.",
+      "negatives": "different person, face swap, identity drift, hairstyle change, costume change, full body, wide shot, group photo, extra people, text, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, blurry, low detail, cartoon sticker sheet layout labels",
+      "identityAnchor": false,
+      "label": {
+        "zh-CN": "得意 / 坏笑",
+        "en": "Mischievous smug smile"
+      }
+    }
+  ],
+  "sheet": {
+    "view9": {
+      "layout": "A cinematic realistic 9-panel facial expression sheet of the same character, identical face, hairstyle, costume, proportions and lighting in every panel. Nine bust portraits arranged in a clean 3x3 grid, front-facing, centered composition, reading order left-to-right top-to-bottom. The nine expressions are: 1 calm neutral, 2 bright joyful smile, 3 angry, 4 wronged and tearful, 5 extremely surprised, 6 confused, 7 cute coquettish, 8 speechless disdain, 9 mischievous smug smile. Strongly differentiated facial expressions, natural eye and mouth movement, highly detailed realistic facial anatomy, consistent identity across all panels, clean simple background, no text, no subtitles, no watermark, no deformed face, no extra people.",
+      "preamble": "Facial expression reference sheet, front-facing bust portraits, clean simple background. Match reference visual style.",
+      "refPreamble": "Facial expression sheet. Preserve identity, hairstyle, costume, proportions and lighting from the reference. Camera stays front-facing bust; only the facial expression changes per panel.",
+      "qualityTail": "Consistent identity, hairstyle, costume, proportions and lighting across every panel. Only the facial expression changes per panel; camera stays front-facing bust. No overlapping frames, no duplicated panels, no extra people, no text.",
+      "aspectRatio": "3:4"
+    }
+  }
+}

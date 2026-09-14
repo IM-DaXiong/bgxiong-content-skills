@@ -1,0 +1,13 @@
+{
+  "id": "local.example.mixed-scene-bind-guide",
+  "version": "1.1.0",
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例27 · 混绑验收说明包",
+  "description": "本包只作流程说明；实际分绑请用 25 与 26。",
+  "capabilities": [
+    "content.plan"
+  ]
+}

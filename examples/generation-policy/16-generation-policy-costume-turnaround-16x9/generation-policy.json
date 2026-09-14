@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "hostFamily": "character",
+  "view3": [
+    {
+      "slotId": "full_body_front",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Full-body standing pose. Both feet fully visible. Not a close-up, not a bust crop.",
+      "framing": "FRAMING (MANDATORY): full-body front view, entire figure visible from head to toe, both feet and ground contact visible, standing naturally, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Full-body front view, standing naturally from head to toe with both feet fully visible, complete costume design visible.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, back view, cropped feet, waist-up, bust crop, blurry, low detail",
+      "identityAnchor": true,
+      "label": { "zh-CN": "正面全身", "en": "Full-body front" }
+    },
+    {
+      "slotId": "full_body_back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces directly away from the camera. Full-body standing pose matching the front view scale. No face visible. No eye contact.",
+      "framing": "FRAMING (MANDATORY): full-body back view, entire figure visible from head to toe, both feet and ground contact visible, same standing position and scale as the front view. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Full-body back view, standing in the same position and scale as the front view, complete costume back design, no face visible.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, face visible, front view, eye contact, cropped feet, waist-up, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "背面全身", "en": "Full-body back" }
+    },
+    {
+      "slotId": "face_closeup",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front-facing facial close-up. Subject faces the camera. Face fills the frame. Not full body.",
+      "framing": "FRAMING (MANDATORY): large facial close-up from the front, highly detailed facial features, hairstyle, makeup and expression. Head and hair fill the frame. NOT full body, no feet, no wide shot.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Large front facial close-up, highly detailed facial features, hairstyle, makeup and expression, identity lock for later video.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, wide shot, cropped eyes, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "面部大特写", "en": "Facial close-up" }
+    }
+  ],
+  "view4": [
+    {
+      "slotId": "full_body_front",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Full-body standing pose. Both feet fully visible. Not a close-up, not a bust crop.",
+      "framing": "FRAMING (MANDATORY): full-body front view, entire figure visible from head to toe, both feet and ground contact visible, standing naturally, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Full-body front view, standing naturally from head to toe with both feet fully visible, complete costume design visible.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, back view, cropped feet, waist-up, bust crop, blurry, low detail",
+      "identityAnchor": true,
+      "label": { "zh-CN": "正面全身", "en": "Full-body front" }
+    },
+    {
+      "slotId": "full_body_back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces directly away from the camera. Full-body standing pose matching the front view scale. No face visible. No eye contact.",
+      "framing": "FRAMING (MANDATORY): full-body back view, entire figure visible from head to toe, both feet and ground contact visible, same standing position and scale as the front view. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Full-body back view, standing in the same position and scale as the front view, complete costume back design, no face visible.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, face visible, front view, eye contact, cropped feet, waist-up, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "背面全身", "en": "Full-body back" }
+    },
+    {
+      "slotId": "face_closeup",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front-facing facial close-up. Subject faces the camera. Face fills the frame. Not full body.",
+      "framing": "FRAMING (MANDATORY): large facial close-up from the front, highly detailed facial features, hairstyle, makeup and expression. Head and hair fill the frame. NOT full body, no feet, no wide shot.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Large front facial close-up, highly detailed facial features, hairstyle, makeup and expression, identity lock for later video.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, wide shot, cropped eyes, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "面部大特写", "en": "Facial close-up" }
+    },
+    {
+      "slotId": "waist_belt",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of the waist, belt, sash or waist ornament. Not a full-body shot. Not a face portrait.",
+      "framing": "FRAMING (MANDATORY): waist and belt region fills the frame. Show buckle, sash, knots and costume construction at the waist. NOT full body, NOT a facial close-up.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Close-up of waist and belt details, sash, buckle, knots and costume construction at the waist.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, face occupying the frame, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "腰部 / 腰封", "en": "Waist / Belt" }
+    }
+  ],
+  "view9": [
+    {
+      "slotId": "full_body_front",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Full-body standing pose. Both feet fully visible. Not a close-up, not a bust crop.",
+      "framing": "FRAMING (MANDATORY): full-body front view, entire figure visible from head to toe, both feet and ground contact visible, standing naturally, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Full-body front view, standing naturally from head to toe with both feet fully visible, complete costume design visible.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, back view, cropped feet, waist-up, bust crop, blurry, low detail",
+      "identityAnchor": true,
+      "label": { "zh-CN": "正面全身", "en": "Full-body front" }
+    },
+    {
+      "slotId": "full_body_back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces directly away from the camera. Full-body standing pose matching the front view scale. No face visible. No eye contact.",
+      "framing": "FRAMING (MANDATORY): full-body back view, entire figure visible from head to toe, both feet and ground contact visible, same standing position and scale as the front view. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Full-body back view, standing in the same position and scale as the front view, complete costume back design, no face visible.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, face visible, front view, eye contact, cropped feet, waist-up, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "背面全身", "en": "Full-body back" }
+    },
+    {
+      "slotId": "face_closeup",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front-facing facial close-up. Subject faces the camera. Face fills the frame. Not full body.",
+      "framing": "FRAMING (MANDATORY): large facial close-up from the front, highly detailed facial features, hairstyle, makeup and expression. Head and hair fill the frame. NOT full body, no feet, no wide shot.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Large front facial close-up, highly detailed facial features, hairstyle, makeup and expression, identity lock for later video.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, wide shot, cropped eyes, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "面部大特写", "en": "Facial close-up" }
+    },
+    {
+      "slotId": "wrist_hand",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of wrists and hands, jewelry and hand accessories. Not a full-body shot. Not a face portrait.",
+      "framing": "FRAMING (MANDATORY): tight close-up on wrists, hands, jewelry and hand accessories only. Show construction and materials. NOT full body, NOT a facial close-up, no extra hands.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Close-up of wrist and hand accessories, jewelry, gloves or nails as worn, construction and materials clear.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, extra hands, fused fingers, inconsistent costume, inconsistent face, full body, face occupying the frame, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "手腕 / 手部", "en": "Wrist / Hands" }
+    },
+    {
+      "slotId": "shoes",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of shoes and footwear standing on the ground. Not a full-body shot. Not a face portrait.",
+      "framing": "FRAMING (MANDATORY): footwear close-up, shoes fully visible, sole or ground contact, materials and construction clear. NOT full body, NOT a facial close-up.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Close-up of shoes and footwear, materials, construction and design clearly visible.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, face occupying the frame, missing shoes, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "鞋子", "en": "Shoes" }
+    },
+    {
+      "slotId": "waist_belt",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of the waist, belt, sash or waist ornament. Not a full-body shot. Not a face portrait.",
+      "framing": "FRAMING (MANDATORY): waist and belt region fills the frame. Show buckle, sash, knots and costume construction at the waist. NOT full body, NOT a facial close-up.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Close-up of waist and belt details, sash, buckle, knots and costume construction at the waist.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, face occupying the frame, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "腰部 / 腰封", "en": "Waist / Belt" }
+    },
+    {
+      "slotId": "shoulder_sleeve",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of the shoulder, sleeve and cuff. Not a full-body shot. Not a face portrait.",
+      "framing": "FRAMING (MANDATORY): shoulder and sleeve or cuff construction fills the frame. Show seams, embroidery and costume construction. NOT full body, NOT a facial close-up.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Close-up of shoulder and sleeve details, cuffs, seams, embroidery and costume construction.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, face occupying the frame, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "肩部 / 袖口", "en": "Shoulder / Cuff" }
+    },
+    {
+      "slotId": "hair_back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of the back of the head, hairstyle and hair ornaments. Rear view of hair. Not a full-body shot.",
+      "framing": "FRAMING (MANDATORY): rear head and hair close-up, nape, pins and hair ornaments clearly visible. Hair fills the frame. NOT full body, NOT a front facial portrait.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Close-up of back hair and hair ornaments, nape, pins and jewelry in hair, hairstyle construction.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, extra heads, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "发型 / 后脑勺", "en": "Hair / Back of head" }
+    },
+    {
+      "slotId": "fabric_hem",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of costume fabric, chest decoration, and hem or skirt. Not a full-body shot. Not a face portrait.",
+      "framing": "FRAMING (MANDATORY): costume fabric texture plus chest ornament and lower-garment hem fill the frame. Show embroidery, seams, materials and craftsmanship. NOT full body, NOT a facial close-up.",
+      "suffix": "same character, consistent face, hairstyle, body proportions, costume, accessories and colors, cinematic realistic photography, photorealistic, sharp details, professional character costume reference, orthographic presentation, neutral studio lighting, light gray seamless background, no text, no labels, no numbers, no subtitles, no watermark. Close-up of costume fabric texture, chest decoration, embroidery, and hem or skirt details, materials and craftsmanship clearly visible.",
+      "negatives": "different person, identity drift, extra people, text, labels, numbers, subtitles, watermark, logo, duplicated body parts, distorted anatomy, deformed hands, extra limbs, inconsistent costume, inconsistent face, full body, face occupying the frame, blurry, low detail",
+      "identityAnchor": false,
+      "label": { "zh-CN": "衣料胸饰 / 下摆", "en": "Fabric / Hem" }
+    }
+  ],
+  "sheet": {
+    "view9": {
+      "layout": "Character design turnaround sheet, horizontal 16:9, clean professional studio presentation, one identical character shown in exactly 9 views, consistent face, hairstyle, body proportions, costume, accessories and colors throughout. STRICT LAYOUT: Left half: two tall vertical panels side by side. The leftmost panel shows a full-body front view, standing naturally from head to toe with both feet fully visible. The second panel shows the exact same character in a full-body back view, standing in the same position and scale. Right half: the upper section contains one large facial close-up, showing the character's face clearly from the front, with highly detailed facial features, hairstyle, makeup and expression. Right lower section: six separate detail close-ups arranged in a precise 2 rows x 3 columns grid. Each panel focuses on a different important character asset for later video identity lock. Row 1: wrist and hand accessories, shoes and footwear, waist and belt details. Row 2: shoulder and sleeve or cuff details, back hair and hair ornaments, costume fabric plus chest decoration and hem or skirt details. All nine panels must show the exact same character, with perfect identity consistency. The front and back full-body views must reveal the complete costume design. The close-ups must clearly show clothing construction, materials, embroidery, jewelry, accessories, seams, textures and craftsmanship. Professional character costume reference sheet, orthographic presentation, clean panel separation, balanced composition, consistent camera perspective, neutral studio lighting, light gray seamless background, highly detailed, cinematic realistic photography, photorealistic, sharp details. No text, no labels, no numbers, no subtitles, no watermark, no extra people, no duplicated body parts, no distorted anatomy, no deformed hands, no inconsistent costume, no inconsistent face.",
+      "preamble": "Professional character costume reference sheet, horizontal 16:9, clean studio presentation. Match reference visual style.",
+      "refPreamble": "Costume turnaround sheet. Preserve identity, hairstyle, body proportions, costume, accessories and colors from the reference. Layout stays left full-body pair, right-top face, right-bottom 2x3 details.",
+      "negatives": "text, labels, numbers, subtitles, watermark, extra people, duplicated body parts, distorted anatomy, deformed hands, inconsistent costume, inconsistent face, extra limbs, extra heads",
+      "qualityTail": "Identity, hairstyle, costume, accessories, materials and colors stay locked across all nine panels. Framing follows the 16:9 layout: left two full-body views, right-top facial close-up, right-bottom six named costume details. No extra people, no extra limbs, no deformed hands, no text, no watermark.",
+      "aspectRatio": "16:9"
+    }
+  }
+}

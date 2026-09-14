@@ -1,0 +1,49 @@
+{
+  "steps": [
+    {
+      "id": "chapters",
+      "op": "plan_chapters",
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      }
+    },
+    {
+      "id": "scenes",
+      "op": "plan_scenes",
+      "dependsOn": ["chapters"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      }
+    },
+    {
+      "id": "shots",
+      "op": "plan_shots",
+      "dependsOn": ["scenes"],
+      "when": {
+        "notEmpty": "$ctx.sourceText"
+      },
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "outputSchema": {
+        "shots": {
+          "count": { "min": 1, "max": 24 },
+          "item": {
+            "required": ["shotIndex", "content"],
+            "properties": {
+              "shotIndex": { "type": "integer", "minimum": 1, "maximum": 24 },
+              "content": { "type": "string", "minLength": 8, "maxLength": 2000 },
+              "angleId": { "type": "string" },
+              "shotSize": { "type": "string" },
+              "cameraMove": { "type": "string" },
+              "beat": { "type": "string", "maxLength": 200 }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "character": {
+    "view3": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "front view, subject facing the camera directly, symmetrical face visible, arms relaxed at the sides",
+        "negatives": "back view, side profile, three-quarter view, head cropped, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right side profile view. Subject turned 90 degrees to the RIGHT from the camera. Full right profile visible. Not front-facing, not three-quarter.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "right side profile view, full right profile, subject turned 90 degrees to the right from the camera, nose and chin silhouette clear, one ear visible, not front-facing",
+        "negatives": "front view, facing camera, both eyes visible, symmetrical face, left side profile, three-quarter view, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "back",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces away from camera. Show back of head, hair, and shoulders. No face visible. No eye contact.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "back view, subject facing directly away from the camera, back of head and shoulders visible, no face visible, no eye contact",
+        "negatives": "face visible, front view, eye contact, side profile, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      }
+    ],
+    "view4": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "front view, subject facing the camera directly, symmetrical face visible, arms relaxed at the sides",
+        "negatives": "back view, side profile, three-quarter view, head cropped, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "front_portrait",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front-facing half-body portrait, waist-up. Subject faces the camera directly. Not full body.",
+        "framing": "FRAMING (MANDATORY): half-body portrait, waist-up framing. Head and upper torso fill the frame, face clearly visible and prominent. NOT full body, no legs, no feet in frame.",
+        "suffix": "front-facing half-body portrait, subject facing the camera, symmetrical face, shoulders level, natural expression",
+        "negatives": "full body, legs visible, feet visible, back view, side profile, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right side profile view. Subject turned 90 degrees to the RIGHT from the camera. Full right profile visible. Not front-facing, not three-quarter.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "right side profile view, full right profile, subject turned 90 degrees to the right from the camera, nose and chin silhouette clear, one ear visible, not front-facing",
+        "negatives": "front view, facing camera, both eyes visible, symmetrical face, left side profile, three-quarter view, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "back",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces away from camera. Show back of head, hair, and shoulders. No face visible. No eye contact.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "back view, subject facing directly away from the camera, back of head and shoulders visible, no face visible, no eye contact",
+        "negatives": "face visible, front view, eye contact, side profile, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      }
+    ],
+    "view9": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "front view, subject facing the camera directly, symmetrical face visible, arms relaxed at the sides",
+        "negatives": "back view, side profile, three-quarter view, head cropped, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "back",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces away from camera. Show back of head, hair, and shoulders. No face visible. No eye contact.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "back view, subject facing directly away from the camera, back of head and shoulders visible, no face visible, no eye contact",
+        "negatives": "face visible, front view, eye contact, side profile, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): left side profile view. Subject turned 90 degrees to the LEFT from the camera. Full left profile visible. Not front-facing, not three-quarter.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "left side view, full left profile, subject turned 90 degrees to the left from the camera, ear and cheek silhouette clear, not front-facing",
+        "negatives": "front view, facing camera, both eyes visible, symmetrical face, right side profile, three-quarter view, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right side profile view. Subject turned 90 degrees to the RIGHT from the camera. Full right profile visible. Not front-facing, not three-quarter.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "right side profile view, full right profile, subject turned 90 degrees to the right from the camera, nose and chin silhouette clear, one ear visible, not front-facing",
+        "negatives": "front view, facing camera, both eyes visible, symmetrical face, left side profile, three-quarter view, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left_front",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): left three-quarter view, partial front. Left cheek and one eye visible. Not symmetrical front face.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "left three-quarter view, partial front, left cheek and eye visible",
+        "negatives": "straight-on front view, symmetrical face, both eyes equal and centered, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right_front",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right three-quarter view, partial front. Right cheek and one eye visible. Not symmetrical front face.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "right three-quarter view, partial front, right cheek and eye visible",
+        "negatives": "straight-on front view, symmetrical face, both eyes equal and centered, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left_back",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): left rear three-quarter view. Back of head and left shoulder visible. No full front face.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "left rear three-quarter view, back of head and left shoulder visible",
+        "negatives": "front view, face forward, eye contact, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right_back",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right rear three-quarter view. Back of head and right shoulder visible. No full front face.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "right rear three-quarter view, back of head and right shoulder visible",
+        "negatives": "front view, face forward, eye contact, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "top_down",
+        "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): top-down bird's eye view on head and shoulders layout. Not front-facing portrait.",
+        "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+        "suffix": "top-down view, bird's eye angle on the subject, head and shoulders layout visible",
+        "negatives": "front-facing portrait, eye contact, straight-on bust, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+        "identityAnchor": false
+      }
+    ],
+    "sheet": {
+      "view3": {
+        "layout": "Same character in exactly three views arranged left to right in one image:\npanel 1 full-body front view facing camera symmetrical face visible,\npanel 2 full-body right side profile view subject turned 90 degrees to the right,\npanel 3 full-body back view facing away no face visible.\n16:9 horizontal composition, equal panel widths, consistent outfit, hairstyle and face across all panels.\nAll views tile edge-to-edge seamlessly with zero gap: no white gutters, no borders, no frame lines between panels or at the outer margins; panel proportions may flex slightly so the views completely fill the image.",
+        "preamble": "Multi-view turnaround sheet, clean neutral background. Match reference visual style.",
+        "refPreamble": "Multi-view turnaround sheet. Preserve all background, lighting, shadows, and scene elements from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "16:9"
+      },
+      "view4": {
+        "layout": "Same character in exactly four views arranged left to right in one image:\npanel 1 half-body waist-up front portrait face clearly visible and prominent,\npanel 2 full-body front view facing camera symmetrical face visible,\npanel 3 full-body right side profile view subject turned 90 degrees to the right,\npanel 4 full-body back view facing away no face visible.\n16:9 horizontal composition, equal panel widths, consistent outfit, hairstyle and face across all panels.\nAll views tile edge-to-edge seamlessly with zero gap: no white gutters, no borders, no frame lines between panels or at the outer margins; panel proportions may flex slightly so the views completely fill the image.",
+        "preamble": "Multi-view turnaround sheet, clean neutral background. Match reference visual style.",
+        "refPreamble": "Multi-view turnaround sheet. Preserve all background, lighting, shadows, and scene elements from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "16:9"
+      },
+      "view9": {
+        "layout": "Same character in exactly nine views in a 3 rows by 3 columns grid, reading order left-to-right top-to-bottom:\nrow1 face close-up front view facing camera, face close-up right side profile view, back-of-head close-up view no face visible;\nrow2 full-body front view facing camera, full-body right side profile view, full-body back view facing away no face visible;\nrow3 full-body high-angle shot camera looking down at the character, full-body worm's-eye extreme low-angle view camera looking up from ground level, full-body low-angle hero shot dramatic heroic upward perspective.\n3:4 vertical composition, equal cells, consistent identity in every cell.\nAll views tile edge-to-edge seamlessly with zero gap: no white gutters, no borders, no frame lines between panels or at the outer margins; panel proportions may flex slightly so the views completely fill the image.",
+        "preamble": "Multi-view turnaround sheet, clean neutral background. Match reference visual style.",
+        "refPreamble": "Multi-view turnaround sheet. Preserve all background, lighting, shadows, and scene elements from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "3:4"
+      }
+    }
+  },
+  "object": {
+    "view3": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA: front view of the object, main face centered, full product silhouette.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "front view of the object, main face centered, full product silhouette",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "left",
+        "orientation": "CAMERA: left side view, profile silhouette and side details.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "left side view, profile silhouette and side details",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA: right side view, profile silhouette and side details.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "right side view, profile silhouette and side details",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      }
+    ],
+    "view4": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA: front view of the object, main face centered, full product silhouette.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "front view of the object, main face centered, full product silhouette",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "back",
+        "orientation": "CAMERA: back view of the object, rear details and ports visible.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "back view of the object, rear details and ports visible",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left",
+        "orientation": "CAMERA: left side view, profile silhouette and side details.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "left side view, profile silhouette and side details",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA: right side view, profile silhouette and side details.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "right side view, profile silhouette and side details",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      }
+    ],
+    "view9": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA: front view of the object, main face centered, full product silhouette.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "front view of the object, main face centered, full product silhouette",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "back",
+        "orientation": "CAMERA: back view of the object, rear details and ports visible.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "back view of the object, rear details and ports visible",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left",
+        "orientation": "CAMERA: left side view, profile silhouette and side details.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "left side view, profile silhouette and side details",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA: right side view, profile silhouette and side details.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "right side view, profile silhouette and side details",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left_front",
+        "orientation": "CAMERA: left three-quarter product view, front and left faces visible.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "left three-quarter product view, front and left faces visible",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right_front",
+        "orientation": "CAMERA: right three-quarter product view, front and right faces visible.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "right three-quarter product view, front and right faces visible",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left_back",
+        "orientation": "CAMERA: left rear three-quarter view, back and left edges visible.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "left rear three-quarter view, back and left edges visible",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right_back",
+        "orientation": "CAMERA: right rear three-quarter view, back and right edges visible.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "right rear three-quarter view, back and right edges visible",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "top_down",
+        "orientation": "CAMERA: aerial plan view, bird's eye layout of the scene space, architectural overview, no horizon line.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "top-down product shot on neutral ground, full object footprint visible",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      }
+    ],
+    "sheet": {
+      "view3": {
+        "layout": "Same object in exactly three views arranged left to right:\npanel 1 front view main face centered full silhouette,\npanel 2 left side view profile silhouette and side details,\npanel 3 right side view profile silhouette and side details.\n16:9 horizontal, consistent scale and material per panel.\nOrthographic projection, no perspective distortion.\n3px pure white gutters between all panels and at the outer image margins; no thick white borders.",
+        "preamble": "Product design turnaround sheet, object only no humans, object centered on clean neutral ground, floating in center with even spacing, no pedestal, no stand, subtle contact shadow only.",
+        "refPreamble": "Product multi-view sheet. Preserve background, surface, shadows, and presentation from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "16:9"
+      },
+      "view4": {
+        "layout": "Same object in exactly four views arranged left to right:\npanel 1 front view main face centered full product silhouette,\npanel 2 back view rear details and ports visible,\npanel 3 left side view profile silhouette and side details,\npanel 4 right side view profile silhouette and side details.\n16:9 horizontal, equal panel widths, consistent scale and material per panel.\nOrthographic projection, no perspective distortion.\n3px pure white gutters between all panels and at the outer image margins; no thick white borders.",
+        "preamble": "Product design turnaround sheet, object only no humans, object centered on clean neutral ground, floating in center with even spacing, no pedestal, no stand, subtle contact shadow only.",
+        "refPreamble": "Product multi-view sheet. Preserve background, surface, shadows, and presentation from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "16:9"
+      },
+      "view9": {
+        "layout": "Same object in exactly nine views in a 3 rows by 3 columns grid, reading order left-to-right top-to-bottom:\nrow1 front view main face centered, left three-quarter product view front and left faces visible, right three-quarter product view front and right faces visible;\nrow2 left side view profile silhouette, back view rear details visible, right side view profile silhouette;\nrow3 left rear three-quarter back and left edges visible, right rear three-quarter back and left edges visible, top-down product shot full object footprint visible.\n3:4 vertical composition, equal cells, consistent scale and material per cell.\nOrthographic projection, no perspective distortion.\n3px pure white gutters between all panels and at the outer image margins; no thick white borders.",
+        "preamble": "Product design turnaround sheet, object only no humans, object centered on clean neutral ground, floating in center with even spacing, no pedestal, no stand, subtle contact shadow only.",
+        "refPreamble": "Product multi-view sheet. Preserve background, surface, shadows, and presentation from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "3:4"
+      }
+    }
+  },
+  "scene": {
+    "view3": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA: front-facing establishing view, main scene entrance and focal layout centered.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "front-facing establishing view, main scene entrance and focal layout centered",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "left",
+        "orientation": "CAMERA: camera on the left side of the scene, looking right across the space.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "camera on the left side of the scene, looking right across the space",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA: camera on the right side of the scene, looking left across the space.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "camera on the right side of the scene, looking left across the space",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      }
+    ],
+    "view4": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA: front-facing establishing view, main scene entrance and focal layout centered.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "front-facing establishing view, main scene entrance and focal layout centered",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "back",
+        "orientation": "CAMERA: view from behind the scene space, looking forward into the environment.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "view from behind the scene space, looking forward into the environment, depth and layout readable",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left",
+        "orientation": "CAMERA: camera on the left side of the scene, looking right across the space.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "camera on the left side of the scene, looking right across the space",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA: camera on the right side of the scene, looking left across the space.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "camera on the right side of the scene, looking left across the space",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      }
+    ],
+    "view9": [
+      {
+        "slotId": "front",
+        "orientation": "CAMERA: front-facing establishing view, main scene entrance and focal layout centered.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "front-facing establishing view, main scene entrance and focal layout centered",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": true
+      },
+      {
+        "slotId": "back",
+        "orientation": "CAMERA: view from behind the scene space, looking forward into the environment.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "view from behind the scene space, looking forward into the environment, depth and layout readable",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left",
+        "orientation": "CAMERA: camera on the left side of the scene, looking right across the space.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "camera on the left side of the scene, looking right across the space",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right",
+        "orientation": "CAMERA: camera on the right side of the scene, looking left across the space.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "camera on the right side of the scene, looking left across the space",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left_front",
+        "orientation": "CAMERA: oblique view from the left-front into the scene.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "oblique view from the left-front into the scene, showing depth and lateral layout",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right_front",
+        "orientation": "CAMERA: oblique view from the right-front into the scene.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "oblique view from the right-front into the scene, showing depth and lateral layout",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "left_back",
+        "orientation": "CAMERA: oblique view from the left-rear.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "oblique view from the left-rear, environment receding toward the horizon",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "right_back",
+        "orientation": "CAMERA: oblique view from the right-rear.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "oblique view from the right-rear, environment receding toward the horizon",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      },
+      {
+        "slotId": "top_down",
+        "orientation": "CAMERA: aerial plan view, bird's eye layout of the scene space, architectural overview, no horizon line.",
+        "framing": "FRAMING (MANDATORY): entire subject visible inside the frame, no cropped edges.",
+        "suffix": "aerial plan view, bird's eye layout of the scene space, architectural overview, no horizon line",
+        "negatives": "cropped subject, extra objects, unreadable silhouette, text overlay",
+        "identityAnchor": false
+      }
+    ],
+    "sheet": {
+      "view3": {
+        "layout": "Same environment in exactly three wide establishing views arranged left to right in one image:\npanel 1 front-facing establishing view main entrance and focal layout centered eye-level wide shot,\npanel 2 camera on the left side of the space looking right across the room eye-level wide shot,\npanel 3 camera on the right side of the space looking left across the room eye-level wide shot.\nClearly different camera positions and vanishing points, not the same frame repeated.\n16:9 horizontal composition.\n3px pure white gutters between all panels and at the outer image margins; no thick white borders.",
+        "preamble": "Environment design reference sheet, cinematic establishing shots, empty scene, no characters, environment only, clean neutral background.",
+        "refPreamble": "Environment multi-view sheet. Preserve the full environment, lighting, and set dressing from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "16:9"
+      },
+      "view4": {
+        "layout": "Same environment in exactly four wide establishing views arranged left to right:\npanel 1 front-facing establishing view,\npanel 2 view from behind the scene looking forward into the environment depth readable,\npanel 3 left side camera looking right across the space,\npanel 4 right side camera looking left across the space.\nDifferent horizon lines and depth cues per panel, 16:9 horizontal.\n3px pure white gutters between all panels and at the outer image margins; no thick white borders.",
+        "preamble": "Environment design reference sheet, cinematic establishing shots, empty scene, no characters, environment only, clean neutral background.",
+        "refPreamble": "Environment multi-view sheet. Preserve the full environment, lighting, and set dressing from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "16:9"
+      },
+      "view9": {
+        "layout": "Same environment in nine views in a 3x3 grid:\nrow1 front establishing, left-front oblique into the scene, right-front oblique into the scene;\nrow2 left side across space, back view into environment, right side across space;\nrow3 left-rear oblique, right-rear oblique, aerial bird's eye plan layout architectural overview no horizon line.\n3:4 vertical, distinct camera per cell.\n3px pure white gutters between all panels and at the outer image margins; no thick white borders.",
+        "preamble": "Environment design reference sheet, cinematic establishing shots, empty scene, no characters, environment only, clean neutral background.",
+        "refPreamble": "Environment multi-view sheet. Preserve the full environment, lighting, and set dressing from the reference.\nPreserve the subject and entire scene exactly as shown in the reference (identity, colors, proportions, materials, background, lighting, shadows, visual style). Match photorealistic or illustrated rendering. Do NOT replace, simplify, or neutralize the background. Generate a multi-view reference sheet with the panel layout below; only camera angles differ per panel.",
+        "negatives": "single panel, one view only, collage merged into one angle, front view mixed with side view, multiple angles in one panel, confused camera angle, duplicated composition, inconsistent identity between panels, deformed, merged limbs, overlapping bodies, inconsistent proportions between panels, different art styles in different panels, text, watermark, blurry, labels, annotations, arrows, grid lines, measurement marks",
+        "qualityTail": "Consistent subject identity, proportions, colors, and visual style across every panel.\nPreserve background, environment, lighting, and shadows from the reference in each panel; only the camera angle differs per panel.\nNo overlapping frames, no duplicated panels.\nSharp details.\nNo panel number labels, no view captions, no text annotations between panels.",
+        "aspectRatio": "3:4"
+      }
+    }
+  }
+}

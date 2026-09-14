@@ -1,0 +1,83 @@
+{
+  "coverage": [
+    "shots"
+  ],
+  "steps": [
+    {
+      "id": "shots",
+      "op": "plan_shots",
+      "bind": {
+        "storyId": ".storyId",
+        "sceneNodeId": ".sceneNodeId",
+        "sourceText": ".sourceText"
+      },
+      "directives": {
+        "prose": {
+          "budget": {
+            "unit": "chars",
+            "perShot": {
+              "min": 40,
+              "max": 160
+            }
+          }
+        }
+      },
+      "outputSchema": {
+        "shots": {
+          "count": {
+            "const": 6
+          },
+          "item": {
+            "required": [
+              "shotIndex",
+              "content",
+              "angleId",
+              "shotSize",
+              "cameraMove"
+            ],
+            "properties": {
+              "shotIndex": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 6
+              },
+              "content": {
+                "type": "string",
+                "minLength": 40,
+                "maxLength": 160
+              },
+              "angleId": {
+                "enum": [
+                  "wide",
+                  "medium",
+                  "closeup",
+                  "low",
+                  "high",
+                  "pov"
+                ]
+              },
+              "shotSize": {
+                "enum": [
+                  "EWS",
+                  "WS",
+                  "MS",
+                  "CU",
+                  "ECU"
+                ]
+              },
+              "cameraMove": {
+                "enum": [
+                  "static",
+                  "pan",
+                  "tilt",
+                  "dolly_in",
+                  "handheld"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
