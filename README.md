@@ -63,7 +63,7 @@ community/     贡献入口 stub
 ## 贡献红线（ABS / NOTICE）
 
 1. **ABS-01** 只提炼规则，不整段搬迁第三方 SKILL.md  
-2. **ABS-02** 优先 MIT / Apache-2.0 来源；专有许可只写灵感层  
+2. **ABS-02** 外部灵感优先 MIT / Apache-2.0 来源；专有许可只写灵感层（本仓自身为自定义许可，见 LICENSE）  
 3. **ABS-03** IP 安全：禁角色名 / 产品专有口诀硬抄  
 4. **ABS-04** 每条规则映射本仓能力字段  
 5. **ABS-05** 每个包 README 含 SOURCES  
@@ -81,7 +81,7 @@ community/     贡献入口 stub
 
 ---
 
-## About Beigexiong / 关于比格熊
+## About BGXiong / 关于比格熊
 
 **比格熊数字导演工作站**是装在你电脑上的 AI 导演工具：从一句话创意到故事展开、场次与分镜、批量生图/生视频、配音与导出，尽量在同一桌面客户端走完——数据在本地，模型由你自选，不为网页白板式「一句话出一张图」止步。
 
@@ -93,6 +93,14 @@ community/     贡献入口 stub
 
 ---
 
+## 联系我们 / Contact
+
+公众号搜索 **天途影像**，可在后台私信联系。
+
+WeChat Official Account: search **天途影像** and message us in the backend.
+
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+本仓库使用**自定义许可**（不是 MIT）：**个人与商用均可使用**；**禁止将本仓库内容原样或改造后作为独立商品出售**。全文见 [LICENSE](./LICENSE)。
+
+第三方灵感来源仍遵循各自许可，见 NOTICES.md。

@@ -1,6 +1,6 @@
-# Usage (import into Beigexiong Digital Director)
+# Usage (import into BGXiong Digital Director)
 
-Skills in this repo are **not** a standalone runtime. Import them into the [Beigexiong Digital Director](https://www.bgxiong.com) desktop app; the product Host executes them.
+Skills in this repo are **not** a standalone runtime. Import them into the [BGXiong Digital Director](https://www.bgxiong.com) desktop app; the product Host executes them.
 
 ## Steps
 
