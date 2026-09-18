@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "hostFamily": "character",
+  "view3": [
+    {
+      "slotId": "front",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "front view, subject facing the camera directly, symmetrical face visible, arms relaxed at the sides",
+      "negatives": "back view, side profile, three-quarter view, head cropped, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": true
+    },
+    {
+      "slotId": "right",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right side profile view. Subject turned 90 degrees to the RIGHT from the camera. Full right profile visible. Not front-facing, not three-quarter.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "right side profile view, full right profile, subject turned 90 degrees to the right from the camera, nose and chin silhouette clear, one ear visible, not front-facing",
+      "negatives": "front view, facing camera, both eyes visible, symmetrical face, left side profile, three-quarter view, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces away from camera. Show back of head, hair, and shoulders. No face visible. No eye contact.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "back view, subject facing directly away from the camera, back of head and shoulders visible, no face visible, no eye contact",
+      "negatives": "face visible, front view, eye contact, side profile, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    }
+  ],
+  "view4": [
+    {
+      "slotId": "front",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "front view, subject facing the camera directly, symmetrical face visible, arms relaxed at the sides",
+      "negatives": "back view, side profile, three-quarter view, head cropped, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": true
+    },
+    {
+      "slotId": "front_portrait",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front-facing half-body portrait, waist-up. Subject faces the camera directly. Not full body.",
+      "framing": "FRAMING (MANDATORY): half-body portrait, waist-up framing. Head and upper torso fill the frame, face clearly visible and prominent. NOT full body, no legs, no feet in frame.",
+      "suffix": "front-facing half-body portrait, subject facing the camera, symmetrical face, shoulders level, natural expression",
+      "negatives": "full body, legs visible, feet visible, back view, side profile, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "right",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right side profile view. Subject turned 90 degrees to the RIGHT from the camera. Full right profile visible. Not front-facing, not three-quarter.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "right side profile view, full right profile, subject turned 90 degrees to the right from the camera, nose and chin silhouette clear, one ear visible, not front-facing",
+      "negatives": "front view, facing camera, both eyes visible, symmetrical face, left side profile, three-quarter view, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces away from camera. Show back of head, hair, and shoulders. No face visible. No eye contact.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "back view, subject facing directly away from the camera, back of head and shoulders visible, no face visible, no eye contact",
+      "negatives": "face visible, front view, eye contact, side profile, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    }
+  ],
+  "view9": [
+    {
+      "slotId": "front",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): front view. Subject faces the camera directly. Symmetrical face visible.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "front view, subject facing the camera directly, symmetrical face visible, arms relaxed at the sides",
+      "negatives": "back view, side profile, three-quarter view, head cropped, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": true
+    },
+    {
+      "slotId": "back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): back view only. Subject faces away from camera. Show back of head, hair, and shoulders. No face visible. No eye contact.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "back view, subject facing directly away from the camera, back of head and shoulders visible, no face visible, no eye contact",
+      "negatives": "face visible, front view, eye contact, side profile, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "left",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): left side profile view. Subject turned 90 degrees to the LEFT from the camera. Full left profile visible. Not front-facing, not three-quarter.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "left side view, full left profile, subject turned 90 degrees to the left from the camera, ear and cheek silhouette clear, not front-facing",
+      "negatives": "front view, facing camera, both eyes visible, symmetrical face, right side profile, three-quarter view, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "right",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right side profile view. Subject turned 90 degrees to the RIGHT from the camera. Full right profile visible. Not front-facing, not three-quarter.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "right side profile view, full right profile, subject turned 90 degrees to the right from the camera, nose and chin silhouette clear, one ear visible, not front-facing",
+      "negatives": "front view, facing camera, both eyes visible, symmetrical face, left side profile, three-quarter view, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "left_front",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): left three-quarter view, partial front. Left cheek and one eye visible. Not symmetrical front face.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "left three-quarter view, partial front, left cheek and eye visible",
+      "negatives": "straight-on front view, symmetrical face, both eyes equal and centered, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "right_front",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right three-quarter view, partial front. Right cheek and one eye visible. Not symmetrical front face.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "right three-quarter view, partial front, right cheek and eye visible",
+      "negatives": "straight-on front view, symmetrical face, both eyes equal and centered, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "left_back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): left rear three-quarter view. Back of head and left shoulder visible. No full front face.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "left rear three-quarter view, back of head and left shoulder visible",
+      "negatives": "front view, face forward, eye contact, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "right_back",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): right rear three-quarter view. Back of head and right shoulder visible. No full front face.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "right rear three-quarter view, back of head and right shoulder visible",
+      "negatives": "front view, face forward, eye contact, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "top_down",
+      "orientation": "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): top-down bird's eye view on head and shoulders layout. Not front-facing portrait.",
+      "framing": "FRAMING (MANDATORY): full body shot, entire figure visible from head to toe, feet and ground contact visible, standing pose, subject fully inside the frame. NOT waist-up, NOT bust crop, no cropped limbs.",
+      "suffix": "top-down view, bird's eye angle on the subject, head and shoulders layout visible",
+      "negatives": "front-facing portrait, eye contact, straight-on bust, deformed, extra limbs, fused fingers, distorted anatomy, bad proportions, duplicated character",
+      "identityAnchor": false
+    }
+  ],
+  "styleDomain": "cinematic",
+  "visualStyleOverlay": "【画面风格·强制】AUTHENTIC IMAX 15-PERF 65MM LARGE-FORMAT PHOTOCHEMICAL CINEMATOGRAPHY.\n\nShot on genuine IMAX 15-perf 65mm motion-picture film with authentic large-format cinema optics. The image must feel physically photographed on a massive 65mm film negative, never digitally generated.\n\nEXCEPTIONAL LARGE-FORMAT PHOTOGRAPHIC DETAIL. Extremely high natural resolution, fine environmental and facial detail, high micro-contrast and organic optical sharpness with smooth natural edges, never digitally sharpened.\n\nAUTHENTIC FINE-GRAIN 65MM FILM TEXTURE. Extremely fine, subtle and stable photochemical grain naturally integrated into the image, never coarse or digitally overlaid.\n\nRICH PHOTOCHEMICAL TONAL RESPONSE. Very wide exposure latitude, rich natural midtones, deep detailed shadows and smooth highlight roll-off. Preserve texture and color information in both highlights and shadows without artificial HDR.\n\nNATURAL PHOTOCHEMICAL COLOR. Restrained saturation, rich natural color separation, realistic skin tones and subtle warm/cool variation. Subtle film halation and delicate highlight bloom around intense light sources only.\n\nPHYSICALLY REALISTIC LARGE-FORMAT OPTICS. Organic lens rendering, natural perspective, realistic atmospheric depth, physically plausible depth of field and focus falloff, restrained natural lens flare and subtle optical imperfections.\n\nDIMENSIONAL LARGE-FORMAT SPATIAL RENDERING. Preserve substantial photographic information across foreground, midground and background with realistic atmospheric perspective, convincing physical depth and immersive sense of scale.\n\nAUTHENTIC CINEMATIC MOTION. Natural 24fps motion, realistic shutter-based motion blur, subtle physical camera inertia, accurate parallax and physically coherent camera movement.\n\nTEMPORAL CONSISTENCY. Maintain stable geometry, photographic detail, texture, grain, exposure, color, reflections, shadows and focus throughout the shot. No flickering, texture swimming, warping or morphing.\n\nOVERALL: authentic IMAX 15-perf 65mm photochemical presence, extraordinary natural detail, organic optical sharpness, fine film grain, wide tonal latitude, smooth highlight roll-off, natural color, realistic large-format depth and immersive physical presence. The image must feel photographed rather than digitally generated.\n\nAVOID: digital-video look, AI/CGI/3D/game-engine appearance, digital sharpening, artificial clarity or HDR, plastic/waxy skin, synthetic textures, coarse grain or digital noise, excessive bokeh or fake shallow depth of field, excessive bloom or fake lens flare, oversaturation, teal-orange grading, crushed blacks, clipped highlights, smartphone look, unnatural motion blur, floating camera movement, flickering, texture swimming, warping, morphing, unstable geometry, exposure or focus.\n"
+}

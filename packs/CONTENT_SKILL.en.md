@@ -6,7 +6,9 @@
 
 ## What it is
 
-A Content Skill is an **importable creative orchestration package**: without changing client source, you declare what to plan and in what order, then run it in the app to produce chapters / scenes / shots, etc.
+A Content Skill is an **importable creative orchestration package**. **From 1.1.0 the Skill is the LLM return-format SSOT**: `bind` + `directives` + `outputSchema`. `steps[].input` is rejected. Shots packs must declare `outputSchema.shots` or install fails.
+
+Scene storyboard may bind `sceneNodeId → skillId+planHash` to override the official shots format. Unbound scenes use official `native.content.plan` and still generate. They never fall back to the entry Skill.
 
 A **generation-policy Skill** does not click Generate for you; it replaces multi-view slot copy or storyboard still style lines.
 
@@ -47,6 +49,7 @@ A **generation-policy Skill** does not click Generate for you; it replaces multi
 | `version` | yes | semver; reinstall same id = overwrite |
 | `protocol` | yes | Must be `content-skill-v1` |
 | `displayName` / `description` | no | Management UI |
+| `capabilities` | no | Host closed set: `content.plan` / `generation.policy` / `optimize.storyboard_shot` / `optimize.segment`. Empty array with no generation-policy file means `content.plan`. **Do not** invent free-form `category` / `tags` |
 | `entry` | no | Defaults to `pipeline.json` |
 
 ### `pipeline.json`
@@ -85,7 +88,7 @@ Pins raw SHA-256 of `pipeline.json` (and wasm when present). Mismatch → hard r
 
 Optional `generation-policy.json` with `generation.policy` capability.  
 A generation-policy Skill does **not** click Generate for you. It replaces multi-view slot copy, optional sheet layout for single-image composition, or storyboard still style lines.  
-Samples: `10-generation-policy-*` … `13-…`; `14-…` is an intentional invalid negative sample; `15-generation-policy-expression-9grid` is an expression sheet (9 views, optional single-image 3×3).
+Samples: `10-generation-policy-*` … `13-…`; `14-…` is an intentional invalid negative sample; `15-generation-policy-expression-9grid` is an expression sheet (9 views, optional single-image 3×3); `16-generation-policy-costume-turnaround-16x9` is a horizontal 16:9 costume turnaround (left full-body pair, right-top face, right-bottom six details); `17-generation-policy-imax-65mm-generic` is the generic IMAX 65mm photochemical overlay; `18-generation-policy-imax-65mm-large-scene` is the IMAX 65mm large-scene overlay; `19-generation-policy-imax-65mm-portrait-closeup` is the IMAX 65mm portrait-closeup overlay.
 
 ## Hard rules
 

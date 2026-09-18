@@ -15,9 +15,9 @@
 导入后把武打场绑到本 Skill，文戏场绑案例 26。点场次生成分镜。
 
 ## 不合格时你会看到什么（人话）
-未绑或绑了生图策略包会人话失败。自定义 fightBeat 只进 skillExtension。
+绑了生图策略包会人话失败。未绑走官方默认。自定义 fightBeat 只进 skillExtension。
 
 ## 拷给其它 LLM 时如何改成自己的包（3 步）
 1. 复制本目录，改 skill.manifest.json 的 id（必须 local. 开头）和 displayName。
 2. 只改 pipeline.json 里本 README 允许改的字段（枚举、字数、镜数）。
-3. 设置 → 创作 Skills → 导入包；在场次工作台绑定后再点生成分镜。
+3. 设置 → 创作智能体 → Skills 库 → 导入包；在场次工作台绑定后再点生成分镜。

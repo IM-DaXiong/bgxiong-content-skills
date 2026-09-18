@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-imax-65mm-portrait-closeup",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "IMAX 胶片摄影人像特写",
+  "description": "15-perf 65mm IMAX 人像特写 lock；槽位构图不改。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

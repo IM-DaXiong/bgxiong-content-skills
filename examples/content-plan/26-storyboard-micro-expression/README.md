@@ -20,4 +20,4 @@
 ## 拷给其它 LLM 时如何改成自己的包（3 步）
 1. 复制本目录，改 skill.manifest.json 的 id（必须 local. 开头）和 displayName。
 2. 只改 pipeline.json 里本 README 允许改的字段（枚举、字数、镜数）。
-3. 设置 → 创作 Skills → 导入包；在场次工作台绑定后再点生成分镜。
+3. 设置 → 创作智能体 → Skills 库 → 导入包；在场次工作台绑定后再点生成分镜。

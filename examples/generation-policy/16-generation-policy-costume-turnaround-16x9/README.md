@@ -20,7 +20,7 @@
 
 ## 点哪个按钮
 
-1. 设置 → 创作 Skills → 导入本文件夹（或安装目录 `user-examples\content-skills\16-generation-policy-costume-turnaround-16x9` 的**副本**）
+1. 设置 → 创作智能体 → Skills 库 → 导入本文件夹（或安装目录 `user-examples\content-skills\16-generation-policy-costume-turnaround-16x9` 的**副本**）
 2. **角色定妆**或**演员定妆** → 选 **9 视角** → 方式选 **单图合成** → 生图策略选本包 → 开始生成
 3. 若要九张分角：同样 9 视角，方式改 **分张批量**
 

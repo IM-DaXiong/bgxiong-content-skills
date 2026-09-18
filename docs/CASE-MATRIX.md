@@ -4,7 +4,7 @@
 
 | 戏种 \ 能力 | content.plan | optimize.storyboard_shot | optimize.segment | generation.policy | 状态 |
 |---|---|---|---|---|---|
-| 通用流程 | 01,02,03 | 官方 default | 官方 default | 10–14,16 | 有 |
+| 通用流程 | 01,02,03 | 官方 default | 官方 default | 10–14,16–19（含 IMAX） | 有 |
 | 武打武侠 | 25（强化） | **30** | 32（共用连续） | 可选 | P0/P1 |
 | 微表情 | 26（强化） | **31** | 可选 | **15** | P0/P1 |
 | 表演 | **28** | 28 内嵌 / 变体 | **33**（可选） | — | P0 |

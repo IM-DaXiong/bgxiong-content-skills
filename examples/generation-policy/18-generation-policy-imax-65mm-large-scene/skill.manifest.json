@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-imax-65mm-large-scene",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "IMAX 胶片摄影大场景",
+  "description": "15-perf 65mm IMAX 大场景 / 环境空间 lock；槽位构图不改，人像专用另包。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

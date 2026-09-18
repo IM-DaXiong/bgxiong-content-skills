@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-imax-65mm-generic",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "IMAX胶片摄影通用风格",
+  "description": "通用 15-perf 65mm IMAX 光化摄影 lock；人像专用另包，本包不改槽位构图。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}
