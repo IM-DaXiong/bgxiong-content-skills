@@ -1,0 +1,12 @@
+{
+  "id": "local.example.generation-policy-imax-65mm-authentic-photochemical",
+  "version": "1.0.0",
+  "protocol": "content-skill-v1",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "IMAX 胶片摄影·正统光化",
+  "description": "AUTHENTIC IMAX 15-perf 65mm 正统光化摄影 lock（含 24fps / AVOID / 禁摄制设备入画）；槽位构图不改。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

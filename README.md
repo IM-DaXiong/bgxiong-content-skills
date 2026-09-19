@@ -31,7 +31,8 @@
    - `examples/optimize/30-optimize-storyboard-fight`
    - `examples/optimize/31-optimize-storyboard-micro-cu`
    - `examples/optimize/32-optimize-segment-continuity`
-   - `examples/generation-policy/15-generation-policy-expression-9grid`
+   - `examples/generation-policy/15-generation-policy-expression-9grid
+   - examples/generation-policy/22-generation-policy-imax-65mm-authentic-photochemical`
 4. 导入后在对应工作流里选用该 Skill（分镜规划 / AI 优化提示词 / 生图策略）。
 5. 可选本地校验：
 
@@ -53,7 +54,7 @@ PowerShell：
 
 ```text
 docs/          CASE-MATRIX / INSPIRATIONS / GENRE-* / USAGE
-packs/         CONTENT_SKILL 作者规范（中/英）
+packs/         CONTENT_SKILL / AUTHORING 作者规范（中/英）
 contracts/     只读 pin（对齐产品 app-contracts 版本）
 examples/      content-plan / generation-policy / optimize
 scripts/       validate-example.*
