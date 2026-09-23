@@ -1,0 +1,301 @@
+{
+    "schemaVersion":  1,
+    "hostFamily":  "character",
+    "audiences":  ["multi_view"],
+    "view3":  [
+                  {
+                      "slotId":  "full_body_front",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 0-degree frontal full-body view. Subject faces directly toward camera. Symmetrical front visible. Orthographic turnaround, not a candid photo.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, subject centered, standing naturally, clean simple background, no crop at ankles or crown.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: FRONT VIEW — strict 0-degree frontal full-body, facing directly toward camera. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  true,
+                      "label":  {
+                                    "zh-CN":  "正面全身",
+                                    "en":  "Front full-body"
+                                }
+                  },
+                  {
+                      "slotId":  "full_body_side",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 90-degree full-body profile facing LEFT. Pure side silhouette. No three-quarter rotation. Orthographic profile, not a sneaky 3/4 cheat.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, same standing stance as the front view, subject centered, clean simple background, true profile only.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: SIDE VIEW — strict 90-degree full-body profile, facing left, no three-quarter rotation. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "左侧全身侧视",
+                                    "en":  "Left full-body profile"
+                                }
+                  },
+                  {
+                      "slotId":  "full_body_back",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 180-degree rear full-body view. Back faces directly toward camera. Occiput and back of costume visible. Orthographic rear, not a three-quarter back.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, same standing stance as the front view, subject centered, clean simple background.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: BACK VIEW — strict 180-degree rear full-body, back facing directly toward camera. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "背面全身",
+                                    "en":  "Back full-body"
+                                }
+                  }
+              ],
+    "view4":  [
+                  {
+                      "slotId":  "full_body_front",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 0-degree frontal full-body view. Subject faces directly toward camera. Symmetrical front visible. Orthographic turnaround, not a candid photo.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, subject centered, standing naturally, clean simple background, no crop at ankles or crown.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: FRONT VIEW — strict 0-degree frontal full-body, facing directly toward camera. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  true,
+                      "label":  {
+                                    "zh-CN":  "正面全身",
+                                    "en":  "Front full-body"
+                                }
+                  },
+                  {
+                      "slotId":  "full_body_side",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 90-degree full-body profile facing LEFT. Pure side silhouette. No three-quarter rotation. Orthographic profile, not a sneaky 3/4 cheat.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, same standing stance as the front view, subject centered, clean simple background, true profile only.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: SIDE VIEW — strict 90-degree full-body profile, facing left, no three-quarter rotation. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "左侧全身侧视",
+                                    "en":  "Left full-body profile"
+                                }
+                  },
+                  {
+                      "slotId":  "full_body_back",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 180-degree rear full-body view. Back faces directly toward camera. Occiput and back of costume visible. Orthographic rear, not a three-quarter back.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, same standing stance as the front view, subject centered, clean simple background.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: BACK VIEW — strict 180-degree rear full-body, back facing directly toward camera. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "背面全身",
+                                    "en":  "Back full-body"
+                                }
+                  },
+                  {
+                      "slotId":  "face_front",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 0-degree frontal face. Looking directly toward camera. Symmetrical face. Orthographic facial reference, not a candid moment.",
+                      "framing":  "FRAMING (MANDATORY): facial close-up, head and face fill most of the frame, eyes and jaw fully visible, clean simple background, no full-body, no cropped eyes.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: FRONT FACIAL CLOSE-UP — strict 0-degree frontal face, looking directly toward camera. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "正面面部特写",
+                                    "en":  "Front facial close-up"
+                                }
+                  }
+              ],
+    "view9":  [
+                  {
+                      "slotId":  "full_body_front",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 0-degree frontal full-body view. Subject faces directly toward camera. Symmetrical front visible. Orthographic turnaround, not a candid photo.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, subject centered, standing naturally, clean simple background, no crop at ankles or crown.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: FRONT VIEW — strict 0-degree frontal full-body, facing directly toward camera. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  true,
+                      "label":  {
+                                    "zh-CN":  "正面全身",
+                                    "en":  "Front full-body"
+                                }
+                  },
+                  {
+                      "slotId":  "full_body_side",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 90-degree full-body profile facing LEFT. Pure side silhouette. No three-quarter rotation. Orthographic profile, not a sneaky 3/4 cheat.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, same standing stance as the front view, subject centered, clean simple background, true profile only.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: SIDE VIEW — strict 90-degree full-body profile, facing left, no three-quarter rotation. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "左侧全身侧视",
+                                    "en":  "Left full-body profile"
+                                }
+                  },
+                  {
+                      "slotId":  "full_body_back",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 180-degree rear full-body view. Back faces directly toward camera. Occiput and back of costume visible. Orthographic rear, not a three-quarter back.",
+                      "framing":  "FRAMING (MANDATORY): full body head to toe, both feet fully visible, same standing stance as the front view, subject centered, clean simple background.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: BACK VIEW — strict 180-degree rear full-body, back facing directly toward camera. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "背面全身",
+                                    "en":  "Back full-body"
+                                }
+                  },
+                  {
+                      "slotId":  "face_front",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): strict 0-degree frontal face. Looking directly toward camera. Symmetrical face. Orthographic facial reference, not a candid moment.",
+                      "framing":  "FRAMING (MANDATORY): facial close-up, head and face fill most of the frame, eyes and jaw fully visible, clean simple background, no full-body, no cropped eyes.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: FRONT FACIAL CLOSE-UP — strict 0-degree frontal face, looking directly toward camera. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "正面面部特写",
+                                    "en":  "Front facial close-up"
+                                }
+                  },
+                  {
+                      "slotId":  "face_three_quarter",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): approximately 45-degree facial three-quarter turn. Far-side eye still readable. Not a full profile, not a flat front.",
+                      "framing":  "FRAMING (MANDATORY): facial close-up, head and face fill most of the frame, clean simple background, no full-body, no cropped eyes.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: THREE-QUARTER FACIAL VIEW — approximately 45-degree facial rotation. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "四分之三侧面部",
+                                    "en":  "Three-quarter facial"
+                                }
+                  },
+                  {
+                      "slotId":  "face_profile",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): exact 90-degree side profile close-up. Pure facial silhouette. No three-quarter cheat.",
+                      "framing":  "FRAMING (MANDATORY): facial profile close-up, head fills most of the frame, nose tip to occiput readable, clean simple background, no full-body.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. ORTHOGRAPHIC REFERENCE LOCK (NON-NEGOTIABLE): These are orthographic-style character reference views, NOT different poses and NOT different moments. The character remains anatomically identical. Camera/viewpoint rotates around the same character. Do not redesign the face between angles. Same stance and limb placement; only the viewing angle changes. VIEW: STRICT PROFILE CLOSE-UP — exact 90-degree side profile. same character, consistent studio lighting, clean light gray seamless background, cinematic realistic photography, highly detailed, photorealistic, sharp details, no text, no labels, no subtitles, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "正侧面部特写",
+                                    "en":  "Strict profile close-up"
+                                }
+                  },
+                  {
+                      "slotId":  "eye_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): extreme close-up of one eye (or both eyes tightly framed). Iris color, lashes and eyelid shape readable. Not a full face, not full body.",
+                      "framing":  "FRAMING (MANDATORY): eye region fills the frame. Show iris, pupil, lashes, eyelid crease and nearby skin texture.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: EYE DETAIL — iris, lashes and eye shape identity lock. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "眼部特写",
+                                    "en":  "Eye detail"
+                                }
+                  },
+                  {
+                      "slotId":  "lip_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): extreme close-up of the mouth and lips. Lip shape and color readable. Not a full face portrait unless lips dominate.",
+                      "framing":  "FRAMING (MANDATORY): lips and immediate perioral area fill the frame. Show cupid bow, lip volume and makeup/color exactly.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: LIP DETAIL — lip shape and color identity lock. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "唇部特写",
+                                    "en":  "Lip detail"
+                                }
+                  },
+                  {
+                      "slotId":  "hair_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of hairstyle construction and hair ornaments from rear or three-quarter-back. Focus on braid/bun structure and accessories.",
+                      "framing":  "FRAMING (MANDATORY): hair mass, ornaments, tassels and fastening details fill the frame. No full-body.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: HAIR DETAIL — hairstyle structure and ornaments. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "发型细节",
+                                    "en":  "Hair detail"
+                                }
+                  },
+                  {
+                      "slotId":  "collar_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of collar / neckline layering at the throat and upper chest.",
+                      "framing":  "FRAMING (MANDATORY): collar edges, inner layers and neckline construction fill the frame. Materials and seams clear.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: COLLAR DETAIL — neckline and collar layers. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "领口细节",
+                                    "en":  "Collar detail"
+                                }
+                  },
+                  {
+                      "slotId":  "sleeve_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of sleeve cuff / draped sleeve and hand if needed for scale.",
+                      "framing":  "FRAMING (MANDATORY): sleeve fabric drape, cuff edge, embroidery on sleeve fill the frame.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: SLEEVE DETAIL — sleeve drape and cuff construction. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "袖口细节",
+                                    "en":  "Sleeve detail"
+                                }
+                  },
+                  {
+                      "slotId":  "waist_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of waist sash / belt and hanging ornaments at the waist.",
+                      "framing":  "FRAMING (MANDATORY): belt knot, sash fabric, pendant or tassel at waist fill the frame. Construction readable.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: WAIST DETAIL — belt, sash and waist ornaments. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "腰带细节",
+                                    "en":  "Waist detail"
+                                }
+                  },
+                  {
+                      "slotId":  "fabric_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): macro close-up of costume fabric surface and embroidery motif.",
+                      "framing":  "FRAMING (MANDATORY): weave/texture and embroidery fill the frame. Color and motif match the full-body costume exactly.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: FABRIC DETAIL — textile texture and embroidery. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "面料纹理",
+                                    "en":  "Fabric detail"
+                                }
+                  },
+                  {
+                      "slotId":  "shoe_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of footwear standing on the ground. Shoes fully visible.",
+                      "framing":  "FRAMING (MANDATORY): shoes/platform footwear fill the frame. Materials, embroidery and silhouette clear. Not a full-body.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: SHOE DETAIL — footwear design and materials. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "鞋子细节",
+                                    "en":  "Shoe detail"
+                                }
+                  },
+                  {
+                      "slotId":  "accessory_detail",
+                      "orientation":  "CAMERA ORIENTATION (NON-NEGOTIABLE, READ FIRST): close-up of a key hanging accessory / tassel / jewelry piece matching the costume.",
+                      "framing":  "FRAMING (MANDATORY): the accessory fills the frame with readable materials and craftsmanship. Same piece as on the full-body views.",
+                      "suffix":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. The exact same character in every view. Strict identity and facial-feature consistency across all panels. Identical facial anatomy, skull shape, eyes, nose, lips, jawline, hairstyle, costume and body proportions across every view. No identity drift. DETAIL CROP LOCK: This panel is a tight asset crop of the SAME character already shown in the turnaround. Match materials, colors, embroidery, jewelry and skin exactly. Not a new outfit, not a new face design, not a different moment. DETAIL: ACCESSORY DETAIL — jewelry or tassel asset lock. same character asset crop, macro-readable materials and construction, neutral studio lighting, clean light gray background, photorealistic, sharp micro detail, no text, no labels, no watermark.",
+                      "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                      "identityAnchor":  false,
+                      "label":  {
+                                    "zh-CN":  "配饰细节",
+                                    "en":  "Accessory detail"
+                                }
+                  }
+              ],
+    "sheet":  {
+                  "view3":  {
+                                "layout":  "MULTI-ANGLE CHARACTER REFERENCE SHEET, orthographic turnaround. Exact same character. Three full-body panels left to right: FRONT 0-degree, SIDE 90-degree profile facing left (no three-quarter), BACK 180-degree. Same standing stance; only camera rotates. NOT different poses or moments. Do not redesign the face. Clean panels, light gray background, photorealistic. No text, no labels, no watermark.",
+                                "preamble":  "Orthographic multi-angle character reference sheet, full-body turnaround. Match reference visual style.",
+                                "refPreamble":  "Orthographic multi-angle sheet. Preserve identity from the reference. Camera rotates around the same character; no pose change; do not redesign the face.",
+                                "qualityTail":  "Orthographic reference only. Anatomically identical. Camera rotates; pose and face stay locked. No identity drift, no text.",
+                                "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                                "aspectRatio":  "16:9"
+                            },
+                  "view4":  {
+                                "layout":  "MULTI-ANGLE CHARACTER REFERENCE SHEET. Exact same character. 2x2: FRONT full-body, SIDE full-body profile left, BACK full-body, FRONT FACIAL CLOSE-UP. Orthographic; NOT different poses or moments. Camera rotates; do not redesign the face. Clean panels, light gray background, photorealistic. No text, no watermark.",
+                                "preamble":  "Orthographic multi-angle sheet, body turnaround plus front face. Match reference visual style.",
+                                "refPreamble":  "Orthographic multi-angle sheet. Preserve identity. Camera rotates; no pose change; do not redesign the face.",
+                                "qualityTail":  "Orthographic reference. Same character, locked face and costume. No identity drift, no text.",
+                                "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail",
+                                "aspectRatio":  "1:1"
+                            },
+                  "view9":  {
+                                "layout":  "MULTI-ANGLE CHARACTER REFERENCE SHEET with DETAIL SLICES. Exact same character in every panel. Strict identity lock. Orthographic-style reference views, NOT different poses and NOT different moments. Camera/viewpoint rotates around the same character; do not redesign the face between angles.\n\nMAIN LAYOUT (match a professional character bible plate):\n- LEFT / CENTER: three full-body orthographic turnaround panels side by side — FRONT (0-degree), SIDE (90-degree profile facing left, no three-quarter), BACK (180-degree). Same standing stance in all three; feet fully visible.\n- TOP RIGHT: three facial reference panels — FRONT FACIAL CLOSE-UP (0-degree), THREE-QUARTER (~45-degree), STRICT PROFILE (90-degree).\n- DETAIL SLICES (small crops of the SAME character, not new designs): EYE DETAIL, LIP DETAIL, HAIR DETAIL (ornaments/braid), COLLAR DETAIL, SLEEVE DETAIL, WAIST DETAIL (belt/sash/pendant), FABRIC DETAIL (embroidery texture), SHOE DETAIL, ACCESSORY DETAIL (tassel/jewelry). Arrange detail crops in a tidy grid under/ beside the face panels without overlapping the full-body figures.\n\nIdentical facial anatomy, skull, eyes, nose, lips, jawline, hairstyle, costume colors and body proportions across every panel including detail crops. Clean panel separation, neutral studio lighting, light gray seamless background, photorealistic, sharp details. No text, no labels, no numbers, no subtitles, no watermark, no extra people, no duplicated limbs, no distorted anatomy.",
+                                "preamble":  "Orthographic multi-angle character bible plate with facial refs and costume/feature detail slices. Match reference visual style.",
+                                "refPreamble":  "Character reference sheet with turnaround, faces and detail crops. Preserve identity, hairstyle, costume, proportions and materials from the reference. Camera/viewpoint rotates for main angles; detail panels are tight crops of the same character. NOT different poses or moments. Do not redesign the face between angles.",
+                                "qualityTail":  "Same character everywhere including detail slices. Orthographic main views. Detail crops match costume and face exactly. No identity drift, no invented embroidery, no text, no watermark.",
+                                "negatives":  "different person, face swap, identity drift, redesigned face, different skull, different nose, different eyes, different jawline, hairstyle change, costume change, different body proportions, different pose, walking pose, acting pose, different moment, time skip, extra people, text, labels, numbers, subtitles, watermark, logo, deformed face, extra limbs, bad anatomy, three-quarter where profile required, three-quarter where front required, angled cheat where orthographic required, blurry, low detail, full body in detail crop, wrong garment color, invented embroidery, invented jewelry, mismatched hair ornament",
+                                "aspectRatio":  "3:4"
+                            }
+              }
+}

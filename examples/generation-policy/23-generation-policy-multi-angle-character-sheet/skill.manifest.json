@@ -1,0 +1,13 @@
+{
+  "id": "local.example.generation-policy-multi-angle-character-sheet",
+  "version": "1.1.0",
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例23 · 角色多角度正交参考板",
+  "description": "character：全身正/侧/背 + 面部正/3/4/侧 + 眼唇发领袖腰料鞋配 9 个细节切片。正交主视角；细节为同一人资产特写。可单图合成或分张。",
+  "capabilities": [
+    "generation.policy"
+  ]
+}

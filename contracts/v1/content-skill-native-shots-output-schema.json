@@ -1,4 +1,5 @@
 {
+  "generationOwnership": "shape-only; camera semanticVocabulary is projected at runtime from cinematic_language::schema_gen",
   "shots": {
     "count": { "min": 1, "max": 24 },
     "item": {

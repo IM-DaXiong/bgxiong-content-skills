@@ -1,0 +1,187 @@
+{
+  "steps": [
+    {
+      "id": "bible",
+      "op": "plan_bible",
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "音乐影像导演圣经。用户原文已写明的镜序、运镜、负面必须原样保留，本步不得改写成技巧清单。先通读歌词与可判断的音乐结构，禁止先选招。正文必须写出：创意命题（整支片子要让观众记住的唯一一句话）、视觉母题（一条可贯穿全片的可拍异常关系，例如现实空间不断出现梦境残留，而不是古风加花瓣加对嘴）、人物欲望与情绪矛盾、最终余味、创意禁区。母题必须能约束后续人物、场景、动作、道具、色彩与镜头。禁止把作品设计成短视频技巧合集。全局原则：一个视觉段落只保留一个主导创意，其余元素全部服务它。时长、集数、场次数、镜数不要套模板。"
+          }
+        }
+      }
+    },
+    {
+      "id": "roles",
+      "op": "plan_roles",
+      "dependsOn": ["bible"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "角色服务圣经母题，不是凑出镜人数。用户原文已写明的外形、动作、负面优先于本步。每个核心人物必须写清四件事：视觉身份、动作习惯、情绪由哪个身体部位表达、镜头如何对待他（观察、贴身、回避正面等）。禁止默认回眸、落泪、伸手、奔跑、转身。配角只在母题需要对照时出现。没有人物的概念片不要硬造配角。不要写人物小传。"
+          }
+        }
+      }
+    },
+    {
+      "id": "chapters",
+      "op": "plan_chapters",
+      "dependsOn": ["roles"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "默认单集装整支。synopsis 按情绪能量曲线写，不要写成开场钩子到铺垫到副歌爆发到回扣。每一段回答：观众此刻该感觉什么、能量相对前后如何变化、对应哪段歌词、母题在这里出现还是被压住。不要先按剧情分幕。用户没给时长就按素材密度自估，禁止抄固定秒数。仅当歌词真有无法合并的多故事线才多分集。"
+          }
+        }
+      }
+    },
+    {
+      "id": "scenes",
+      "op": "plan_scenes",
+      "dependsOn": ["chapters"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "场次仍按物理地点、昼夜、内外划分，locationDescription 写真实空间。禁止一句歌词一场，禁止为换技巧加场。同一地点内用自然语言写软视觉段落：进入、建立、异常、加深、释放、残响，按本段需要删减，不要当成必须凑齐的清单。每一段只保留一个主导创意；禁止在同一段同时堆花瓣、雨、环绕、月亮、变装。换场必须让观众得到新的空间或信息。这些说明不能改写用户原文里的情节、对白、运镜与负面。"
+          }
+        }
+      }
+    },
+    {
+      "id": "shots",
+      "op": "plan_shots",
+      "dependsOn": ["scenes"],
+      "when": {
+        "notEmpty": "$ctx.sourceText"
+      },
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "先决定这一镜为什么存在，再写新增了什么，最后才选怎么拍。用户已写的机位、动作、负面必须保持。每一镜必填 visualFunction 与 informationGain。informationGain 用中文写相对上一镜的新事实，禁止只换景别重复上一镜。visualFunction 从枚举选本镜任务，不要把它当成拍摄类型标签。lyricAnchor 摘录本镜歌词。content 写看见什么、谁在做什么、母题如何落在这一镜。反通用：把人物换成另一个人、把歌曲换成另一首歌，这镜依然成立，就必须重写，直到绑住本曲的人、词、道具与母题。每增加一镜至少满足一项：新信息、新情绪、新视觉关系、新节奏、新空间、关键动作完成、伏笔或回收；只是重复人物、情绪、构图或歌词含义则合并。48 是上限不是目标。一个视觉段落只服务一个主导创意。慢动作、匹配剪辑、剪影写进 content，不要发明机位枚举。不要在 JSON 里写自检报告。"
+          },
+          "budget": {
+            "unit": "chars",
+            "perShot": {
+              "min": 40,
+              "max": 220
+            }
+          }
+        }
+      },
+      "outputSchema": {
+        "shots": {
+          "count": {
+            "min": 1,
+            "max": 48
+          },
+          "item": {
+            "required": [
+              "shotIndex",
+              "content",
+              "angleId",
+              "shotSize",
+              "cameraMove",
+              "lyricAnchor",
+              "visualFunction",
+              "informationGain"
+            ],
+            "properties": {
+              "shotIndex": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 48
+              },
+              "content": {
+                "type": "string",
+                "minLength": 40,
+                "maxLength": 220
+              },
+              "angleId": {
+                "enum": [
+                  "wide",
+                  "medium",
+                  "closeup",
+                  "low",
+                  "high",
+                  "pov",
+                  "overhead"
+                ]
+              },
+              "shotSize": {
+                "enum": [
+                  "EWS",
+                  "WS",
+                  "MS",
+                  "MCU",
+                  "CU",
+                  "ECU"
+                ]
+              },
+              "cameraMove": {
+                "enum": [
+                  "static",
+                  "pan",
+                  "tilt",
+                  "dolly_in",
+                  "dolly_out",
+                  "handheld",
+                  "crane",
+                  "whip_pan",
+                  "zoom_punch"
+                ]
+              },
+              "lyricAnchor": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 120
+              },
+              "visualFunction": {
+                "enum": [
+                  "establish",
+                  "reveal",
+                  "intensify",
+                  "contrast",
+                  "misdirect",
+                  "payoff",
+                  "breathe",
+                  "transform",
+                  "callback"
+                ]
+              },
+              "informationGain": {
+                "type": "string",
+                "minLength": 8,
+                "maxLength": 80
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

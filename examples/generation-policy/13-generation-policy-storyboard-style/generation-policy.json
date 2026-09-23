@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "hostFamily": "character",
+  "audiences": ["photography"],
   "view3": [
     {
       "slotId": "front",

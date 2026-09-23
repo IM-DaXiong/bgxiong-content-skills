@@ -1,0 +1,13 @@
+{
+  "id": "local.example.short-video-creative",
+  "version": "2.0.0",
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例34 · 短视频创意策划增强",
+  "description": "在现有五步计划里加强首屏卖点、视觉机制、信息推进和声音锚点。不另建诊断状态机，不改场次落库规则。",
+  "capabilities": [
+    "content.plan"
+  ]
+}

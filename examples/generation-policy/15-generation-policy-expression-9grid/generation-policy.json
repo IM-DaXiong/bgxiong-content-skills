@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "hostFamily": "character",
+  "audiences": ["multi_view"],
   "view3": [
     {
       "slotId": "calm_neutral",

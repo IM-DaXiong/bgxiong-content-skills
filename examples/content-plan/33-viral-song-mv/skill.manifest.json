@@ -1,0 +1,13 @@
+{
+  "id": "local.example.viral-song-mv",
+  "version": "2.0.0",
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "案例33 · 音乐影像导演",
+  "description": "从歌词、音乐结构与人物情绪提炼创意命题、视觉母题与情绪曲线，再转成有连续视觉逻辑、信息增量和明确镜头功能的音乐影像方案。",
+  "capabilities": [
+    "content.plan"
+  ]
+}

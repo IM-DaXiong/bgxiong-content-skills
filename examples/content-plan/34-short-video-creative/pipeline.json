@@ -1,0 +1,139 @@
+{
+  "steps": [
+    {
+      "id": "bible",
+      "op": "plan_bible",
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "短视频创意增强（不是长片圣经，也不要向用户提问）。先用一句话选定一个主方向：人物表演、空间奇观，或身份反差。在正文用这些小标题各写一两句：核心视觉机制、首屏观看理由、核心视觉资产、创意禁区、升级规则。核心视觉资产写可拍的中文短句，不要写 HV-01 这类编号。没有音频时码就不要编造秒数。若用户原文已经规定镜序、运镜或负面，把那些要求原样保留，不要改成卡点或奇观。"
+          }
+        }
+      }
+    },
+    {
+      "id": "roles",
+      "op": "plan_roles",
+      "dependsOn": ["bible"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "屏幕主体宁少勿滥。每个出镜主体用一两句写清观众第一眼如何看懂：身份、外形锚点、和别人的关系。不要写人物小传。没有人物的概念片不要硬造配角。"
+          }
+        }
+      }
+    },
+    {
+      "id": "chapters",
+      "op": "plan_chapters",
+      "dependsOn": ["roles"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "默认单集装完整支短视频。synopsis 写清：一句话创意、核心机制如何至少升级两次、3 到 5 个值得当封面的画面（中文短句）、结尾如何兑现或回环。保留圣经里的小标题。不要写成多季网剧。用户没给时长就按素材密度自估，不要抄固定秒数。"
+          }
+        }
+      }
+    },
+    {
+      "id": "scenes",
+      "op": "plan_scenes",
+      "dependsOn": ["chapters"],
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "场次仍按地点、昼夜、内外划分，locationDescription 写真实勘景。不要为情绪重复或歌词逐句对译加场。地点变化本身就是核心画面时可以多场，每次换场必须让观众得到新的信息。场次正文保留：核心视觉机制、首屏观看理由、核心视觉资产、创意禁区、升级规则。这些说明不能改写用户原文里的情节和对白。"
+          }
+        }
+      }
+    },
+    {
+      "id": "shots",
+      "op": "plan_shots",
+      "dependsOn": ["scenes"],
+      "when": {
+        "notEmpty": "$ctx.sourceText"
+      },
+      "bind": {
+        "storyId": "$ctx.storyId",
+        "sourceText": "$ctx.sourceText"
+      },
+      "directives": {
+        "prose": {
+          "style": {
+            "mode": "authorText",
+            "text": "先确定这一场怎么推进，再输出分镜。相邻镜头若主体、动作和信息相同就合并。每一镜必填 visualFunction 与 informationGain。有歌词、鼓点、drop、停顿或环境声时才填 audioAnchorType 与 audioAnchorRef；没有就留空，禁止编造副歌第几拍。heroVisualLabel 只在这一镜承担封面画面时填写中文短句。beatId 场内自定，如 B01。executionNote 写可拍做法。用户已写的机位、动作、负面必须保持，不要改成急推或甩镜。不要在 JSON 里写自检报告。"
+          },
+          "budget": {
+            "unit": "chars",
+            "perShot": {
+              "min": 20,
+              "max": 180
+            }
+          }
+        }
+      },
+      "outputSchema": {
+        "shots": {
+          "count": {
+            "min": 1,
+            "max": 48
+          },
+          "item": {
+            "required": [
+              "shotIndex",
+              "content",
+              "angleId",
+              "shotSize",
+              "cameraMove",
+              "visualFunction",
+              "informationGain"
+            ],
+            "properties": {
+              "shotIndex": { "type": "integer", "minimum": 1, "maximum": 48 },
+              "content": { "type": "string", "minLength": 20, "maxLength": 180 },
+              "angleId": {
+                "enum": ["wide", "medium", "closeup", "low", "high", "pov", "overhead"]
+              },
+              "shotSize": { "enum": ["EWS", "WS", "MS", "MCU", "CU", "ECU"] },
+              "cameraMove": {
+                "enum": ["static", "pan", "tilt", "dolly_in", "dolly_out", "handheld", "crane", "whip_pan", "zoom_punch"]
+              },
+              "visualFunction": {
+                "enum": ["reveal", "escalate", "contrast", "payoff", "reaction", "beauty", "information", "transition", "callback"]
+              },
+              "informationGain": { "type": "string", "minLength": 4, "maxLength": 80 },
+              "audioAnchorType": {
+                "enum": ["lyric", "beat", "drop", "pause", "ambience", "none"]
+              },
+              "audioAnchorRef": { "type": "string", "maxLength": 40 },
+              "beatId": { "type": "string", "maxLength": 24 },
+              "heroVisualLabel": { "type": "string", "maxLength": 40 },
+              "executionNote": { "type": "string", "maxLength": 120 }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

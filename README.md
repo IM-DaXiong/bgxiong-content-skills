@@ -31,6 +31,9 @@
    - `examples/optimize/30-optimize-storyboard-fight`
    - `examples/optimize/31-optimize-storyboard-micro-cu`
    - `examples/optimize/32-optimize-segment-continuity`
+   - `examples/content-plan/34-short-video-creative`
+   - `examples/content-plan/33-viral-song-mv`
+   - `examples/generation-policy/23-generation-policy-multi-angle-character-sheet`
    - `examples/generation-policy/15-generation-policy-expression-9grid
    - examples/generation-policy/22-generation-policy-imax-65mm-authentic-photochemical`
 4. 导入后在对应工作流里选用该 Skill（分镜规划 / AI 优化提示词 / 生图策略）。
