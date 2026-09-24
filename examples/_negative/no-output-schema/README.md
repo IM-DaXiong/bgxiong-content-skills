@@ -1,0 +1,1 @@
+# 负例无 outputSchema\n导入必须失败 CONTENT_SKILL_OUTPUT_SCHEMA_REQUIRED\n

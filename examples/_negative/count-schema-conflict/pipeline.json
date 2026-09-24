@@ -1,0 +1,36 @@
+{
+  "coverage": [
+    "shots"
+  ],
+  "steps": [
+    {
+      "id": "h",
+      "op": "plan_shots",
+      "directives": {
+        "structure": {}
+      },
+      "outputSchema": {
+        "shots": {
+          "count": {
+            "const": 6
+          },
+          "item": {
+            "required": [
+              "shotIndex",
+              "content"
+            ],
+            "properties": {
+              "shotIndex": {
+                "type": "integer"
+              },
+              "content": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "minItems": 8
+      }
+    }
+  ]
+}

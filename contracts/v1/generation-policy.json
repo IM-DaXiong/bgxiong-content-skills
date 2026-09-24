@@ -5,7 +5,7 @@
   "maxArmChars": 8000,
   "slotIdPattern": "^[a-z][a-z0-9_]{1,31}$",
   "officialDefaultFile": "generation-policy-official-default.json",
-  "officialPolicyHash": "01ac1bef3c6fdf8c508c7bf6b6c2d2859900139f8a294c48b43a8edbbd9afd27",
+  "officialPolicyHash": "94c01bb3b89af39d7ce35760dfd64ecbc1affba0f2a1347c3b936752bfcc2ac0",
   "capabilityGenerationPolicy": "generation.policy",
   "capabilityContentPlan": "content.plan",
   "maxSheetLayoutChars": 8000,
@@ -16,5 +16,8 @@
     "4:3",
     "3:4"
   ],
-  "policyAudiences": ["multi_view", "photography"]
+  "policyAudiences": [
+    "multi_view",
+    "photography"
+  ]
 }

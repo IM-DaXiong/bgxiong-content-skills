@@ -1,0 +1,12 @@
+{
+  "id": "local.negative.count-conflict",
+  "version": "1.1.0",
+  "protocol": "content-skill-v1",
+  "protocolVersion": "1.1.0",
+  "entry": "pipeline.json",
+  "language": "declarative",
+  "displayName": "负例 · 镜数冲突",
+  "capabilities": [
+    "content.plan"
+  ]
+}

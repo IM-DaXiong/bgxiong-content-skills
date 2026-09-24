@@ -1,0 +1,1 @@
+# 负例镜数冲突\nconst=6 但另写 maxItems=8 应拒装\n

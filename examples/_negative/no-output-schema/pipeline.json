@@ -1,0 +1,12 @@
+{
+  "coverage": [
+    "shots"
+  ],
+  "steps": [
+    {
+      "id": "h",
+      "op": "plan_shots",
+      "bind": {}
+    }
+  ]
+}

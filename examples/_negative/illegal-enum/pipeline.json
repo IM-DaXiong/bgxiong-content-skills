@@ -1,0 +1,31 @@
+{
+  "coverage": [
+    "shots"
+  ],
+  "steps": [
+    {
+      "id": "h",
+      "op": "plan_shots",
+      "outputSchema": {
+        "shots": {
+          "count": {
+            "const": 1
+          },
+          "item": {
+            "required": [
+              "shotIndex"
+            ],
+            "properties": {
+              "shotIndex": {
+                "type": "integer"
+              },
+              "bad": {
+                "": "https://evil.example/schema.json"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

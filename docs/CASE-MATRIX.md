@@ -18,7 +18,7 @@
 | 病毒歌曲 MV | **33** | — | — | — | 有 |
 | 短视频创意 | **34** | — | — | — | 有 |
 
-| 负例 | — | — | — | 14 / `_negative` | 有 |
+| 负例 | — | — | — | 14 / `_negative（count-schema-conflict / illegal-enum / no-output-schema）` | 有 |
 
 **图例**：粗体 = 总工程关键交付编号。
 
@@ -26,4 +26,4 @@
 
 - plan README `seeAlso` → 同戏种 optimize / generation  
 - optimize README 声明上游镜级字段  
-- generation README 声明不消费 plan 的 MJ/SD 语法  
+- generation README 声明不消费 plan 的 MJ/SD 语法
