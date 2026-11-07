@@ -1,6 +1,6 @@
 # 本轮验收
 
-环境：技能仓与主仓的本地工作区。没有提交，没有推送。
+环境：技能仓与主仓的本地工作区。本地提交已经完成；没有推送，也没有 GitHub Release。提交号记在主仓 `resources/official-skills/source-lock.json` 的 `sourceCommit`。
 
 已运行并通过：
 
