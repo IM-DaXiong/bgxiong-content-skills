@@ -1,5 +1,7 @@
 # 作者与智能体规则
 
+- **三仓平级唯一治理规范（用户2026-11-07）**：先定位同级主仓 `../bgxiong-ai-story`；主程序、`../bgxiong-content-skills`、`../bgxiong-third-party-adapters` 各为唯一源码 owner，禁止另建真源或在主仓消费副本维护 Skill。全部产品 Skill（含 H3）只在内容仓治理，提交推送后按锁同步主仓。任务开始必读[唯一规范正文](../bgxiong-ai-story/docs/dev/guides/20261107-GUIDE-三仓平级与创作Skill唯一治理目录.md)；缺主仓时先恢复同级定位，不另抄一份规范。
+
 先读 `docs/SPECIFICATION.zh-CN.md`、`contracts/snapshots/` 里的宿主合同快照，以及 `docs/HOST-CAPABILITIES.zh-CN.md`。
 
 - 只使用快照里的当前用途和 `clips-v1`。
