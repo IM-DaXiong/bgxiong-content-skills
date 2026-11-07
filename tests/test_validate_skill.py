@@ -47,13 +47,18 @@ class ValidateTests(unittest.TestCase):
             report = check_package(package, "author-current")
             self.assertTrue(any(code == "AUTHOR_WORKFLOW" for _, code, _ in report.findings))
 
-    def test_publish_rejects_blocked_name_when_present(self):
+    def test_publish_checks_status_not_model_name(self):
         with tempfile.TemporaryDirectory() as tmp:
             package = Path(tmp) / "h3-prompt-writing"
             self.write_package(
                 package,
                 "---\nname: h3-prompt-writing\ndescription: blocked\nmetadata:\n  version: \"1.0.0\"\n  bgx-workflow: clips-v1\n  bgx-hosts: video-prompt-projection\n---\n\n# T\n",
             )
+            report = check_package(package, "publish")
+            self.assertFalse(report.failed("publish"), report.findings)
+            skill = package / "SKILL.md"
+            text = skill.read_text(encoding="utf-8")
+            skill.write_text(text.replace('metadata:', 'metadata:\n  bgx-redistribution: blocked_pending_legal'), encoding="utf-8")
             report = check_package(package, "publish")
             self.assertTrue(any(code == "PUBLISH_BLOCKED" for _, code, _ in report.findings))
 

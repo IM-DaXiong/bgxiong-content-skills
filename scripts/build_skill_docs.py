@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from skill_lib import CURRENT_WORKFLOW, ROOT, host_tokens, load_hosts, load_skill, package_digest
+from skill_lib import CURRENT_WORKFLOW, ROOT, host_tokens, load_hosts, load_skill, package_digest, publication_blocked
 
 HOST_EFFECT = {
     "multi-view": "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。",
@@ -38,7 +38,7 @@ def headings(body: str) -> list[str]:
 
 
 def classify(meta: dict[str, str], kind: str, name: str) -> str:
-    if name == "h3-prompt-writing":
+    if publication_blocked(meta):
         return "blocked"
     current, _historical = load_hosts()
     tokens = host_tokens(meta)
@@ -159,7 +159,7 @@ def main() -> int:
     for name, items in grouped.items():
         variants = []
         for item in items:
-            if item["name"] == "h3-prompt-writing":
+            if item.get("blocked"):
                 host_skill = ROOT.parent / "bgxiong-ai-story" / item["sourcePath"] / "SKILL.md"
                 meta, body = parse_frontmatter(host_skill.read_text(encoding="utf-8"))
                 variants.append((item, meta, body, None, "blocked", item["sourcePath"]))

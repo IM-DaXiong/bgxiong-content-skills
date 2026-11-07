@@ -1,0 +1,90 @@
+# Project-authored h3@1 full-reference compatibility guide
+
+Read this file only for Ref2VA. The base rules in `base-en.txt` still apply. This file defines the six-section layout used by this application's projector and is not copied from a vendor Skill.
+
+## Field order
+
+For the dedicated h3@1 compiler, the application emits these labels. For a manually selected method with profileId=generic, write these sections and labels inside lines.text in this order; keep the outer JSON contract unchanged:
+
+1. `subject_definitions`
+2. `summary`
+3. `retention_analysis`
+4. `detailed_description`
+5. `overall_soundscape`
+6. `non_diegetic_music`
+
+The dedicated h3@1 compiler owns labels and reference tokens. In generic manual mode, write all H3 labels in text using each frozen media category and ordinal. Preserve internal IDs in referenceUseIds.
+
+## Reference discipline
+
+- Use only reference ids and purposes supplied by the frozen inventory.
+- Keep one id attached to the same subject or source throughout all six fields.
+- A reference can constrain identity, appearance, composition, motion, voice timbre, or soundtrack reuse only when that purpose is explicitly frozen.
+- Do not describe incidental details that appear in a source but are absent from the mother document.
+- Do not use a visual reference as evidence for sound, or an audio reference as evidence for appearance.
+
+## Section responsibilities
+
+`subject_definitions` identifies referenced subjects and the frozen traits that must remain consistent. It does not add biography, motivation, or unseen details.
+
+`summary` states the requested target result and the applicable reference task types. Keep it concise and derived from the mother document.
+
+`retention_analysis` records what each reference contributes and what must remain unchanged. Use the application's frozen audio-use mapping; never infer soundtrack copying from the mere presence of audio.
+
+`detailed_description` presents the complete target timeline in playback order. For each shot, preserve composition, subject positions, actions, camera, lighting, sound events, dialogue placement, and the exact moment a reference takes effect. Numeric phase boundaries supplied by the user remain numeric phase boundaries.
+
+`overall_soundscape` and `non_diegetic_music` follow the base-mode sound rules. Referenced soundtrack material belongs only where the frozen audio purpose permits it.
+
+## Audio constraints
+
+- Voice-timbre reference guides voice identity only. It does not copy words, melody, timing, or the source signal.
+- Soundtrack-copy use preserves only the scope explicitly frozen by the application.
+- Speaker ids follow actual speaking order in the target timeline and remain stable across shots.
+- Do not invent a speaker for vocals embedded in background audio unless the mother document identifies that person as an on-screen speaker.
+
+## Speakers, pictures and voice-timbre audio
+
+These follow official full-reference §2.4 and §5.4 and are writing recommendations.
+
+- Follow the base guide's "Speakers and voiced lines".
+- On a line that carries a voiced quote of a referenced on-screen subject, list that subject's picture reference in `referenceUseIds`, so the visible speaker is tied to the words.
+- When the request offers `speakerVoiceBinding`, report in `speakerVoiceBindings` which frozen speaker each voice-timbre reference belongs to (`speakerId`, `voiceReferenceUseId`, and the optional `subjectId` of the identity lock that speaks). Use only offered ids: one reference per speaker and one speaker per reference. Take the relationship from the mother document, reference labels or declared identities; if it is not stated, leave the reference unbound instead of guessing.
+- The application writes the binding sentences itself: the `subject_definitions` mapping line and the voice-timbre clause at every voiced line of that speaker. Do not write `<Audio N>` or voice-timbre phrases in line text for this purpose.
+- Speaker IDs never appear in `retention_analysis`. `overall_soundscape` does not repeat dialogue or list the speaking order.
+
+## Writing recommendations
+
+Section layout, labels and suggested expressions are advisory. Dialogue or narration may stay inline in the complete timeline; lack of a quote slot is never permission to omit the original words. Retain source and editable new result separately, showing an unreviewed state when fidelity has not been checked.
+
+## Output checks
+
+- The dedicated compiler inserts six fields. In generic manual mode, the expression supplies their labels inside line text. A missing section is writing advice, never a rejection.
+- Every reference mentioned in prose exists in the frozen inventory.
+- Every retained property is supported by a mother fact or explicit reference purpose.
+- Dialogue, lyrics, visible text, negative constraints, and timing are unchanged.
+- No reference content leaks into an unrelated subject, medium, or section.
+
+## Clip workflow scope
+
+The mother document means the frozen input content for this projection, not a required review approval. Internal shots are cuts inside one clip, not scene or storyboard records. A clip draft follows its own supplied schema; the projector fields here do not become draft fields. Images stay ordinary assets, with start/end or identity roles supplied by explicit reference uses. Shot count, image count and duration are not fixed by this guide. Writing and fidelity reviews remain advisory; retain source and new results without automatic repair retries.
+
+
+## Official retention markers (advisory vocabulary)
+
+When the host asks for retention wording aligned with MiniMax-H3 full-reference guides, prefer these fixed English markers without inventing new contract fields:
+
+- Visible (`<Subject>` / `<Picture>` / `<Video>` structure): `fully_preserved`, `partially_preserved`, `attribute_transfer`, `weak_reference`
+- Audio (`<Audio>`): `fully_copy`, `partially_copy`, `reference`, `weak_reference`
+
+Choose a marker only inside the frozen reference role. Do not treat newly added mother-absent plot as a fidelity loss.
+
+## Output language
+
+Write section prose in English by default, including shot descriptions and sound instructions. Keep dialogue, narration, lyrics and visible scene text verbatim in their original language. Apply an explicit language request from the user when supplied. This also applies to manual generic projection.
+
+
+## Label roles for manual generic output
+
+Use <Subject N> for reusable characters, objects and environments, citing their actual source <Picture N>, <Video N> or <Audio N> in the definition. Subject numbering is independent of asset ordinals. Keep image ordinals tied to the supplied image order. A standalone Picture definition is for an actual frame or composition anchor. Define no new reference asset.
+
+Begin summary with a task prefix such as [reference generation], selected from the actual task. Give each retention entry its own line and relationship marker. Reuse the same labels where the corresponding content appears in detailed_description. Use [Shot 1] without an opening timestamp. Subsequent cuts use sequential shot labels with At MM:SS.mmm within the supplied duration.

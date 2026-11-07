@@ -57,9 +57,10 @@
       "kind": "builtin",
       "sourcePath": "src-tauri/resources/builtin-agent-skills/h3-prompt-writing",
       "sourceDigest": "sha256:d25516baa97d1a0b6ddddf5c0729ac6b0f0b0b456dd367b76834d42c76b852c8",
-      "blocked": true,
-      "disposition": "blocked_pending_legal",
-      "copiedTo": null
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/h3-prompt-writing",
+      "copiedDigest": "sha256:d25516baa97d1a0b6ddddf5c0729ac6b0f0b0b456dd367b76834d42c76b852c8"
     },
     {
       "name": "kling-prompt-writing",

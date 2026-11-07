@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 from skill_lib import (
-    BLOCKED_PACKAGES,
+    publication_blocked,
     CURRENT_WORKFLOW,
     NAME_RE,
     SEMVER_RE,
@@ -106,7 +106,7 @@ def check_package(package: Path, profile: str) -> Report:
     version = meta.get("version", "")
     if not SEMVER_RE.match(version):
         report.add("error", "PUBLISH_VERSION", f"{package}: publish requires MAJOR.MINOR.PATCH")
-    if name in BLOCKED_PACKAGES:
+    if publication_blocked(meta):
         report.add("error", "PUBLISH_BLOCKED", f"{package}: blocked_pending_legal")
     rights = ROOT / "docs" / "maintenance" / "SOURCES-AND-RIGHTS.md"
     if not rights.is_file():

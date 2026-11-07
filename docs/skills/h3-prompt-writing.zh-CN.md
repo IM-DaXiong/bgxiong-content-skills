@@ -1,6 +1,6 @@
 # H3 视频提示词
 
-状态：`blocked`。版本：`1.2.4`。工作流：`clips-v1`。包目录：`src-tauri/resources/builtin-agent-skills/h3-prompt-writing`。
+状态：`source-approved`。版本：`1.2.4`。工作流：`clips-v1`。包目录：`skills/h3-prompt-writing`。
 
 ## 用途
 
@@ -37,7 +37,7 @@
 
 ## 安装与启用
 
-不提供安装步骤，也不进入案例目录。应用里可能仍有历史内置副本，那不是本仓库的再分发许可。
+在比格熊中使用目录或 ZIP 导入 `skills/h3-prompt-writing`，预览后确认替换。单文件导入会丢掉 references 等附件，带布局的包不要只用单文件。
 
 ## 示例
 

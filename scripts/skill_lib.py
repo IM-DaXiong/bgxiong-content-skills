@@ -14,7 +14,11 @@ NAME_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 SEMVER_RE = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
 FRONT_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n(.*)\Z", re.S)
 
-BLOCKED_PACKAGES = {"h3-prompt-writing"}
+def publication_blocked(meta: dict[str, str]) -> bool:
+    """Publication restrictions belong to package provenance, never model names."""
+    return any(meta.get(key) == "blocked_pending_legal" for key in (
+        "status", "redistributionStatus", "redistribution_status", "bgx-redistribution",
+    ))
 CURRENT_WORKFLOW = "clips-v1"
 
 

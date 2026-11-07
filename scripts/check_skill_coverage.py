@@ -21,13 +21,6 @@ def main() -> int:
         data = json.loads(desc.read_text(encoding="utf-8")) if desc.is_file() else {}
         if data.get("download"):
             missing.append(item["name"] + ":download")
-    blocked = ROOT / "catalog" / "descriptions" / "h3-prompt-writing.zh-CN.json"
-    if blocked.is_file():
-        data = json.loads(blocked.read_text(encoding="utf-8"))
-        if data.get("distribution") != "blocked" or data.get("download"):
-            missing.append("h3-status")
-    else:
-        missing.append("h3-missing")
     if missing:
         print("coverage failed", missing, file=sys.stderr)
         return 1

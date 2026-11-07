@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from skill_lib import BLOCKED_PACKAGES, HOST_ROOT, ROOT, package_digest, sha256_file
+from skill_lib import HOST_ROOT, ROOT, package_digest, sha256_file, load_skill, publication_blocked
 
 BUILTIN = HOST_ROOT / "src-tauri" / "resources" / "builtin-agent-skills"
 FIXTURES = HOST_ROOT / "fixtures" / "agent-skills"
@@ -46,9 +46,9 @@ def main() -> int:
             "kind": "builtin",
             "sourcePath": str(src.relative_to(HOST_ROOT)).replace("\\", "/"),
             "sourceDigest": digest_of(src),
-            "blocked": src.name in BLOCKED_PACKAGES,
+            "blocked": publication_blocked(load_skill(src)[0]),
         }
-        if src.name in BLOCKED_PACKAGES:
+        if publication_blocked(load_skill(src)[0]):
             record["disposition"] = "blocked_pending_legal"
             record["copiedTo"] = None
         else:

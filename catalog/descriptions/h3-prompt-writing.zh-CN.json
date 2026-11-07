@@ -1,13 +1,13 @@
 {
   "name": "h3-prompt-writing",
   "displayName": "H3 视频提示词",
-  "packagePath": "src-tauri/resources/builtin-agent-skills/h3-prompt-writing",
+  "packagePath": "skills/h3-prompt-writing",
   "version": "1.2.4",
   "workflow": "clips-v1",
   "hosts": [
     "video-prompt-projection"
   ],
-  "distribution": "blocked",
+  "distribution": "source-approved",
   "scenario": "把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。",
   "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
   "painPoints": [

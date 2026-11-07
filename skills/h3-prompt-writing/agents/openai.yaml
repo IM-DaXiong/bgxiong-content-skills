@@ -1,0 +1,4 @@
+interface:
+  display_name: "H3 视频提示词"
+  short_description: "按项目 h3@1 合同表达片段视频内容与真实参考"
+  default_prompt: "Use $h3-prompt-writing to project this frozen clip content into an h3@1-compatible prompt while retaining the exact spoken words and treating layout as writing guidance."

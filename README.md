@@ -28,6 +28,7 @@
 - **角色表情九宫格**（`character-expression-nine-grid`，1.1.0）：为同一人物设计可选表情参考，按工作台所选子模式分张或合成参考板；保持已有身份和服装，不要求先制作九张图片。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。 详见 [说明](docs/skills/character-expression-nine-grid.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **角色多角度定妆**（`character-multi-angle-reference`，1.1.0）：为同一人物设计可选多角度与材质细节参考，按所选模板提供全身、脸部和局部视图；用于独立资产创作，不强制固定视频镜头或帧数。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。 详见 [说明](docs/skills/character-multi-angle-reference.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **通用视频提示词**（`generic-video-prompt-writing`，1.1.0）：冻结目标为 generic@1 时，将片段视频内容整理为中立自然语言，保留来源、时序与逐字原话；不替代损坏或缺失的专属格式绑定。 详见 [说明](docs/skills/generic-video-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **H3 视频提示词**（`h3-prompt-writing`，1.2.4）：把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。 详见 [说明](docs/skills/h3-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **可灵视频提示词**（`kling-prompt-writing`，1.1.1）：依据冻结的 Kling Classic 或 Omni 目标，将片段视频稿表达为当前模式所需内容，保留真实引用与原话；经典版和 Omni 的资源与能力不混用。 详见 [说明](docs/skills/kling-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **LTX-2.5 视频提示词**（`ltx-2-5-prompt-writing`，1.4.0）：为 LTX 的文生视频、图生视频和首尾帧视频适配连贯段落，按时间组织动作、镜头、光线和声音，逐字保留原语言对白、歌词与用户画面文字，并按应用合同交付正负提示词。 详见 [说明](docs/skills/ltx-2-5-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **Qwen Image 2.1 图像提示词**（`qwen-image-2-1-prompt-writing`，1.1.0）：为 Qwen Image 2.1 优化文生图与参考图编辑提示词。文生图整理为英文画面描述，图片编辑明确修改与保留内容，多图编号严格沿用输入顺序；画面文字保留用户指定语言。用于生图工作台点击优化提示词后审阅结果，不负责提交生图或改变画幅。 详见 [说明](docs/skills/qwen-image-2-1-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
@@ -74,9 +75,4 @@
 - **音乐影像片段策划**（`viral-song-mv`，1.0.2）：依据歌词、可判断的音乐结构与情绪变化组织连续音乐影像，形成独立可编辑的视频片段计划。 详见 [说明](docs/skills/viral-song-mv.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **设定与人物驱动片段**（`world-and-character-planning`，1.0.1）：用世界规则与人物欲望梳理单集剧情，形成忠实原文、动机清楚的视频片段计划。 详见 [说明](docs/skills/world-and-character-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 
-### 不发行
-
-- **H3 视频提示词**（`h3-prompt-writing`，1.2.4）：把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。 详见 [说明](docs/skills/h3-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
-
 <!-- END GENERATED SKILL CATALOG -->
-

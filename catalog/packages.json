@@ -62,6 +62,18 @@
       "rights": "project-license"
     },
     {
+      "name": "h3-prompt-writing",
+      "version": "1.2.4",
+      "path": "skills/h3-prompt-writing",
+      "packageDigest": "sha256:d25516baa97d1a0b6ddddf5c0729ac6b0f0b0b456dd367b76834d42c76b852c8",
+      "hosts": [
+        "video-prompt-projection"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
       "name": "kling-prompt-writing",
       "version": "1.1.1",
       "path": "skills/kling-prompt-writing",

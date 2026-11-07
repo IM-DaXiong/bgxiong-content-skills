@@ -1,0 +1,77 @@
+# Project-authored h3@1 base-mode compatibility guide
+
+This reference defines the output layout used by this application's h3@1 projector. It is maintained with the application contract and is not a copy of a vendor prompt guide.
+
+## Modes
+
+- T2VA: text defines the audiovisual timeline.
+- I2VA: the first supplied picture anchors the first frame.
+- FL2VA: the first and last supplied pictures anchor both ends of one continuous path.
+- L2VA: the supplied picture anchors the last frame; earlier events must plausibly converge on it.
+
+Do not infer a mode from prose. Use the frozen mode supplied by the application.
+
+## Field order
+
+For the dedicated h3@1 compiler, the application emits these labels. For a manually selected method with profileId=generic, write these sections and labels inside lines.text in this order; keep the outer JSON contract unchanged:
+
+1. `integrated_multimodal_description`
+2. `overall_soundscape`
+3. `non_diegetic_music`
+
+The dedicated h3@1 compiler owns field labels, separators, reference numbering, empty-field values, and keyframe alignment headers. In generic manual mode, write section labels in text and use only the actual supplied reference identifiers; do not assume dedicated tokens will be inserted. Supply only content supported by the supplied mother document.
+
+## Timeline description
+
+- Preserve the mother document's shot order and timing. Do not create a cut when the mother document describes phases inside one shot.
+- Keep each subject's identity, position, appearance, action, and relationships consistent across shots.
+- Describe camera movement only when present in the mother document. Preserve movement type, direction, speed, amplitude, and locked-camera constraints.
+- Keep visible text verbatim. Keep dialogue, narration and lyrics verbatim with their speaker or narrator identity. Inline narrative is valid. When a matching structured quote is supplied, prefer its quote slot and keep speaking context inline to avoid repeating the same occurrence. Without a matching slot, preserve the complete words inline. Never remove or summarize them as a speaking action, and never silently deduplicate or rewrite the source words.
+- Place diegetic sound with the event that produces it. Do not repeat dialogue in the soundscape field.
+- A reference picture constrains only the roles frozen by the application. Do not import unrelated details from the picture.
+
+## Speakers and voiced lines
+
+These follow the official speaker rules and are writing recommendations.
+
+- Reference every structured voiced quote by `quoteIds` on the line where it is spoken. The dedicated h3@1 compiler then writes the speaker ID `(Sx)` and the verbatim `<d>[Language] ...</d>` block directly after that line's text. For generic manual output, write the complete H3 speaker and dialogue block in text using the frozen quote verbatim and leave quoteIds empty for that line.
+- End the text of such a line with who speaks and how, for example "the young woman by the window turns to him and says". For the dedicated compiler, do not write `(Sx)`, `<d>` or the spoken words in the line text.
+- When source evidence supplies voice traits, describe that stable voice identity at first speech and retain it later. Missing voice traits do not authorize invented facts.
+- Speaker IDs are frozen by the application from the source. Do not renumber, merge or swap speakers, and keep the original speaking order.
+- Prefer clear positive attribution over long lists of prohibitions.
+
+## Sound fields
+
+`overall_soundscape` contains ambient sound, physical action sound, and non-verbal human sound supported by the mother document. It excludes dialogue, lyrics, and audience-only music.
+
+`non_diegetic_music` contains only music that characters cannot hear. If the mother document declares none, use the application's empty-field value.
+
+## Writing recommendations
+
+The layout and wording below are recommendations, not acceptance gates. Preserve readable variations as an editable new version. Report uncertainty or fidelity concerns while retaining the original source; do not claim a review passed when it did not run. Real asset identities and data safety remain host responsibilities.
+
+## Output checks
+
+- Every mother fact appears once in a compatible field.
+- No new fact, reference, speaker, shot, or timing claim is introduced.
+- Dialogue, lyrics, visible text, negative constraints, and numeric time anchors remain unchanged.
+- Preserve natural-language total duration, approximate duration and event timing. A difference from the frozen duration is a non-blocking parameter-coordination note, never a syntax violation or a reason to omit the fact. The application owns machine timecode wrappers, not the meaning of event timing.
+
+## Clip workflow scope
+
+The mother document means the frozen input content for this projection, not a required review approval. Internal shots are cuts inside one clip, not scene or storyboard records. A clip draft follows its own supplied schema; the projector fields here do not become draft fields. Images stay ordinary assets, with start/end or identity roles supplied by explicit reference uses. Shot count, image count and duration are not fixed by this guide. Writing and fidelity reviews remain advisory; retain source and new results without automatic repair retries.
+
+
+## Official mode alignment headers (adapter-owned)
+
+The MiniMax-H3 official skill requires these instruction lines as the first part of the final prompt for keyframe modes. This application’s projector emits them; expression content must remain consistent with them and must not invent a conflicting mode:
+
+- I2VA: `For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.`
+- FL2VA: `How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot N) aligns with the S.SS-second mark of the target video.`
+- L2VA: `How the reference pictures align with the target video — <Picture 1> (from [Shot N]) aligns with the S.SS-second mark of the target video.`
+
+T2VA has no alignment header and begins with the three core fields. Prefer concrete visible/audible detail over abstract mood words; keep dialogue and on-screen text verbatim in the source language.
+
+## Output language
+
+Write section prose in English by default, including shot descriptions and sound instructions. Keep dialogue, narration, lyrics and visible scene text verbatim in their original language. Apply an explicit language request from the user when supplied. This also applies to manual generic projection.
