@@ -1,0 +1,45 @@
+{
+  "name": "character-costume-reference",
+  "displayName": "角色服装参考",
+  "packagePath": "skills/character-costume-reference",
+  "version": "1.1.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "multi-view"
+  ],
+  "distribution": "source-approved",
+  "scenario": "为同一人物设计可选服装参考：正背全身、脸部及服装细节，可按工作台选择分张或合成参考板；不作为片段或视频创作的前置。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "参考内容",
+    "执行与结果"
+  ],
+  "intendedOutcome": [
+    "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null,
+  "variants": [
+    {
+      "path": "skills/character-costume-reference",
+      "distribution": "source-approved",
+      "scenario": "为同一人物设计可选服装参考：正背全身、脸部及服装细节，可按工作台选择分张或合成参考板；不作为片段或视频创作的前置。",
+      "version": "1.1.0"
+    },
+    {
+      "path": "examples/teaching/character-costume-reference",
+      "distribution": "teaching",
+      "scenario": "同一人物的可选服装参考：正面与背面全身、面部特写，以及手、鞋、腰、肩袖、发型、衣料等局部。不作为后续视频前置，也不要求先交九张图或先写满局部模板。Use when the user wants an optional costume reference for the same character.",
+      "version": "1.0.3"
+    }
+  ]
+}

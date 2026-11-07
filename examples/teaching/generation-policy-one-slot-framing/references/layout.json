@@ -1,0 +1,52 @@
+{
+  "hosts": [
+    "character",
+    "actor"
+  ],
+  "audiences": [
+    "multi_view"
+  ],
+  "identityAnchor": "front",
+  "slots": [
+    "front",
+    "back",
+    "left",
+    "right",
+    "left_front",
+    "right_front",
+    "left_back",
+    "right_back",
+    "top_down"
+  ],
+  "views": {
+    "view3": [
+      "front",
+      "right",
+      "back"
+    ],
+    "view4": [
+      "front",
+      "front_portrait",
+      "right",
+      "back"
+    ],
+    "view9": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "left_front",
+      "right_front",
+      "left_back",
+      "right_back",
+      "top_down"
+    ]
+  },
+  "slotOverrides": {
+    "view4": {
+      "right": {
+        "framing": "FRAMING (Recommended): half-body from the RIGHT side only. Waist-up, one ear visible. NOT official full-body right profile."
+      }
+    }
+  }
+}

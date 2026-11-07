@@ -1,0 +1,32 @@
+{
+  "name": "story-entity-integration",
+  "displayName": "故事名单整合",
+  "packagePath": "examples/teaching/story-entity-integration",
+  "version": "1.0.2",
+  "workflow": "clips-v1",
+  "hosts": [
+    "story-entity-integration"
+  ],
+  "distribution": "teaching",
+  "scenario": "对照本次候选与当前故事名单，提出明确的角色或道具身份整合决定。同名不默认同人，引用只来自宿主给定闭集；适用于独立名单整合或显式审核已有对象。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "方法",
+    "边界",
+    "创作与执行合同"
+  ],
+  "intendedOutcome": [
+    "把分散的角色、场景和道具整理进同一套故事实体。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

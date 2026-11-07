@@ -1,0 +1,33 @@
+{
+  "name": "generation-policy-one-slot-framing",
+  "displayName": "四视角局部半身定妆",
+  "packagePath": "examples/teaching/generation-policy-one-slot-framing",
+  "version": "1.0.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "multi-view"
+  ],
+  "distribution": "teaching",
+  "scenario": "只改一个槽位取景的 4 视角变体：其余槽位保持官方，仅 4 视角里右侧转身那一张改成右侧半身。在需要官方 4 视角、但右侧一张要半身而不是全身时使用。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "内容",
+    "使用方式",
+    "边界",
+    "当前创作边界"
+  ],
+  "intendedOutcome": [
+    "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

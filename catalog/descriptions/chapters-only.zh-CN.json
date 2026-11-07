@@ -1,0 +1,32 @@
+{
+  "name": "chapters-only",
+  "displayName": "剧集创作",
+  "packagePath": "examples/teaching/chapters-only",
+  "version": "2.0.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "story-chapters"
+  ],
+  "distribution": "teaching",
+  "scenario": "根据当前故事原文创作剧集正文，按人物目标与事件因果组织各集起承转合。用户要把故事写成剧集，或修改已有剧集正文时使用；不生成场次、分镜或名单。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "方法",
+    "输入和返回边界",
+    "创作与执行合同"
+  ],
+  "intendedOutcome": [
+    "把故事材料整理成剧集章节结构。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

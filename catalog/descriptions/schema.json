@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SkillExplanation",
+  "type": "object",
+  "required": [
+    "name",
+    "scenario",
+    "intendedOutcome",
+    "observedEvidence",
+    "exampleStatus",
+    "distribution"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "scenario": {
+      "type": "string"
+    },
+    "intendedOutcome": {
+      "type": "array"
+    },
+    "observedEvidence": {
+      "type": "object"
+    },
+    "exampleStatus": {
+      "enum": [
+        "pending",
+        "recorded"
+      ]
+    },
+    "distribution": {
+      "type": "string"
+    },
+    "download": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

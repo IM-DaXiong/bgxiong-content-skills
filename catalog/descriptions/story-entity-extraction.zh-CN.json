@@ -1,0 +1,34 @@
+{
+  "name": "story-entity-extraction",
+  "displayName": "角色与道具提炼",
+  "packagePath": "examples/teaching/story-entity-extraction",
+  "version": "1.0.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "chapter-roles",
+    "chapter-props"
+  ],
+  "distribution": "teaching",
+  "scenario": "从当前单集正文独立提炼角色或重要道具候选，严格区分本次选择的对象种类，保留原文证据与身份区别。适用于单集角色提炼或道具提炼；不自动整合总名单。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "方法",
+    "边界",
+    "创作与执行合同"
+  ],
+  "intendedOutcome": [
+    "从章节材料整理角色条目。",
+    "从章节材料整理道具条目。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

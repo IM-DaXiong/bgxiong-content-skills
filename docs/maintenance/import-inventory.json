@@ -1,0 +1,529 @@
+{
+  "importedAt": "2026-11-07T04:29:44Z",
+  "hostRootName": "bgxiong-ai-story",
+  "packages": [
+    {
+      "name": "action-fight-prompt",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/action-fight-prompt",
+      "sourceDigest": "sha256:cc8b4908059ba8dc2f034802ad9e092dda84fe8f1711cd464a180dba8b2c69ac",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/action-fight-prompt",
+      "copiedDigest": "sha256:cc8b4908059ba8dc2f034802ad9e092dda84fe8f1711cd464a180dba8b2c69ac"
+    },
+    {
+      "name": "character-costume-reference",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/character-costume-reference",
+      "sourceDigest": "sha256:29d99689a7b888cf50096cacac8b2c5433098f09435057337e2297069a8ca681",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/character-costume-reference",
+      "copiedDigest": "sha256:29d99689a7b888cf50096cacac8b2c5433098f09435057337e2297069a8ca681"
+    },
+    {
+      "name": "character-expression-nine-grid",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/character-expression-nine-grid",
+      "sourceDigest": "sha256:05ff2222d8f9dc6ce5b28016e366b4c73e0a505788651f8b412aec71d559c423",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/character-expression-nine-grid",
+      "copiedDigest": "sha256:05ff2222d8f9dc6ce5b28016e366b4c73e0a505788651f8b412aec71d559c423"
+    },
+    {
+      "name": "character-multi-angle-reference",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/character-multi-angle-reference",
+      "sourceDigest": "sha256:52b12f145cc02168104dd4ff0c0b5b21fd014a8cd479566592751fc6959162de",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/character-multi-angle-reference",
+      "copiedDigest": "sha256:52b12f145cc02168104dd4ff0c0b5b21fd014a8cd479566592751fc6959162de"
+    },
+    {
+      "name": "generic-video-prompt-writing",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/generic-video-prompt-writing",
+      "sourceDigest": "sha256:a635e9a59adf03ebc6c5c01d2a3b11c425589277c4cf1fa071b78b72118eaa83",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/generic-video-prompt-writing",
+      "copiedDigest": "sha256:a635e9a59adf03ebc6c5c01d2a3b11c425589277c4cf1fa071b78b72118eaa83"
+    },
+    {
+      "name": "h3-prompt-writing",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/h3-prompt-writing",
+      "sourceDigest": "sha256:d25516baa97d1a0b6ddddf5c0729ac6b0f0b0b456dd367b76834d42c76b852c8",
+      "blocked": true,
+      "disposition": "blocked_pending_legal",
+      "copiedTo": null
+    },
+    {
+      "name": "kling-prompt-writing",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/kling-prompt-writing",
+      "sourceDigest": "sha256:87468eda7a2a29beb3c8dd75de09cf95fff56b62cfb41ac58721bf3224be545f",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/kling-prompt-writing",
+      "copiedDigest": "sha256:87468eda7a2a29beb3c8dd75de09cf95fff56b62cfb41ac58721bf3224be545f"
+    },
+    {
+      "name": "ltx-2-5-prompt-writing",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/ltx-2-5-prompt-writing",
+      "sourceDigest": "sha256:85dc597d91f04022bb453ec1ba2ff3d2ea8c4ea5f6a4a0df1d202cd6ad22cea2",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/ltx-2-5-prompt-writing",
+      "copiedDigest": "sha256:85dc597d91f04022bb453ec1ba2ff3d2ea8c4ea5f6a4a0df1d202cd6ad22cea2"
+    },
+    {
+      "name": "qwen-image-2-1-prompt-writing",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/qwen-image-2-1-prompt-writing",
+      "sourceDigest": "sha256:c116fdb6d71b757c4cd958e0648832d0ba0f3090310f87082010549ab0746d9c",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/qwen-image-2-1-prompt-writing",
+      "copiedDigest": "sha256:c116fdb6d71b757c4cd958e0648832d0ba0f3090310f87082010549ab0746d9c"
+    },
+    {
+      "name": "scene-four-angle-reference",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/scene-four-angle-reference",
+      "sourceDigest": "sha256:ca6fdcf9aead0f41d0c484044d5670c6471d2621cb8f15f9896d30f781beed81",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/scene-four-angle-reference",
+      "copiedDigest": "sha256:ca6fdcf9aead0f41d0c484044d5670c6471d2621cb8f15f9896d30f781beed81"
+    },
+    {
+      "name": "seedance-prompt-writing",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/seedance-prompt-writing",
+      "sourceDigest": "sha256:472fbf4b19ea2f88f6aa75550f26cd46e7183e06e7570d80d359cceed996dba4",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/seedance-prompt-writing",
+      "copiedDigest": "sha256:472fbf4b19ea2f88f6aa75550f26cd46e7183e06e7570d80d359cceed996dba4"
+    },
+    {
+      "name": "wan-prompt-writing",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/wan-prompt-writing",
+      "sourceDigest": "sha256:e4416fab7950841bfe780181781e8ee1684bb8841fb0d541ebce9951b899aa11",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/wan-prompt-writing",
+      "copiedDigest": "sha256:e4416fab7950841bfe780181781e8ee1684bb8841fb0d541ebce9951b899aa11"
+    },
+    {
+      "name": "bgx-screenwriter",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/bgx-screenwriter",
+      "sourceDigest": "sha256:2d7d9111664c3eddfb65b11b649cbcd717bd383d68e1a35c5b38dbda16a7e536",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/bgx-screenwriter",
+      "copiedDigest": "sha256:2d7d9111664c3eddfb65b11b649cbcd717bd383d68e1a35c5b38dbda16a7e536"
+    },
+    {
+      "name": "bible-roles-chapters",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/bible-roles-chapters",
+      "sourceDigest": "sha256:48f334232184ae1c0f4aa0cf755d3d2b4365940b7d0b0cf089dd6575bd7c6b12",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/bible-roles-chapters",
+      "copiedDigest": "sha256:48f334232184ae1c0f4aa0cf755d3d2b4365940b7d0b0cf089dd6575bd7c6b12"
+    },
+    {
+      "name": "chapters-only",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/chapters-only",
+      "sourceDigest": "sha256:67c53d01b907b698c13fb368d9293754467fdb62d4cb8fb75ce6e869b19670b5",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/chapters-only",
+      "copiedDigest": "sha256:67c53d01b907b698c13fb368d9293754467fdb62d4cb8fb75ce6e869b19670b5"
+    },
+    {
+      "name": "character-costume-reference",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/character-costume-reference",
+      "sourceDigest": "sha256:e25679910a53b33eea5cea3be7f13e57bd246daa3ef2ea0b4090e3ed48e2c0aa",
+      "blocked": false,
+      "disposition": "teaching-variant",
+      "copiedTo": "examples/teaching/character-costume-reference",
+      "copiedDigest": "sha256:e25679910a53b33eea5cea3be7f13e57bd246daa3ef2ea0b4090e3ed48e2c0aa",
+      "derivesFrom": "skills/character-costume-reference"
+    },
+    {
+      "name": "character-expression-nine-grid",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/character-expression-nine-grid",
+      "sourceDigest": "sha256:deb512a600849cc8e7bf7c6eaa98010998ec4c8ab3158333358b11a0b49043b8",
+      "blocked": false,
+      "disposition": "teaching-variant",
+      "copiedTo": "examples/teaching/character-expression-nine-grid",
+      "copiedDigest": "sha256:deb512a600849cc8e7bf7c6eaa98010998ec4c8ab3158333358b11a0b49043b8",
+      "derivesFrom": "skills/character-expression-nine-grid"
+    },
+    {
+      "name": "character-multi-angle-reference",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/character-multi-angle-reference",
+      "sourceDigest": "sha256:5ea74d2c000ec36c97db5c013c10407df36cc780415521317cc2606d0e546f0d",
+      "blocked": false,
+      "disposition": "teaching-variant",
+      "copiedTo": "examples/teaching/character-multi-angle-reference",
+      "copiedDigest": "sha256:5ea74d2c000ec36c97db5c013c10407df36cc780415521317cc2606d0e546f0d",
+      "derivesFrom": "skills/character-multi-angle-reference"
+    },
+    {
+      "name": "clip-action-fight",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/clip-action-fight",
+      "sourceDigest": "sha256:b79c0067d4093f10fba8da1f140f118990219734c78a0b5eb7ca03d76d275e94",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/clip-action-fight",
+      "copiedDigest": "sha256:b79c0067d4093f10fba8da1f140f118990219734c78a0b5eb7ca03d76d275e94"
+    },
+    {
+      "name": "clip-environment-description",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/clip-environment-description",
+      "sourceDigest": "sha256:79217bee682f9b2d616cd6d4af084697eace2c0ad49d89ffe4ed8d7d5c25d984",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/clip-environment-description",
+      "copiedDigest": "sha256:79217bee682f9b2d616cd6d4af084697eace2c0ad49d89ffe4ed8d7d5c25d984"
+    },
+    {
+      "name": "clip-method-selection",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/clip-method-selection",
+      "sourceDigest": "sha256:e1f8244cd64f2005bf18e7c65af501977d19f23f14a3cc47adb8d6f97f7ca324",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/clip-method-selection",
+      "copiedDigest": "sha256:e1f8244cd64f2005bf18e7c65af501977d19f23f14a3cc47adb8d6f97f7ca324"
+    },
+    {
+      "name": "clip-micro-expression",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/clip-micro-expression",
+      "sourceDigest": "sha256:eaf7dc07ee787e29ca5d74076806053eb021faa8539f4a2594fa644614eb5a63",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/clip-micro-expression",
+      "copiedDigest": "sha256:eaf7dc07ee787e29ca5d74076806053eb021faa8539f4a2594fa644614eb5a63"
+    },
+    {
+      "name": "clip-performance",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/clip-performance",
+      "sourceDigest": "sha256:21a77a74a3d588cbe33ae3fb8be4fced1bb98d2705ca6fc5d3818c50458aec56",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/clip-performance",
+      "copiedDigest": "sha256:21a77a74a3d588cbe33ae3fb8be4fced1bb98d2705ca6fc5d3818c50458aec56"
+    },
+    {
+      "name": "clip-progressive-drafting",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/clip-progressive-drafting",
+      "sourceDigest": "sha256:74b5674e840efbe81e2336a38f402d0e8509f80c9dd1e0a7ec618bbf2582c1ad",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/clip-progressive-drafting",
+      "copiedDigest": "sha256:74b5674e840efbe81e2336a38f402d0e8509f80c9dd1e0a7ec618bbf2582c1ad"
+    },
+    {
+      "name": "clip-visual-continuity",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/clip-visual-continuity",
+      "sourceDigest": "sha256:9af0ca1036da6fde3af046e789e198db0016d1a506a7b8849de10b11da10929c",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/clip-visual-continuity",
+      "copiedDigest": "sha256:9af0ca1036da6fde3af046e789e198db0016d1a506a7b8849de10b11da10929c"
+    },
+    {
+      "name": "clip-wuxia-planning",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/clip-wuxia-planning",
+      "sourceDigest": "sha256:eef263ce470c91146f1fe47a434956188d42237db283253843864781648e7c7b",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/clip-wuxia-planning",
+      "copiedDigest": "sha256:eef263ce470c91146f1fe47a434956188d42237db283253843864781648e7c7b"
+    },
+    {
+      "name": "episode-clip-planning",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/episode-clip-planning",
+      "sourceDigest": "sha256:4293edb94905ef70858214c039114c955a5255d981df4dd2d6ddb594aadfd12a",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/episode-clip-planning",
+      "copiedDigest": "sha256:4293edb94905ef70858214c039114c955a5255d981df4dd2d6ddb594aadfd12a"
+    },
+    {
+      "name": "generation-policy-eye-garment",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/generation-policy-eye-garment",
+      "sourceDigest": "sha256:8c56aa0c9a19b989de1fa4b13546b3e532643ab9deaebf918e9b99ec032ac1b3",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/generation-policy-eye-garment",
+      "copiedDigest": "sha256:8c56aa0c9a19b989de1fa4b13546b3e532643ab9deaebf918e9b99ec032ac1b3"
+    },
+    {
+      "name": "generation-policy-imax-65mm-authentic-photochemical",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/generation-policy-imax-65mm-authentic-photochemical",
+      "sourceDigest": "sha256:8bd13c13144a64fa301e40b5d722c9de930d0ed1b65cf5bfe9845f745ed2c9cc",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/generation-policy-imax-65mm-authentic-photochemical",
+      "copiedDigest": "sha256:8bd13c13144a64fa301e40b5d722c9de930d0ed1b65cf5bfe9845f745ed2c9cc"
+    },
+    {
+      "name": "generation-policy-imax-65mm-generic",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/generation-policy-imax-65mm-generic",
+      "sourceDigest": "sha256:d5dd3d3e4d69af8130c85c5504d794ef3562c55c95403e10aeb7a1b9ff2e7a06",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/generation-policy-imax-65mm-generic",
+      "copiedDigest": "sha256:d5dd3d3e4d69af8130c85c5504d794ef3562c55c95403e10aeb7a1b9ff2e7a06"
+    },
+    {
+      "name": "generation-policy-imax-65mm-large-scene",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/generation-policy-imax-65mm-large-scene",
+      "sourceDigest": "sha256:7f3afa31779cae953e748cd8b2570e40b6ec01ef6f0def3268b12b06b118ba59",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/generation-policy-imax-65mm-large-scene",
+      "copiedDigest": "sha256:7f3afa31779cae953e748cd8b2570e40b6ec01ef6f0def3268b12b06b118ba59"
+    },
+    {
+      "name": "generation-policy-imax-65mm-portrait-closeup",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/generation-policy-imax-65mm-portrait-closeup",
+      "sourceDigest": "sha256:51f128a027e61b1729bcd22bc21d916e2c5dcc43ad410498bfc97234dd9d458f",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/generation-policy-imax-65mm-portrait-closeup",
+      "copiedDigest": "sha256:51f128a027e61b1729bcd22bc21d916e2c5dcc43ad410498bfc97234dd9d458f"
+    },
+    {
+      "name": "generation-policy-one-slot-framing",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/generation-policy-one-slot-framing",
+      "sourceDigest": "sha256:eb4e31135b062b0c260a2dc1261839f4cf0d672acba40a815c166f95f74776f5",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/generation-policy-one-slot-framing",
+      "copiedDigest": "sha256:eb4e31135b062b0c260a2dc1261839f4cf0d672acba40a815c166f95f74776f5"
+    },
+    {
+      "name": "large-format-film-general-image",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/large-format-film-general-image",
+      "sourceDigest": "sha256:c41dc7d7f89fc3206be3999d6dd457795bfb0c30b64e228c0d12e94587df1146",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/large-format-film-general-image",
+      "copiedDigest": "sha256:c41dc7d7f89fc3206be3999d6dd457795bfb0c30b64e228c0d12e94587df1146"
+    },
+    {
+      "name": "large-format-film-general-video",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/large-format-film-general-video",
+      "sourceDigest": "sha256:9c399a0d9f04b751d280ceb086136a21ef1376d54715a857d80c54b863fe27d6",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/large-format-film-general-video",
+      "copiedDigest": "sha256:9c399a0d9f04b751d280ceb086136a21ef1376d54715a857d80c54b863fe27d6"
+    },
+    {
+      "name": "large-format-film-large-scene-image",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/large-format-film-large-scene-image",
+      "sourceDigest": "sha256:2eede21cca650f61798ec8423f8968828ff10e757da8ed2fe483ed4ac51ffacb",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/large-format-film-large-scene-image",
+      "copiedDigest": "sha256:2eede21cca650f61798ec8423f8968828ff10e757da8ed2fe483ed4ac51ffacb"
+    },
+    {
+      "name": "large-format-film-large-scene-video",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/large-format-film-large-scene-video",
+      "sourceDigest": "sha256:5ae52d461a65b5365f27c7110d1edeb3a62b32d744069a8734b5d4cb90d4fafe",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/large-format-film-large-scene-video",
+      "copiedDigest": "sha256:5ae52d461a65b5365f27c7110d1edeb3a62b32d744069a8734b5d4cb90d4fafe"
+    },
+    {
+      "name": "large-format-film-portrait-image",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/large-format-film-portrait-image",
+      "sourceDigest": "sha256:b001489e1babd38b0a8b504bc3391ce1f66e3803d71434805db204cfdccebc41",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/large-format-film-portrait-image",
+      "copiedDigest": "sha256:b001489e1babd38b0a8b504bc3391ce1f66e3803d71434805db204cfdccebc41"
+    },
+    {
+      "name": "large-format-film-portrait-video",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/large-format-film-portrait-video",
+      "sourceDigest": "sha256:a155aa83ccb53db7a54e901094c5efe59add38d08298da760ae2f98159bd0ea8",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/large-format-film-portrait-video",
+      "copiedDigest": "sha256:a155aa83ccb53db7a54e901094c5efe59add38d08298da760ae2f98159bd0ea8"
+    },
+    {
+      "name": "motion-design",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/motion-design",
+      "sourceDigest": "sha256:2f2bc50cce1e2b98dd3de16864831d43143ea4cbabf9b40b7abe0ca3bfeab330",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/motion-design",
+      "copiedDigest": "sha256:2f2bc50cce1e2b98dd3de16864831d43143ea4cbabf9b40b7abe0ca3bfeab330"
+    },
+    {
+      "name": "native-image-policy",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/native-image-policy",
+      "sourceDigest": "sha256:09fb5eb0f2e27f2f797eca0dca629d2834231e091b086371292e9c48880ca713",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/native-image-policy",
+      "copiedDigest": "sha256:09fb5eb0f2e27f2f797eca0dca629d2834231e091b086371292e9c48880ca713"
+    },
+    {
+      "name": "optimize-clip-fight",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/optimize-clip-fight",
+      "sourceDigest": "sha256:67bbc3d714fd130f15e50843dbed5240964c88b391acad5ad8708b531f9504b4",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/optimize-clip-fight",
+      "copiedDigest": "sha256:67bbc3d714fd130f15e50843dbed5240964c88b391acad5ad8708b531f9504b4"
+    },
+    {
+      "name": "optimize-clip-micro-expression",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/optimize-clip-micro-expression",
+      "sourceDigest": "sha256:f0c370ea9c72b21f319c86ae4b32c3770219c31319e9e3d19aeb402e1d6dbe8b",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/optimize-clip-micro-expression",
+      "copiedDigest": "sha256:f0c370ea9c72b21f319c86ae4b32c3770219c31319e9e3d19aeb402e1d6dbe8b"
+    },
+    {
+      "name": "optimize-segment-continuity",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/optimize-segment-continuity",
+      "sourceDigest": "sha256:e95fa484b93e64be88ea7b491e15323c724493b29a6150ccda2d60599c9af437",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/optimize-segment-continuity",
+      "copiedDigest": "sha256:e95fa484b93e64be88ea7b491e15323c724493b29a6150ccda2d60599c9af437"
+    },
+    {
+      "name": "scene-four-angle-reference",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/scene-four-angle-reference",
+      "sourceDigest": "sha256:1a0f6b6c237e6b2c52eb07e534047dd11c9d7dcb5a3b1d94b3f9b73b74c86880",
+      "blocked": false,
+      "disposition": "teaching-variant",
+      "copiedTo": "examples/teaching/scene-four-angle-reference",
+      "copiedDigest": "sha256:1a0f6b6c237e6b2c52eb07e534047dd11c9d7dcb5a3b1d94b3f9b73b74c86880",
+      "derivesFrom": "skills/scene-four-angle-reference"
+    },
+    {
+      "name": "short-video-creative",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/short-video-creative",
+      "sourceDigest": "sha256:665e5f3ba588afdab5e1fb261d53e41cc5f9da810ce4500035d81b6d7245e06b",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/short-video-creative",
+      "copiedDigest": "sha256:665e5f3ba588afdab5e1fb261d53e41cc5f9da810ce4500035d81b6d7245e06b"
+    },
+    {
+      "name": "simple-film-style",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/simple-film-style",
+      "sourceDigest": "sha256:d06ae9320cae5615920e3a97e6eef96f745abaeea7dc7cc28fb5f0861eaea9e2",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/simple-film-style",
+      "copiedDigest": "sha256:d06ae9320cae5615920e3a97e6eef96f745abaeea7dc7cc28fb5f0861eaea9e2"
+    },
+    {
+      "name": "story-entity-extraction",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/story-entity-extraction",
+      "sourceDigest": "sha256:e4ecd79e438505f2fd131192aec3573745013968d49ffc5d84f6ec805fc7dcaa",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/story-entity-extraction",
+      "copiedDigest": "sha256:e4ecd79e438505f2fd131192aec3573745013968d49ffc5d84f6ec805fc7dcaa"
+    },
+    {
+      "name": "story-entity-integration",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/story-entity-integration",
+      "sourceDigest": "sha256:9f396d1c9a4ff09102b17e80efcdf2c56ac4ae6dd6020799ec7df7d2fa180090",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/story-entity-integration",
+      "copiedDigest": "sha256:9f396d1c9a4ff09102b17e80efcdf2c56ac4ae6dd6020799ec7df7d2fa180090"
+    },
+    {
+      "name": "video-format-expansion",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/video-format-expansion",
+      "sourceDigest": "sha256:8e8271f850c25516084d9d080b9b13ec9f7f47c9658b6dc0d0e416dd14e139c9",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/video-format-expansion",
+      "copiedDigest": "sha256:8e8271f850c25516084d9d080b9b13ec9f7f47c9658b6dc0d0e416dd14e139c9"
+    },
+    {
+      "name": "viral-song-mv",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/viral-song-mv",
+      "sourceDigest": "sha256:88e27a10c31ce3d676ec87413f210b458d53643cf0f91da161c23b383dc689e1",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/viral-song-mv",
+      "copiedDigest": "sha256:88e27a10c31ce3d676ec87413f210b458d53643cf0f91da161c23b383dc689e1"
+    },
+    {
+      "name": "world-and-character-planning",
+      "kind": "fixture",
+      "sourcePath": "fixtures/agent-skills/world-and-character-planning",
+      "sourceDigest": "sha256:0c70357e1b49f1a34a7f0a0978bbdc6c5bec7f7bff3afed0bd8b6f892b83560d",
+      "blocked": false,
+      "disposition": "teaching-or-fixture",
+      "copiedTo": "examples/teaching/world-and-character-planning",
+      "copiedDigest": "sha256:0c70357e1b49f1a34a7f0a0978bbdc6c5bec7f7bff3afed0bd8b6f892b83560d"
+    }
+  ]
+}

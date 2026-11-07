@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/IM-DaXiong/bgxiong-ai-story-dev.git",
+  "commit": "664399afaf2bf554ab0b2bf7273f7680ffcf63b3",
+  "layoutReader": {
+    "path": "src-tauri/src/agent_skills/image_execution.rs",
+    "sha256": "33ffc02f58ee1e4768fbba8a4888110a0675e4658adb5ffc75498f396bf3b6fb"
+  },
+  "files": [
+    {
+      "name": "agent-skill-hosts.json",
+      "sha256": "b8847fcf2db566d2a6c973d9d6de0febaa7d9d55ca114d3558aa1caed0e28c52"
+    }
+  ]
+}

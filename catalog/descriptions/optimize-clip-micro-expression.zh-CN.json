@@ -1,0 +1,33 @@
+{
+  "name": "optimize-clip-micro-expression",
+  "displayName": "微表情片段优化",
+  "packagePath": "examples/teaching/optimize-clip-micro-expression",
+  "version": "1.0.2",
+  "workflow": "clips-v1",
+  "hosts": [
+    "optimize-segment",
+    "clip-video-draft"
+  ],
+  "distribution": "teaching",
+  "scenario": "优化人物局部表演与情绪因果，让细微反应清楚而自然，保持对白和镜头意图。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "方法",
+    "执行边界"
+  ],
+  "intendedOutcome": [
+    "检查片段连续性或表演问题，并给出仍可执行的修订建议。",
+    "为单个片段写可独立提交的视频完整稿。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

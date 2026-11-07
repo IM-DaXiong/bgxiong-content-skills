@@ -1,0 +1,1542 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "39b4c6226587bc33679fc90c39446dac65c0d8e015c51b5a02d1b608957ed71a"
+  },
+  {
+    "path": "AGENT.md",
+    "sha256": "5109fc6a52238ed3608a7857c905a235a497bc153afedfc081b4fd55034644a6"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "9089848695a4d54594722ea4a08f96d4078091bc6665c4eb1662c4763ae73ba9"
+  },
+  {
+    "path": "catalog/descriptions/action-fight-prompt.zh-CN.json",
+    "sha256": "29292622fc4de68f1cbf7d6f618d812af90b32acc6be81b3f70a7c6bd2c72189"
+  },
+  {
+    "path": "catalog/descriptions/bgx-screenwriter.zh-CN.json",
+    "sha256": "e529c18a13601860c4da53b6ae91fc4e4be03796d7031e20179ed92b53bce427"
+  },
+  {
+    "path": "catalog/descriptions/bible-roles-chapters.zh-CN.json",
+    "sha256": "319a1e0c44c3f43699a0a6e2d79168899ceda1542685af272d3f83649d1a3c95"
+  },
+  {
+    "path": "catalog/descriptions/chapters-only.zh-CN.json",
+    "sha256": "5059bd982403ebd33083058ec289ae9a923ed58231da7808322e715ef5c7ff2f"
+  },
+  {
+    "path": "catalog/descriptions/character-costume-reference.zh-CN.json",
+    "sha256": "5469a081b18200cda786aba9862b2fa9a9eff9dfa90d80313322aa13bdcee138"
+  },
+  {
+    "path": "catalog/descriptions/character-expression-nine-grid.zh-CN.json",
+    "sha256": "fb936feb7dc3fe79e57770a6a3444820e8abbf8770ea6a9b6da5af6725f2ea64"
+  },
+  {
+    "path": "catalog/descriptions/character-multi-angle-reference.zh-CN.json",
+    "sha256": "6e042c4d39e7a5379a49deac78ed958b224280815ffd8f1e9683c50ddc0cf687"
+  },
+  {
+    "path": "catalog/descriptions/clip-action-fight.zh-CN.json",
+    "sha256": "b502baa3c27a0f6868e9f3b474a245b1ac0de59427ca68ab717d7a4de9bfe60d"
+  },
+  {
+    "path": "catalog/descriptions/clip-environment-description.zh-CN.json",
+    "sha256": "10ef752579d0338633bbdb7398b616f3bc062b32d66ebd00955385b5987b44a1"
+  },
+  {
+    "path": "catalog/descriptions/clip-method-selection.zh-CN.json",
+    "sha256": "eac62cbacebf64a304630334743689cf43c953d363df194db6893a865600d502"
+  },
+  {
+    "path": "catalog/descriptions/clip-micro-expression.zh-CN.json",
+    "sha256": "e80e95a453dbd0f44461d668ccf6e1be2da492b23c756dd0c1c5202cc564ba79"
+  },
+  {
+    "path": "catalog/descriptions/clip-performance.zh-CN.json",
+    "sha256": "47bf3e78d044a10b0b746baf83f72edbac2f3cfa5e64974440d4bce445765fc2"
+  },
+  {
+    "path": "catalog/descriptions/clip-progressive-drafting.zh-CN.json",
+    "sha256": "c5bc5a59ae5b23869b49e06eb2686a2ee262e6f545ea15d7dfea71a02446fbf4"
+  },
+  {
+    "path": "catalog/descriptions/clip-visual-continuity.zh-CN.json",
+    "sha256": "def068cbe9682a0323f4f628b4ce26084c9986afa0c74a157a81c155e7f27d25"
+  },
+  {
+    "path": "catalog/descriptions/clip-wuxia-planning.zh-CN.json",
+    "sha256": "cebadfad1547774d6bdcbe7de3fc600925e1f7479b03cffcaced5a53b3d8049b"
+  },
+  {
+    "path": "catalog/descriptions/episode-clip-planning.zh-CN.json",
+    "sha256": "a9c8cb5453263a4ccf8ff8f10ba62204cf5bceb5bc592245f7ef3cd5b6981ad2"
+  },
+  {
+    "path": "catalog/descriptions/generation-policy-eye-garment.zh-CN.json",
+    "sha256": "1e15006744e8d3da57ae3478a342b81c0f899d8eff5702300893b680683a457c"
+  },
+  {
+    "path": "catalog/descriptions/generation-policy-imax-65mm-authentic-photochemical.zh-CN.json",
+    "sha256": "07bc3917f5c22609d142843aea0e70f35f5c29c7baf8a95bd3e329d4f1c0875e"
+  },
+  {
+    "path": "catalog/descriptions/generation-policy-imax-65mm-generic.zh-CN.json",
+    "sha256": "583f685593f8fcb17096ac3403a24bf8c058f31cc41cfdb72ae3b9795c3f9858"
+  },
+  {
+    "path": "catalog/descriptions/generation-policy-imax-65mm-large-scene.zh-CN.json",
+    "sha256": "4f0294729b58525509668981a855d99e1127a86db5071326e20d05a9726f659d"
+  },
+  {
+    "path": "catalog/descriptions/generation-policy-imax-65mm-portrait-closeup.zh-CN.json",
+    "sha256": "4b0d36dd19bc800892af20a7f67232b59b469421297600a4da5b253f2166fa76"
+  },
+  {
+    "path": "catalog/descriptions/generation-policy-one-slot-framing.zh-CN.json",
+    "sha256": "d9ba3837ff33e1054e62e75abcb20c4b4ab6b3261cada582d032801cbbaa5a01"
+  },
+  {
+    "path": "catalog/descriptions/generic-video-prompt-writing.zh-CN.json",
+    "sha256": "e596836ad7e2e1c7a4189909f3ffdcc842add6e5b729574f4f1f75b64d9ee384"
+  },
+  {
+    "path": "catalog/descriptions/h3-prompt-writing.zh-CN.json",
+    "sha256": "46bac32a3fe57b487280594a79aae608e7518013a43bb81840fc85bf4951e86f"
+  },
+  {
+    "path": "catalog/descriptions/kling-prompt-writing.zh-CN.json",
+    "sha256": "99ed40d4e9382a300bb657d8b257cc5f58bdd9be5ebc66046a008aeb671e9c72"
+  },
+  {
+    "path": "catalog/descriptions/large-format-film-general-image.zh-CN.json",
+    "sha256": "a5da8a0b3b580890b6cb9027c179e00789a2d8e3cf1f41def53a63825a94973c"
+  },
+  {
+    "path": "catalog/descriptions/large-format-film-general-video.zh-CN.json",
+    "sha256": "e403aa0da75da788428590858f8d5e6e14d1fa019de06d9ae8aced251f24d328"
+  },
+  {
+    "path": "catalog/descriptions/large-format-film-large-scene-image.zh-CN.json",
+    "sha256": "418df6242d2de36c377e7d7f474af2469189a5874ff88f6109a88686ddfc6fa5"
+  },
+  {
+    "path": "catalog/descriptions/large-format-film-large-scene-video.zh-CN.json",
+    "sha256": "c8b795127fc467e94bd38d7251bfcc9499c632cb4e8af97e0b61fb2da65ac054"
+  },
+  {
+    "path": "catalog/descriptions/large-format-film-portrait-image.zh-CN.json",
+    "sha256": "b47594eda2c6d71cb98eac4b4a16c4c9ff6b1f4c2cbc049dc6b3c2f86c1f99bb"
+  },
+  {
+    "path": "catalog/descriptions/large-format-film-portrait-video.zh-CN.json",
+    "sha256": "c9a38410b7b63e51b8fdf032df00aaa2eb2ae4e0ad7fa34a4ed1ee64b6ffb9a3"
+  },
+  {
+    "path": "catalog/descriptions/ltx-2-5-prompt-writing.zh-CN.json",
+    "sha256": "a6e4230a41e2baef9659ca97925f940d6c258cda5a8cae47f055b0e6d1433ce9"
+  },
+  {
+    "path": "catalog/descriptions/motion-design.zh-CN.json",
+    "sha256": "25dbeffbfa6607002a162a7d6b457d48da34176f5767e1a8fab049afe9ff7fa7"
+  },
+  {
+    "path": "catalog/descriptions/native-image-policy.zh-CN.json",
+    "sha256": "94c12b5e5362c83b6490788da1281ec9a78826fb0d365f1cb472eb30284569f7"
+  },
+  {
+    "path": "catalog/descriptions/optimize-clip-fight.zh-CN.json",
+    "sha256": "ffaf7025bd511b8275aaeb6379c85a470a2d52bfb9b771a23cacd1e8c601d1f6"
+  },
+  {
+    "path": "catalog/descriptions/optimize-clip-micro-expression.zh-CN.json",
+    "sha256": "12c7cc7a8b9b4a38aa75747307f18d5640dc865e631757d9f0b416c8e1275868"
+  },
+  {
+    "path": "catalog/descriptions/optimize-segment-continuity.zh-CN.json",
+    "sha256": "36082fa4648528ce153c07213cd974137529a1bca51c15bac1261380691207f3"
+  },
+  {
+    "path": "catalog/descriptions/qwen-image-2-1-prompt-writing.zh-CN.json",
+    "sha256": "343437b26590e4870be6f51f2e47c7720f3f341778cfc7a23ae412fb0f7b2d6b"
+  },
+  {
+    "path": "catalog/descriptions/scene-four-angle-reference.zh-CN.json",
+    "sha256": "9faa0d3f28234799eff8220f126eb5d7496ba0fa242e071db383a7ed119eb899"
+  },
+  {
+    "path": "catalog/descriptions/schema.json",
+    "sha256": "494d14fa8976ac83d5c7f6ae9a55757d7fb3ceb63734d014ebbea7120b97ccc3"
+  },
+  {
+    "path": "catalog/descriptions/seedance-prompt-writing.zh-CN.json",
+    "sha256": "3fa8aefce88a6683b0fed3eda83263aaaacbfa911b9e83b309f73e51482cff24"
+  },
+  {
+    "path": "catalog/descriptions/short-video-creative.zh-CN.json",
+    "sha256": "f7c0fd6d0a6e03433591b856b25c6f7f9cdaff2f309d8432acb0d61800e98b78"
+  },
+  {
+    "path": "catalog/descriptions/simple-film-style.zh-CN.json",
+    "sha256": "54859c7e79c21cc9cb6d25125637aed6bded06c02a787761fee7e9121d9a33ea"
+  },
+  {
+    "path": "catalog/descriptions/story-entity-extraction.zh-CN.json",
+    "sha256": "880e97750e3fae712d330511c166389b1f007c9968e1ca04e83aac256ce834b4"
+  },
+  {
+    "path": "catalog/descriptions/story-entity-integration.zh-CN.json",
+    "sha256": "51d06461064a1c8dacf84cedd52e03895619b52e40842fd29b37d65998a6d919"
+  },
+  {
+    "path": "catalog/descriptions/video-format-expansion.zh-CN.json",
+    "sha256": "7fb1e89105e94bbcfd193d3e569d951cdad9599428c3011f48c299e3984a1aa6"
+  },
+  {
+    "path": "catalog/descriptions/viral-song-mv.zh-CN.json",
+    "sha256": "ca2930925f0c94a9408b54abd1fc2a90abb61e8aead72db3cb21b00714173b7c"
+  },
+  {
+    "path": "catalog/descriptions/wan-prompt-writing.zh-CN.json",
+    "sha256": "2c7fc5e13808eaf56c61daf3ffddcfda51665455ad83f464d09154d07276569c"
+  },
+  {
+    "path": "catalog/descriptions/world-and-character-planning.zh-CN.json",
+    "sha256": "7db7fde789e22b10381944fce4fe7b6996c10879b98886b20e1619efa3be76d8"
+  },
+  {
+    "path": "catalog/packages.json",
+    "sha256": "8fa85a25eab5ea253311cc9ea3aff771931fd05921ce48889825f88595b52442"
+  },
+  {
+    "path": "catalog/schema.json",
+    "sha256": "124ab03601c79260cea33a95e4a7cd51b5cd7aa1eb981853aff809aab7a7c4ab"
+  },
+  {
+    "path": "community/README.md",
+    "sha256": "0d0f1ac335f9ad6388538d8a3116d3a2a9c3f0e0785a103009aafdbbe3c4712e"
+  },
+  {
+    "path": "contracts/README.md",
+    "sha256": "c8c441acd224a81ec96820951b3a550a5115a2833f19208723c4aa7c77f23d33"
+  },
+  {
+    "path": "contracts/snapshots/agent-skill-hosts/agent-skill-hosts.json",
+    "sha256": "b8847fcf2db566d2a6c973d9d6de0febaa7d9d55ca114d3558aa1caed0e28c52"
+  },
+  {
+    "path": "contracts/snapshots/agent-skill-hosts/source.json",
+    "sha256": "982c43577aebb950b8e5809426750223d6fadacf4f1152a9411ba3ebb59eecce"
+  },
+  {
+    "path": "contracts/snapshots/agent-skills/agent-skills.json",
+    "sha256": "fb27baa089a2ee3a5dbe40b2c2394ad5132009a7a7424ec8ecbaa186f6fe2320"
+  },
+  {
+    "path": "contracts/snapshots/agent-skills/source.json",
+    "sha256": "a7bd0da559693431d90de856112325ed74ae18e23141640bd210713bda4be28c"
+  },
+  {
+    "path": "contracts/v1/content-skill-bind-ctx.json",
+    "sha256": "0d02c6fa19008de198bfe85fe63169c72af1b31af98d545a92e9c1f49f3e0a61"
+  },
+  {
+    "path": "contracts/v1/content-skill-capabilities.json",
+    "sha256": "e9d6cd19eb27ff559b566bfc2110529ea9a2ad5021b62cf39171f7f0fab7addd"
+  },
+  {
+    "path": "contracts/v1/content-skill-core-shot-fields.json",
+    "sha256": "d65266e3ac04d2335b864cb39834efb82f431872e7c8dca8071c2d876834ffd6"
+  },
+  {
+    "path": "contracts/v1/content-skill-decision-draft.json",
+    "sha256": "86127e7f88dd6455a341091e71dbe048ec9c8623d11413ab45e472d543b2f80e"
+  },
+  {
+    "path": "contracts/v1/content-skill-finding.json",
+    "sha256": "6ec72d4e23acc468adec9b03dd5b4aaf5fb2d9595c3a2f43cb2be8f193952da3"
+  },
+  {
+    "path": "contracts/v1/content-skill-limits.json",
+    "sha256": "98ed3c561a10736febe55b3eb9a30b8b823802de82f1315e1c6a7eb36e231f2e"
+  },
+  {
+    "path": "contracts/v1/content-skill-native-shots-output-schema.json",
+    "sha256": "3f86bd4467234edb9d17f85265b595a912bb18c50c79ac2220cbcec85fc0ed96"
+  },
+  {
+    "path": "contracts/v1/content-skill-optimize-operations.json",
+    "sha256": "9a87a7fa0e78de28aac27fd797b7ea193f35c37fd54a1c64c2ba8e8a5d7cdc7f"
+  },
+  {
+    "path": "contracts/v1/content-skill-optimize-output-schema.json",
+    "sha256": "a2fe1e678d4636749fe4aa5a1961f14fc33fd700a837e77eb2129398a8f23793"
+  },
+  {
+    "path": "contracts/v1/content-skill-protocol.json",
+    "sha256": "caa55b6637d3ef4d2c32b6accb2c8230d3717556b07bbff5362c609a83ca9da8"
+  },
+  {
+    "path": "contracts/v1/content-skill-public-operations.json",
+    "sha256": "b16ab0f666edd80bfcf336fc45c9cae568ed8a5061ee877affab96326cad31fe"
+  },
+  {
+    "path": "contracts/v1/content-skill-scene-binding.json",
+    "sha256": "cbf34adec382fced422988676b23ac7320e801fcb49de2a98212c304c03dc920"
+  },
+  {
+    "path": "contracts/v1/content-skill-skill-extension.json",
+    "sha256": "ec1090f9f57d0693cf98f8c09c0022f5f22c826170ebccdfa4cc82e014d258ad"
+  },
+  {
+    "path": "contracts/v1/generation-policy-official-default.json",
+    "sha256": "94c01bb3b89af39d7ce35760dfd64ecbc1affba0f2a1347c3b936752bfcc2ac0"
+  },
+  {
+    "path": "contracts/v1/generation-policy.json",
+    "sha256": "4591629730489e7eeffc1842137390c75874b5e31d61890afd3a359fe3111a01"
+  },
+  {
+    "path": "contracts/v1/optimize-segment-official-default.json",
+    "sha256": "5ca9aaba574b3b4817078c50886fdca824dfeb31a327dc0c96148d03e2f97638"
+  },
+  {
+    "path": "contracts/v1/optimize-storyboard-shot-official-default.json",
+    "sha256": "bbfa1aeb23ca0d06a2f20c6e7127521b24e17be62e068eaf6388695d2bf3d2d0"
+  },
+  {
+    "path": "contracts/VERSION",
+    "sha256": "6d0fce11e91b4cef8b47a63a52e48156d10e88d8a0858c03d27f93aa4b37f534"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "8e127cbcfa088caa140bf4ee89b82691fe45a0a28c414c98bb918703eeb56ab8"
+  },
+  {
+    "path": "docs/CASE-MATRIX.md",
+    "sha256": "6d25af2ae23f62f1656e288c0c28d609d8c33c856d9aaf43433a1911cd525aae"
+  },
+  {
+    "path": "docs/CREATE-FROM-SCRATCH.zh-CN.md",
+    "sha256": "85b56844d24732d1de14b25641aaa67e94f0105168b6bf0f96097d186d3a2de6"
+  },
+  {
+    "path": "docs/EDIT-EXISTING.zh-CN.md",
+    "sha256": "4c702547d06e972f2693a7207232af6c78ad3471405f018c658afd39df003bdf"
+  },
+  {
+    "path": "docs/examples/manifest.json",
+    "sha256": "c431a71130a99dba5994fb8f8dda6ede08d63e2f10c6de8542c99b2743aaea7a"
+  },
+  {
+    "path": "docs/examples/README.md",
+    "sha256": "824af90c658a3a615d9ba2da9687707133f3592ab47194f5ec6db973a6a1b34b"
+  },
+  {
+    "path": "docs/FOR-AI-AUTHORS.zh-CN.md",
+    "sha256": "8789ae5a165fcdea496727997184d28f62d6b2890de6077eaf647442c4d165d8"
+  },
+  {
+    "path": "docs/GENRE-performance-micro.md",
+    "sha256": "5946833dcdcd1c2643a32992e7a93c03779bd39212be4ef259404e58840126e3"
+  },
+  {
+    "path": "docs/GENRE-wuxia-fight.md",
+    "sha256": "9b7f063db465cdb983d7112d554bfa21fb3ba2e69d97f7bc574a49ad6a085b7f"
+  },
+  {
+    "path": "docs/HOST-CAPABILITIES.zh-CN.md",
+    "sha256": "18342d7f8b80f915ed7825cf649be5e14ce8799d5a2825f8476c155774fc2bf7"
+  },
+  {
+    "path": "docs/INDEX.md",
+    "sha256": "793a42b48a1eb724590979cfea84be64b66435095cc1aac84612c00589b3152c"
+  },
+  {
+    "path": "docs/INSPIRATIONS.md",
+    "sha256": "8b65490eee7e0980005e45d22fc5c9241f3573dc59b11860aaf7fadee92a81d5"
+  },
+  {
+    "path": "docs/LAYOUT.zh-CN.md",
+    "sha256": "8e1cf5c8a255b7b75af16e32417627139c06bd330611e1481a207359549bec97"
+  },
+  {
+    "path": "docs/maintenance/BASELINE.md",
+    "sha256": "2ff7242e9c905c17158ad3e6a17512c3707a505abb6563fe1eceb7b469fe7c0e"
+  },
+  {
+    "path": "docs/maintenance/import-inventory.json",
+    "sha256": "b809e6e8fd89ec4c6691550ea894e2829d167f4610a49288513e836464f6a3c0"
+  },
+  {
+    "path": "docs/maintenance/LEGACY-DISPOSITION.md",
+    "sha256": "79010b825bcd66a2eb692b535d675a35dfe24883d2758d3f5cff971e777d85f0"
+  },
+  {
+    "path": "docs/maintenance/RELEASE.md",
+    "sha256": "78a7f9e6366d09c22fc1deef556ef18a43952d69d0f5649fe5a091f44963605b"
+  },
+  {
+    "path": "docs/maintenance/SOURCES-AND-RIGHTS.md",
+    "sha256": "887532d7a039fbc335a90c414732cf0d7beab24b513c8dc287e6a0e0625a858f"
+  },
+  {
+    "path": "docs/maintenance/SSOT.md",
+    "sha256": "49207ed8abd07b5a9b24322ef9029b05bd741a63ecb3f8f1e73d79c5e62adb82"
+  },
+  {
+    "path": "docs/RELATION-TO-HOST.md",
+    "sha256": "7dd979456d9038836ccc5858c2e8bc6f76e915d898d409b2b056d07ccd7dac61"
+  },
+  {
+    "path": "docs/skills/action-fight-prompt.zh-CN.md",
+    "sha256": "cb0a5182b8bc959d238091aa57c8f60566806dd098eaa14c3f99114193831ecd"
+  },
+  {
+    "path": "docs/skills/bgx-screenwriter.zh-CN.md",
+    "sha256": "d546c334d162df36970d90914e23bfde28d18e85dca2d1ba6f12b6eecc397ee0"
+  },
+  {
+    "path": "docs/skills/bible-roles-chapters.zh-CN.md",
+    "sha256": "6118a1b8da283205e97cfeab768d6e00e7f511bc85f38115df8e2ebfc2de6f06"
+  },
+  {
+    "path": "docs/skills/chapters-only.zh-CN.md",
+    "sha256": "f458feaafad054ade2845d1ba42c53943b54c3b2704464b8b6c6ab99e912b184"
+  },
+  {
+    "path": "docs/skills/character-costume-reference.zh-CN.md",
+    "sha256": "b0a96179249aa893d264ee9625ad59c219945ed7d504563be9c86dfb79eae3b2"
+  },
+  {
+    "path": "docs/skills/character-expression-nine-grid.zh-CN.md",
+    "sha256": "a9ea31829fbdaa02bf5c205893438369f685714e14af43eee13688357850cba0"
+  },
+  {
+    "path": "docs/skills/character-multi-angle-reference.zh-CN.md",
+    "sha256": "21d66b2977e0a4411763a7154faa9cf3a5f2f7d93f86a7469f916d7be9ef86ed"
+  },
+  {
+    "path": "docs/skills/clip-action-fight.zh-CN.md",
+    "sha256": "d122aa45137200e4c309d68686d99f09d6fa66a7454c4fb86d5510941e126249"
+  },
+  {
+    "path": "docs/skills/clip-environment-description.zh-CN.md",
+    "sha256": "0045abf069076d58181e91bd9c96b1248dbac2d3ae6a5583e4bb920645b0a9cd"
+  },
+  {
+    "path": "docs/skills/clip-method-selection.zh-CN.md",
+    "sha256": "c84b81733897873999bbc0e2226fea8039952122773f25801eaf7255a3ab1f1d"
+  },
+  {
+    "path": "docs/skills/clip-micro-expression.zh-CN.md",
+    "sha256": "7b0350a0fc125629ff857dce79ebf618cca0a7aa8420443539a081fbc2eef259"
+  },
+  {
+    "path": "docs/skills/clip-performance.zh-CN.md",
+    "sha256": "c47c007de3061b3d8a76f7b9692ac5598ead067cd1dcc8aa93249e19848e889c"
+  },
+  {
+    "path": "docs/skills/clip-progressive-drafting.zh-CN.md",
+    "sha256": "78814243348d469a29100c57d208bd450209e7a995af977782f06efd4aa92e67"
+  },
+  {
+    "path": "docs/skills/clip-visual-continuity.zh-CN.md",
+    "sha256": "af8201e86b93711553b7f3bac0239ebfe1773dde7b64b63477678f4cd9be2805"
+  },
+  {
+    "path": "docs/skills/clip-wuxia-planning.zh-CN.md",
+    "sha256": "e2b8f133cc0cee326826696ea6ee03554bbe076c69fe1d9f08924f8de450405c"
+  },
+  {
+    "path": "docs/skills/episode-clip-planning.zh-CN.md",
+    "sha256": "74971b51a7aba62d3216c27d8cbb90d990e184d84e23d97219d87335ffe43709"
+  },
+  {
+    "path": "docs/skills/generation-policy-eye-garment.zh-CN.md",
+    "sha256": "8eba64a8e5c342dcac45a21c5c243fafca09868b2d48ae9f968fde960ab690bd"
+  },
+  {
+    "path": "docs/skills/generation-policy-imax-65mm-authentic-photochemical.zh-CN.md",
+    "sha256": "95fc7dedecd495f54b6dd2898e8c55671a42ec7c670eefbd3620648c69eb4c12"
+  },
+  {
+    "path": "docs/skills/generation-policy-imax-65mm-generic.zh-CN.md",
+    "sha256": "b7a10b846d0e999ee6014e687e871f205577107cffc5e6c1cd466460f43cffac"
+  },
+  {
+    "path": "docs/skills/generation-policy-imax-65mm-large-scene.zh-CN.md",
+    "sha256": "86f7b24ba01da49a1fe0864815466a5104d01846d7c80fa61a96ba9a9fa96094"
+  },
+  {
+    "path": "docs/skills/generation-policy-imax-65mm-portrait-closeup.zh-CN.md",
+    "sha256": "27fa9f73a2e7cca45b3699e56f8767e4ae7b26ddf68ac035e02711ef39ac0f49"
+  },
+  {
+    "path": "docs/skills/generation-policy-one-slot-framing.zh-CN.md",
+    "sha256": "2c5f87b89843b30230714e847340db7705429c25f427f1a0879753311fb811d4"
+  },
+  {
+    "path": "docs/skills/generic-video-prompt-writing.zh-CN.md",
+    "sha256": "ef1e99faf329436172d9fe0164f2add646d928b2699ccc77bb9039fb3c9e4cf6"
+  },
+  {
+    "path": "docs/skills/h3-prompt-writing.zh-CN.md",
+    "sha256": "0a26561ebbfba3f413a596618f379ad95b4fd3c1c79107b23762ee3c464a04ae"
+  },
+  {
+    "path": "docs/skills/INDEX.zh-CN.md",
+    "sha256": "ea8773eebd36e99d7f470b0830b21af545d6866854bbe254c29c5be624900752"
+  },
+  {
+    "path": "docs/skills/kling-prompt-writing.zh-CN.md",
+    "sha256": "242ca0da89e6e56914b8dfae593ef42db5be25e4c0a2be57238c6a836e9b981e"
+  },
+  {
+    "path": "docs/skills/large-format-film-general-image.zh-CN.md",
+    "sha256": "dc7a69f6de2c589dc5e32a0f018048f3a8a2cdf0cdab777a276170feaa2b3e60"
+  },
+  {
+    "path": "docs/skills/large-format-film-general-video.zh-CN.md",
+    "sha256": "e218f3e8c3042355c39bea9f19cc5f384c943366bae4737f7edc0aad5cc56957"
+  },
+  {
+    "path": "docs/skills/large-format-film-large-scene-image.zh-CN.md",
+    "sha256": "7a1fccc81e3e13d5131529a65775c25b8fbf62b4b5ac3f73e2bf8ff0b7ab2390"
+  },
+  {
+    "path": "docs/skills/large-format-film-large-scene-video.zh-CN.md",
+    "sha256": "9db3672b03583a759f017ad8dd9d206acd0859dfdfd2110b505c1fccb2e77179"
+  },
+  {
+    "path": "docs/skills/large-format-film-portrait-image.zh-CN.md",
+    "sha256": "6a056608a6db8e5808c0b706c7006cf725aa2068d404aa35f98eaee28d9eb1d2"
+  },
+  {
+    "path": "docs/skills/large-format-film-portrait-video.zh-CN.md",
+    "sha256": "a19ed00ac8ff114b3b3a381e14d173583d8f4afdff2aaac138d6746d6a7c9134"
+  },
+  {
+    "path": "docs/skills/ltx-2-5-prompt-writing.zh-CN.md",
+    "sha256": "99c0a286cb18e7b08fa744becb5bf05a344b8374a0db75aaeb62857e21c65606"
+  },
+  {
+    "path": "docs/skills/motion-design.zh-CN.md",
+    "sha256": "ef85d729184478caf03ef0eece1c1c706609dab658ed0179f94dd326dac09cae"
+  },
+  {
+    "path": "docs/skills/native-image-policy.zh-CN.md",
+    "sha256": "0d5ff131bfd72bb3a1448327f3e4b4a22b5e91245f20805d146e16eac96cf74a"
+  },
+  {
+    "path": "docs/skills/optimize-clip-fight.zh-CN.md",
+    "sha256": "059971b95de1e8ce00e6f3b98bb083eb6243e5f0f70c7ef47f8f21c3bb63f2af"
+  },
+  {
+    "path": "docs/skills/optimize-clip-micro-expression.zh-CN.md",
+    "sha256": "f8738a535835dbb50e928a387b909f66a19175b22ca9fa117f302895141a97bc"
+  },
+  {
+    "path": "docs/skills/optimize-segment-continuity.zh-CN.md",
+    "sha256": "a557abf9144fac9a77f09b98b2a986b3824386327ff736a85c7e79bfbcfdf6ad"
+  },
+  {
+    "path": "docs/skills/qwen-image-2-1-prompt-writing.zh-CN.md",
+    "sha256": "4dbd43bf19912ac3ab8209847023c9eb7e37a95aeb97164ec0ad6af4209f1b42"
+  },
+  {
+    "path": "docs/skills/scene-four-angle-reference.zh-CN.md",
+    "sha256": "9b03d139420b8889f31ff01f9e69fd5a20abab877a47d44377ea09a1075b38a8"
+  },
+  {
+    "path": "docs/skills/seedance-prompt-writing.zh-CN.md",
+    "sha256": "2432551aaa237fe3ec562bd3cc9d7ab015edd14afd422b0bf6c337a683965da7"
+  },
+  {
+    "path": "docs/skills/short-video-creative.zh-CN.md",
+    "sha256": "abca5054a8c8728f0a930ffaf6ffa5aa0b80a50a041f8945df2c1fe3aa144d25"
+  },
+  {
+    "path": "docs/skills/simple-film-style.zh-CN.md",
+    "sha256": "4c8a8cd00c838a316f1ef0af8569312958752b141cf6a9388fd2549bd3908d0f"
+  },
+  {
+    "path": "docs/skills/story-entity-extraction.zh-CN.md",
+    "sha256": "c1bede393b9fc222ced90b106ad8c664133b823d565c103fcdb6d6e1e5185dec"
+  },
+  {
+    "path": "docs/skills/story-entity-integration.zh-CN.md",
+    "sha256": "4a391f645b132695659ee5897e817e1ceb3b90cdeeffb46a3633cf8d4306df4f"
+  },
+  {
+    "path": "docs/skills/video-format-expansion.zh-CN.md",
+    "sha256": "82205f29b4d15fd56179c995288b255f8a368afc2e5fc45751964fcfc0f82f1e"
+  },
+  {
+    "path": "docs/skills/viral-song-mv.zh-CN.md",
+    "sha256": "374417fe042a1cf87e34f679d5936124dad7121b8e41ec737f9dd807617c446c"
+  },
+  {
+    "path": "docs/skills/wan-prompt-writing.zh-CN.md",
+    "sha256": "a5326f30949b08c69043bf4a10e7c702a96701f3a00775774bfe36a2f3ac6a6f"
+  },
+  {
+    "path": "docs/skills/world-and-character-planning.zh-CN.md",
+    "sha256": "9493337961ad43595ea338f5515243afb52351307967f3477b06700b67d1f785"
+  },
+  {
+    "path": "docs/SPECIFICATION.zh-CN.md",
+    "sha256": "bc84c8dc39bbc3854cf1e086b7d4649577b19528d4a51a01376afff832d6a95b"
+  },
+  {
+    "path": "docs/TROUBLESHOOTING.zh-CN.md",
+    "sha256": "493d45f8067f9e854d3c43e76c561b5e9549085ba7d36bad6eb7d0f34cc1d939"
+  },
+  {
+    "path": "docs/USAGE.en.md",
+    "sha256": "2fdf134317603b1ed4c0e5b4ab7a19ff11d3c2a73c2fa8bf9e331c0552e05bf6"
+  },
+  {
+    "path": "docs/USAGE.zh-CN.md",
+    "sha256": "dd8f4bc069def340e6fd370e6c21080f729e3f4aa4ff4af2c79c45a98fac67d0"
+  },
+  {
+    "path": "docs/VERSIONS-AND-UPDATES.zh-CN.md",
+    "sha256": "5c743c96cbb8ff8973b02ee81057f09ffbb4c2541e7187109beff5d7248cce03"
+  },
+  {
+    "path": "examples/_negative/count-schema-conflict/pipeline.json",
+    "sha256": "23cc4fbc194b059c615026c32b256da7b38ee087bd48bf466296fbe4a27a0ea3"
+  },
+  {
+    "path": "examples/_negative/count-schema-conflict/README.md",
+    "sha256": "141ea49c82954202d195ebca6913c1975ff6deb47f72c6b7e90c850ae078d01e"
+  },
+  {
+    "path": "examples/_negative/count-schema-conflict/skill.manifest.json",
+    "sha256": "591daf72adb94b40090b75c6bbac5ad735d5d9403505b77e76f2f1e06bc373b1"
+  },
+  {
+    "path": "examples/_negative/illegal-enum/pipeline.json",
+    "sha256": "261d8d8141fa0bf17518a6c813294adb5ac09f2f8d7dc2794780dbe2fdb540b2"
+  },
+  {
+    "path": "examples/_negative/illegal-enum/README.md",
+    "sha256": "137b38ea2f8d1af1d237581144ee11a423d57185a99611f64d93b0bee568fdbf"
+  },
+  {
+    "path": "examples/_negative/illegal-enum/skill.manifest.json",
+    "sha256": "490657a4914adfa097a3aae881436354e7507d2137b243878454ef921c4ddd90"
+  },
+  {
+    "path": "examples/_negative/no-output-schema/pipeline.json",
+    "sha256": "a1d784666fca3717b596ab654e9b344ccbd29ca09d581d0277a5ebc773dff874"
+  },
+  {
+    "path": "examples/_negative/no-output-schema/README.md",
+    "sha256": "4509e5017a973663835e08922e8db836c8f581622b2ab4c9daebb9a5e208f2f2"
+  },
+  {
+    "path": "examples/_negative/no-output-schema/skill.manifest.json",
+    "sha256": "ccb7bec4b093c4b5bbcf98d6eb3c61de4dac241265e3d722abc6caa26c13a2a1"
+  },
+  {
+    "path": "examples/content-plan/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "examples/content-plan/01-chapters-only/pipeline.json",
+    "sha256": "0576837926f76f88de8e44dc3eb44b688c2cfc9a5fb0e5b030d09685e2eebc5c"
+  },
+  {
+    "path": "examples/content-plan/01-chapters-only/README.md",
+    "sha256": "a026b6fd83f50041cbac9578abda07584b1b9d886c9a8029635968b534054bcf"
+  },
+  {
+    "path": "examples/content-plan/01-chapters-only/skill.manifest.json",
+    "sha256": "61eac051bc5fd07a3251c2bc86ff815ac156557a3929b79b9cf36cd602620052"
+  },
+  {
+    "path": "examples/content-plan/02-bible-roles-chapters/pipeline.json",
+    "sha256": "4cd16f6b91d7930101b912c90fcc6bb6883bd06737ef9c54bfb1d9e68f78a637"
+  },
+  {
+    "path": "examples/content-plan/02-bible-roles-chapters/README.md",
+    "sha256": "d3066865259551ff49e011e50e1205b242c31a9d855420533c589300ede86900"
+  },
+  {
+    "path": "examples/content-plan/02-bible-roles-chapters/skill.manifest.json",
+    "sha256": "3d687ba526bce52223cf2e4432bfa4c5028d0f99e8e64379dd365df3d6c9c02d"
+  },
+  {
+    "path": "examples/content-plan/03-staged-to-shots/pipeline.json",
+    "sha256": "5e1522eddadf9656685c92cbad0b91781122bc7a8d7e63a180042e67cbea1762"
+  },
+  {
+    "path": "examples/content-plan/03-staged-to-shots/README.md",
+    "sha256": "8264394a552384c19eca6c999e075a2dfbbb1a67167620278f8b5da4d3821c93"
+  },
+  {
+    "path": "examples/content-plan/03-staged-to-shots/skill.manifest.json",
+    "sha256": "529c0960159e3e67eed98eda395307b6cda668b30ba5457d81bbe8234194099b"
+  },
+  {
+    "path": "examples/content-plan/20-scenes-only-wuxia-budget/pipeline.json",
+    "sha256": "4bfe4b6c75e29a1fcd628741f3cb89a3b1a4f0e5bcf7d0d04e68156631fe8ef1"
+  },
+  {
+    "path": "examples/content-plan/20-scenes-only-wuxia-budget/README.md",
+    "sha256": "e2ab73e640524bd52002c9fc215db55edf25a4aec76d22a8a220f7633a566224"
+  },
+  {
+    "path": "examples/content-plan/20-scenes-only-wuxia-budget/skill.manifest.json",
+    "sha256": "04bcd9a25e4f9e782f6068402b94f990d8b4f59d47b3324fe30623f1d835eb0b"
+  },
+  {
+    "path": "examples/content-plan/21-shots-six-fixed-schema/pipeline.json",
+    "sha256": "3d6f0c641f01b3d88b2ecf10fd75e17ef82390d40b63c552d076660c6664e4f4"
+  },
+  {
+    "path": "examples/content-plan/21-shots-six-fixed-schema/README.md",
+    "sha256": "2671e80eb97ac1269c09a4d92c27bd0ee5627a4504947b1bef6d28a8185368bb"
+  },
+  {
+    "path": "examples/content-plan/21-shots-six-fixed-schema/skill.manifest.json",
+    "sha256": "48dcf0c9fb72607044450a7f745b524e6a6c0f63211ef87f7f152304cc03dcbf"
+  },
+  {
+    "path": "examples/content-plan/25-storyboard-action-fight/pipeline.json",
+    "sha256": "d0250dc48aa3b9fae59ba3a7545d125eb29b6fd93c08e3c7a700798724f92119"
+  },
+  {
+    "path": "examples/content-plan/25-storyboard-action-fight/README.md",
+    "sha256": "64c4289cd179e9af810c10e005b263fa92cef5c25d001ba20a1f2645e1b7bfac"
+  },
+  {
+    "path": "examples/content-plan/25-storyboard-action-fight/skill.manifest.json",
+    "sha256": "d52717714211d7c2f289c7c92e9a02d7853a4e05285c7bfd51e028c8a73d6e0c"
+  },
+  {
+    "path": "examples/content-plan/26-storyboard-micro-expression/pipeline.json",
+    "sha256": "0e67afb1e1dd3085f6fa9da21956c480fad7569e04daea622c581717ef32e97a"
+  },
+  {
+    "path": "examples/content-plan/26-storyboard-micro-expression/README.md",
+    "sha256": "cf6608151a3715f4e055bc356a5c7f2b99e73200e96d8d845c602cf7bae55a2c"
+  },
+  {
+    "path": "examples/content-plan/26-storyboard-micro-expression/skill.manifest.json",
+    "sha256": "f8c8554adae54a2375f72044d97f62c901a0271379aefca79ef14cf9dc6857b8"
+  },
+  {
+    "path": "examples/content-plan/27-mixed-scene-bind-guide/pipeline.json",
+    "sha256": "90ab041483cb83b4ecf1963334ed85df6278a1c214ba5912eb2d5b275a378ee1"
+  },
+  {
+    "path": "examples/content-plan/27-mixed-scene-bind-guide/README.md",
+    "sha256": "63232ed601b3ed88c6c57a2fb17ca50405e66e96579a8abb52e6f3552998a476"
+  },
+  {
+    "path": "examples/content-plan/27-mixed-scene-bind-guide/skill.manifest.json",
+    "sha256": "3a32196792bf9847b1c34caffa3eb358caa1f25f67f4b20ec68e1d6768210659"
+  },
+  {
+    "path": "examples/content-plan/28-storyboard-performance/optimize-storyboard-shot.json",
+    "sha256": "bce251dbfc72334a4d2998cd8e24d8deb03c36c066b54ff87e32ddab2273f884"
+  },
+  {
+    "path": "examples/content-plan/28-storyboard-performance/pipeline.json",
+    "sha256": "2237b829bd269a9770c35b630206ed36846bae9b5141fdfbd09a4ad4b7738ae4"
+  },
+  {
+    "path": "examples/content-plan/28-storyboard-performance/README.md",
+    "sha256": "499dc48d1acd939165f0bd140bcc1172a26564e731128403f1d96585dd44f055"
+  },
+  {
+    "path": "examples/content-plan/28-storyboard-performance/skill.manifest.json",
+    "sha256": "337e0eb1b09dc803b2e4a9de6f7d9888ac86145dde630d8618c3580d2cd89a0c"
+  },
+  {
+    "path": "examples/content-plan/33-viral-song-mv/pipeline.json",
+    "sha256": "10b0030f8447d13c6d73803bd8333e3033e276179714f2bd3d247b4b5c728781"
+  },
+  {
+    "path": "examples/content-plan/33-viral-song-mv/README.md",
+    "sha256": "42f7f5860ed266b12d0c396141055029cb5fe04948bdf8d943287e2077aefb80"
+  },
+  {
+    "path": "examples/content-plan/33-viral-song-mv/skill.manifest.json",
+    "sha256": "f92b5e48223e91e01fda569897b14910da55ebdf8ebd8ed644fe09cda7f00ec5"
+  },
+  {
+    "path": "examples/content-plan/34-short-video-creative/pipeline.json",
+    "sha256": "c6094245821b5effd68e9d4297a232a7ddaa8f2119e89175599196ac09a42bd6"
+  },
+  {
+    "path": "examples/content-plan/34-short-video-creative/README.md",
+    "sha256": "b590ae067f7eca8719fd8ce7eb05fc216a81ae9e2f5b5a988b70845bcc0ccf59"
+  },
+  {
+    "path": "examples/content-plan/34-short-video-creative/skill.manifest.json",
+    "sha256": "8191e719944d7824d2f7f8a826a6085157d5aed3e3d39f3bcc0ee8cb9ba9caf6"
+  },
+  {
+    "path": "examples/generation-policy/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "examples/generation-policy/10-generation-policy-copy-official/generation-policy.json",
+    "sha256": "8b5739d7b3c742e6ff53f91207e8ca73f8e4c22dad822c1d5b7e960f787507a5"
+  },
+  {
+    "path": "examples/generation-policy/10-generation-policy-copy-official/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/10-generation-policy-copy-official/README.md",
+    "sha256": "2ab4ba4876fb69a819fc8d72de6f8eff152fdf72d854de44b7e84b8d9d6de39c"
+  },
+  {
+    "path": "examples/generation-policy/10-generation-policy-copy-official/skill.manifest.json",
+    "sha256": "04ff08adde5e70864d21ab3bc0eedcc90fed690bf7a299eff56d71408ba07068"
+  },
+  {
+    "path": "examples/generation-policy/11-generation-policy-eye-garment/generation-policy.json",
+    "sha256": "2d226b82c601c1efa162651ddb0e8797f784dab21a55d6f87043b92df6e6c742"
+  },
+  {
+    "path": "examples/generation-policy/11-generation-policy-eye-garment/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/11-generation-policy-eye-garment/README.md",
+    "sha256": "de419055dca83ff4e690988b2aa44da5d43dada616ba338b112e3d5fa29b7f22"
+  },
+  {
+    "path": "examples/generation-policy/11-generation-policy-eye-garment/skill.manifest.json",
+    "sha256": "0b919982c164cb87f1ea4a21d3baf95774fb2b60c86acbceca33cd69f56a4387"
+  },
+  {
+    "path": "examples/generation-policy/12-generation-policy-one-slot-framing/generation-policy.json",
+    "sha256": "d07bfb95a2f9d4cb4faa475b87ec1263778c75596ec865d89f662ac52ec7e818"
+  },
+  {
+    "path": "examples/generation-policy/12-generation-policy-one-slot-framing/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/12-generation-policy-one-slot-framing/README.md",
+    "sha256": "9387e849ee33c76b42eb194f347e8b6b676fa53f44fd320920479bd11272c3d3"
+  },
+  {
+    "path": "examples/generation-policy/12-generation-policy-one-slot-framing/skill.manifest.json",
+    "sha256": "1fcaed47f16fdba9aa08d2fc3c1462f4ffded356ff1cccfcb934d98a7a1aedfc"
+  },
+  {
+    "path": "examples/generation-policy/13-generation-policy-storyboard-style/generation-policy.json",
+    "sha256": "625381017169e73f08f15692c25e31dcd5e55a74835e3d45955121fc0d50f34d"
+  },
+  {
+    "path": "examples/generation-policy/13-generation-policy-storyboard-style/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/13-generation-policy-storyboard-style/README.md",
+    "sha256": "fd9704ef04b51e9c95332be78fd2b9f514e8ec4f2528111d2b2680bb0eebc0c9"
+  },
+  {
+    "path": "examples/generation-policy/13-generation-policy-storyboard-style/skill.manifest.json",
+    "sha256": "c552a5b94140159914d83840247dba365a9676b7c375922432a4a5fef57eb179"
+  },
+  {
+    "path": "examples/generation-policy/14-generation-policy-invalid-no-anchor/generation-policy.json",
+    "sha256": "31416c9f79f15899a5b2fb05e82c031d9e9774ca6d8c9d473a079b34e4833d79"
+  },
+  {
+    "path": "examples/generation-policy/14-generation-policy-invalid-no-anchor/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/14-generation-policy-invalid-no-anchor/README.md",
+    "sha256": "5cc10befb7f7c806dc719c9318777b6846a95b730bc27dc3d0e777b6a25c16c5"
+  },
+  {
+    "path": "examples/generation-policy/14-generation-policy-invalid-no-anchor/skill.manifest.json",
+    "sha256": "8d49e546ea011d489b6da37c92a94d67f97a0702ddf213b7625e7f2a0860c626"
+  },
+  {
+    "path": "examples/generation-policy/15-generation-policy-expression-9grid/generation-policy.json",
+    "sha256": "bf9e292a84bbdf70186cd32a9bf559ccf7230a45830e2a73e2515c620f6b7e33"
+  },
+  {
+    "path": "examples/generation-policy/15-generation-policy-expression-9grid/pipeline.json",
+    "sha256": "b3369f321c41c989a696977b476819ba0f10e2a387cb21c058ad360d8c7c6d1a"
+  },
+  {
+    "path": "examples/generation-policy/15-generation-policy-expression-9grid/README.md",
+    "sha256": "620066efba48206462616c791e3a9c0be13bcd75761166a3c706cf74b07a869a"
+  },
+  {
+    "path": "examples/generation-policy/15-generation-policy-expression-9grid/skill.manifest.json",
+    "sha256": "1cfd218ecbd24395b6af20cc9bd70a4c790bd14a3147060428baec74ab464a63"
+  },
+  {
+    "path": "examples/generation-policy/16-generation-policy-costume-turnaround-16x9/generation-policy.json",
+    "sha256": "05d0283447b600bb53fa653124b3c683651428a270d6df3e675b6278ae5d7116"
+  },
+  {
+    "path": "examples/generation-policy/16-generation-policy-costume-turnaround-16x9/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/16-generation-policy-costume-turnaround-16x9/README.md",
+    "sha256": "c669c6f0c991fd056228b840a5d802f902d809fe7e657bbe6c0d9fcaa5f23cf3"
+  },
+  {
+    "path": "examples/generation-policy/16-generation-policy-costume-turnaround-16x9/skill.manifest.json",
+    "sha256": "6866712eb6e8d49906d058b76aa1aaa3a6af9def4d6b71c20635d7841b69aa85"
+  },
+  {
+    "path": "examples/generation-policy/17-generation-policy-imax-65mm-generic/generation-policy.json",
+    "sha256": "0a118368e5129e00983d099d88ea700b13a81046c5a3de55b1ca7f0922bb4253"
+  },
+  {
+    "path": "examples/generation-policy/17-generation-policy-imax-65mm-generic/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/17-generation-policy-imax-65mm-generic/README.md",
+    "sha256": "a2840844ef433f948dc208b12141331e09cdd1d4c7f8a68df7b4aacca2e93197"
+  },
+  {
+    "path": "examples/generation-policy/17-generation-policy-imax-65mm-generic/skill.manifest.json",
+    "sha256": "819205d990bd659f9398c71a79e12f4e39b10c0fc37695446be112e902b547d9"
+  },
+  {
+    "path": "examples/generation-policy/18-generation-policy-imax-65mm-large-scene/generation-policy.json",
+    "sha256": "29e9b06ebd5b59612905bc365ff098e37a22fa00f417254bf837f8dc8900e444"
+  },
+  {
+    "path": "examples/generation-policy/18-generation-policy-imax-65mm-large-scene/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/18-generation-policy-imax-65mm-large-scene/README.md",
+    "sha256": "1e7269626b25b8a5b782ce81ac4486da1f67678fa583d3ee508ea4d533c5c270"
+  },
+  {
+    "path": "examples/generation-policy/18-generation-policy-imax-65mm-large-scene/skill.manifest.json",
+    "sha256": "d847993e2fb14cff541eb6935c90601377c6d783658d9ef2da5b1449acaba3b5"
+  },
+  {
+    "path": "examples/generation-policy/19-generation-policy-imax-65mm-portrait-closeup/generation-policy.json",
+    "sha256": "c38c50b9510a113603f62678e853fda34511a8f45589ed879e17bcad59945eaf"
+  },
+  {
+    "path": "examples/generation-policy/19-generation-policy-imax-65mm-portrait-closeup/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/19-generation-policy-imax-65mm-portrait-closeup/README.md",
+    "sha256": "468ea2070af7f1dc32590f71b9b40fa82f9436881d1aea5d3513c8b36e2ba587"
+  },
+  {
+    "path": "examples/generation-policy/19-generation-policy-imax-65mm-portrait-closeup/skill.manifest.json",
+    "sha256": "862b6cb53c6133d550b98c0a9ab74d4e4f3ba80485b5292501c9c91c24f1fced"
+  },
+  {
+    "path": "examples/generation-policy/22-generation-policy-imax-65mm-authentic-photochemical/generation-policy.json",
+    "sha256": "6f7c292f5fa8d2b145c11d351dc74e760f93dd3f4b91faa73031a8673acff10d"
+  },
+  {
+    "path": "examples/generation-policy/22-generation-policy-imax-65mm-authentic-photochemical/pipeline.json",
+    "sha256": "d385531d7a19d2ce7b105875f4aa5dbbe150cdf1463e80618ed3b0d844a533f9"
+  },
+  {
+    "path": "examples/generation-policy/22-generation-policy-imax-65mm-authentic-photochemical/README.md",
+    "sha256": "e442cdd514355d31d3fafcb2881161f019a1bf2d31dbe22f0a7d92d0b666b77a"
+  },
+  {
+    "path": "examples/generation-policy/22-generation-policy-imax-65mm-authentic-photochemical/skill.manifest.json",
+    "sha256": "f3007ec18004b9abb9266b8453aa304b0d20511191094c33e3883042ae87303a"
+  },
+  {
+    "path": "examples/generation-policy/23-generation-policy-multi-angle-character-sheet/generation-policy.json",
+    "sha256": "70ca753a46d427bbff472742b10149f7bf8b801670fe7b1eeeff6d371c29beea"
+  },
+  {
+    "path": "examples/generation-policy/23-generation-policy-multi-angle-character-sheet/pipeline.json",
+    "sha256": "b3369f321c41c989a696977b476819ba0f10e2a387cb21c058ad360d8c7c6d1a"
+  },
+  {
+    "path": "examples/generation-policy/23-generation-policy-multi-angle-character-sheet/README.md",
+    "sha256": "95c3348545eccef91b12f289746473ab6f61db9b43d7cfb7cb3a4271e6159ced"
+  },
+  {
+    "path": "examples/generation-policy/23-generation-policy-multi-angle-character-sheet/skill.manifest.json",
+    "sha256": "2f9333641fee558c59ea155019d9acfc24d1f94b28ecbe6e89c7a1eff28723ab"
+  },
+  {
+    "path": "examples/optimize/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "examples/optimize/30-optimize-storyboard-fight/optimize-storyboard-shot.json",
+    "sha256": "6bcfcaef7cf3f8fa0f9988d6489884a71ebd624103282db07b83f0f302e31d00"
+  },
+  {
+    "path": "examples/optimize/30-optimize-storyboard-fight/pipeline.json",
+    "sha256": "b3369f321c41c989a696977b476819ba0f10e2a387cb21c058ad360d8c7c6d1a"
+  },
+  {
+    "path": "examples/optimize/30-optimize-storyboard-fight/README.md",
+    "sha256": "c7bed557ec33fe346708aab61ec7fbb1fe8684706027f7d58dde3cb374cfbb13"
+  },
+  {
+    "path": "examples/optimize/30-optimize-storyboard-fight/skill.manifest.json",
+    "sha256": "78d6334486cb1f83904ba41bc2e20d42edd9ecfbcd0135af82f225bd31fc3e1f"
+  },
+  {
+    "path": "examples/optimize/31-optimize-storyboard-micro-cu/optimize-storyboard-shot.json",
+    "sha256": "8d94f5a5b52d12350b4a54851046d352e866b69f724ad76cce3d0eed573da8d3"
+  },
+  {
+    "path": "examples/optimize/31-optimize-storyboard-micro-cu/pipeline.json",
+    "sha256": "b3369f321c41c989a696977b476819ba0f10e2a387cb21c058ad360d8c7c6d1a"
+  },
+  {
+    "path": "examples/optimize/31-optimize-storyboard-micro-cu/README.md",
+    "sha256": "a3ba0ea92da886e818dccd5efff77597bf611e01cbabedbaae222f2f95025455"
+  },
+  {
+    "path": "examples/optimize/31-optimize-storyboard-micro-cu/skill.manifest.json",
+    "sha256": "8cfed02b6ba2c3c12eb4f6cf135c54262e5b8fdb54acf993857e2dcc8eac975d"
+  },
+  {
+    "path": "examples/optimize/32-optimize-segment-continuity/optimize-segment.json",
+    "sha256": "406fbbb1abc1a15d68907ba17ab2590f1ff47e5ab46c529986c560a7cb551e8f"
+  },
+  {
+    "path": "examples/optimize/32-optimize-segment-continuity/pipeline.json",
+    "sha256": "b3369f321c41c989a696977b476819ba0f10e2a387cb21c058ad360d8c7c6d1a"
+  },
+  {
+    "path": "examples/optimize/32-optimize-segment-continuity/README.md",
+    "sha256": "6fda16e3568a6bf3e2ebd51ecb69154c86943685d7ae3640c32276dfe23a3a8a"
+  },
+  {
+    "path": "examples/optimize/32-optimize-segment-continuity/skill.manifest.json",
+    "sha256": "e689e2833d154b7a7ec71e10cf5d9085597d4f4ce62f41c1a8b19447271b4e42"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/LICENSE.txt",
+    "sha256": "9fe3a5f3058f4695788edd30903596b7a6342b8378631743ee597453d70e5f2d"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/causality.md",
+    "sha256": "d4b7bf8ba2af0651426808916490a96045eecee40d465000fd92ce158dd73974"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/characters.md",
+    "sha256": "caf2d5bf6f17172d3390e937107f4e06e7656f238641da346fedfbc38eb1d657"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/continuity.md",
+    "sha256": "03e41fd2508037749de3104677ad62f9443638d0b031ac24d56cbb29dc618303"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/core.md",
+    "sha256": "b14a5e47696106daccbff836d9f51f425c1b0ed37d5b41a7eb6699675ce9f6b0"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/dialogue.md",
+    "sha256": "60808a3f34ce377b7e189acfa1e1dda64690f993675cdd28b96310c0455d181a"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/drafting.md",
+    "sha256": "66ab0160fb43e6f7d81c53f125b39d5f513eaef3b677524be8e918a3a58fe65e"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/editorial.md",
+    "sha256": "be36a1aebfcae9be89781d5cc7a1897815d9fb2ff7433384f2d94c5b8c304749"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/examples/STORY_HANDOFF.example.md",
+    "sha256": "b80ac387cdff2212175b58f48c64373cd0371318a142f9822f170da6e8646a30"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/handoff.md",
+    "sha256": "f305959396f97b89abbf352cb6540209052c768853a7a9141a2c2ce8494badcd"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/relationships.md",
+    "sha256": "91d0e9168b5b65a1836a62dcb2ffcc95d96a002412da7e58fa66b41663337b21"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/references/storyline.md",
+    "sha256": "8e9881b07265b749d6ff9d115dcdac72d7e4812f0d6ed043db290d1353538b54"
+  },
+  {
+    "path": "examples/teaching/bgx-screenwriter/SKILL.md",
+    "sha256": "d26332c8355e578076de3f08a5088c3b5e2a82c94846ffe7d0f9f92e586a54b2"
+  },
+  {
+    "path": "examples/teaching/bible-roles-chapters/SKILL.md",
+    "sha256": "7d1b068554182fbd390d1a6e6b38f398970a928bf7c93e0f9ba2fd5c9197a704"
+  },
+  {
+    "path": "examples/teaching/chapters-only/SKILL.md",
+    "sha256": "b79b02352a099caa6d968f1fd39ccdfe4243ca0276979178e046c897fe78ff65"
+  },
+  {
+    "path": "examples/teaching/character-costume-reference/references/layout.json",
+    "sha256": "61134f47b8d0d7e29d22b8444d4bcc1e38e6fda157ac14001fff400f20f28c23"
+  },
+  {
+    "path": "examples/teaching/character-costume-reference/SKILL.md",
+    "sha256": "410c43cdb0adb5858483a8ff02d485e023c2d5353079b3b4b3c55919f1777d45"
+  },
+  {
+    "path": "examples/teaching/character-expression-nine-grid/references/layout.json",
+    "sha256": "cb2dfb4826005ebbc90f1776deee2e64d5e3e8674ea88418d91d84d481b4d1fa"
+  },
+  {
+    "path": "examples/teaching/character-expression-nine-grid/SKILL.md",
+    "sha256": "e68397d158dd2de0c3e2a8448217d626c28c2a49a5b840c5c1b990241c25659f"
+  },
+  {
+    "path": "examples/teaching/character-multi-angle-reference/references/layout.json",
+    "sha256": "101f1cc77c8bf37a9693ec7842c41750a6b52cbda032408af1a3638a886d9de1"
+  },
+  {
+    "path": "examples/teaching/character-multi-angle-reference/SKILL.md",
+    "sha256": "4a03db81419c473a09d50d820ca84b0025f2a4d0f3cdab1b1101ea6c5bdc3e68"
+  },
+  {
+    "path": "examples/teaching/clip-action-fight/SKILL.md",
+    "sha256": "aadd80a84ad8a93339c57bc61cc953a03a8806f0480c288c3f5a26ea2a18c27e"
+  },
+  {
+    "path": "examples/teaching/clip-environment-description/SKILL.md",
+    "sha256": "a7a94d4a1f5801640dd9255a3a5da13cb525768d8ac4364a6bfcb096b95c1734"
+  },
+  {
+    "path": "examples/teaching/clip-method-selection/SKILL.md",
+    "sha256": "9e961c4dbc33df424791145788792c9c6a54588ab4fb3ceca5c69892f13dc28b"
+  },
+  {
+    "path": "examples/teaching/clip-micro-expression/SKILL.md",
+    "sha256": "14c5c324d1153a1c62eba7b9821d1bc93660ab051d8723f011bbfec2b320fcde"
+  },
+  {
+    "path": "examples/teaching/clip-performance/SKILL.md",
+    "sha256": "5037e09795d8dc3c64b6d85df3681d186bcee629ffc18bf907213007f2857811"
+  },
+  {
+    "path": "examples/teaching/clip-progressive-drafting/SKILL.md",
+    "sha256": "8d0d834bcac62132a50169d3d0c1d25f78c60a571892de345d26f5de2b2ede86"
+  },
+  {
+    "path": "examples/teaching/clip-visual-continuity/SKILL.md",
+    "sha256": "209634337defd54f637802b3307f1a8a1a6b41263feb71091634b20d27141bb2"
+  },
+  {
+    "path": "examples/teaching/clip-wuxia-planning/SKILL.md",
+    "sha256": "d5e671e088d66764050ce54d9b16dd9e81bbe7505a59865e1a7975971d6dfdd5"
+  },
+  {
+    "path": "examples/teaching/episode-clip-planning/SKILL.md",
+    "sha256": "1cb2b719376cb2a1596200ea5b90f2518cfe28eb7a890981cf356e7d827e308b"
+  },
+  {
+    "path": "examples/teaching/generation-policy-eye-garment/references/layout.json",
+    "sha256": "3b709582c991357e7628642ec1bdcf68905a49febac0c84eeeddc31d29e1b07b"
+  },
+  {
+    "path": "examples/teaching/generation-policy-eye-garment/SKILL.md",
+    "sha256": "13012f033c9e81ad6d725233a394bbe2c2819546f6db3c76bdb350762d05c1a9"
+  },
+  {
+    "path": "examples/teaching/generation-policy-imax-65mm-authentic-photochemical/references/layout.json",
+    "sha256": "a5e08a7b37968275ed54b579b8d5b733de883bd3bb532089f94ff8b6f0aca3f1"
+  },
+  {
+    "path": "examples/teaching/generation-policy-imax-65mm-authentic-photochemical/SKILL.md",
+    "sha256": "91f3bf8a22fcc0e29266610ae0201a36c30f1e0a39afb3f59ebfaf0565d4dbba"
+  },
+  {
+    "path": "examples/teaching/generation-policy-imax-65mm-generic/references/layout.json",
+    "sha256": "3c4acbf5f55c31bb1a06163bc25a1e89b45c156f05681ba2a029a83b77b39c87"
+  },
+  {
+    "path": "examples/teaching/generation-policy-imax-65mm-generic/SKILL.md",
+    "sha256": "c877da215720d3adadb3ad97a147d89dfbf590c20f348fabf852750adb95382d"
+  },
+  {
+    "path": "examples/teaching/generation-policy-imax-65mm-large-scene/references/layout.json",
+    "sha256": "8d76b0abf768960a98cdb0cbc597b2cabf90a78047620c85d6f8691feda77084"
+  },
+  {
+    "path": "examples/teaching/generation-policy-imax-65mm-large-scene/SKILL.md",
+    "sha256": "5fe133ac972381984c30f684189c0c0cbfcedffa11fffb26e8b73ae4b69e2602"
+  },
+  {
+    "path": "examples/teaching/generation-policy-imax-65mm-portrait-closeup/references/layout.json",
+    "sha256": "16f17ecb2502c48cd7b38c684b89948361d04b8b9fca98550007010708163e5f"
+  },
+  {
+    "path": "examples/teaching/generation-policy-imax-65mm-portrait-closeup/SKILL.md",
+    "sha256": "be689ee3f3e3242dfad151e7cb88bb8aea919cbd39e5d98a7f0fbeb75482ac9c"
+  },
+  {
+    "path": "examples/teaching/generation-policy-one-slot-framing/references/layout.json",
+    "sha256": "e8852a25f33844de0af2a1563d3542026a9d248080b0e2aa2d6c2f391eec64ba"
+  },
+  {
+    "path": "examples/teaching/generation-policy-one-slot-framing/SKILL.md",
+    "sha256": "5fb47d97077a1c6269d1eae39486aa1ef45c621db2125f53c94954d973380bbd"
+  },
+  {
+    "path": "examples/teaching/large-format-film-general-image/LICENSE.txt",
+    "sha256": "c3ef325ada43b190f5189cb4dc44833273107c6b77f67cb7d7be4bb846c9dc09"
+  },
+  {
+    "path": "examples/teaching/large-format-film-general-image/references/layout.json",
+    "sha256": "4c412a5e12ef5e7c69d6a23d511147701a3eb3d031e5479e45f9cd39b150c4e0"
+  },
+  {
+    "path": "examples/teaching/large-format-film-general-image/SKILL.md",
+    "sha256": "e318f546638e007ebd39449753368a188d4d380b2105b055b80e64d02a5b9abd"
+  },
+  {
+    "path": "examples/teaching/large-format-film-general-video/LICENSE.txt",
+    "sha256": "c3ef325ada43b190f5189cb4dc44833273107c6b77f67cb7d7be4bb846c9dc09"
+  },
+  {
+    "path": "examples/teaching/large-format-film-general-video/references/layout.json",
+    "sha256": "eb69347e51d083d47abcd31c32f3152c15f4d08d01bebb320b19e187f08b93c0"
+  },
+  {
+    "path": "examples/teaching/large-format-film-general-video/SKILL.md",
+    "sha256": "4c9f3254847a161af1784c4b822b70bfde7b748a594961ee51a207cdbe2ff7c8"
+  },
+  {
+    "path": "examples/teaching/large-format-film-large-scene-image/LICENSE.txt",
+    "sha256": "c3ef325ada43b190f5189cb4dc44833273107c6b77f67cb7d7be4bb846c9dc09"
+  },
+  {
+    "path": "examples/teaching/large-format-film-large-scene-image/references/layout.json",
+    "sha256": "1436de2c78a092e2588478a2762ab072f76d4342df5dcace6bd8eb7b3556f9ef"
+  },
+  {
+    "path": "examples/teaching/large-format-film-large-scene-image/SKILL.md",
+    "sha256": "279c18124425c9ea1556890c4ad13d078f8bfe21f51e64dfb897635e8fb5d7bb"
+  },
+  {
+    "path": "examples/teaching/large-format-film-large-scene-video/LICENSE.txt",
+    "sha256": "c3ef325ada43b190f5189cb4dc44833273107c6b77f67cb7d7be4bb846c9dc09"
+  },
+  {
+    "path": "examples/teaching/large-format-film-large-scene-video/references/layout.json",
+    "sha256": "0e088e27afead52806c6132ddc548069cdecae1593b353a6458fc44b295ad6b6"
+  },
+  {
+    "path": "examples/teaching/large-format-film-large-scene-video/SKILL.md",
+    "sha256": "1bdd2d3f5fdceaa17d7926b3e028d7775603c65814d1d89ce35fce1af0bc1789"
+  },
+  {
+    "path": "examples/teaching/large-format-film-portrait-image/LICENSE.txt",
+    "sha256": "c3ef325ada43b190f5189cb4dc44833273107c6b77f67cb7d7be4bb846c9dc09"
+  },
+  {
+    "path": "examples/teaching/large-format-film-portrait-image/references/layout.json",
+    "sha256": "13ef4b138d49853e0eb5fb3450ca2c7ca5e8442c586f075766f29753fbbb5732"
+  },
+  {
+    "path": "examples/teaching/large-format-film-portrait-image/SKILL.md",
+    "sha256": "dec15b1da6256f345802ae34ae080c593d736ee92621fd35bf1c7599250ca0ab"
+  },
+  {
+    "path": "examples/teaching/large-format-film-portrait-video/LICENSE.txt",
+    "sha256": "c3ef325ada43b190f5189cb4dc44833273107c6b77f67cb7d7be4bb846c9dc09"
+  },
+  {
+    "path": "examples/teaching/large-format-film-portrait-video/references/layout.json",
+    "sha256": "e2f5ee76bb84af6497a72c949653b468bff110c49f322e47a9cc3cd8eb1115e8"
+  },
+  {
+    "path": "examples/teaching/large-format-film-portrait-video/SKILL.md",
+    "sha256": "3ea6a9ad811d8013417a38451c1ae47a4235c8edae33c9c3c8ac8d665e4e6cf3"
+  },
+  {
+    "path": "examples/teaching/motion-design/SKILL.md",
+    "sha256": "6b22407bbc1fc5a6e6d73866de3705d18206afdff9579549c6d7009be967988a"
+  },
+  {
+    "path": "examples/teaching/native-image-policy/references/layout.json",
+    "sha256": "0ddc1d115fa246424dba500ba0e0247e3ee7aee56e4ec33bfb6a99f3a2ecf7c2"
+  },
+  {
+    "path": "examples/teaching/native-image-policy/SKILL.md",
+    "sha256": "83af1f4cb7d2be3cd87daefb61f9419c9ab885c89452525ca31676c9bf46518f"
+  },
+  {
+    "path": "examples/teaching/optimize-clip-fight/SKILL.md",
+    "sha256": "6a7eea77aa8d7f4574d0ae803131dbb0d4480bb77c16d2a9015e06036afeb6f1"
+  },
+  {
+    "path": "examples/teaching/optimize-clip-micro-expression/SKILL.md",
+    "sha256": "2aac9d4b3dded1cec33b396866869478dd374818469ae01d6567724561dea8b4"
+  },
+  {
+    "path": "examples/teaching/optimize-segment-continuity/SKILL.md",
+    "sha256": "34482b886d61bd68e1056de94e16c1c7c35adb2f78cfc2060a8884a72b57a250"
+  },
+  {
+    "path": "examples/teaching/scene-four-angle-reference/references/layout.json",
+    "sha256": "8fa16243f9c9187832c0fff7847e92ecc3b96ce64a43c6069d1a9ef8e1128567"
+  },
+  {
+    "path": "examples/teaching/scene-four-angle-reference/SKILL.md",
+    "sha256": "c8a2a2ac287846f37736d12742cbf379bc884f1cf88357e93c8a10ff9f7b378b"
+  },
+  {
+    "path": "examples/teaching/short-video-creative/SKILL.md",
+    "sha256": "576b980f04c69d3300286de7a6dbea103ade11d0980001250859363806ed0429"
+  },
+  {
+    "path": "examples/teaching/simple-film-style/references/layout.json",
+    "sha256": "c3b3cc91ee12f91efeced0f31cbf0a17defc40824479da6b62b457f17db04736"
+  },
+  {
+    "path": "examples/teaching/simple-film-style/SKILL.md",
+    "sha256": "2986b47555d705c92d4128da1649196435eb61c65b5caad01168a2b0a1706221"
+  },
+  {
+    "path": "examples/teaching/story-entity-extraction/SKILL.md",
+    "sha256": "b44a0f307b3a9315c98a68c0e532540ee25b83985487787b03bbf05a1229ebcc"
+  },
+  {
+    "path": "examples/teaching/story-entity-integration/SKILL.md",
+    "sha256": "21ddfa75f3c338b2dc9c3a2e6fe084b07461fe4666829f069741d3d3e51ee55d"
+  },
+  {
+    "path": "examples/teaching/video-format-expansion/SKILL.md",
+    "sha256": "e94cadce96998cc15d5cbc5c62fa0b774d58ca63bd2aa55908d137b76952daee"
+  },
+  {
+    "path": "examples/teaching/viral-song-mv/SKILL.md",
+    "sha256": "d3731509d4536ba52e39ce0ac03b20c1fe9873a3bee67fda1812b9268819254c"
+  },
+  {
+    "path": "examples/teaching/world-and-character-planning/SKILL.md",
+    "sha256": "446d6573a102e2b3a4a5de515566e040d7a6c95fdc0ebd6b424621fd6be8e4a4"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "f1d7c12a7310bd089054a0286039ca14849ff4796b6a47705d30962ce68a3d5d"
+  },
+  {
+    "path": "NOTICES.md",
+    "sha256": "d3b22ebbf51a25a946e5c808a501de968a029c29b83ae0cd9778191c081a11fe"
+  },
+  {
+    "path": "packs/AUTHORING_PROMPT_PACK.en.md",
+    "sha256": "7cb15c867486fdf9a69ade93af1bb92a58704464e2be3d26df037225a855bb76"
+  },
+  {
+    "path": "packs/AUTHORING_PROMPT_PACK.zh-CN.md",
+    "sha256": "dfb36bfee06d5cd7ca495b5caee21c987043d641d1098c1b1316bb470fa0ca10"
+  },
+  {
+    "path": "packs/AUTHORING_SPEC.en.md",
+    "sha256": "dcb0efb93be2c3f02c433db8a41a3254a0d13bb5406da787fc9b83b0d0917686"
+  },
+  {
+    "path": "packs/AUTHORING_SPEC.zh-CN.md",
+    "sha256": "3df5f657f66a0c0702ec6be63116f967ee490f6123c24f2cbc85ef8b8c0c94a9"
+  },
+  {
+    "path": "packs/CONTENT_SKILL.en.md",
+    "sha256": "82ebd90c85f837821d7efdaa2d00153e5787dbae1354b0fd9aea544b68c33922"
+  },
+  {
+    "path": "packs/CONTENT_SKILL.md",
+    "sha256": "8395193853c7c2170d0a019a7d18710b0c43336b22ee06f62c1bbf0a51e645ac"
+  },
+  {
+    "path": "packs/CONTENT_SKILL.zh-CN.md",
+    "sha256": "b943a918b6e31fe3a2998eec306541bc7c2bf7db22462f431b9848008a440620"
+  },
+  {
+    "path": "README.md",
+    "sha256": "da94f2387b33847980944f92bdb84b23f64a2c1c50f5a5297ae365b46925a53f"
+  },
+  {
+    "path": "scripts/audit_assets.py",
+    "sha256": "ff08e84698a7dda0a56d0e62b3881cfcab5ff743209615942b3dfd6ec6fb3fab"
+  },
+  {
+    "path": "scripts/build_packages.py",
+    "sha256": "bbf7d557f020b669a3e30957a022683da067a7749e5607847ff5234c7c7c0efa"
+  },
+  {
+    "path": "scripts/build_skill_docs.py",
+    "sha256": "471011a66de0cc0669228997a8d48b976e855c3397f6576cda0aea9fd7cad1c6"
+  },
+  {
+    "path": "scripts/check_contract_snapshot.py",
+    "sha256": "c2688faf86d2e9eed07eb88d023ab63172a4864b887d6312cce7626fcf95ccd6"
+  },
+  {
+    "path": "scripts/check_docs.py",
+    "sha256": "6e5e127e70bc92185d734701b3b7427191d8d6e45c32b1d06e1b0c6f356a7a58"
+  },
+  {
+    "path": "scripts/check_skill_coverage.py",
+    "sha256": "d058baebc3d1dda5c80332a3f7e2f5a7b652abe96303a3169c6c5100d02472cb"
+  },
+  {
+    "path": "scripts/import_host_packages.py",
+    "sha256": "aa9eb5aaf7de4a8b690d62fbf1b60af06a2421ec25689b21c4c29aab99068338"
+  },
+  {
+    "path": "scripts/skill_lib.py",
+    "sha256": "fcf9538d1dcc1bc536abdc0c507c2d1c2214a87b3ec35025c3c4f75a78c7e02c"
+  },
+  {
+    "path": "scripts/validate-example.ps1",
+    "sha256": "56f9d58b9df7c77f9fde8ce669677bfb731cb4c8ebc0418d6ed917638bebcd66"
+  },
+  {
+    "path": "scripts/validate-example.py",
+    "sha256": "5c7651fc6be2f642ec1a942dd52f816265abc90ebdbc0fa9e85cd61da44128a2"
+  },
+  {
+    "path": "scripts/validate-skill.ps1",
+    "sha256": "7d4defc2c435c1768cf1c2b2067b576c4096e94df7169656ddafe73bb31d569a"
+  },
+  {
+    "path": "scripts/validate_skill.py",
+    "sha256": "9691105a055bb7dea9e75ab78390ecb2fa3d37c28cefd06c7c30ab2083976b57"
+  },
+  {
+    "path": "skills/action-fight-prompt/SKILL.md",
+    "sha256": "77abae81579ecdf6b835f3931e31da3d27d596122440d09c72b25dcbc910f3b1"
+  },
+  {
+    "path": "skills/character-costume-reference/references/layout.json",
+    "sha256": "3220c873411eb1f470d8298431ef8b67537794ae4625ca24bdfe70f3e89478ec"
+  },
+  {
+    "path": "skills/character-costume-reference/SKILL.md",
+    "sha256": "4742c6f1f12369c40a64ac27897a30f91674537b5753b4395623867aa512d346"
+  },
+  {
+    "path": "skills/character-expression-nine-grid/references/layout.json",
+    "sha256": "08a7db5805ec0796d04ef973a019f8f3ac9d5985f1fcbccbe2a13c09e958e636"
+  },
+  {
+    "path": "skills/character-expression-nine-grid/SKILL.md",
+    "sha256": "c93efc6e1dcbdce3e317661771410f3e8eb062692bc7e5ef67b4bd5c26407794"
+  },
+  {
+    "path": "skills/character-multi-angle-reference/references/layout.json",
+    "sha256": "e77dd6a1d69ea61cddf7addfdada7e2dad9cb8177877b48d255fd481b1c24f01"
+  },
+  {
+    "path": "skills/character-multi-angle-reference/SKILL.md",
+    "sha256": "f6d4cb288357ae4725b7ad672b782f92f574b6ed897ff4233a389c13261638d7"
+  },
+  {
+    "path": "skills/generic-video-prompt-writing/SKILL.md",
+    "sha256": "b1e01bb486b8b0b88b5fbb3be3103a09e6e9314490747bb46cdef55793c33f9a"
+  },
+  {
+    "path": "skills/kling-prompt-writing/references/classic.md",
+    "sha256": "272a224ef72871afe574fac3708374e6aca79484183d6fccbba768c9ac07dd59"
+  },
+  {
+    "path": "skills/kling-prompt-writing/references/omni.md",
+    "sha256": "2e1299a103758e491f8e58d929a173181431eb21303bb62640b9a46d14555aee"
+  },
+  {
+    "path": "skills/kling-prompt-writing/SKILL.md",
+    "sha256": "11f1da883289b2f943b43dddddf567e95a509c3d38a70a40e70d21999ff802c3"
+  },
+  {
+    "path": "skills/ltx-2-5-prompt-writing/references/modes.md",
+    "sha256": "53c152fa3b6e7d8deb3a4e3c2749ebc556d5b1afb7d17397e6c2c367d2694034"
+  },
+  {
+    "path": "skills/ltx-2-5-prompt-writing/references/standalone.md",
+    "sha256": "962d77eff28d5e26b529fdf5a963d9e91eff051989de754e0cd014cd76f3caf3"
+  },
+  {
+    "path": "skills/ltx-2-5-prompt-writing/SKILL.md",
+    "sha256": "a6a489aa00f64722164c91a7d44ac0ee1f498389051f6be4574485722a5b169f"
+  },
+  {
+    "path": "skills/qwen-image-2-1-prompt-writing/SKILL.md",
+    "sha256": "119f16356c5205b6921757a6ff5902553d764da7f06e5644ab06f5bed1b115b2"
+  },
+  {
+    "path": "skills/scene-four-angle-reference/references/layout.json",
+    "sha256": "c2279d5fd8ab06ae4d28a6ace7adc3d67cd4ce6e3c5b84d286ece56115aa9bea"
+  },
+  {
+    "path": "skills/scene-four-angle-reference/SKILL.md",
+    "sha256": "092a38b209eb2b453c3bf13ee60d0d80af7ae87eab899ed4398e344d7c2bcfa9"
+  },
+  {
+    "path": "skills/seedance-prompt-writing/references/modes.md",
+    "sha256": "51cfc42fdbb097704f129a626caf9261e56e5aa0941e236673d6f16b9825d278"
+  },
+  {
+    "path": "skills/seedance-prompt-writing/references/standalone.md",
+    "sha256": "54e06f944da61ae870ed23acefc16bdb1993a05ac693edbe984d16bb506ca4f9"
+  },
+  {
+    "path": "skills/seedance-prompt-writing/SKILL.md",
+    "sha256": "cbbefcdb8e4d78dc4adc68155cbf8fcf4b806c17f399b169c9904240069612ef"
+  },
+  {
+    "path": "skills/wan-prompt-writing/references/modes.md",
+    "sha256": "23b43d38133a416042d2121facb99c5afe207cfbc8431f576c999cc63552ecb2"
+  },
+  {
+    "path": "skills/wan-prompt-writing/SKILL.md",
+    "sha256": "377f13806ccb79af2173bb7eb7f3d7de639779e8f22c2ff9ff6280efff749253"
+  },
+  {
+    "path": "templates/minimal-skill/README.md",
+    "sha256": "209afdab7aacea8a8b1003058a7f66dd03a171787fbf612ae3b6061e3aabd346"
+  },
+  {
+    "path": "templates/minimal-skill/SKILL.md",
+    "sha256": "3bb66cdd4c535fee152ebdfa4733837427dde5e036f064b89de80528b6da46cb"
+  },
+  {
+    "path": "templates/multi-view-skill/README.md",
+    "sha256": "2665bac2d4f03908ade20bd9e22bc6fa5d1ea5ffe5203be5c75f9a8dd9ed067f"
+  },
+  {
+    "path": "templates/multi-view-skill/references/layout.json",
+    "sha256": "5654e1151b1a70e7ab770ff9466835cdf289289eec7dab57394ab1e719de5d36"
+  },
+  {
+    "path": "templates/multi-view-skill/SKILL.md",
+    "sha256": "f17ad90bdb70c270f140ca4ac3cc526586b78e3e9e182b574278bec2adbecb91"
+  },
+  {
+    "path": "tests/test_skill_docs.py",
+    "sha256": "3480c867524cacf2f33573be6cc96aa1201a7695e87fc0b79a63c9f170858dae"
+  },
+  {
+    "path": "tests/test_validate_skill.py",
+    "sha256": "52d078caeefe0ddb8f41154b1b3b1de9ba7f9eda008b70d84045d7a4b7e6ded2"
+  }
+]

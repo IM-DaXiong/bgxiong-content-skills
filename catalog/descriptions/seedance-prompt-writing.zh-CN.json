@@ -1,0 +1,37 @@
+{
+  "name": "seedance-prompt-writing",
+  "displayName": "Seedance 视频提示词",
+  "packagePath": "skills/seedance-prompt-writing",
+  "version": "1.1.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "video-prompt-projection"
+  ],
+  "distribution": "source-approved",
+  "scenario": "把冻结的片段视频内容表达成 Seedance（2.0 系列）视频提示词的写法：主体定义与绑定、镜头1/镜头2 分镜时序、动作与运镜措辞、参考图／视频／音频的用途说法，以及文生、首帧／首尾帧、多图与多模态参考、编辑、延长等模式差异。只改写表达，不新增、删改或重排母版事实。为 Seedance 目标投影或整理视频提示词时使用。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "片段与素材边界",
+    "内容边界",
+    "在应用工作台内",
+    "通用写法",
+    "动作与交互的表达",
+    "按模式渐进读取",
+    "独立使用",
+    "来源说明"
+  ],
+  "intendedOutcome": [
+    "把片段意图写成目标视频模型可阅读的提示词投影，不提交生成任务。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

@@ -1,0 +1,45 @@
+{
+  "name": "character-expression-nine-grid",
+  "displayName": "角色表情九宫格",
+  "packagePath": "skills/character-expression-nine-grid",
+  "version": "1.1.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "multi-view"
+  ],
+  "distribution": "source-approved",
+  "scenario": "为同一人物设计可选表情参考，按工作台所选子模式分张或合成参考板；保持已有身份和服装，不要求先制作九张图片。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "参考内容",
+    "执行与结果"
+  ],
+  "intendedOutcome": [
+    "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null,
+  "variants": [
+    {
+      "path": "skills/character-expression-nine-grid",
+      "distribution": "source-approved",
+      "scenario": "为同一人物设计可选表情参考，按工作台所选子模式分张或合成参考板；保持已有身份和服装，不要求先制作九张图片。",
+      "version": "1.1.0"
+    },
+    {
+      "path": "examples/teaching/character-expression-nine-grid",
+      "distribution": "teaching",
+      "scenario": "同一人物的可选表情参考：平静、开心、生气、委屈、惊讶、疑惑、撒娇、鄙视、得意。只在用户选择多视角表情参考时使用，不要求先交九张图，也不作为后续视频的前置。没有参考图时可根据人物文字描述设计。Use when the user wants an optional expression reference for the same person, not a required video lock.",
+      "version": "1.0.3"
+    }
+  ]
+}

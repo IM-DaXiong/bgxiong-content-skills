@@ -1,0 +1,30 @@
+{
+  "name": "large-format-film-large-scene-video",
+  "displayName": "IMAX大画幅胶片·大场景·视频",
+  "packagePath": "examples/teaching/large-format-film-large-scene-video",
+  "version": "2.0.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "video-photography-style"
+  ],
+  "distribution": "teaching",
+  "scenario": "为大场景视频提供简短的大画幅胶片摄影质感；保留用户已定镜头、画幅与内容。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "见该包 SKILL.md 正文"
+  ],
+  "intendedOutcome": [
+    "整理可交给视频工作台的镜头与画面建议，不直接生成视频。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

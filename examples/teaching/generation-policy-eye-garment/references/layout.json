@@ -1,0 +1,63 @@
+{
+  "hosts": [
+    "character",
+    "actor"
+  ],
+  "audiences": [
+    "multi_view"
+  ],
+  "identityAnchor": "front",
+  "slots": [
+    "front",
+    "back",
+    "left",
+    "right",
+    "left_front",
+    "right_front",
+    "left_back",
+    "eye_closeup",
+    "garment_closeup"
+  ],
+  "views": {
+    "view3": [
+      "front",
+      "right",
+      "back"
+    ],
+    "view4": [
+      "front",
+      "front_portrait",
+      "right",
+      "back"
+    ],
+    "view9": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "left_front",
+      "right_front",
+      "left_back",
+      "eye_closeup",
+      "garment_closeup"
+    ]
+  },
+  "slotDetails": [
+    {
+      "slotId": "eye_closeup",
+      "orientation": "CAMERA ORIENTATION: extreme close-up on both eyes. Face fills most of the frame.",
+      "framing": "FRAMING (Recommended): eye close-up. No full body. Irises and eyelids readable.",
+      "suffix": "macro eye detail, catchlight, eyelashes visible, identity still matches slot 0",
+      "negatives": "full body, wide shot, both ears equally, extra eyes",
+      "identityAnchor": false
+    },
+    {
+      "slotId": "garment_closeup",
+      "orientation": "CAMERA ORIENTATION: close-up on torso garment and fabric.",
+      "framing": "FRAMING (Recommended): clothing close-up. Chest or sleeve fills frame. No face crop required.",
+      "suffix": "fabric weave, seam, buttons or print readable, same outfit as identity view",
+      "negatives": "nude, empty wardrobe, full body landscape",
+      "identityAnchor": false
+    }
+  ]
+}

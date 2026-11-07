@@ -1,0 +1,30 @@
+{
+  "name": "native-image-policy",
+  "displayName": "标准多视角定妆",
+  "packagePath": "examples/teaching/native-image-policy",
+  "version": "1.0.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "multi-view"
+  ],
+  "distribution": "teaching",
+  "scenario": "内置多视图槽位。提示词正文仍在应用的官方生成策略合同里，本包只列出演员与角色共用的转面顺序。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "当前创作边界"
+  ],
+  "intendedOutcome": [
+    "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

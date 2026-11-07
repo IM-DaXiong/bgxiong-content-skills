@@ -1,0 +1,82 @@
+{
+  "hosts": [
+    "scene"
+  ],
+  "audiences": [
+    "multi_view"
+  ],
+  "identityAnchor": "scene_front",
+  "slots": [
+    "scene_front",
+    "scene_left",
+    "scene_right",
+    "scene_back"
+  ],
+  "views": {
+    "view4": [
+      "scene_front",
+      "scene_left",
+      "scene_right",
+      "scene_back"
+    ]
+  },
+  "defaultMode": "view4",
+  "slotDetails": [
+    {
+      "slotId": "scene_front",
+      "orientation": "Front view, facing the main facade or the established front of the interior.",
+      "framing": "One uninterrupted scene view per image. Comparable camera height and field of view across all four directions; preserve spatial scale and perspective.",
+      "suffix": "The same location at the same moment. Preserve architecture, door and window placement, fixed furniture, materials, weather, visual style and world-space light sources. Move the camera, never rearrange or mirror the scene. Interior scenes remain inside; exterior scenes remain outside. Preserve user-requested elements.",
+      "negatives": "mirrored floor plan, relocated doors, changed architecture, different location, collage, captions, watermark",
+      "label": {
+        "zh-CN": "正面",
+        "en": "Front"
+      }
+    },
+    {
+      "slotId": "scene_left",
+      "orientation": "Left side view, a quarter turn around the same scene from its established front toward its fixed left side.",
+      "framing": "One uninterrupted scene view per image. Comparable camera height and field of view across all four directions; preserve spatial scale and perspective.",
+      "suffix": "The same location at the same moment. Preserve architecture, door and window placement, fixed furniture, materials, weather, visual style and world-space light sources. Move the camera, never rearrange or mirror the scene. Interior scenes remain inside; exterior scenes remain outside. Preserve user-requested elements.",
+      "negatives": "mirrored floor plan, relocated doors, changed architecture, different location, collage, captions, watermark",
+      "label": {
+        "zh-CN": "左侧",
+        "en": "Left"
+      }
+    },
+    {
+      "slotId": "scene_right",
+      "orientation": "Right side view, a quarter turn around the same scene from its established front toward its fixed right side.",
+      "framing": "One uninterrupted scene view per image. Comparable camera height and field of view across all four directions; preserve spatial scale and perspective.",
+      "suffix": "The same location at the same moment. Preserve architecture, door and window placement, fixed furniture, materials, weather, visual style and world-space light sources. Move the camera, never rearrange or mirror the scene. Interior scenes remain inside; exterior scenes remain outside. Preserve user-requested elements.",
+      "negatives": "mirrored floor plan, relocated doors, changed architecture, different location, collage, captions, watermark",
+      "label": {
+        "zh-CN": "右侧",
+        "en": "Right"
+      }
+    },
+    {
+      "slotId": "scene_back",
+      "orientation": "Rear view, half a turn around the same scene from its established front.",
+      "framing": "One uninterrupted scene view per image. Comparable camera height and field of view across all four directions; preserve spatial scale and perspective.",
+      "suffix": "The same location at the same moment. Preserve architecture, door and window placement, fixed furniture, materials, weather, visual style and world-space light sources. Move the camera, never rearrange or mirror the scene. Interior scenes remain inside; exterior scenes remain outside. Preserve user-requested elements.",
+      "negatives": "mirrored floor plan, relocated doors, changed architecture, different location, collage, captions, watermark",
+      "label": {
+        "zh-CN": "背后",
+        "en": "Back"
+      }
+    }
+  ],
+  "sheetModes": [
+    "view4"
+  ],
+  "sheet": {
+    "view4": {
+      "layout": "A clean 2 by 2 reference board: top-left FRONT, top-right LEFT, bottom-left RIGHT, bottom-right BACK. Four equally sized panels, no labels or text. Each panel observes the same scene from its specified fixed direction.",
+      "refPreamble": "Preserve the referenced location and its fixed spatial relationships across four directions.",
+      "preamble": "Four-direction scene spatial reference board.",
+      "negatives": "mirrored layout, changed location, inconsistent architecture, text, watermark",
+      "qualityTail": "Consistent architecture, scale, materials, time and world-space illumination. Clear panel boundaries."
+    }
+  }
+}

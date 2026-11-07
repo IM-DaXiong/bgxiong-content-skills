@@ -1,0 +1,33 @@
+{
+  "name": "generic-video-prompt-writing",
+  "displayName": "通用视频提示词",
+  "packagePath": "skills/generic-video-prompt-writing",
+  "version": "1.1.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "video-prompt-projection"
+  ],
+  "distribution": "source-approved",
+  "scenario": "冻结目标为 generic@1 时，将片段视频内容整理为中立自然语言，保留来源、时序与逐字原话；不替代损坏或缺失的专属格式绑定。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "片段与素材边界",
+    "本次输入与格式适配",
+    "通用表达",
+    "评审与交付"
+  ],
+  "intendedOutcome": [
+    "把片段意图写成目标视频模型可阅读的提示词投影，不提交生成任务。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

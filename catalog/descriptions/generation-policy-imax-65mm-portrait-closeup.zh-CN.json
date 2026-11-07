@@ -1,0 +1,36 @@
+{
+  "name": "generation-policy-imax-65mm-portrait-closeup",
+  "displayName": "巨幕胶片人像风格",
+  "packagePath": "examples/teaching/generation-policy-imax-65mm-portrait-closeup",
+  "version": "1.0.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "video-photography-style",
+    "optimize-image-prompt",
+    "clip-environment-prompt",
+    "clip-video-draft"
+  ],
+  "distribution": "teaching",
+  "scenario": "强调皮肤、眼神、面部立体感与自然光学，适用于人物图片及表演视频。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "见该包 SKILL.md 正文"
+  ],
+  "intendedOutcome": [
+    "整理可交给视频工作台的镜头与画面建议，不直接生成视频。",
+    "在已有图片提示词上标出可改进处并给出修订稿，保留原稿。",
+    "为片段中的环境候选写普通图片提示词。",
+    "为单个片段写可独立提交的视频完整稿。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

@@ -1,0 +1,32 @@
+{
+  "name": "bible-roles-chapters",
+  "displayName": "设定约束与片段规划",
+  "packagePath": "examples/teaching/bible-roles-chapters",
+  "version": "1.0.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "episode-clip-plan"
+  ],
+  "distribution": "teaching",
+  "scenario": "结合完整单集正文中的世界规则、人物目标和因果，把既有剧情组织为可直接编辑的视频片段规划。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "只执行当前宿主阶段",
+    "方法",
+    "执行边界"
+  ],
+  "intendedOutcome": [
+    "按剧情行动规划有序片段，而不是按固定秒数切段。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

@@ -1,5 +1,7 @@
 # INSPIRATIONS / Research Ledger 模板
 
+当前包的来源记录见 `docs/maintenance/SOURCES-AND-RIGHTS.md`。下面的研究笔记不是安装教程。
+
 ## 吸收原则（ABS）
 
 见根 README：只抽机制、许可证门禁、IP 脱敏、契约适配、SOURCES 必填。

@@ -1,3 +1,7 @@
+# CASE-MATRIX（历史矩阵，不是当前安装格式）
+
+当前技能目录见 [skills/INDEX.zh-CN.md](skills/INDEX.zh-CN.md)。下表保留旧的 `content.plan` 编号，只供查阅历史案例，不能当作新技能的默认合同。
+
 # CASE-MATRIX（starter · from PLAN 184500 §15）
 
 > 产品侧建议另有 `fixtures/content-skills/CASE-MATRIX.md`；本文件为开源仓文档。状态随抽取更新。

@@ -1,0 +1,27 @@
+{
+  "identityAnchor": "front",
+  "views": {
+    "view3": [
+      "front",
+      "right",
+      "back"
+    ],
+    "view4": [
+      "front",
+      "front_portrait",
+      "right",
+      "back"
+    ],
+    "view9": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "left_front",
+      "right_front",
+      "left_back",
+      "right_back",
+      "top_down"
+    ]
+  }
+}

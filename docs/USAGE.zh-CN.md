@@ -1,28 +1,11 @@
-# 用法（导入到比格熊数字导演工作站）
+# 怎么导入
 
-本仓库的 Skills **不是**独立可运行程序，需要导入 [比格熊数字导演工作站](https://www.bgxiong.com) 后由 Host 执行。
+1. 打开比格熊数字导演工作站。
+2. 进入创作技能库。
+3. 选择一个含 `SKILL.md` 的目录，或选择只含这一个包的 ZIP。带 `references/` 的包不要只导入单个 `SKILL.md`。
+4. 预览后确认。同内容再次导入应保持原版本；内容不同会要求确认替换。
+5. 在对应工作台选用该技能声明的用途。
 
-## 步骤
+导入成功只说明格式被接受。能否执行还要看用途是否属于当前闭集，以及是否声明 `clips-v1`。
 
-1. 从官网安装客户端：[https://www.bgxiong.com](https://www.bgxiong.com)
-2. 打开 **设置 → 创作 Skills**
-3. 导入 `examples/` 下某个完整包目录（含 `skill.manifest.json`）
-4. 在分镜 / 优化提示词 / 生图策略相关入口选用该 Skill
-
-## 推荐先试
-
-| 包 | 能力 |
-|----|------|
-| `examples/content-plan/28-storyboard-performance` | `content.plan` + `optimize.storyboard_shot` |
-| `examples/optimize/30-optimize-storyboard-fight` | `optimize.storyboard_shot`（武打） |
-| `examples/optimize/31-optimize-storyboard-micro-cu` | `optimize.storyboard_shot`（微表情特写） |
-| `examples/optimize/32-optimize-segment-continuity` | `optimize.segment` |
-| `examples/generation-policy/15-generation-policy-expression-9grid` | `generation.policy` |
-
-## 校验
-
-```bash
-python scripts/validate-example.py examples/.../<pack>
-```
-
-详见根目录 [README.md](../README.md)。
+本说明没有在本轮用图形界面复测。应用内的导入、替换和导出以应用现有安装链为准。

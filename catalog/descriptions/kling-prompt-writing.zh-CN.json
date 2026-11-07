@@ -1,0 +1,33 @@
+{
+  "name": "kling-prompt-writing",
+  "displayName": "可灵视频提示词",
+  "packagePath": "skills/kling-prompt-writing",
+  "version": "1.1.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "video-prompt-projection"
+  ],
+  "distribution": "source-approved",
+  "scenario": "依据冻结的 Kling Classic 或 Omni 目标，将片段视频稿表达为当前模式所需内容，保留真实引用与原话；经典版和 Omni 的资源与能力不混用。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "片段与素材边界",
+    "本次输入与格式适配",
+    "目标资源",
+    "评审与交付"
+  ],
+  "intendedOutcome": [
+    "把片段意图写成目标视频模型可阅读的提示词投影，不提交生成任务。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

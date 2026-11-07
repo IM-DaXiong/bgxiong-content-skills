@@ -1,0 +1,38 @@
+{
+  "name": "qwen-image-2-1-prompt-writing",
+  "displayName": "Qwen Image 2.1 图像提示词",
+  "packagePath": "skills/qwen-image-2-1-prompt-writing",
+  "version": "1.1.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "optimize-image-prompt",
+    "clip-environment-prompt"
+  ],
+  "distribution": "source-approved",
+  "scenario": "为 Qwen Image 2.1 优化文生图与参考图编辑提示词。文生图整理为英文画面描述，图片编辑明确修改与保留内容，多图编号严格沿用输入顺序；画面文字保留用户指定语言。用于生图工作台点击优化提示词后审阅结果，不负责提交生图或改变画幅。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "片段与素材边界",
+    "输入与输出边界",
+    "文生图：描述已经完成的画面",
+    "图片编辑：明确改什么、保留什么",
+    "提交前检查",
+    "方法来源与有意适配",
+    "评审与交付"
+  ],
+  "intendedOutcome": [
+    "在已有图片提示词上标出可改进处并给出修订稿，保留原稿。",
+    "为片段中的环境候选写普通图片提示词。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

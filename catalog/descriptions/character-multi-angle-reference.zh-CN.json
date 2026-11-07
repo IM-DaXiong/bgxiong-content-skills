@@ -1,0 +1,45 @@
+{
+  "name": "character-multi-angle-reference",
+  "displayName": "角色多角度定妆",
+  "packagePath": "skills/character-multi-angle-reference",
+  "version": "1.1.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "multi-view"
+  ],
+  "distribution": "source-approved",
+  "scenario": "为同一人物设计可选多角度与材质细节参考，按所选模板提供全身、脸部和局部视图；用于独立资产创作，不强制固定视频镜头或帧数。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "参考内容",
+    "执行与结果"
+  ],
+  "intendedOutcome": [
+    "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null,
+  "variants": [
+    {
+      "path": "skills/character-multi-angle-reference",
+      "distribution": "source-approved",
+      "scenario": "为同一人物设计可选多角度与材质细节参考，按所选模板提供全身、脸部和局部视图；用于独立资产创作，不强制固定视频镜头或帧数。",
+      "version": "1.1.0"
+    },
+    {
+      "path": "examples/teaching/character-multi-angle-reference",
+      "distribution": "teaching",
+      "scenario": "同一人物的可选多角度参考：主角度与局部细节按用户选定的模板组织，不要求先写满全部槽位，也不作为后续视频前置。它不是表情九宫格，也不是九槽服装转面表。",
+      "version": "1.0.3"
+    }
+  ]
+}

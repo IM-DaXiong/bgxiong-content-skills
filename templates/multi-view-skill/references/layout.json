@@ -1,0 +1,12 @@
+{
+  "identityAnchor": "front",
+  "views": {
+    "view3": ["front", "side", "back"]
+  },
+  "slotDetails": [
+    {
+      "slotId": "front",
+      "label": {"zh-CN": "正面占位", "en": "Front placeholder"}
+    }
+  ]
+}

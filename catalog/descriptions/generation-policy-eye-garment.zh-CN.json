@@ -1,0 +1,33 @@
+{
+  "name": "generation-policy-eye-garment",
+  "displayName": "九视角细节定妆",
+  "packagePath": "examples/teaching/generation-policy-eye-garment",
+  "version": "1.0.1",
+  "workflow": "clips-v1",
+  "hosts": [
+    "multi-view"
+  ],
+  "distribution": "teaching",
+  "scenario": "演员与角色定妆的 9 视角变体：前 7 张保持官方转身角，最后两张改为眼睛特写和衣服特写。在需要既有转身参考又要眼部与服装细节图、并选择 9 视角分张批量时使用；不适用于单图九宫格合成。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "内容",
+    "使用方式",
+    "边界",
+    "当前创作边界"
+  ],
+  "intendedOutcome": [
+    "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

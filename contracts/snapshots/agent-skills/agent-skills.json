@@ -1,0 +1,1298 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "agent-skills.json",
+  "title": "AgentSkillsAppContract",
+  "description": "比格熊数字导演工作站的 Agent Skills 应用合同（应用 IPC/存储/诊断），不是行业标准。作者格式遵循 agentskills.io 开放规范；本文件只定义本应用如何引用、校验、激活与读取标准包。人读说明见 specDoc。",
+  "schemaVersion": 1,
+  "contractScope": "application-ipc",
+  "notAuthorFormat": "本合同不是 SKILL 作者格式；作者包只需标准 SKILL.md（见 SPEC §11），不得把本文件字段要求为包内文件。",
+  "specDoc": "docs/dev/specs/20261002-SPEC-Agent-Skills包加载与执行合同.md",
+  "specSources": [
+    {
+      "url": "https://agentskills.io/specification",
+      "verifiedOn": "2026-10-02"
+    },
+    {
+      "url": "https://agentskills.io/client-implementation/adding-skills-support",
+      "verifiedOn": "2026-10-02"
+    }
+  ],
+  "sources": [
+    "builtin",
+    "user"
+  ],
+  "unsupportedSources": {
+    "project": "当前产品不扫描工作区目录；不虚构 project 作用域。"
+  },
+  "packageDigest": {
+    "algorithm": "bgx-agent-skill-digest-v1",
+    "prefix": "sha256:",
+    "domainSeparator": "bgx-agent-skill-digest-v1\n",
+    "lineFormat": "<lowercase sha256 hex of file bytes>  <relpath>\n",
+    "sortOrder": "relpath UTF-8 bytes ascending",
+    "included": "包根下全部普通文件的内容与相对路径（包装目录与 __MACOSX/ 已去除）",
+    "excluded": [
+      "空目录",
+      "mtime",
+      "权限位",
+      "ZIP 注释与压缩参数",
+      "宿主注册信息与快照"
+    ],
+    "goldenVectors": [
+      {
+        "files": [
+          {
+            "path": "SKILL.md",
+            "utf8": "---\nname: hello-skill\ndescription: Say hello in the user's language. Use when the user greets you.\n---\n\n# Hello\n\nReply with a short greeting.\n"
+          }
+        ],
+        "digest": "sha256:7dd89a71d2fbb598e4fc8541214b83d252d7125dfb527307847ebd1e46d016cb"
+      },
+      {
+        "files": [
+          {
+            "path": "SKILL.md",
+            "utf8": "---\nname: hello-skill\ndescription: Say hello in the user's language. Use when the user greets you.\n---\n\n# Hello\n\nReply with a short greeting.\n"
+          },
+          {
+            "path": "references/tone.md",
+            "utf8": "Keep it warm and brief.\n"
+          }
+        ],
+        "digest": "sha256:00ce28a71e699cd068e0415e485ef93bd9ab9dc45d21152f2fd6bcc99f8b8ab2"
+      }
+    ]
+  },
+  "budgets": {
+    "maxFileCount": {
+      "value": 2000,
+      "unit": "files",
+      "meaning": "单个包内普通文件数上限（含 SKILL.md）。"
+    },
+    "maxDirectoryDepth": {
+      "value": 16,
+      "unit": "segments",
+      "meaning": "包内相对路径的最大段数。"
+    },
+    "maxRelativePathBytes": {
+      "value": 240,
+      "unit": "bytes",
+      "meaning": "单个包内相对路径的 UTF-8 字节上限。"
+    },
+    "maxPathSegmentBytes": {
+      "value": 128,
+      "unit": "bytes",
+      "meaning": "单个路径段的 UTF-8 字节上限。"
+    },
+    "maxSingleFileBytes": {
+      "value": 33554432,
+      "unit": "bytes",
+      "meaning": "单个文件解压后大小上限。"
+    },
+    "maxTotalUncompressedBytes": {
+      "value": 67108864,
+      "unit": "bytes",
+      "meaning": "整包全部文件解压后总大小上限。"
+    },
+    "maxArchiveBytes": {
+      "value": 67108864,
+      "unit": "bytes",
+      "meaning": "导入 ZIP 文件本身的大小上限。"
+    },
+    "maxCompressionRatio": {
+      "value": 200,
+      "unit": "ratio",
+      "meaning": "ZIP 单条目及整体的解压/压缩大小比上限（防压缩炸弹）。"
+    },
+    "maxSkillMdBytes": {
+      "value": 1048576,
+      "unit": "bytes",
+      "meaning": "SKILL.md 文件大小上限。"
+    },
+    "maxFrontmatterBytes": {
+      "value": 65536,
+      "unit": "bytes",
+      "meaning": "frontmatter 块（两条定界行之间）的字节上限。"
+    },
+    "nameHardMaxChars": {
+      "value": 128,
+      "unit": "chars",
+      "meaning": "import 档 name 的硬上限；超过即 NAME_UNSAFE。"
+    },
+    "nameSpecMaxChars": {
+      "value": 64,
+      "unit": "chars",
+      "meaning": "官方规范 name 长度上限。"
+    },
+    "descriptionSpecMaxChars": {
+      "value": 1024,
+      "unit": "chars",
+      "meaning": "官方规范 description 长度上限，也是目录展示截断长度。"
+    },
+    "compatibilitySpecMaxChars": {
+      "value": 500,
+      "unit": "chars",
+      "meaning": "官方规范 compatibility 长度上限。"
+    },
+    "bodyAdvisoryMaxLines": {
+      "value": 500,
+      "unit": "lines",
+      "meaning": "正文建议行数上限（超过只记 BODY_LARGE）。"
+    },
+    "catalogMaxEntries": {
+      "value": 200,
+      "unit": "entries",
+      "meaning": "一次提供给模型的目录条目上限；超过时按用户排序截取并在界面提示。"
+    },
+    "activationBodyMaxChars": {
+      "value": 100000,
+      "unit": "chars",
+      "meaning": "skills.activate 一次返回的正文字符上限；超过时 bodyTruncated=true。"
+    },
+    "readResourceDefaultChars": {
+      "value": 16000,
+      "unit": "chars",
+      "meaning": "skills.read_resource 未给 maxChars 时的单次返回字符数。"
+    },
+    "readResourceMaxChars": {
+      "value": 32000,
+      "unit": "chars",
+      "meaning": "skills.read_resource 单次 maxChars 的上限。"
+    },
+    "listResourcesPageSize": {
+      "value": 200,
+      "unit": "entries",
+      "meaning": "skills.list_resources 与激活结果中资源清单的单页条目上限。"
+    },
+    "maxActivationsPerRun": {
+      "value": 16,
+      "unit": "activations",
+      "meaning": "单次运行可激活的不同 SKILL 数上限。"
+    }
+  },
+  "statusSets": {
+    "source": {
+      "builtin": "随应用发布的内置包。",
+      "user": "用户导入的包。"
+    },
+    "profile": {
+      "import": "宽松档：导入、安装、列表、目录、激活。",
+      "author": "严格档：编辑保存、导出前检查、验证命令、发布 fixture。"
+    },
+    "severity": {
+      "error": "阻断当前操作。",
+      "warning": "不阻断，向用户展示。",
+      "info": "仅记录（如已忽略 __MACOSX/）。"
+    },
+    "phase": {
+      "container": "容器识别与路径/预算检查。",
+      "parse": "SKILL.md 编码与 frontmatter 解析。",
+      "validate": "字段与正文规则。",
+      "install": "安装、替换与 CAS。",
+      "catalog": "目录构建。",
+      "activate": "激活。",
+      "read": "资源列举与读取。",
+      "execute": "执行就绪与调用。"
+    },
+    "formatStatus": {
+      "valid": "无 error、无 warning（可有 info）。",
+      "valid_with_warnings": "无 error，至少一条 warning。",
+      "invalid": "至少一条 error；不安装。"
+    },
+    "installState": {
+      "enabled": "已安装且出现在目录中。",
+      "disabled": "已安装但被用户禁用；不出现在目录中。"
+    },
+    "executionReadiness": {
+      "ready": "所需能力均可用。",
+      "limited": "可执行，但部分声明的能力不可用；limitations 非空。",
+      "unavailable": "当前环境无法执行该包要求的步骤；limitations 非空。"
+    },
+    "limitationKind": {
+      "tool_unavailable": "缺少所需应用工具。",
+      "runtime_unavailable": "缺少所需运行时（如 SKILL worker）。",
+      "helper_language_unsupported": "程序资源语言无隔离执行器。",
+      "permission_not_granted": "所需权限未被应用授予（allowed-tools 不授权）。"
+    },
+    "activationSource": {
+      "user": "用户在选择器中显式选择。",
+      "model": "模型通过 skills.activate 激活。",
+      "binding": "场次/优化/生图绑定在运行时激活。"
+    },
+    "resourceKind": {
+      "text": "UTF-8 文本资源，可分页读取内容。",
+      "binary": "非文本资源，只返回元数据与 hash。"
+    }
+  },
+  "limitationDiagnostic": {
+    "tool_unavailable": "AGENT_SKILL_TOOL_UNAVAILABLE",
+    "runtime_unavailable": "AGENT_SKILL_RUNTIME_UNAVAILABLE",
+    "helper_language_unsupported": "AGENT_SKILL_HELPER_LANGUAGE_UNSUPPORTED",
+    "permission_not_granted": "AGENT_SKILL_PERMISSION_DENIED"
+  },
+  "skillMetadataExtensions": {
+    "description": "SKILL.md metadata 中本应用发布的 bgx-* 键（作者 YAML 仍是字符串）。作者文档门禁与包解析只认这里列出的键；未发布的 metadata.bgx* 仍按旧私有命名空间拒绝。",
+    "publishedKeys": [
+      "bgx-hosts",
+      "bgx-display-name",
+      "bgx-expansion",
+      "bgx-workflow",
+      "bgx-categories",
+      "bgx-tags",
+      "bgx-category-labels"
+    ],
+    "workflow": {
+      "key": "bgx-workflow",
+      "encoding": "singleToken",
+      "currentValue": "clips-v1",
+      "missingOrDifferent": "executionUnavailable",
+      "unavailableMessage": "旧版Skill不兼容当前片段流程，请作者按新规范更新后重新导入",
+      "meaning": "声明包已按当前片段创作流程编写。缺失或非当前值不影响格式导入、查看、导出与更新，但禁止新的激活、绑定执行及工作台冻结；历史冻结资源保留可读。"
+    },
+    "expansion": {
+      "key": "bgx-expansion",
+      "encoding": "singleToken",
+      "valuesRef": "#/definitions/expansionDeclaration",
+      "omitted": "undeclared",
+      "invalidDiagnostic": "AGENT_SKILL_EXPANSION_INVALID",
+      "conflictDiagnostic": "AGENT_SKILL_EXPANSION_CONFLICT",
+      "meaning": {
+        "allow": "允许按本 Skill 正文写明的范围扩写；新增内容必须作为结构化新增事实记录并经审阅。",
+        "preserve": "本 Skill 明确要求保留原意，不新增内容事实。",
+        "undeclared": "不主动授予扩写，也不否决另一已选 Skill 的显式 allow；两者都未声明时采用系统默认保真。"
+      }
+    }
+  },
+  "diagnostics": [
+    {
+      "code": "AGENT_SKILL_SKILL_MD_MISSING",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "包根候选中没有文件名精确为 SKILL.md 的文件（大小写变体不算）。"
+    },
+    {
+      "code": "AGENT_SKILL_MULTIPLE_ROOTS",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "容器中有多于一个可作为包根的目录。"
+    },
+    {
+      "code": "AGENT_SKILL_ARCHIVE_CORRUPT",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "ZIP 损坏、含加密条目或使用不支持的压缩方法。"
+    },
+    {
+      "code": "AGENT_SKILL_PATH_UNSAFE",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "包内路径为绝对路径、含盘符/UNC、. 或 .. 段、空段或控制字符。"
+    },
+    {
+      "code": "AGENT_SKILL_PATH_RESERVED_NAME",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "路径段为 Windows 保留名或以点/空格结尾。"
+    },
+    {
+      "code": "AGENT_SKILL_PATH_CASE_COLLISION",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "两个路径在 NFC 规范化并大小写折叠后相同。"
+    },
+    {
+      "code": "AGENT_SKILL_SYMLINK_FORBIDDEN",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "包内存在符号链接、重解析点、硬链接或 ZIP symlink 条目。"
+    },
+    {
+      "code": "AGENT_SKILL_DUPLICATE_ENTRY",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "ZIP 内有重复条目名。"
+    },
+    {
+      "code": "AGENT_SKILL_PATH_ENCODING_UNSUPPORTED",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "ZIP 条目名无 UTF-8 标志且不是合法 UTF-8；不猜测代码页。"
+    },
+    {
+      "code": "AGENT_SKILL_LIMIT_EXCEEDED",
+      "phase": "container",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "超过 budgets 中某项上限；details.limitKey 给出该项键名。"
+    },
+    {
+      "code": "AGENT_SKILL_ZIP_BACKSLASH_PATH",
+      "phase": "container",
+      "severity": {
+        "import": "warning",
+        "author": "warning"
+      },
+      "meaning": "ZIP 条目名使用反斜杠分隔，已按目录分隔符规范化。"
+    },
+    {
+      "code": "AGENT_SKILL_MACOSX_IGNORED",
+      "phase": "container",
+      "severity": {
+        "import": "info",
+        "author": "info"
+      },
+      "meaning": "已忽略 ZIP 顶层 __MACOSX/ 子树。"
+    },
+    {
+      "code": "AGENT_SKILL_SKILL_MD_NOT_UTF8",
+      "phase": "parse",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "SKILL.md 不是合法 UTF-8。"
+    },
+    {
+      "code": "AGENT_SKILL_FRONTMATTER_MISSING",
+      "phase": "parse",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "SKILL.md 首行（BOM 之后）不是 --- 开始定界。"
+    },
+    {
+      "code": "AGENT_SKILL_FRONTMATTER_UNCLOSED",
+      "phase": "parse",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "找不到 frontmatter 结束定界行 ---。"
+    },
+    {
+      "code": "AGENT_SKILL_FRONTMATTER_YAML_INVALID",
+      "phase": "parse",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "frontmatter 不是可解析的 YAML（不做自动修复）。"
+    },
+    {
+      "code": "AGENT_SKILL_FRONTMATTER_NOT_MAPPING",
+      "phase": "parse",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "frontmatter 顶层不是映射。"
+    },
+    {
+      "code": "AGENT_SKILL_FRONTMATTER_DUPLICATE_KEY",
+      "phase": "parse",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "frontmatter 映射含重复键。"
+    },
+    {
+      "code": "AGENT_SKILL_FRONTMATTER_ALIAS_FORBIDDEN",
+      "phase": "parse",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "frontmatter 使用了 YAML 锚点、别名或合并键。"
+    },
+    {
+      "code": "AGENT_SKILL_NAME_MISSING",
+      "phase": "validate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "name 缺失或为空字符串。"
+    },
+    {
+      "code": "AGENT_SKILL_NAME_NOT_STRING",
+      "phase": "validate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "name 不是字符串。"
+    },
+    {
+      "code": "AGENT_SKILL_NAME_UNSAFE",
+      "phase": "validate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "name 含路径分隔符或控制字符、等于 . 或 ..，或超过 nameHardMaxChars。"
+    },
+    {
+      "code": "AGENT_SKILL_NAME_TOO_LONG",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "name 超过规范上限 nameSpecMaxChars（未超过硬上限）。"
+    },
+    {
+      "code": "AGENT_SKILL_NAME_CHARSET",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "name 含 Unicode 小写字母数字与连字符以外的字符（如大写、空格、下划线）。"
+    },
+    {
+      "code": "AGENT_SKILL_NAME_HYPHEN",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "name 以连字符开头或结尾，或含连续连字符。"
+    },
+    {
+      "code": "AGENT_SKILL_NAME_DIR_MISMATCH",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "name 与容器名（父目录名）不一致。"
+    },
+    {
+      "code": "AGENT_SKILL_NAME_NON_ASCII",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "warning"
+      },
+      "meaning": "name 含非 ASCII 字符；规范允许，但部分客户端可能不兼容。"
+    },
+    {
+      "code": "AGENT_SKILL_DESCRIPTION_MISSING",
+      "phase": "validate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "description 缺失、为空或仅含空白。"
+    },
+    {
+      "code": "AGENT_SKILL_DESCRIPTION_NOT_STRING",
+      "phase": "validate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "description 不是字符串。"
+    },
+    {
+      "code": "AGENT_SKILL_DESCRIPTION_TOO_LONG",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "description 超过 descriptionSpecMaxChars。"
+    },
+    {
+      "code": "AGENT_SKILL_LICENSE_NOT_STRING",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "license 不是字符串。"
+    },
+    {
+      "code": "AGENT_SKILL_COMPATIBILITY_INVALID",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "compatibility 不是字符串、为空或超过 compatibilitySpecMaxChars。"
+    },
+    {
+      "code": "AGENT_SKILL_METADATA_INVALID",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "metadata 不是映射，或含非字符串键/值。"
+    },
+    {
+      "code": "AGENT_SKILL_ALLOWED_TOOLS_INVALID",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "allowed-tools 不是字符串。"
+    },
+    {
+      "code": "AGENT_SKILL_UNKNOWN_FIELD",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "frontmatter 含规范未定义的字段（原文保留）。"
+    },
+    {
+      "code": "AGENT_SKILL_BODY_LARGE",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "warning"
+      },
+      "meaning": "正文超过 bodyAdvisoryMaxLines 行（作者建议，不阻断）。"
+    },
+    {
+      "code": "AGENT_SKILL_BODY_EMPTY",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "warning"
+      },
+      "meaning": "正文为空（不阻断）。"
+    },
+    {
+      "code": "AGENT_SKILL_REFERENCE_MISSING",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "warning"
+      },
+      "meaning": "正文中的相对链接指向包内不存在的文件（仅提示，不改写正文）。"
+    },
+    {
+      "code": "AGENT_SKILL_INSTALL_CONFLICT",
+      "phase": "install",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "同一 stableId 已安装；必须由用户显式确认替换。"
+    },
+    {
+      "code": "AGENT_SKILL_DIGEST_MISMATCH",
+      "phase": "install",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "expectedPackageDigest 与当前已安装包不一致（CAS 失败）。"
+    },
+    {
+      "code": "AGENT_SKILL_INSTALL_IO",
+      "phase": "install",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "安装暂存、校验或原子切换时发生 IO 失败；原版本保持不变。"
+    },
+    {
+      "code": "AGENT_SKILL_SKILL_NOT_FOUND",
+      "phase": "activate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "skillId 不在当前目录中（未安装、已卸载或被过滤）。"
+    },
+    {
+      "code": "AGENT_SKILL_SKILL_DISABLED",
+      "phase": "activate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "skillId 对应的包已被用户禁用。"
+    },
+    {
+      "code": "AGENT_SKILL_ACTIVATION_NOT_FOUND",
+      "phase": "read",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "activationId 不存在或已随会话释放。"
+    },
+    {
+      "code": "AGENT_SKILL_ACTIVATION_LIMIT_EXCEEDED",
+      "phase": "activate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "本次运行激活的不同 SKILL 数超过 maxActivationsPerRun。"
+    },
+    {
+      "code": "AGENT_SKILL_RESOURCE_REF_INVALID",
+      "phase": "read",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "resourceRef 不符合 definitions.resourceRef 规则。"
+    },
+    {
+      "code": "AGENT_SKILL_RESOURCE_NOT_FOUND",
+      "phase": "read",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "resourceRef 不在该激活快照的资源清单中。"
+    },
+    {
+      "code": "AGENT_SKILL_RESOURCE_HASH_MISMATCH",
+      "phase": "read",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "资源当前内容 sha256 与激活快照不一致；不返回新内容。"
+    },
+    {
+      "code": "AGENT_SKILL_RESOURCE_OFFSET_OUT_OF_RANGE",
+      "phase": "read",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "offset 超过该文本资源的总字符数。"
+    },
+    {
+      "code": "AGENT_SKILL_CURSOR_INVALID",
+      "phase": "read",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "list_resources 的 cursor 无效或已过期。"
+    },
+    {
+      "code": "AGENT_SKILL_TOOL_UNAVAILABLE",
+      "phase": "execute",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "执行所需的应用工具在当前环境不可用。"
+    },
+    {
+      "code": "AGENT_SKILL_RUNTIME_UNAVAILABLE",
+      "phase": "execute",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "执行所需的运行时（如 SKILL worker）不可用。"
+    },
+    {
+      "code": "AGENT_SKILL_HELPER_LANGUAGE_UNSUPPORTED",
+      "phase": "execute",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "程序资源的语言没有可用的隔离执行器（本应用不执行任意脚本）。"
+    },
+    {
+      "code": "AGENT_SKILL_PERMISSION_DENIED",
+      "phase": "execute",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "调用被应用权限判定拒绝；allowed-tools 声明不授予权限。"
+    },
+    {
+      "code": "AGENT_SKILL_HOSTS_UNKNOWN",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "metadata.bgx-hosts 含有不在用途闭集内的标识，已忽略未知项。"
+    },
+    {
+      "code": "AGENT_SKILL_HOSTS_INVALID",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "metadata.bgx-hosts 不是空格分隔的用途字符串。"
+    },
+    {
+      "code": "AGENT_SKILL_HOST_NOT_ALLOWED",
+      "phase": "activate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "该技能未设置用于当前工作台。"
+    },
+    {
+      "code": "AGENT_SKILL_HOST_NOT_SUPPORTED",
+      "phase": "activate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "当前工作台不使用标准技能。"
+    },
+    {
+      "code": "AGENT_SKILL_STYLE_OVERLAY_MISSING",
+      "phase": "activate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "该技能声明了画面风格用途，但 layout 缺少非空 visualStyleOverlay。"
+    },
+    {
+      "code": "AGENT_SKILL_DISPLAY_NAME_INVALID",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "metadata.bgx-display-name 或用户改名不合法（超长、含换行/控制字符、去空白后为空）；导入时忽略该别名。"
+    },
+    {
+      "code": "AGENT_SKILL_EXPANSION_INVALID",
+      "phase": "validate",
+      "severity": {
+        "import": "warning",
+        "author": "error"
+      },
+      "meaning": "metadata.bgx-expansion 不是 allow 或 preserve；该声明不生效，选用该技能时报告无效声明，不当作未声明。"
+    },
+    {
+      "code": "AGENT_SKILL_EXPANSION_CONFLICT",
+      "phase": "activate",
+      "severity": {
+        "import": "error",
+        "author": "error"
+      },
+      "meaning": "内容整理与格式适配所选技能对扩写给出相反的显式声明，且本次没有用户明确要求；调用前须由用户调整。"
+    }
+  ],
+  "definitions": {
+    "source": {
+      "type": "string",
+      "enum": [
+        "builtin",
+        "user"
+      ]
+    },
+    "profile": {
+      "type": "string",
+      "enum": [
+        "import",
+        "author"
+      ]
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "error",
+        "warning",
+        "info"
+      ]
+    },
+    "phase": {
+      "type": "string",
+      "enum": [
+        "container",
+        "parse",
+        "validate",
+        "install",
+        "catalog",
+        "activate",
+        "read",
+        "execute"
+      ]
+    },
+    "formatStatus": {
+      "type": "string",
+      "enum": [
+        "valid",
+        "valid_with_warnings",
+        "invalid"
+      ]
+    },
+    "installState": {
+      "type": "string",
+      "enum": [
+        "enabled",
+        "disabled"
+      ]
+    },
+    "executionReadiness": {
+      "type": "string",
+      "enum": [
+        "ready",
+        "limited",
+        "unavailable"
+      ]
+    },
+    "limitationKind": {
+      "type": "string",
+      "enum": [
+        "tool_unavailable",
+        "runtime_unavailable",
+        "helper_language_unsupported",
+        "permission_not_granted"
+      ]
+    },
+    "activationSource": {
+      "type": "string",
+      "enum": [
+        "user",
+        "model",
+        "binding"
+      ]
+    },
+    "resourceKind": {
+      "type": "string",
+      "enum": [
+        "text",
+        "binary"
+      ]
+    },
+    "diagnosticCode": {
+      "type": "string",
+      "enum": [
+        "AGENT_SKILL_SKILL_MD_MISSING",
+        "AGENT_SKILL_MULTIPLE_ROOTS",
+        "AGENT_SKILL_ARCHIVE_CORRUPT",
+        "AGENT_SKILL_PATH_UNSAFE",
+        "AGENT_SKILL_PATH_RESERVED_NAME",
+        "AGENT_SKILL_PATH_CASE_COLLISION",
+        "AGENT_SKILL_SYMLINK_FORBIDDEN",
+        "AGENT_SKILL_DUPLICATE_ENTRY",
+        "AGENT_SKILL_PATH_ENCODING_UNSUPPORTED",
+        "AGENT_SKILL_LIMIT_EXCEEDED",
+        "AGENT_SKILL_ZIP_BACKSLASH_PATH",
+        "AGENT_SKILL_MACOSX_IGNORED",
+        "AGENT_SKILL_SKILL_MD_NOT_UTF8",
+        "AGENT_SKILL_FRONTMATTER_MISSING",
+        "AGENT_SKILL_FRONTMATTER_UNCLOSED",
+        "AGENT_SKILL_FRONTMATTER_YAML_INVALID",
+        "AGENT_SKILL_FRONTMATTER_NOT_MAPPING",
+        "AGENT_SKILL_FRONTMATTER_DUPLICATE_KEY",
+        "AGENT_SKILL_FRONTMATTER_ALIAS_FORBIDDEN",
+        "AGENT_SKILL_NAME_MISSING",
+        "AGENT_SKILL_NAME_NOT_STRING",
+        "AGENT_SKILL_NAME_UNSAFE",
+        "AGENT_SKILL_NAME_TOO_LONG",
+        "AGENT_SKILL_NAME_CHARSET",
+        "AGENT_SKILL_NAME_HYPHEN",
+        "AGENT_SKILL_NAME_DIR_MISMATCH",
+        "AGENT_SKILL_NAME_NON_ASCII",
+        "AGENT_SKILL_DESCRIPTION_MISSING",
+        "AGENT_SKILL_DESCRIPTION_NOT_STRING",
+        "AGENT_SKILL_DESCRIPTION_TOO_LONG",
+        "AGENT_SKILL_LICENSE_NOT_STRING",
+        "AGENT_SKILL_COMPATIBILITY_INVALID",
+        "AGENT_SKILL_METADATA_INVALID",
+        "AGENT_SKILL_ALLOWED_TOOLS_INVALID",
+        "AGENT_SKILL_UNKNOWN_FIELD",
+        "AGENT_SKILL_BODY_LARGE",
+        "AGENT_SKILL_BODY_EMPTY",
+        "AGENT_SKILL_REFERENCE_MISSING",
+        "AGENT_SKILL_INSTALL_CONFLICT",
+        "AGENT_SKILL_DIGEST_MISMATCH",
+        "AGENT_SKILL_INSTALL_IO",
+        "AGENT_SKILL_SKILL_NOT_FOUND",
+        "AGENT_SKILL_SKILL_DISABLED",
+        "AGENT_SKILL_ACTIVATION_NOT_FOUND",
+        "AGENT_SKILL_ACTIVATION_LIMIT_EXCEEDED",
+        "AGENT_SKILL_RESOURCE_REF_INVALID",
+        "AGENT_SKILL_RESOURCE_NOT_FOUND",
+        "AGENT_SKILL_RESOURCE_HASH_MISMATCH",
+        "AGENT_SKILL_RESOURCE_OFFSET_OUT_OF_RANGE",
+        "AGENT_SKILL_CURSOR_INVALID",
+        "AGENT_SKILL_TOOL_UNAVAILABLE",
+        "AGENT_SKILL_RUNTIME_UNAVAILABLE",
+        "AGENT_SKILL_HELPER_LANGUAGE_UNSUPPORTED",
+        "AGENT_SKILL_PERMISSION_DENIED"
+      ]
+    },
+    "skillName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^(?!\\.{1,2}$)[^/\\\\\\u0000-\\u001f\\u007f]+$",
+      "description": "frontmatter name（import 档宽松值）；不含路径分隔符/控制字符，不等于 . 或 ..。"
+    },
+    "stableId": {
+      "type": "string",
+      "minLength": 6,
+      "maxLength": 136,
+      "pattern": "^(builtin|user):(?!\\.{1,2}$)[^/\\\\\\u0000-\\u001f\\u007f]{1,128}$",
+      "description": "<source>:<name>；模型与绑定只用它定位包，不暴露文件路径。"
+    },
+    "sha256Hex": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "packageDigest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "算法见 packageDigest 节与 SPEC §8.2。"
+    },
+    "activationId": {
+      "type": "string",
+      "pattern": "^act_[0-9A-Za-z_-]{8,64}$"
+    },
+    "resourceRef": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 240,
+      "pattern": "^(?![A-Za-z]:)(?!/)(?!.*//)(?!.*/$)(?!(?:.*/)?\\.{1,2}(?:/|$))(?!(?:[^/]*/){16})[^\\\\\\u0000-\\u001f\\u007f]+$",
+      "description": "包根相对 POSIX 路径（含 SKILL.md 本身）；无开头 /、盘符、反斜杠、空段、. 或 .. 段、控制字符；最多 16 段。UTF-8 字节数上限 maxRelativePathBytes 由实现另行校验。"
+    },
+    "skillRef": {
+      "type": "object",
+      "required": [
+        "stableId",
+        "packageDigest"
+      ],
+      "properties": {
+        "stableId": {
+          "$ref": "#/definitions/stableId"
+        },
+        "packageDigest": {
+          "$ref": "#/definitions/packageDigest"
+        }
+      },
+      "additionalProperties": false
+    },
+    "diagnostic": {
+      "type": "object",
+      "required": [
+        "code",
+        "severity",
+        "phase",
+        "message"
+      ],
+      "properties": {
+        "code": {
+          "$ref": "#/definitions/diagnosticCode"
+        },
+        "severity": {
+          "$ref": "#/definitions/severity"
+        },
+        "phase": {
+          "$ref": "#/definitions/phase"
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "path": {
+          "$ref": "#/definitions/resourceRef"
+        },
+        "details": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    },
+    "limitation": {
+      "type": "object",
+      "required": [
+        "kind",
+        "message"
+      ],
+      "properties": {
+        "kind": {
+          "$ref": "#/definitions/limitationKind"
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "detail": {
+          "type": "string",
+          "maxLength": 2000
+        }
+      },
+      "additionalProperties": false
+    },
+    "resourceEntry": {
+      "type": "object",
+      "required": [
+        "resourceRef",
+        "kind",
+        "bytes",
+        "sha256"
+      ],
+      "properties": {
+        "resourceRef": {
+          "$ref": "#/definitions/resourceRef"
+        },
+        "kind": {
+          "$ref": "#/definitions/resourceKind"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 33554432
+        },
+        "sha256": {
+          "$ref": "#/definitions/sha256Hex"
+        }
+      },
+      "additionalProperties": false
+    },
+    "activationSnapshot": {
+      "type": "object",
+      "required": [
+        "activationId",
+        "skillRef",
+        "source",
+        "activationSource",
+        "activatedAt",
+        "bodySha256",
+        "resourceCount",
+        "resources",
+        "compatibility",
+        "allowedToolsDeclared",
+        "executionReadiness",
+        "limitations"
+      ],
+      "properties": {
+        "activationId": {
+          "$ref": "#/definitions/activationId"
+        },
+        "skillRef": {
+          "$ref": "#/definitions/skillRef"
+        },
+        "source": {
+          "$ref": "#/definitions/source"
+        },
+        "activationSource": {
+          "$ref": "#/definitions/activationSource"
+        },
+        "activatedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "bodySha256": {
+          "$ref": "#/definitions/sha256Hex"
+        },
+        "resourceCount": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2000
+        },
+        "resources": {
+          "type": "array",
+          "maxItems": 2000,
+          "items": {
+            "$ref": "#/definitions/resourceEntry"
+          }
+        },
+        "compatibility": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 100000
+        },
+        "allowedToolsDeclared": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 100000
+        },
+        "executionReadiness": {
+          "$ref": "#/definitions/executionReadiness"
+        },
+        "limitations": {
+          "type": "array",
+          "maxItems": 64,
+          "items": {
+            "$ref": "#/definitions/limitation"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "description": "一次激活冻结的快照（宿主保存；运行/续跑/压缩后按 packageDigest 复原）。resources 为完整清单（≤ maxFileCount）。"
+    },
+    "libraryEntryToken": {
+      "$ref": "agent-skill-library.schema.json#/definitions/entryToken"
+    },
+    "libraryCategory": {
+      "$ref": "agent-skill-library.schema.json#/definitions/category"
+    },
+    "expansionDeclaration": {
+      "type": "string",
+      "enum": [
+        "allow",
+        "preserve"
+      ],
+      "description": "metadata.bgx-expansion 的合法值。省略不是第三个值，见 expansionDeclarationStatus。"
+    },
+    "expansionDeclarationStatus": {
+      "type": "string",
+      "enum": [
+        "declared",
+        "undeclared",
+        "invalid"
+      ]
+    },
+    "expansionDeclarationView": {
+      "description": "包内扩写声明的解析结果；Rust 解析并发布给 GUI/F1/MCP，TS 不另写枚举。invalid 保留原值供诊断，不当作 undeclared。",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "value",
+        "rawValue"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/definitions/expansionDeclarationStatus"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/expansionDeclaration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "rawValue": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 256
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "declared"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "$ref": "#/definitions/expansionDeclaration"
+              },
+              "rawValue": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "undeclared"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "rawValue": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "invalid"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "rawValue": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "expansionMetadata": {
+    "key": "bgx-expansion",
+    "omitted": "undeclared",
+    "precedence": "explicit current user request > conflicting explicit skill policies error > any explicit allow > preserve default",
+    "allowedValuesRef": "#/definitions/expansionDeclaration/enum"
+  }
+}

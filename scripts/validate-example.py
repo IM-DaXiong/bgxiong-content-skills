@@ -16,6 +16,9 @@ def die(msg: str) -> None:
     sys.exit(1)
 
 def main(argv: list[str]) -> None:
+    if "--legacy-historical" not in argv:
+        die("legacy private protocol is not the current author path; use scripts/validate_skill.py")
+    argv = [item for item in argv if item != "--legacy-historical"]
     if len(argv) < 2:
         die("usage: validate-example.py <pack-dir> [<pack-dir>...]")
     root = Path(__file__).resolve().parents[1]

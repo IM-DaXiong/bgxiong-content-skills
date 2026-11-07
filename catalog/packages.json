@@ -1,0 +1,142 @@
+{
+  "packages": [
+    {
+      "name": "action-fight-prompt",
+      "version": "1.1.0",
+      "path": "skills/action-fight-prompt",
+      "packageDigest": "sha256:cc8b4908059ba8dc2f034802ad9e092dda84fe8f1711cd464a180dba8b2c69ac",
+      "hosts": [
+        "optimize-segment",
+        "clip-video-draft"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "character-costume-reference",
+      "version": "1.1.0",
+      "path": "skills/character-costume-reference",
+      "packageDigest": "sha256:29d99689a7b888cf50096cacac8b2c5433098f09435057337e2297069a8ca681",
+      "hosts": [
+        "multi-view"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "character-expression-nine-grid",
+      "version": "1.1.0",
+      "path": "skills/character-expression-nine-grid",
+      "packageDigest": "sha256:05ff2222d8f9dc6ce5b28016e366b4c73e0a505788651f8b412aec71d559c423",
+      "hosts": [
+        "multi-view"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "character-multi-angle-reference",
+      "version": "1.1.0",
+      "path": "skills/character-multi-angle-reference",
+      "packageDigest": "sha256:52b12f145cc02168104dd4ff0c0b5b21fd014a8cd479566592751fc6959162de",
+      "hosts": [
+        "multi-view"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "generic-video-prompt-writing",
+      "version": "1.1.0",
+      "path": "skills/generic-video-prompt-writing",
+      "packageDigest": "sha256:a635e9a59adf03ebc6c5c01d2a3b11c425589277c4cf1fa071b78b72118eaa83",
+      "hosts": [
+        "video-prompt-projection"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "kling-prompt-writing",
+      "version": "1.1.1",
+      "path": "skills/kling-prompt-writing",
+      "packageDigest": "sha256:87468eda7a2a29beb3c8dd75de09cf95fff56b62cfb41ac58721bf3224be545f",
+      "hosts": [
+        "video-prompt-projection"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "ltx-2-5-prompt-writing",
+      "version": "1.4.0",
+      "path": "skills/ltx-2-5-prompt-writing",
+      "packageDigest": "sha256:85dc597d91f04022bb453ec1ba2ff3d2ea8c4ea5f6a4a0df1d202cd6ad22cea2",
+      "hosts": [
+        "optimize-segment",
+        "clip-video-draft",
+        "video-prompt-projection"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "qwen-image-2-1-prompt-writing",
+      "version": "1.1.0",
+      "path": "skills/qwen-image-2-1-prompt-writing",
+      "packageDigest": "sha256:c116fdb6d71b757c4cd958e0648832d0ba0f3090310f87082010549ab0746d9c",
+      "hosts": [
+        "optimize-image-prompt",
+        "clip-environment-prompt"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "scene-four-angle-reference",
+      "version": "1.1.0",
+      "path": "skills/scene-four-angle-reference",
+      "packageDigest": "sha256:ca6fdcf9aead0f41d0c484044d5670c6471d2621cb8f15f9896d30f781beed81",
+      "hosts": [
+        "multi-view",
+        "optimize-image-prompt",
+        "clip-environment-prompt"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "seedance-prompt-writing",
+      "version": "1.1.0",
+      "path": "skills/seedance-prompt-writing",
+      "packageDigest": "sha256:472fbf4b19ea2f88f6aa75550f26cd46e7183e06e7570d80d359cceed996dba4",
+      "hosts": [
+        "video-prompt-projection"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "wan-prompt-writing",
+      "version": "1.1.0",
+      "path": "skills/wan-prompt-writing",
+      "packageDigest": "sha256:e4416fab7950841bfe780181781e8ee1684bb8841fb0d541ebce9951b899aa11",
+      "hosts": [
+        "video-prompt-projection"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    }
+  ]
+}
