@@ -1,18 +1,18 @@
 {
-  "generationOwnership": "shape-only; camera semanticVocabulary is projected at runtime from cinematic_language::schema_gen",
+  "generationOwnership": "shape-only; camera vocabulary comes from cinematic_language::schema_gen; required dialogueMode/dialogueLines and charactersInShot are composed from the shared Stage A schema by dialogue_contract and cast_contract",
   "shots": {
-    "count": { "min": 1, "max": 24 },
+    "count": { "min": 1 },
     "item": {
       "required": ["shotIndex", "content"],
       "properties": {
-        "shotIndex": { "type": "integer", "minimum": 1, "maximum": 24 },
+        "shotIndex": { "type": "integer", "minimum": 1 },
         "content": { "type": "string", "minLength": 8 },
         "angleId": { "type": "string" },
         "shotSize": { "type": "string" },
         "cameraMove": { "type": "string" },
         "beat": { "type": "string" },
         "lens": { "type": "string" },
-        "durationHint": { "type": "string" }
+        "intendedDurationSeconds": { "type": "number" }
       }
     }
   }

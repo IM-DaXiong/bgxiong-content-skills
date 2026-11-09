@@ -1,17 +1,17 @@
 {
+  "contractVersion": 2,
   "capability": "optimize.segment",
-  "directives": {
-    "prose": {}
-  },
-  "outputSchema": {
-    "finalPrompt": {
-      "type": "string",
-      "minLength": 1
-    }
+  "semanticDirectives": {
+    "narrativeFocus": "",
+    "proseStyle": {},
+    "factPriorities": [],
+    "openDimensionPolicy": "allow_observable",
+    "requiredPreservations": ["dialogue", "visible_text", "ban"]
   },
   "emptyPolicy": {
     "ifCurrentPromptEmpty": "draftFromContext",
     "ifContextFieldEmpty": "omitFromPrompt",
     "forbidHostFabrication": true
-  }
+  },
+  "outputContract": "video_prompt_semantic_patch_v1"
 }
