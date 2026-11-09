@@ -118,8 +118,7 @@
               },
               "content": {
                 "type": "string",
-                "minLength": 40,
-                "maxLength": 220
+                "minLength": 40
               },
               "angleId": {
                 "enum": [
@@ -157,8 +156,7 @@
               },
               "lyricAnchor": {
                 "type": "string",
-                "minLength": 1,
-                "maxLength": 120
+                "minLength": 1
               },
               "visualFunction": {
                 "enum": [
@@ -175,8 +173,7 @@
               },
               "informationGain": {
                 "type": "string",
-                "minLength": 8,
-                "maxLength": 80
+                "minLength": 8
               }
             }
           }

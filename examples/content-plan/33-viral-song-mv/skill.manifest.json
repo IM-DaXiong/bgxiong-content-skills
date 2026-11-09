@@ -1,6 +1,6 @@
 {
   "id": "local.example.viral-song-mv",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "protocol": "content-skill-v1",
   "protocolVersion": "1.1.0",
   "entry": "pipeline.json",

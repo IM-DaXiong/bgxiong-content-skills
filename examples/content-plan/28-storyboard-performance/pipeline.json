@@ -41,8 +41,7 @@
               },
               "content": {
                 "type": "string",
-                "minLength": 40,
-                "maxLength": 160
+                "minLength": 40
               },
               "angleId": {
                 "enum": ["medium", "closeup", "low", "high", "pov"]
@@ -54,8 +53,7 @@
                 "enum": ["static", "pan", "dolly_in"]
               },
               "performanceBeat": {
-                "type": "string",
-                "maxLength": 80
+                "type": "string"
               }
             }
           }

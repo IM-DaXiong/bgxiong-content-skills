@@ -41,8 +41,7 @@
               },
               "content": {
                 "type": "string",
-                "minLength": 40,
-                "maxLength": 160
+                "minLength": 40
               },
               "angleId": {
                 "enum": [
@@ -66,8 +65,7 @@
                 ]
               },
               "faceBeat": {
-                "type": "string",
-                "maxLength": 80
+                "type": "string"
               }
             }
           }

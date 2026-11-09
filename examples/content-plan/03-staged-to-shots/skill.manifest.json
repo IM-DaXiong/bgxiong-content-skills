@@ -1,6 +1,6 @@
 {
   "id": "local.example.staged-to-shots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "protocol": "content-skill-v1",
   "entry": "pipeline.json",
   "language": "declarative",

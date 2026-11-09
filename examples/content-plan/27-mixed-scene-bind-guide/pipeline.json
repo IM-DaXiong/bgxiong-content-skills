@@ -32,8 +32,7 @@
               },
               "content": {
                 "type": "string",
-                "minLength": 40,
-                "maxLength": 160
+                "minLength": 40
               },
               "angleId": {
                 "enum": [
