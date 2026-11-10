@@ -149,6 +149,18 @@
       "workflow": "clips-v1",
       "distribution": "source-approved",
       "rights": "project-license"
+    },
+    {
+      "name": "h3-image-prompt-writing",
+      "version": "1.0.0",
+      "path": "skills/h3-image-prompt-writing",
+      "packageDigest": "sha256:8971dc127db5088ae2a9314b8169e7c258e520a76ffa25549bf14763bdcd8430",
+      "hosts": [
+        "optimize-image-prompt"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
     }
   ]
 }

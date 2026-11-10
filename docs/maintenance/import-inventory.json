@@ -525,6 +525,18 @@
       "disposition": "teaching-or-fixture",
       "copiedTo": "examples/teaching/world-and-character-planning",
       "copiedDigest": "sha256:0c70357e1b49f1a34a7f0a0978bbdc6c5bec7f7bff3afed0bd8b6f892b83560d"
+    },
+    {
+      "name": "h3-image-prompt-writing",
+      "kind": "builtin",
+      "sourcePath": "src-tauri/resources/builtin-agent-skills/h3-image-prompt-writing",
+      "sourceDigest": "sha256:8971dc127db5088ae2a9314b8169e7c258e520a76ffa25549bf14763bdcd8430",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/h3-image-prompt-writing",
+      "copiedDigest": "sha256:8971dc127db5088ae2a9314b8169e7c258e520a76ffa25549bf14763bdcd8430",
+      "authoredIn": "bgxiong-content-skills",
+      "createdOn": "2026-11-11"
     }
   ]
 }
