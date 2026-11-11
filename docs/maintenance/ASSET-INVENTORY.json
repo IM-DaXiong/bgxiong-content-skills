@@ -229,7 +229,7 @@
   },
   {
     "path": "contracts/snapshots/agent-skill-hosts/source.json",
-    "sha256": "982c43577aebb950b8e5809426750223d6fadacf4f1152a9411ba3ebb59eecce"
+    "sha256": "853af78efaca3fe659858a4880dfcf98830ee7e6a5ed6055a4b903cf1d6c3431"
   },
   {
     "path": "contracts/snapshots/agent-skills/agent-skills.json",
@@ -237,7 +237,7 @@
   },
   {
     "path": "contracts/snapshots/agent-skills/source.json",
-    "sha256": "a7bd0da559693431d90de856112325ed74ae18e23141640bd210713bda4be28c"
+    "sha256": "f30fc951e132244af78cddff2763c8254b227cf0262ae6ec4410b1f68b24cade"
   },
   {
     "path": "contracts/v1/content-skill-bind-ctx.json",

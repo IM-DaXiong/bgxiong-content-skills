@@ -1,5 +1,5 @@
 {
-  "repository": "https://github.com/IM-DaXiong/bgxiong-ai-story-dev.git",
+  "repository": "unlisted-private-host",
   "commit": "664399afaf2bf554ab0b2bf7273f7680ffcf63b3",
   "layoutReader": {
     "path": "src-tauri/src/agent_skills/image_execution.rs",
