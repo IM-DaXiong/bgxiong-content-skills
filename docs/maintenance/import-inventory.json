@@ -537,6 +537,18 @@
       "copiedDigest": "sha256:8971dc127db5088ae2a9314b8169e7c258e520a76ffa25549bf14763bdcd8430",
       "authoredIn": "bgxiong-content-skills",
       "createdOn": "2026-11-11"
+    },
+    {
+      "name": "h3-multi-reference-content",
+      "kind": "builtin",
+      "sourcePath": "skills/h3-multi-reference-content",
+      "sourceDigest": "sha256:8bea5bdbba6d44386150a1af60c256bd0eeee655c268037c98633a368f669dcc",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/h3-multi-reference-content",
+      "copiedDigest": "sha256:8bea5bdbba6d44386150a1af60c256bd0eeee655c268037c98633a368f669dcc",
+      "authoredIn": "bgxiong-content-skills",
+      "createdOn": "2026-11-11"
     }
   ]
 }

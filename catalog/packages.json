@@ -161,6 +161,18 @@
       "workflow": "clips-v1",
       "distribution": "source-approved",
       "rights": "project-license"
+    },
+    {
+      "name": "h3-multi-reference-content",
+      "version": "1.0.0",
+      "path": "skills/h3-multi-reference-content",
+      "packageDigest": "sha256:8bea5bdbba6d44386150a1af60c256bd0eeee655c268037c98633a368f669dcc",
+      "hosts": [
+        "optimize-segment"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
     }
   ]
 }

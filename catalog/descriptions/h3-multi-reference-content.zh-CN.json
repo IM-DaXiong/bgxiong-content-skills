@@ -1,0 +1,32 @@
+{
+  "name": "h3-multi-reference-content",
+  "displayName": "H3 多参内容整理",
+  "packagePath": "skills/h3-multi-reference-content",
+  "version": "1.0.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "optimize-segment"
+  ],
+  "distribution": "source-approved",
+  "scenario": "整理 MiniMax H3 多参视频的片段原稿，明确参考图、视频、音频的用途与归属，保留动作顺序、说话人和逐字对白。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "对齐参考素材与主体",
+    "整理动作与对白",
+    "交付给格式适配"
+  ],
+  "intendedOutcome": [
+    "检查片段连续性或表演问题，并给出仍可执行的修订建议。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}

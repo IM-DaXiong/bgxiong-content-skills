@@ -40,6 +40,7 @@
 - **Seedance 视频提示词**（`seedance-prompt-writing`，1.1.0）：把冻结的片段视频内容表达成 Seedance（2.0 系列）视频提示词的写法：主体定义与绑定、镜头1/镜头2 分镜时序、动作与运镜措辞、参考图／视频／音频的用途说法，以及文生、首帧／首尾帧、多图与多模态参考、编辑、延长等模式差异。只改写表达，不新增、删改或重排母版事实。为 Seedance 目标投影或整理视频提示词时使用。 详见 [说明](docs/skills/seedance-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **万相视频提示词**（`wan-prompt-writing`，1.1.0）：依据实际绑定的 Wan 目标和输入模式表达片段视频内容，保留来源、声音用途、时序与原话；不从历史名称推断模型能力。 详见 [说明](docs/skills/wan-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **H3-Image 图片提示词**（`h3-image-prompt-writing`，1.0.0）：为 MiniMax H3-Image 整理文生图与参考图编辑提示词，使用有序 Picture 引用、稳定 Subject 定义和明确的保留关系，保留用户事实与画内文字。供图片工作台优化提示词使用。 详见 [说明](docs/skills/h3-image-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **H3 多参内容整理**（`h3-multi-reference-content`，1.0.0）：整理 MiniMax H3 多参视频的片段原稿，明确参考图、视频、音频的用途与归属，保留动作顺序、说话人和逐字对白。 详见 [说明](docs/skills/h3-multi-reference-content.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 
 ### 教学变体
 

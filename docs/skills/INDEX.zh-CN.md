@@ -51,3 +51,4 @@
 - [音乐影像片段策划](viral-song-mv.zh-CN.md)：teaching。依据歌词、可判断的音乐结构与情绪变化组织连续音乐影像，形成独立可编辑的视频片段计划。
 - [设定与人物驱动片段](world-and-character-planning.zh-CN.md)：teaching。用世界规则与人物欲望梳理单集剧情，形成忠实原文、动机清楚的视频片段计划。
 - [H3-Image 图片提示词](h3-image-prompt-writing.zh-CN.md)：source-approved。为 MiniMax H3-Image 整理文生图与参考图编辑提示词，使用有序 Picture 引用、稳定 Subject 定义和明确的保留关系，保留用户事实与画内文字。供图片工作台优化提示词使用。
+- [H3 多参内容整理](h3-multi-reference-content.zh-CN.md)：source-approved。整理 MiniMax H3 多参视频的片段原稿，明确参考图、视频、音频的用途与归属，保留动作顺序、说话人和逐字对白。
