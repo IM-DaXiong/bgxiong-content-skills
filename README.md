@@ -1,3 +1,7 @@
+## H3-Image 图片提示词下载与实测
+
+[1.0.0 ZIP / SHA256](https://github.com/IM-DaXiong/bgxiong-content-skills/releases/tag/h3-image-prompt-writing-v1.0.0) · [应用实测与 A/B 结论](docs/skills/h3-image-prompt-writing-20261111-acceptance.md)。已安装并通过真实优化调用；本例未证明稳定质量提升。
+
 # 比格熊创作技能
 
 本仓库是创作技能正文的可编辑源。比格熊数字导演工作站负责安装、权限、用途闭集和执行。这里不能新增宿主能力。
