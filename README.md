@@ -8,9 +8,9 @@
 
 # 比格熊创作技能
 
-本仓库是创作技能正文的可编辑源。比格熊数字导演工作站负责安装、权限、用途闭集和执行。这里不能新增宿主能力。
+比格熊官网 [www.bgxiong.com](https://www.bgxiong.com)｜微信公众号：天途影像｜[比格熊开发治理 Skill](https://www.bgxiong.com/goods/9p65SRB2Sl)
 
-官网：[https://www.bgxiong.com](https://www.bgxiong.com)。作者公开联系方式：微信公众号「天途影像」。
+本仓库是创作技能正文的可编辑源。比格熊数字导演工作站负责安装、权限、用途闭集和执行。这里不能新增宿主能力。
 
 许可是仓库根 `LICENSE` 的自定义许可：可以学习，也可以在自有项目中使用；不能把这些材料单独做成付费技能包出售。这不是 OSI 开源许可证。
 
@@ -86,3 +86,5 @@
 - **设定与人物驱动片段**（`world-and-character-planning`，1.0.1）：用世界规则与人物欲望梳理单集剧情，形成忠实原文、动机清楚的视频片段计划。 详见 [说明](docs/skills/world-and-character-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 
 <!-- END GENERATED SKILL CATALOG -->
+
+比格熊官网 [www.bgxiong.com](https://www.bgxiong.com)｜微信公众号：天途影像｜[比格熊开发治理 Skill](https://www.bgxiong.com/goods/9p65SRB2Sl)
