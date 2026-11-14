@@ -2,7 +2,7 @@
   "name": "scene-four-angle-reference",
   "displayName": "场景四视角",
   "packagePath": "skills/scene-four-angle-reference",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "workflow": "clips-v1",
   "hosts": [
     "multi-view",
@@ -15,7 +15,8 @@
   "painPoints": [
     "按本次用途输出",
     "空间表达建议",
-    "执行与结果"
+    "执行与结果",
+    "全景空间参考与方位连续性"
   ],
   "intendedOutcome": [
     "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。",
@@ -38,7 +39,7 @@
       "path": "skills/scene-four-angle-reference",
       "distribution": "source-approved",
       "scenario": "为同一环境编写空间参考或普通图片提示词，可选正左右后四向模板；用于片段环境及独立图像，不要求旧场次、场景实体或故事板。",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
     {
       "path": "examples/teaching/scene-four-angle-reference",

@@ -114,9 +114,9 @@
     },
     {
       "name": "scene-four-angle-reference",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "path": "skills/scene-four-angle-reference",
-      "packageDigest": "sha256:ca6fdcf9aead0f41d0c484044d5670c6471d2621cb8f15f9896d30f781beed81",
+      "packageDigest": "sha256:77323d2327630f1e07ee6f117a420774d17ec69b1f0ae0ff56e5772bcbaec503",
       "hosts": [
         "multi-view",
         "optimize-image-prompt",
