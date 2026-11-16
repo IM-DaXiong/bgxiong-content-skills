@@ -11,7 +11,7 @@
 - `metadata.version`：自有发行包使用 `MAJOR.MINOR.PATCH`。
 - `metadata.bgx-display-name`：可选的展示名。
 
-正文写方法。机器真正读取的布局放在 `references/layout.json`，不要在讲解页再写一套会改变执行的规则。
+正文写创作方法和素材表达规则。机器读取的布局使用 `references/layout.json` 中宿主已支持的字段。适配器模型的时长、画幅、分辨率、素材槽和其他操作参数以当前包声明为准。需要给外部智能体配置已安装操作时，使用应用的公开工作台合同，见[宿主能力边界](HOST-CAPABILITIES.zh-CN.md)。
 
 包摘要按应用合同 `bgx-agent-skill-digest-v1` 计算，包含包内全部普通文件。给用户看的长说明放在本仓库 `docs/skills/`，不要为了写说明去改已经发布的包字节。若说明必须放进包内，先提高 `metadata.version`，再重新计算摘要。
 
