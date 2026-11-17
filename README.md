@@ -45,8 +45,8 @@
 - **万相视频提示词**（`wan-prompt-writing`，1.1.0）：依据实际绑定的 Wan 目标和输入模式表达片段视频内容，保留来源、声音用途、时序与原话；不从历史名称推断模型能力。 详见 [说明](docs/skills/wan-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **H3-Image 图片提示词**（`h3-image-prompt-writing`，1.0.0）：为 MiniMax H3-Image 整理文生图与参考图编辑提示词，使用有序 Picture 引用、稳定 Subject 定义和明确的保留关系，保留用户事实与画内文字。供图片工作台优化提示词使用。 详见 [说明](docs/skills/h3-image-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **H3 多参内容整理**（`h3-multi-reference-content`，1.0.0）：整理 MiniMax H3 多参视频的片段原稿，明确参考图、视频、音频的用途与归属，保留动作顺序、说话人和逐字对白。 详见 [说明](docs/skills/h3-multi-reference-content.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
-- **文戏片段分镜规划**（`literary-clip-storyboard-planning`，1.0.1）：为生成片段稿约束文戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖武戏分镜规划。 详见 [说明](docs/skills/literary-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
-- **武戏片段分镜规划**（`action-clip-storyboard-planning`，1.0.0）：为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。 详见 [说明](docs/skills/action-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **文戏片段分镜规划**（`literary-clip-storyboard-planning`，1.0.2）：为生成片段稿约束文戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖武戏分镜规划。 详见 [说明](docs/skills/literary-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **武戏片段分镜规划**（`action-clip-storyboard-planning`，1.0.1）：为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。 详见 [说明](docs/skills/action-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 
 ### 教学变体
 
@@ -88,6 +88,7 @@
 - **设定与人物驱动片段**（`world-and-character-planning`，1.0.1）：用世界规则与人物欲望梳理单集剧情，形成忠实原文、动机清楚的视频片段计划。 详见 [说明](docs/skills/world-and-character-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 
 <!-- END GENERATED SKILL CATALOG -->
+
 
 
 

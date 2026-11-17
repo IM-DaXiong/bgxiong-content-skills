@@ -2,7 +2,7 @@
   "name": "literary-clip-storyboard-planning",
   "displayName": "文戏片段分镜规划",
   "packagePath": "skills/literary-clip-storyboard-planning",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "workflow": "clips-v1",
   "hosts": [
     "clip-video-draft"

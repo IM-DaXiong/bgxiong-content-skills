@@ -1,6 +1,6 @@
 # 武戏片段分镜规划
 
-状态：`source-approved`。版本：`1.0.0`。工作流：`clips-v1`。包目录：`skills/action-clip-storyboard-planning`。
+状态：`source-approved`。版本：`1.0.1`。工作流：`clips-v1`。包目录：`skills/action-clip-storyboard-planning`。
 
 ## 用途
 
@@ -17,7 +17,9 @@
 - 打击感
 - 第一视角
 - 飘逸
-- 共用规则
+- 人物朝向、站位与体态
+- 表情
+- 对峙与对话时的视线
 
 这些标题来自该包正文的章节，不是另一套执行规则。真正执行以包内 `SKILL.md` 为准。
 

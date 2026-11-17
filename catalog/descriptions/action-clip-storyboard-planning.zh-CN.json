@@ -2,7 +2,7 @@
   "name": "action-clip-storyboard-planning",
   "displayName": "武戏片段分镜规划",
   "packagePath": "skills/action-clip-storyboard-planning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "workflow": "clips-v1",
   "hosts": [
     "clip-video-draft"
@@ -16,7 +16,9 @@
     "打击感",
     "第一视角",
     "飘逸",
-    "共用规则"
+    "人物朝向、站位与体态",
+    "表情",
+    "对峙与对话时的视线"
   ],
   "intendedOutcome": [
     "为单个片段写可独立提交的视频完整稿。"
