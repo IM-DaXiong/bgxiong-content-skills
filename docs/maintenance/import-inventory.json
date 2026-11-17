@@ -554,11 +554,11 @@
       "name": "literary-clip-storyboard-planning",
       "kind": "builtin",
       "sourcePath": "skills/literary-clip-storyboard-planning",
-      "sourceDigest": "sha256:5d604526a1b6b76b2554c7241a3623324ef4b2bbd2c25e32844fb8ecbf8ce925",
+      "sourceDigest": "sha256:a6f7fa32bed40bf0f5e70270be63d66770c6371c3b9dd6255237d6c526156fb7",
       "blocked": false,
       "disposition": "source-retained",
       "copiedTo": "skills/literary-clip-storyboard-planning",
-      "copiedDigest": "sha256:5d604526a1b6b76b2554c7241a3623324ef4b2bbd2c25e32844fb8ecbf8ce925",
+      "copiedDigest": "sha256:a6f7fa32bed40bf0f5e70270be63d66770c6371c3b9dd6255237d6c526156fb7",
       "authoredIn": "bgxiong-content-skills",
       "createdOn": "2026-11-17"
     },

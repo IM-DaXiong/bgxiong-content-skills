@@ -1,6 +1,6 @@
 # 文戏片段分镜规划
 
-状态：`source-approved`。版本：`1.0.0`。工作流：`clips-v1`。包目录：`skills/literary-clip-storyboard-planning`。
+状态：`source-approved`。版本：`1.0.1`。工作流：`clips-v1`。包目录：`skills/literary-clip-storyboard-planning`。
 
 ## 用途
 

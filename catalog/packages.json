@@ -176,9 +176,9 @@
     },
     {
       "name": "literary-clip-storyboard-planning",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "skills/literary-clip-storyboard-planning",
-      "packageDigest": "sha256:5d604526a1b6b76b2554c7241a3623324ef4b2bbd2c25e32844fb8ecbf8ce925",
+      "packageDigest": "sha256:a6f7fa32bed40bf0f5e70270be63d66770c6371c3b9dd6255237d6c526156fb7",
       "hosts": [
         "clip-video-draft"
       ],
