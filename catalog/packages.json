@@ -190,7 +190,7 @@
       "name": "action-clip-storyboard-planning",
       "version": "1.0.0",
       "path": "skills/action-clip-storyboard-planning",
-      "packageDigest": "sha256:9d6092357fa266d7bfca0b0a66a80b3cdeebfb44c632c9cc536c46527105e932",
+      "packageDigest": "sha256:aaf2b6c9ca5554eddf637c9d513aff39de3915abf090b1e4efbe77932888f6a3",
       "hosts": [
         "clip-video-draft"
       ],

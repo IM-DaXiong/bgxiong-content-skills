@@ -566,11 +566,11 @@
       "name": "action-clip-storyboard-planning",
       "kind": "builtin",
       "sourcePath": "skills/action-clip-storyboard-planning",
-      "sourceDigest": "sha256:9d6092357fa266d7bfca0b0a66a80b3cdeebfb44c632c9cc536c46527105e932",
+      "sourceDigest": "sha256:aaf2b6c9ca5554eddf637c9d513aff39de3915abf090b1e4efbe77932888f6a3",
       "blocked": false,
       "disposition": "source-retained",
       "copiedTo": "skills/action-clip-storyboard-planning",
-      "copiedDigest": "sha256:9d6092357fa266d7bfca0b0a66a80b3cdeebfb44c632c9cc536c46527105e932",
+      "copiedDigest": "sha256:aaf2b6c9ca5554eddf637c9d513aff39de3915abf090b1e4efbe77932888f6a3",
       "authoredIn": "bgxiong-content-skills",
       "createdOn": "2026-11-17"
     }
