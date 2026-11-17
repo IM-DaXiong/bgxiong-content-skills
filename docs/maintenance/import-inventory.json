@@ -549,6 +549,30 @@
       "copiedDigest": "sha256:8bea5bdbba6d44386150a1af60c256bd0eeee655c268037c98633a368f669dcc",
       "authoredIn": "bgxiong-content-skills",
       "createdOn": "2026-11-11"
+    },
+    {
+      "name": "literary-clip-storyboard-planning",
+      "kind": "builtin",
+      "sourcePath": "skills/literary-clip-storyboard-planning",
+      "sourceDigest": "sha256:5d604526a1b6b76b2554c7241a3623324ef4b2bbd2c25e32844fb8ecbf8ce925",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/literary-clip-storyboard-planning",
+      "copiedDigest": "sha256:5d604526a1b6b76b2554c7241a3623324ef4b2bbd2c25e32844fb8ecbf8ce925",
+      "authoredIn": "bgxiong-content-skills",
+      "createdOn": "2026-11-17"
+    },
+    {
+      "name": "action-clip-storyboard-planning",
+      "kind": "builtin",
+      "sourcePath": "skills/action-clip-storyboard-planning",
+      "sourceDigest": "sha256:9d6092357fa266d7bfca0b0a66a80b3cdeebfb44c632c9cc536c46527105e932",
+      "blocked": false,
+      "disposition": "source-retained",
+      "copiedTo": "skills/action-clip-storyboard-planning",
+      "copiedDigest": "sha256:9d6092357fa266d7bfca0b0a66a80b3cdeebfb44c632c9cc536c46527105e932",
+      "authoredIn": "bgxiong-content-skills",
+      "createdOn": "2026-11-17"
     }
   ]
 }

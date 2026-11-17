@@ -1,6 +1,6 @@
 # 场景四视角
 
-状态：`source-approved`。版本：`1.1.0`。工作流：`clips-v1`。包目录：`skills/scene-four-angle-reference`。
+状态：`source-approved`。版本：`1.2.0`。工作流：`clips-v1`。包目录：`skills/scene-four-angle-reference`。
 
 ## 用途
 
@@ -14,6 +14,7 @@
 
 - 按本次用途输出
 - 空间表达建议
+- 全景空间参考
 - 执行与结果
 
 这些标题来自该包正文的章节，不是另一套执行规则。真正执行以包内 `SKILL.md` 为准。

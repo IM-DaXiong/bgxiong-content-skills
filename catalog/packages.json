@@ -173,6 +173,30 @@
       "workflow": "clips-v1",
       "distribution": "source-approved",
       "rights": "project-license"
+    },
+    {
+      "name": "literary-clip-storyboard-planning",
+      "version": "1.0.0",
+      "path": "skills/literary-clip-storyboard-planning",
+      "packageDigest": "sha256:5d604526a1b6b76b2554c7241a3623324ef4b2bbd2c25e32844fb8ecbf8ce925",
+      "hosts": [
+        "clip-video-draft"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
+    },
+    {
+      "name": "action-clip-storyboard-planning",
+      "version": "1.0.0",
+      "path": "skills/action-clip-storyboard-planning",
+      "packageDigest": "sha256:9d6092357fa266d7bfca0b0a66a80b3cdeebfb44c632c9cc536c46527105e932",
+      "hosts": [
+        "clip-video-draft"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
     }
   ]
 }
