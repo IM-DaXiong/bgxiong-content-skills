@@ -176,9 +176,9 @@
     },
     {
       "name": "literary-clip-storyboard-planning",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "path": "skills/literary-clip-storyboard-planning",
-      "packageDigest": "sha256:e33507b7a06ae02027de0cf5c7b1e9b782fc7ad7596a7a80894588f93e70671f",
+      "packageDigest": "sha256:f653ead8149a76142ae415134a02c59c635d578a029a9bb63c83874ec93d6ad6",
       "hosts": [
         "clip-video-draft"
       ],
@@ -188,9 +188,9 @@
     },
     {
       "name": "action-clip-storyboard-planning",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "path": "skills/action-clip-storyboard-planning",
-      "packageDigest": "sha256:a3be26fc8eb8ed2ad9ad726e31689d2a2311efc94162ff8367a4d93e517a5cc5",
+      "packageDigest": "sha256:89fee01e1eaae3948481fdc9fea3439eb79d426dc5d99d4bba5d1938ddea509a",
       "hosts": [
         "clip-video-draft"
       ],

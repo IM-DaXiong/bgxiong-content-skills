@@ -23,7 +23,9 @@
 
 `skills/` 是从应用内置包原样收下的正式素材。`examples/teaching/` 只保留和正式包字节不同的教学变体。`packs/`、`examples/content-plan/`、`examples/generation-policy/`、`examples/optimize/` 和旧的 `contracts/v1/` 是历史私有包格式，不再是当前安装格式。
 
-当前产品执行标识是 `metadata.bgx-workflow: clips-v1`。没有这个标识的包仍可能被导入阅读，但不能当作当前可执行方法。本仓库不提供在线自动升级，也不使用 WASM。
+当前产品执行标识是 `metadata.bgx-workflow: clips-v1`。只有具有该标识并通过宿主兼容性校验的包可以执行。官方在线目录由本仓库按当前内容目录签名发行，客户端负责检查和安装。 [正式在线目录](https://r.bgxiong.com/client/ai-story/bgxiong-content-skills/latest.json)
+
+`scripts/publish_online_index.py` 复用标准包构建器，只接收 `source-approved` 的包。使用 `--prior-commit` 登记已核对的历史来源指纹，使用 `--signing-host` 和 `--public-trust` 在服务器完成签名并验证回执。CDN 源站用 `scripts/publish_online_cdn.py` 校验签名，先发布并回读不可变 ZIP，再更新并回读目录。正式首发序号为 1，兼容 `=0.6.1119`，已回读 16 个 ZIP，目录 SHA-256 为 `2030593f86e50474be9cdd4c1b6f24ead0696ff66155fd9d86b0bdc27bfc7ac3`。
 
 <!-- BEGIN GENERATED SKILL CATALOG -->
 
@@ -45,8 +47,8 @@
 - **万相视频提示词**（`wan-prompt-writing`，1.1.0）：依据实际绑定的 Wan 目标和输入模式表达片段视频内容，保留来源、声音用途、时序与原话；不从历史名称推断模型能力。 详见 [说明](docs/skills/wan-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **H3-Image 图片提示词**（`h3-image-prompt-writing`，1.0.0）：为 MiniMax H3-Image 整理文生图与参考图编辑提示词，使用有序 Picture 引用、稳定 Subject 定义和明确的保留关系，保留用户事实与画内文字。供图片工作台优化提示词使用。 详见 [说明](docs/skills/h3-image-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **H3 多参内容整理**（`h3-multi-reference-content`，1.0.0）：整理 MiniMax H3 多参视频的片段原稿，明确参考图、视频、音频的用途与归属，保留动作顺序、说话人和逐字对白。 详见 [说明](docs/skills/h3-multi-reference-content.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
-- **文戏片段分镜规划**（`literary-clip-storyboard-planning`，1.0.2）：为生成片段稿约束文戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖武戏分镜规划。 详见 [说明](docs/skills/literary-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
-- **武戏片段分镜规划**（`action-clip-storyboard-planning`，1.0.1）：为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。 详见 [说明](docs/skills/action-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **文戏片段分镜规划**（`literary-clip-storyboard-planning`，1.1.0）：为生成片段稿约束文戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖武戏分镜规划。 详见 [说明](docs/skills/literary-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **武戏片段分镜规划**（`action-clip-storyboard-planning`，1.1.0）：为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。 详见 [说明](docs/skills/action-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 
 ### 教学变体
 
