@@ -1,0 +1,14 @@
+{
+  "name": "scene-spatial-multiview",
+  "displayName": "场景空间多视角",
+  "packagePath": "skills/scene-spatial-multiview",
+  "version": "1.0.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "chapter-scene-design"
+  ],
+  "distribution": "source-approved",
+  "scenario": "俯视总图和多个摄影机位沿用同一空间。",
+  "exampleStatus": "pending",
+  "download": null
+}

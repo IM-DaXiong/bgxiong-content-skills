@@ -3,8 +3,8 @@ name: scene-four-angle-reference
 description: "为同一环境编写空间参考或普通图片提示词，可选正左右后四向模板；用于片段环境及独立图像，不要求旧场次、场景实体或故事板。"
 metadata:
   bgx-workflow: clips-v1
-  version: "1.2.0"
-  bgx-hosts: "multi-view optimize-image-prompt clip-environment-prompt"
+  version: "1.3.0"
+  bgx-hosts: "multi-view optimize-image-prompt clip-environment-prompt chapter-scene-design"
   bgx-display-name: "场景四视角"
 ---
 
@@ -13,6 +13,8 @@ metadata:
 以剧集、片段上下文、用户描述及实际参考为依据，表达同一地点的结构、固定陈设、材质、时间和光照。环境是普通图片的本次用途，不要求创建场次或旧场景记录，不携带固定首帧、尾帧或角色身份。
 
 ## 按本次用途输出
+
+- 剧集场景图按宿主给定的槽键输出布局及四条独立提示词。统一入口、固定陈设和光照，逐一表达正面、左侧、右侧、背面。
 
 - `clip-environment-prompt`：按调用方当前合同生成环境普通图片提示词。数量和环境选择由本次输入决定；不能因为本技能名称而强制四图、要求旧 sceneId，或自动发图片任务。
 - `optimize-image-prompt`：忠实整理当前图片描述或编辑要求，保留用户的主体、文字、风格和真实引用，不擅自变成四向批量任务。

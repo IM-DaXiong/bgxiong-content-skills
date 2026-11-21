@@ -14,6 +14,7 @@
     "story-entity-integration",
     "episode-clip-plan",
     "clip-environment-prompt",
+    "chapter-scene-design",
     "clip-video-draft",
     "clip-frame-plan",
     "clip-frame-prompt"
@@ -37,6 +38,7 @@
     "story-entity-integration",
     "episode-clip-plan",
     "clip-environment-prompt",
+    "chapter-scene-design",
     "clip-video-draft",
     "clip-frame-plan",
     "clip-frame-prompt"

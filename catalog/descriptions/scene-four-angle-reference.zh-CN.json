@@ -2,15 +2,16 @@
   "name": "scene-four-angle-reference",
   "displayName": "场景四视角",
   "packagePath": "skills/scene-four-angle-reference",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "workflow": "clips-v1",
   "hosts": [
     "multi-view",
     "optimize-image-prompt",
-    "clip-environment-prompt"
+    "clip-environment-prompt",
+    "chapter-scene-design"
   ],
   "distribution": "source-approved",
-  "scenario": "为同一环境编写空间参考或普通图片提示词，可选正左右后四向模板；用于片段环境及独立图像，不要求旧场次、场景实体或故事板。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。",
+  "scenario": "同一环境的正面、左侧、右侧和背面。",
   "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
   "painPoints": [
     "按本次用途输出",
@@ -39,7 +40,7 @@
       "path": "skills/scene-four-angle-reference",
       "distribution": "source-approved",
       "scenario": "为同一环境编写空间参考或普通图片提示词，可选正左右后四向模板；用于片段环境及独立图像，不要求旧场次、场景实体或故事板。",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
     {
       "path": "examples/teaching/scene-four-angle-reference",
