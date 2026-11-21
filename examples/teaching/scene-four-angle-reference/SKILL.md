@@ -3,8 +3,8 @@ name: scene-four-angle-reference
 description: "为同一环境编写空间参考或普通图片提示词，可选正、左、右、后四向。用于片段环境及独立图像；保持结构、门窗、固定陈设、材质、时间与光照一致。选择本方法不提交生图，也不要求先写满四向模板。"
 metadata:
   bgx-workflow: clips-v1
-  version: "1.0.4"
-  bgx-hosts: "multi-view optimize-image-prompt clip-environment-prompt"
+  version: "1.0.5"
+  bgx-hosts: "multi-view optimize-image-prompt clip-environment-prompt chapter-scene-design"
   bgx-display-name: "场景四视角"
 ---
 
