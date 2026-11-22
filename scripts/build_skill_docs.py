@@ -10,6 +10,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from skill_lib import CURRENT_WORKFLOW, ROOT, host_tokens, load_hosts, load_skill, package_digest, publication_blocked
 
 HOST_EFFECT = {
+    "batch-product-expand": "根据当前商品图、可选人物和场景及简要说明规划一条带货短片。",
+    "batch-product-storyboard": "将本商品方案写成时长准确、引用可追溯的逐镜头拍摄稿。",
     "multi-view": "按所选布局产出同一主体的多张参考图或一张合成参考图。槽位数量以该包 layout 的当前模式为准，不是固定视频帧数。",
     "image-photography-style": "整理可交给图片工作台的画面风格与取景建议，不直接生成图片。",
     "video-photography-style": "整理可交给视频工作台的镜头与画面建议，不直接生成视频。",
@@ -152,6 +154,12 @@ def main() -> int:
     grouped: dict[str, list] = {}
     for item in inventory["packages"]:
         grouped.setdefault(item["name"], []).append(item)
+    # Content-native packages are registered in the public catalog, outside the host import history.
+    catalog_path = ROOT / "catalog" / "packages.json"
+    for row in json.loads(catalog_path.read_text(encoding="utf-8"))["packages"]:
+        name = row["name"]
+        if name not in grouped and row["distribution"] == "source-approved" and row["path"] == f"skills/{name}":
+            grouped[name] = [{"name": name, "kind": "builtin", "copiedTo": row["path"]}]
     packages = []
     catalog_rows = []
     from skill_lib import parse_frontmatter

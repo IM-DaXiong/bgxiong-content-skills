@@ -54,3 +54,4 @@
 - [H3 多参内容整理](h3-multi-reference-content.zh-CN.md)：source-approved。整理 MiniMax H3 多参视频的片段原稿，明确参考图、视频、音频的用途与归属，保留动作顺序、说话人和逐字对白。
 - [文戏片段分镜规划](literary-clip-storyboard-planning.zh-CN.md)：source-approved。为生成片段稿约束文戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖武戏分镜规划。
 - [武戏片段分镜规划](action-clip-storyboard-planning.zh-CN.md)：source-approved。为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。
+- [电商短视频创作](product-short-video.zh-CN.md)：source-approved。根据单件商品的参考图与可选演员、场景、简要说明，规划 15 秒或 30 秒电商短视频，并将该商品的方案展开为连续分镜。

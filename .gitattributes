@@ -3,3 +3,4 @@ examples/optimize/30-optimize-storyboard-fight/*.json text eol=lf
 # Keep byte-identical mirrors and reproducible skill package hashes.
 skills/** -text
 examples/teaching/** -text
+contracts/snapshots/agent-skill-hosts/agent-skill-hosts.json text eol=lf

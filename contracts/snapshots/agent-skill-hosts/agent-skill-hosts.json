@@ -17,7 +17,9 @@
     "chapter-scene-design",
     "clip-video-draft",
     "clip-frame-plan",
-    "clip-frame-prompt"
+    "clip-frame-prompt",
+    "batch-product-expand",
+    "batch-product-storyboard"
   ],
   "hosts": [
     "image-photography-style",
@@ -41,6 +43,8 @@
     "chapter-scene-design",
     "clip-video-draft",
     "clip-frame-plan",
-    "clip-frame-prompt"
+    "clip-frame-prompt",
+    "batch-product-expand",
+    "batch-product-storyboard"
   ]
 }

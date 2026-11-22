@@ -210,6 +210,19 @@
       "workflow": "clips-v1",
       "distribution": "source-approved",
       "rights": "project-license"
+    },
+    {
+      "name": "product-short-video",
+      "version": "1.0.1",
+      "path": "skills/product-short-video",
+      "packageDigest": "sha256:e55e25d7324563349f208d6f702cf1019045844ec7a073ec7c71d41606eb9da5",
+      "hosts": [
+        "batch-product-expand",
+        "batch-product-storyboard"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
     }
   ]
 }

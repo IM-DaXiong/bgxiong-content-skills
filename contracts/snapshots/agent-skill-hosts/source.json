@@ -1,14 +1,16 @@
 {
   "repository": "unlisted-private-host",
-  "commit": "664399afaf2bf554ab0b2bf7273f7680ffcf63b3",
+  "commit": null,
   "layoutReader": {
     "path": "src-tauri/src/agent_skills/image_execution.rs",
-    "sha256": "33ffc02f58ee1e4768fbba8a4888110a0675e4658adb5ffc75498f396bf3b6fb"
+    "sha256": "cf05cf99b09bb2820704e7ad7585e2cbed1c52bddf7abd4984707a9430041070"
   },
   "files": [
     {
       "name": "agent-skill-hosts.json",
-      "sha256": "631662017eccdac61d63eff5930a46165a526fe0ce0ddb1381ff4aeeb911b322"
+      "sha256": "ae23ec040ed056325afbdfa22f34e5e5dc55c176fe55a44f9dad5da3885f6d17",
+      "sourcePath": "packages/app-contracts/v1/agent-skill-hosts.json"
     }
-  ]
+  ],
+  "baseCommit": "633e04d5c24b1c303eb70224150e68aa4e860556"
 }

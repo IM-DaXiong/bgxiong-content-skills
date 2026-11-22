@@ -8,6 +8,10 @@
 
 快照来自主仓合同文件的副本。要改变闭集，先改主仓合同，再更新快照和 `source.json`。
 
+## 批量商品短视频
+
+`batch-product-expand` 对单件商品规划创意，`batch-product-storyboard` 将同一件商品的方案拆成镜头。同一 clips-v1 包可以声明两个用途，按本次阶段工作。需要含这两项用途的宿主和已启用的包。生成任务由外挂调度。
+
 ## 使用已声明的图视频操作
 
 从运行中应用用 `capabilities.get` 的 `schemaToolIds` 读取所需工具的入参合同。连接方式和完整示例见应用随附的 Creator 客户端手册，也可通过 MCP `resources/read` 读取 `bgxiong-creator://docs/handbook/zh-CN`。
