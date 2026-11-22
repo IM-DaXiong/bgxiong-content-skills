@@ -25,7 +25,7 @@ The dedicated h3@1 compiler owns labels and reference tokens. In generic manual 
 
 ## Section responsibilities
 
-`subject_definitions` identifies referenced subjects and the frozen traits that must remain consistent. It does not add biography, motivation, or unseen details.
+`subject_definitions` identifies referenced subjects and the frozen traits that must remain consistent. State the subject, scoped use and actual picture ordinal once, e.g. “<Subject 1>: the woman; facial features from <Picture 1>.” In retention entries use the labels and the scope; in shots reuse the subject and describe actions or changes. Keep independent source constraints and overrides. Do not inventory the visual traits of a bound portrait, set or product.
 
 `summary` states the requested target result and the applicable reference task types. Keep it concise and derived from the mother document.
 
@@ -87,4 +87,4 @@ Write section prose in English by default, including shot descriptions and sound
 
 Use <Subject N> for reusable characters, objects and environments, citing their actual source <Picture N>, <Video N> or <Audio N> in the definition. Subject numbering is independent of asset ordinals. Keep image ordinals tied to the supplied image order. A standalone Picture definition is for an actual frame or composition anchor. Define no new reference asset.
 
-Begin summary with a task prefix such as [reference generation], selected from the actual task. Give each retention entry its own line and relationship marker. Reuse the same labels where the corresponding content appears in detailed_description. Use [Shot 1] without an opening timestamp. Subsequent cuts use sequential shot labels with At MM:SS.mmm within the supplied duration.
+Begin summary with a task prefix such as [reference generation], selected from the actual task. Give each retention entry its own line and relationship marker. Reuse the same labels where the corresponding content appears in detailed_description. Keep the opening time window and every subsequent source window intact. Number actual cuts in sequence. Use At MM:SS.mmm only for a cut timed by the source; leave untimed cuts untimed.

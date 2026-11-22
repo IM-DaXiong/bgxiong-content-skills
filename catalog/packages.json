@@ -63,9 +63,9 @@
     },
     {
       "name": "h3-prompt-writing",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "path": "skills/h3-prompt-writing",
-      "packageDigest": "sha256:d25516baa97d1a0b6ddddf5c0729ac6b0f0b0b456dd367b76834d42c76b852c8",
+      "packageDigest": "sha256:d1e53fe6f60704e894d62842137c47b85f5bd10c9c2f3ec75d6262a62d23c4c6",
       "hosts": [
         "video-prompt-projection"
       ],

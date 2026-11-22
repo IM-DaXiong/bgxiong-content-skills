@@ -3,7 +3,7 @@ name: h3-prompt-writing
 description: "把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。"
 metadata:
   bgx-workflow: clips-v1
-  version: "1.2.4"
+  version: "1.2.5"
   bgx-categories: "visual-style"
   bgx-hosts: video-prompt-projection
   bgx-display-name: "H3 视频提示词"
@@ -23,7 +23,7 @@ metadata:
 
 ## 片段与素材边界
 
-片段从完整剧集或用户当前稿件出发，可以包含一个或多个连续剪辑镜头。镜头只表达片段内部的叙事次序，不要求先创建场次、故事板、静帧或逐镜业务记录。时长、镜头数和参考图数量以用户意图及本次冻结能力为准，不固定秒数，不要求先生成六张或九张图片。
+片段从完整剧集或用户当前稿件出发，可以包含一个或多个连续剪辑镜头。镜头只表达片段内部的叙事次序，不要求先创建场次、故事板、静帧或逐镜业务记录。以原稿为时间依据。逐镜保留总时长、起止、切点、停留、约数和先后关系，包括小数秒；仅在用户本次明确要求重新定时时改相应部分。原稿只给事件时间时不推算总长，没有秒数就沿用相对顺序。工作台时长只用于实际视频生成，不写入叙事、不按比例重排镜头。镜头数和参考图数量沿用用户意图及真实绑定。
 
 图片是普通素材。人物外观、环境、风格、整片首尾或片内镜头边界等用途来自本次明确绑定；不能根据节点名、图片排列或画面猜测首尾。无参考图的合法输入也能完成内容表达。环境描述不要求一个旧场景实体，也不把环境图当成视频首帧。
 
@@ -105,8 +105,8 @@ metadata:
 
 最终正文使用 H3 标签。将输入中对应图片的 @图N、@ImageN 等编辑标记转换为 <Picture N>，视频使用 <Video N>，音频使用 <Audio N>。N 取该类别中真实冻结的 ordinalWithinKind，不能按出现先后重新排列文件编号。referenceUseIds 属性仍逐字填写内部真实 ID。
 
-Ref2VA 使用 <Subject N> 标识实际引用的人、物或环境，在 subject_definitions 中注明其来自哪个 <Picture N> 或其它来源。Subject 编号独立于图片编号；一张图片可提供多项主体，多张图片也可对应同一主体。只凭原文已确定的对应关系定义，保留简短身份信息。普通身份图在对应 Subject 定义中引用，只有实际帧位或构图锚点才单列 Picture 定义。
+Ref2VA 使用 <Subject N> 标识实际引用的人、物或环境，在 subject_definitions 中注明其来自哪个 <Picture N> 或其它来源。Subject 编号独立于图片编号；一张图片可提供多项主体，多张图片也可对应同一主体。在首次定义只写主体、明确的参考用途和真实图号，例如 “<Subject 1>: the woman; facial features from <Picture 1>”。场景、产品同理。保留关系段只写标签、范围和关系词。镜头中复用主体名或标签，写本镜动作、机位和相对参考的变化。省去仅为复述图片而罗列的五官、衣纹、布景和材质；保留用户另行指定的尺寸、方位、局部覆盖和禁止项。用途不明时保留已有图号，不猜测对应身份。普通身份图在对应 Subject 定义中引用，只有实际帧位或构图锚点才单列 Picture 定义。
 
-summary 从符合实际用途的任务前缀开始，如 [reference generation]。retention_analysis 每个已定义条目一行，采用 ref-en.txt 的关系词。detailed_description 在各主体实际出镜处复用已定义标签，以 [Shot 1] 开始；有切镜时才递增 Shot 编号。开场镜头无时间戳，后续切点按真实时长安排 At MM:SS.mmm，已有精确时间照录。
+summary 从符合实际用途的任务前缀开始，如 [reference generation]。retention_analysis 每个已定义条目一行，采用 ref-en.txt 的关系词。detailed_description 在各主体实际出镜处复用已定义标签，以 [Shot 1] 开始；有切镜时才递增 Shot 编号。保留开场及后续镜头已有的完整时间区间。原稿有明确切点时才可等值表示为 At MM:SS.mmm；原稿未计时就只写镜头顺序。
 
 profileId=generic 时，程序只拼接 text，并为 quoteIds 追加普通引号。为交付 H3 的发声格式，在 text 内完整写说话人 (Sx) 与 <d>[Chinese] 原话</d> 等标签，逐字取自本次母稿引文，该行 quoteIds 留空以避免重复追加。专用 h3@1 则使用 quoteIds，由编译器写发声标签。两种情况下原话都必须完整保留，Sx 沿用已冻结的说话人 ID。无画外音不补画外音，无跨镜或截断不补对应标签。

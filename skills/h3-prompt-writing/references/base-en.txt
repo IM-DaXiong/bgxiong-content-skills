@@ -23,12 +23,12 @@ The dedicated h3@1 compiler owns field labels, separators, reference numbering, 
 
 ## Timeline description
 
-- Preserve the mother document's shot order and timing. Do not create a cut when the mother document describes phases inside one shot.
+- Preserve the source total, ranges, holds, fractional seconds and approximate wording at their original actions. Omit an unstated total; never scale or fill the timeline to a generation setting. Preserve the mother document's shot order and timing. Do not create a cut when the mother document describes phases inside one shot.
 - Keep each subject's identity, position, appearance, action, and relationships consistent across shots.
 - Describe camera movement only when present in the mother document. Preserve movement type, direction, speed, amplitude, and locked-camera constraints.
 - Keep visible text verbatim. Keep dialogue, narration and lyrics verbatim with their speaker or narrator identity. Inline narrative is valid. When a matching structured quote is supplied, prefer its quote slot and keep speaking context inline to avoid repeating the same occurrence. Without a matching slot, preserve the complete words inline. Never remove or summarize them as a speaking action, and never silently deduplicate or rewrite the source words.
 - Place diegetic sound with the event that produces it. Do not repeat dialogue in the soundscape field.
-- A reference picture constrains only the roles frozen by the application. Do not import unrelated details from the picture.
+- A reference picture constrains only the roles frozen by the application. Use the actual picture number and bound purpose once; retain explicit changes, actions, placement and constraints in the shot. Do not re-describe visible features already supplied by the reference.
 
 ## Speakers and voiced lines
 
