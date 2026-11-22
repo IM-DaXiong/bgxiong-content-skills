@@ -1,6 +1,6 @@
 # H3 视频提示词
 
-状态：`source-approved`。版本：`1.2.5`。工作流：`clips-v1`。包目录：`skills/h3-prompt-writing`。
+状态：`source-approved`。版本：`1.2.6`。工作流：`clips-v1`。包目录：`skills/h3-prompt-writing`。
 
 ## 用途
 

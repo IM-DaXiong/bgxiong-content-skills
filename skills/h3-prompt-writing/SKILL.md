@@ -3,7 +3,7 @@ name: h3-prompt-writing
 description: "把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。"
 metadata:
   bgx-workflow: clips-v1
-  version: "1.2.5"
+  version: "1.2.6"
   bgx-categories: "visual-style"
   bgx-hosts: video-prompt-projection
   bgx-display-name: "H3 视频提示词"
@@ -105,7 +105,7 @@ metadata:
 
 最终正文使用 H3 标签。将输入中对应图片的 @图N、@ImageN 等编辑标记转换为 <Picture N>，视频使用 <Video N>，音频使用 <Audio N>。N 取该类别中真实冻结的 ordinalWithinKind，不能按出现先后重新排列文件编号。referenceUseIds 属性仍逐字填写内部真实 ID。
 
-Ref2VA 使用 <Subject N> 标识实际引用的人、物或环境，在 subject_definitions 中注明其来自哪个 <Picture N> 或其它来源。Subject 编号独立于图片编号；一张图片可提供多项主体，多张图片也可对应同一主体。在首次定义只写主体、明确的参考用途和真实图号，例如 “<Subject 1>: the woman; facial features from <Picture 1>”。场景、产品同理。保留关系段只写标签、范围和关系词。镜头中复用主体名或标签，写本镜动作、机位和相对参考的变化。省去仅为复述图片而罗列的五官、衣纹、布景和材质；保留用户另行指定的尺寸、方位、局部覆盖和禁止项。用途不明时保留已有图号，不猜测对应身份。普通身份图在对应 Subject 定义中引用，只有实际帧位或构图锚点才单列 Picture 定义。
+Ref2VA 使用 <Subject N> 标识实际引用的人、物或环境，在 subject_definitions 中注明其来自哪个 <Picture N> 或其它来源。Subject 编号独立于图片编号；一张图片可提供多项主体，多张图片也可对应同一主体。在首次定义只写主体、明确的参考用途和真实图号，例如 “<Subject 1>: the woman; facial features from <Picture 1>”。场景、产品同理。原稿若逐项列了来自同一张定妆照的五官、发型、眼镜、衣装和体态，把这组完整造型合写为“overall look from <Picture N>”；仅绑定五官就写“facial features from <Picture N>”。该图授权范围以外的内容继续按原稿处理。场景按原稿绑定范围简写为布局或整体场景，物件按外观或明确指定的摆放关系简写。保留关系段每行只用主体标签与关系词（例如“<Subject 1> — fully_preserved”），其范围沿用定义。摘要写事件，镜头用主体名或标签直接写动作。除明确改动、对照或新绑定生效外，其余章节省略图号与造型清单。独立给出的尺寸、尺度、例外和动作限制只在首次相关处明确写出。镜头中复用主体名或标签，写本镜动作、机位和相对参考的变化。省去仅为复述图片而罗列的五官、衣纹、布景和材质；保留用户另行指定的尺寸、方位、局部覆盖和禁止项。用途不明时保留已有图号，不猜测对应身份。普通身份图在对应 Subject 定义中引用，只有实际帧位或构图锚点才单列 Picture 定义。
 
 summary 从符合实际用途的任务前缀开始，如 [reference generation]。retention_analysis 每个已定义条目一行，采用 ref-en.txt 的关系词。detailed_description 在各主体实际出镜处复用已定义标签，以 [Shot 1] 开始；有切镜时才递增 Shot 编号。保留开场及后续镜头已有的完整时间区间。原稿有明确切点时才可等值表示为 At MM:SS.mmm；原稿未计时就只写镜头顺序。
 

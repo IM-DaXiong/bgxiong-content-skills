@@ -25,11 +25,11 @@ The dedicated h3@1 compiler owns labels and reference tokens. In generic manual 
 
 ## Section responsibilities
 
-`subject_definitions` identifies referenced subjects and the frozen traits that must remain consistent. State the subject, scoped use and actual picture ordinal once, e.g. “<Subject 1>: the woman; facial features from <Picture 1>.” In retention entries use the labels and the scope; in shots reuse the subject and describe actions or changes. Keep independent source constraints and overrides. Do not inventory the visual traits of a bound portrait, set or product.
+`subject_definitions` identifies referenced subjects and the frozen traits that must remain consistent. State the subject, scoped use and actual picture ordinal once, e.g. “<Subject 1>: the woman; facial features from <Picture 1>.” Compress a list explicitly copied from one costume portrait (face, hair, glasses, outfit, build) to “the woman; overall look from <Picture N>”. A face-only binding stays face-only. Use similarly scoped terms for a set layout, a product appearance or an arrangement. Independent dimensions, placement and overrides still belong at their relevant event. In shots use the subject label directly with its action. Keep independent source constraints and overrides. Do not inventory the visual traits of a bound portrait, set or product.
 
-`summary` states the requested target result and the applicable reference task types. Keep it concise and derived from the mother document.
+`summary` states the requested target result and the applicable reference task types. Describe the events concisely. Reference mappings belong in subject_definitions alone.
 
-`retention_analysis` records what each reference contributes and what must remain unchanged. Use the application's frozen audio-use mapping; never infer soundtrack copying from the mere presence of audio.
+`retention_analysis` uses one compact entry per subject, e.g. “<Subject 1> — fully_preserved”. The definition already supplies its picture and scope. Omit attribute lists, picture numbers and explanations here. Mention an exception only when needed to express an actual change. Use the application's frozen audio-use mapping; never infer soundtrack copying from the mere presence of audio.
 
 `detailed_description` presents the complete target timeline in playback order. For each shot, preserve composition, subject positions, actions, camera, lighting, sound events, dialogue placement, and the exact moment a reference takes effect. Numeric phase boundaries supplied by the user remain numeric phase boundaries.
 

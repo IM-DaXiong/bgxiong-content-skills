@@ -2,7 +2,7 @@
   "name": "h3-prompt-writing",
   "displayName": "H3 视频提示词",
   "packagePath": "skills/h3-prompt-writing",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "workflow": "clips-v1",
   "hosts": [
     "video-prompt-projection"
