@@ -1,3 +1,5 @@
+> **BAS-3 / 用户2026-11-23 / 所有智能体必读**：最终发行、开发/测试编译、开发人员拿走测试、CDN/部署成果唯一归集根为 `L:\00Dev\bgxiong-00-release`。开工及交付前必读本仓 [RELEASE_OUTPUTS.md](RELEASE_OUTPUTS.md)，按目的地保留整套相对布局并归集；不得只报旧target/dist/artifacts路径称交付。本条覆盖旧“仓内目录为最终交付根”的开发环境表述；源码/工具缓存、正在运行的EXE、适配器本机开发安装归档和最终用户安装/EXE旁协议不迁移。
+
 # 作者与智能体规则
 
 - **四仓平级与 SDK（用户2026-11-10）**：从同级主仓 `../bgxiong-ai-story` 定位同一开发根。四个 checkout 固定为 bgxiong-ai-story、bgxiong-third-party-adapters、bgxiong-adapter-sdk、bgxiong-content-skills。SDK 远程为 `https://github.com/IM-DaXiong/bgxiong-adapter-sdk.git`，2026-11-11 起公开，说明文档采用该仓根目录 LICENSE 的 MIT 许可。主程序按需求驱动 SDK 更新，默认同步最新并在本批固定输入。缺仓从登记远程克隆到准确目录，禁止替代真源。创作 Skill（含 H3）只在本仓治理，提交推送后按锁生成宿主副本。见[四仓规范](../bgxiong-ai-story/docs/dev/guides/20261107-GUIDE-三仓平级与创作Skill唯一治理目录.md)。
