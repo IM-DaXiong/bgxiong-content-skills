@@ -88,3 +88,21 @@ Write section prose in English by default, including shot descriptions and sound
 Use <Subject N> for reusable characters, objects and environments, citing their actual source <Picture N>, <Video N> or <Audio N> in the definition. Subject numbering is independent of asset ordinals. Keep image ordinals tied to the supplied image order. A standalone Picture definition is for an actual frame or composition anchor. Define no new reference asset.
 
 Begin summary with a task prefix such as [reference generation], selected from the actual task. Give each retention entry its own line and relationship marker. Reuse the same labels where the corresponding content appears in detailed_description. Keep the opening time window and every subsequent source window intact. Number actual cuts in sequence. Use At MM:SS.mmm only for a cut timed by the source; leave untimed cuts untimed.
+
+
+## One finished clip in manual generic mode
+
+Each key appears once for the whole clip. Continue the same detailed_description across motion and cuts, even when JSON lines carry separate passages. The following is the plain-text result for a two-cut draft with one known image and one spoken occurrence.
+
+```text
+subject_definitions: <Subject 1>, the worker, follows the workwear in <Picture 1>.
+summary: The worker directs a colleague to set a box down.
+retention_analysis: <Subject 1> — preserve the referenced workwear.
+detailed_description:
+[Shot 1] The worker (S1) looks up and says: <d>[Chinese] 把箱子放这里。</d>
+[Shot 2] Hard cut to the cardboard box coming to rest on the workbench.
+overall_soundscape: Unspecified.
+non_diegetic_music: Unspecified.
+```
+
+For this example the entire result can be a single lines.text value with quoteIds empty. With several lines, the keys still appear once across the assembled clip. Use the actual shotId, factIds and referenceUseIds from the request. Preserve the utterance inline at its original point of speech.

@@ -3,7 +3,7 @@ name: h3-prompt-writing
 description: "把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。"
 metadata:
   bgx-workflow: clips-v1
-  version: "1.2.6"
+  version: "1.2.7"
   bgx-categories: "visual-style"
   bgx-hosts: video-prompt-projection
   bgx-display-name: "H3 视频提示词"
@@ -31,7 +31,7 @@ metadata:
 
 ## 手选通用输出与专用编译职责
 
-用户手选本方法时不要求视频模型注册 h3@1。profileId=generic 表示应用不会生成H3章节；此时由你在 lines.text 中写出下述章节标签与完整内容，保持外层输出合同不变。明确的多图参考用途可应用 Ref2VA 六段写法；其它输入按实际用途参考基模三段写法，不推断平台支持能力。正文中的来源素材按 references 的 mediaKind 与 ordinalWithinKind 使用 <Picture N>、<Video N>、<Audio N>；内部 referenceUseId 仍按输入原值填写。没有资料的声音章节写“未指定”；明确写了无配乐时使用 N/A。参考用途和事实不明时保留不确定性。
+用户手选本方法时不要求视频模型注册 h3@1。profileId=generic 表示应用不会生成H3章节；此时由你在 lines.text 中写出下述章节标签与完整内容，保持外层输出合同不变。明确的多图参考用途使用 Ref2VA 六段写法，整份片段只写一套，所有剪辑镜头依次列入同一个 detailed_description；其它输入按实际用途参考基模三段写法，不推断平台支持能力。正文中的来源素材按 references 的 mediaKind 与 ordinalWithinKind 使用 <Picture N>、<Video N>、<Audio N>；内部 referenceUseId 仍按输入原值填写。没有资料的声音章节写“未指定”；明确写了无配乐时使用 N/A。参考用途和事实不明时保留不确定性。
 
 专用 h3@1 编译器下才由程序生成标签。表达风格与格式遵循用户选择，不因目标身份不匹配拒交；真实素材与执行能力校验仍保留。
 
@@ -70,13 +70,13 @@ metadata:
 
 1. 先识别输入模式和应用给出的资源清单。
 2. 按母版顺序逐镜头、逐事实表达。第一镜先交代主体和关键动作；后续镜头只在母版确有切换时出现。
-3. 把对白和旁白原话完整放到对应动作和时间位置，保留说话人或旁白身份、画内或画外、语气与口型状态。原话可在正文中直接表达；已有对应引文时推荐引用槽位、正文保留语境，避免同一句同时写两份。但没有槽位或对白节点也不能删、改写或只留下“说话”动作。不要靠文本去重改写用户原话。
+3. 把对白和旁白原话完整放到对应动作和时间位置，保留说话人或旁白身份、画内或画外、语气与口型状态。普通稿的原话写入开口处正文。只有专用 h3@1 编译器收到历史母稿里已经存在的独立引文时才用引用槽。但没有槽位或对白节点也不能删、改写或只留下“说话”动作。不要靠文本去重改写用户原话。
 4. 按目标模式使用参考文件规定的字段顺序。空字段使用应用合同允许的占位值，不自行发明字段。
 5. 只返回应用要求的结构，不输出说明、Markdown、备选版本或模型参数。
 
 ## 多人对白
 
-五种模式都按 base-en.txt 的「Speakers and voiced lines」写：每句台词通过 quoteIds 挂在开口的那一行；行文结尾写清谁在说、怎么说，第一次开口在来源提供依据时描述稳定的嗓音特征；说话人编号由应用冻结，不改号、不合并、不对调。Ref2VA 另按 ref-en.txt 的「Speakers, pictures and voice-timbre audio」挂说话人参考图、回报音色归属。用正向归属代替长串禁令。
+五种模式都按 base-en.txt 的「Speakers and voiced lines」写：在发生动作的位置写清谁在说、怎么说以及原话。编号只是成稿里的说话人标记，使用实际人物及稳定对应，有已提供的编号就沿用。第一次开口可保留原稿提供的音色依据。Ref2VA 另按 ref-en.txt 的「Speakers, pictures and voice-timbre audio」挂说话人参考图、回报音色归属。用正向归属代替长串禁令。
 
 ## 动作与交互的表达
 
@@ -109,4 +109,4 @@ Ref2VA 使用 <Subject N> 标识实际引用的人、物或环境，在 subject_
 
 summary 从符合实际用途的任务前缀开始，如 [reference generation]。retention_analysis 每个已定义条目一行，采用 ref-en.txt 的关系词。detailed_description 在各主体实际出镜处复用已定义标签，以 [Shot 1] 开始；有切镜时才递增 Shot 编号。保留开场及后续镜头已有的完整时间区间。原稿有明确切点时才可等值表示为 At MM:SS.mmm；原稿未计时就只写镜头顺序。
 
-profileId=generic 时，程序只拼接 text，并为 quoteIds 追加普通引号。为交付 H3 的发声格式，在 text 内完整写说话人 (Sx) 与 <d>[Chinese] 原话</d> 等标签，逐字取自本次母稿引文，该行 quoteIds 留空以避免重复追加。专用 h3@1 则使用 quoteIds，由编译器写发声标签。两种情况下原话都必须完整保留，Sx 沿用已冻结的说话人 ID。无画外音不补画外音，无跨镜或截断不补对应标签。
+普通稿的发声直接写在 text，开口时写清人物和原话，例如 `The worker looks up (S1) and says: <d>[Chinese] 把箱子放这里。</d>`。quoteIds 保持空数组。说话人标记用于成稿阅读和生成，无需单独提取引文。原话原语种逐字保留。无画外音不补画外音，无跨镜或截断不补对应标签。仅专用 h3@1 重用含结构化引文的已有母稿时，通过真实 quoteId 由程序插入，避免双写。
