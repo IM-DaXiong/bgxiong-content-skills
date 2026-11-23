@@ -25,6 +25,12 @@
 
 当前产品执行标识是 `metadata.bgx-workflow: clips-v1`。只有具有该标识并通过宿主兼容性校验的包可以执行。官方在线目录由本仓库按当前内容目录签名发行，客户端负责检查和安装。 [正式在线目录](https://r.bgxiong.com/client/ai-story/bgxiong-content-skills/latest.json)
 
+## 官方 Skills CDN 上传
+
+本地上传目录为统一交付根下的 `03-cdn/r.bgxiong.com/client/ai-story/bgxiong-content-skills/`。目录平铺全部 ZIP、正式签名 `latest.json` 和 `SHA256SUMS.txt`。在 SFTP 打开 `/var/www/r.bgxiong.com/client/ai-story/bgxiong-content-skills/`，把本地上传目录内的文件一起拖进去。上传工具可调整顺序时，把 `latest.json` 放在队尾。全部传完后，从公网读回索引，并在「设置 → 创作 → 技能更新」点「检查更新」。
+
+2026-11-23 已准备序号 2 待上传，含 17 个包，宿主范围为 `>=0.6.1123, <0.7.0`。客户端能力已按 0.6.1123 和 0.6.1125 正式发行源码核对。电商短视频创作待正式宿主提供两个批量商品用途后发行。序号 2 索引 SHA-256 为 `391a3f09f5b18c493d8ceca3f24b3064c3168510f40fe39fc7900568c97b9c95`。
+
 `scripts/publish_online_index.py` 复用标准包构建器，只接收 `source-approved` 的包。使用 `--prior-commit` 登记已核对的历史来源指纹，使用 `--signing-host` 和 `--public-trust` 在服务器完成签名并验证回执。CDN 源站用 `scripts/publish_online_cdn.py` 校验签名，先发布并回读不可变 ZIP，再更新并回读目录。正式首发序号为 1，兼容 `=0.6.1119`，已回读 16 个 ZIP，目录 SHA-256 为 `2030593f86e50474be9cdd4c1b6f24ead0696ff66155fd9d86b0bdc27bfc7ac3`。
 
 <!-- BEGIN GENERATED SKILL CATALOG -->

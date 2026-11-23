@@ -1,4 +1,5 @@
 dist/
+/cdn/
 __pycache__/
 *.pyc
 .pytest_cache/
