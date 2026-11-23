@@ -27,7 +27,7 @@
 
 ## 官方 Skills CDN 上传
 
-本地上传目录为统一交付根下的 `03-cdn/r.bgxiong.com/client/ai-story/bgxiong-content-skills/`。目录平铺全部 ZIP、正式签名 `latest.json` 和 `SHA256SUMS.txt`。在 SFTP 打开 `/var/www/r.bgxiong.com/client/ai-story/bgxiong-content-skills/`，把本地上传目录内的文件一起拖进去。上传工具可调整顺序时，把 `latest.json` 放在队尾。全部传完后，从公网读回索引，并在「设置 → 创作 → 技能更新」点「检查更新」。
+本地上传目录为统一交付根下的 `cdn-bgxiong-content-skills/`。目录平铺全部 ZIP、正式签名 `latest.json` 和 `SHA256SUMS.txt`。在 SFTP 打开 `/var/www/r.bgxiong.com/client/ai-story/bgxiong-content-skills/`，把本地上传目录内的文件一起拖进去。上传工具可调整顺序时，把 `latest.json` 放在队尾。全部传完后，从公网读回索引，并在「设置 → 创作 → 技能更新」点「检查更新」。
 
 2026-11-23 已准备序号 2 待上传，含 17 个包，宿主范围为 `>=0.6.1123, <0.7.0`。客户端能力已按 0.6.1123 和 0.6.1125 正式发行源码核对。电商短视频创作待正式宿主提供两个批量商品用途后发行。序号 2 索引 SHA-256 为 `391a3f09f5b18c493d8ceca3f24b3064c3168510f40fe39fc7900568c97b9c95`。
 

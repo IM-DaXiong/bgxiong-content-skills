@@ -146,7 +146,7 @@ def build(args: argparse.Namespace) -> None:
 
 def main() -> None:
     cli = argparse.ArgumentParser(description=__doc__)
-    cli.add_argument("--output", type=Path, required=True)
+    cli.add_argument("--output", type=Path, default=Path("L:/00Dev/bgxiong-00-release/cdn-bgxiong-content-skills"))
     cli.add_argument("--sequence", type=int, required=True)
     cli.add_argument("--package", action="append")
     cli.add_argument("--prior-commit", action="append", default=[])
