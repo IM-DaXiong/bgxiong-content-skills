@@ -55,3 +55,4 @@
 - [文戏片段分镜规划](literary-clip-storyboard-planning.zh-CN.md)：source-approved。为生成片段稿约束文戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖武戏分镜规划。
 - [武戏片段分镜规划](action-clip-storyboard-planning.zh-CN.md)：source-approved。为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。
 - [电商短视频创作](product-short-video.zh-CN.md)：source-approved。根据单件商品的参考图与可选演员、场景、简要说明，规划 15 秒或 30 秒电商短视频，并将该商品的方案展开为连续分镜。
+- [Seedream 5.5 图片提示词](seedream-5-5-prompt-writing.zh-CN.md)：source-approved。为豆包 Seedream 5.5 优化文生图、单图编辑和多参考图合成提示词。沿用用户语言和素材顺序，明确改动范围、保留项、画内文字与透明区域。供图片工作台的优化助手使用。

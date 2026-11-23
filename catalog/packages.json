@@ -223,6 +223,18 @@
       "workflow": "clips-v1",
       "distribution": "source-approved",
       "rights": "project-license"
+    },
+    {
+      "name": "seedream-5-5-prompt-writing",
+      "version": "1.0.0",
+      "path": "skills/seedream-5-5-prompt-writing",
+      "packageDigest": "sha256:ee76e6d44e6339e28637eb10395ae19071a13cb02949102fa793ee5bc2f60a62",
+      "hosts": [
+        "optimize-image-prompt"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
     }
   ]
 }

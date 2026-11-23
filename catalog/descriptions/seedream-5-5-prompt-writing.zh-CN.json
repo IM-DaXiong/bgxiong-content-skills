@@ -1,0 +1,35 @@
+{
+  "name": "seedream-5-5-prompt-writing",
+  "displayName": "Seedream 5.5 图片提示词",
+  "packagePath": "skills/seedream-5-5-prompt-writing",
+  "version": "1.0.0",
+  "workflow": "clips-v1",
+  "hosts": [
+    "optimize-image-prompt"
+  ],
+  "distribution": "source-approved",
+  "scenario": "为豆包 Seedream 5.5 优化文生图、单图编辑和多参考图合成提示词。沿用用户语言和素材顺序，明确改动范围、保留项、画内文字与透明区域。供图片工作台的优化助手使用。",
+  "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
+  "painPoints": [
+    "文生图",
+    "单图编辑",
+    "多参考图合成",
+    "透明背景",
+    "写法示例",
+    "来源"
+  ],
+  "intendedOutcome": [
+    "在已有图片提示词上标出可改进处并给出修订稿，保留原稿。"
+  ],
+  "observedEvidence": {
+    "status": "not-run",
+    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+  },
+  "exampleStatus": "pending",
+  "limits": [
+    "不新增宿主工具、权限或输出 schema。",
+    "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",
+    "效果没有量化承诺。"
+  ],
+  "download": null
+}
