@@ -248,6 +248,19 @@
       "workflow": "clips-v1",
       "distribution": "source-approved",
       "rights": "project-license"
+    },
+    {
+      "name": "action-clip-keyframe-design",
+      "version": "1.0.0",
+      "path": "skills/action-clip-keyframe-design",
+      "packageDigest": "sha256:9a04cf9ccf88cb98c6266819c998bf1dda1f540e7783f685aa8c593a44dc43b5",
+      "hosts": [
+        "clip-frame-plan",
+        "clip-frame-prompt"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
     }
   ]
 }
