@@ -3,13 +3,15 @@ name: h3-prompt-writing
 description: "把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。"
 metadata:
   bgx-workflow: clips-v1
-  version: "1.2.7"
+  version: "1.2.8"
   bgx-categories: "visual-style"
   bgx-hosts: video-prompt-projection
   bgx-display-name: "H3 视频提示词"
 ---
 
 # H3 视频提示词
+
+用户明确写出的目标属性、动作和时序优先于参考素材。按编号及指定用途保留参考图引用，未改写部分由生成模型参照图像。普通优化按原稿整理表达，只有用户明确指定提取某张图的某项信息时，才在其范围内读图并写入正文。例如，人物按图 1 且要求赤脚时，保留赤脚和图 1 的引用。
 
 这是本项目编写的 `h3@1` 兼容表达方法。MiniMax 和 H3 仅用于说明目标模型；本包不包含、改写或转授权 MiniMax-H3 仓库中的 Skill 文件。
 

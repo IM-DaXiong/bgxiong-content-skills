@@ -51,9 +51,9 @@
     },
     {
       "name": "generic-video-prompt-writing",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "path": "skills/generic-video-prompt-writing",
-      "packageDigest": "sha256:a635e9a59adf03ebc6c5c01d2a3b11c425589277c4cf1fa071b78b72118eaa83",
+      "packageDigest": "sha256:d3eaec6e21a5efdd74421603037ef61946410b9efab9e2cccc16748147dea1ce",
       "hosts": [
         "video-prompt-projection"
       ],
@@ -63,9 +63,9 @@
     },
     {
       "name": "h3-prompt-writing",
-      "version": "1.2.6",
+      "version": "1.2.8",
       "path": "skills/h3-prompt-writing",
-      "packageDigest": "sha256:a7672f35a96fcca0f80481c713571baebbbf14ee18282bd43bbfe1e259412a4b",
+      "packageDigest": "sha256:da3691d490216119727de99df2f49a4fb47651e2f75423cb2a709484e48f6648",
       "hosts": [
         "video-prompt-projection"
       ],
@@ -101,9 +101,9 @@
     },
     {
       "name": "qwen-image-2-1-prompt-writing",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "path": "skills/qwen-image-2-1-prompt-writing",
-      "packageDigest": "sha256:c116fdb6d71b757c4cd958e0648832d0ba0f3090310f87082010549ab0746d9c",
+      "packageDigest": "sha256:63c7e422d7f7c2130ef7d67b8c11c539e51832b4bbc83999deacd26c52b0b210",
       "hosts": [
         "optimize-image-prompt",
         "clip-environment-prompt"
@@ -165,9 +165,9 @@
     },
     {
       "name": "h3-image-prompt-writing",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "skills/h3-image-prompt-writing",
-      "packageDigest": "sha256:8971dc127db5088ae2a9314b8169e7c258e520a76ffa25549bf14763bdcd8430",
+      "packageDigest": "sha256:9c0dfce1966f0fe590c6205bb512801048bcc6efaa7c562da8c2343bc2898a19",
       "hosts": [
         "optimize-image-prompt"
       ],
@@ -177,9 +177,9 @@
     },
     {
       "name": "h3-multi-reference-content",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "skills/h3-multi-reference-content",
-      "packageDigest": "sha256:8bea5bdbba6d44386150a1af60c256bd0eeee655c268037c98633a368f669dcc",
+      "packageDigest": "sha256:a91538fdc16cc06d422e21113d5fd0f5b25295e8c29c6e8a9d65a2982a78a7c9",
       "hosts": [
         "optimize-segment"
       ],

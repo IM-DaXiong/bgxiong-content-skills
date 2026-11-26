@@ -3,13 +3,15 @@ name: generic-video-prompt-writing
 description: "冻结目标为 generic@1 时，将片段视频内容整理为中立自然语言，保留来源、时序与逐字原话；不替代损坏或缺失的专属格式绑定。"
 metadata:
   bgx-workflow: clips-v1
-  version: "1.1.0"
+  version: "1.1.1"
   bgx-categories: "visual-style"
   bgx-hosts: "video-prompt-projection"
   bgx-display-name: "通用视频提示词"
 ---
 
 # 通用视频提示词
+
+用户明确写出的目标属性、动作和时序优先于参考素材。按编号及指定用途保留参考图引用，未改写部分由生成模型参照图像。普通优化按原稿整理表达，只有用户明确指定提取某张图的某项信息时，才在其范围内读图并写入正文。例如，人物按图 1 且要求赤脚时，保留赤脚和图 1 的引用。
 
 ## 片段与素材边界
 
