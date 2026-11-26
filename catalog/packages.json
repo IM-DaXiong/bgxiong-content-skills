@@ -63,9 +63,9 @@
     },
     {
       "name": "h3-prompt-writing",
-      "version": "1.2.8",
+      "version": "1.2.9",
       "path": "skills/h3-prompt-writing",
-      "packageDigest": "sha256:da3691d490216119727de99df2f49a4fb47651e2f75423cb2a709484e48f6648",
+      "packageDigest": "sha256:f26dfc3919e3ecf20ca9c489b53167eb673da1927952efd03ed831e8f5f8d809",
       "hosts": [
         "video-prompt-projection"
       ],
@@ -177,9 +177,9 @@
     },
     {
       "name": "h3-multi-reference-content",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "path": "skills/h3-multi-reference-content",
-      "packageDigest": "sha256:a91538fdc16cc06d422e21113d5fd0f5b25295e8c29c6e8a9d65a2982a78a7c9",
+      "packageDigest": "sha256:81b604c5d04a4ac0e2d273e6e2ebfd75f51681144a0c129a5647403a12b15846",
       "hosts": [
         "optimize-segment"
       ],
@@ -238,9 +238,9 @@
     },
     {
       "name": "reference-led-clip-writing",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "skills/reference-led-clip-writing",
-      "packageDigest": "sha256:01b9007cd5cd0fb51b7e603165f4fbbc8e1d10dd5e6a45c3fa8d681ce2371313",
+      "packageDigest": "sha256:c69cbba2ed292ba0d091010178d1c8d2d4a5422e75e92d081591634cd9198d46",
       "hosts": [
         "story-chapters",
         "clip-video-draft"

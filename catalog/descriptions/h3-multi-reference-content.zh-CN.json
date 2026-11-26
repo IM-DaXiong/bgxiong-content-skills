@@ -2,7 +2,7 @@
   "name": "h3-multi-reference-content",
   "displayName": "H3 多参内容整理",
   "packagePath": "skills/h3-multi-reference-content",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "workflow": "clips-v1",
   "hosts": [
     "optimize-segment"

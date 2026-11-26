@@ -53,7 +53,7 @@
 - **角色表情九宫格**（`character-expression-nine-grid`，1.1.0）：为同一人物设计可选表情参考，按工作台所选子模式分张或合成参考板；保持已有身份和服装，不要求先制作九张图片。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。 详见 [说明](docs/skills/character-expression-nine-grid.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **角色多角度定妆**（`character-multi-angle-reference`，1.1.0）：为同一人物设计可选多角度与材质细节参考，按所选模板提供全身、脸部和局部视图；用于独立资产创作，不强制固定视频镜头或帧数。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。 详见 [说明](docs/skills/character-multi-angle-reference.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **通用视频提示词**（`generic-video-prompt-writing`，1.1.0）：冻结目标为 generic@1 时，将片段视频内容整理为中立自然语言，保留来源、时序与逐字原话；不替代损坏或缺失的专属格式绑定。 详见 [说明](docs/skills/generic-video-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
-- **H3 视频提示词**（`h3-prompt-writing`，1.2.6）：把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。 详见 [说明](docs/skills/h3-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **H3 视频提示词**（`h3-prompt-writing`，1.2.9）：把应用提供的视频母版整理成项目内 h3@1 兼容提示词。适用于 T2VA、I2VA、FL2VA、L2VA 和 Ref2VA；保留母版事实、台词、时间与参考素材绑定，不负责新增剧情或猜测模型能力。 详见 [说明](docs/skills/h3-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **可灵视频提示词**（`kling-prompt-writing`，1.1.1）：依据冻结的 Kling Classic 或 Omni 目标，将片段视频稿表达为当前模式所需内容，保留真实引用与原话；经典版和 Omni 的资源与能力不混用。 详见 [说明](docs/skills/kling-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **LTX-2.5 视频提示词**（`ltx-2-5-prompt-writing`，1.4.0）：为 LTX 的文生视频、图生视频和首尾帧视频适配连贯段落，按时间组织动作、镜头、光线和声音，逐字保留原语言对白、歌词与用户画面文字，并按应用合同交付正负提示词。 详见 [说明](docs/skills/ltx-2-5-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **Qwen Image 2.1 图像提示词**（`qwen-image-2-1-prompt-writing`，1.1.0）：为 Qwen Image 2.1 优化文生图与参考图编辑提示词。文生图整理为英文画面描述，图片编辑明确修改与保留内容，多图编号严格沿用输入顺序；画面文字保留用户指定语言。用于生图工作台点击优化提示词后审阅结果，不负责提交生图或改变画幅。 详见 [说明](docs/skills/qwen-image-2-1-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
@@ -61,7 +61,7 @@
 - **Seedance 视频提示词**（`seedance-prompt-writing`，1.1.0）：把冻结的片段视频内容表达成 Seedance（2.0 系列）视频提示词的写法：主体定义与绑定、镜头1/镜头2 分镜时序、动作与运镜措辞、参考图／视频／音频的用途说法，以及文生、首帧／首尾帧、多图与多模态参考、编辑、延长等模式差异。只改写表达，不新增、删改或重排母版事实。为 Seedance 目标投影或整理视频提示词时使用。 详见 [说明](docs/skills/seedance-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **万相视频提示词**（`wan-prompt-writing`，1.1.0）：依据实际绑定的 Wan 目标和输入模式表达片段视频内容，保留来源、声音用途、时序与原话；不从历史名称推断模型能力。 详见 [说明](docs/skills/wan-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **H3-Image 图片提示词**（`h3-image-prompt-writing`，1.0.0）：为 MiniMax H3-Image 整理文生图与参考图编辑提示词，使用有序 Picture 引用、稳定 Subject 定义和明确的保留关系，保留用户事实与画内文字。供图片工作台优化提示词使用。 详见 [说明](docs/skills/h3-image-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
-- **H3 多参内容整理**（`h3-multi-reference-content`，1.0.0）：整理 MiniMax H3 多参视频的片段原稿，明确参考图、视频、音频的用途与归属，保留动作顺序、说话人和逐字对白。 详见 [说明](docs/skills/h3-multi-reference-content.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **H3 多参内容整理**（`h3-multi-reference-content`，1.0.2）：整理 MiniMax H3 多参视频的片段原稿，明确参考图、视频、音频的用途与归属，保留动作顺序、说话人和逐字对白。 详见 [说明](docs/skills/h3-multi-reference-content.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - [按参考素材写剧本与分镜](docs/skills/reference-led-clip-writing.zh-CN.md)。优化剧集剧本或撰写视频片段稿时，按用户原文和指定素材绑定主体、环境与音色，精简重复的外观描写和分镜说明。
 - [武戏片段静帧设计](docs/skills/action-clip-keyframe-design.zh-CN.md)。为武戏片段选择可读的单帧瞬间，为已选镜帧写图片提示词或分析姿态。适合交手、闪避、腾挪及动作后的反应；混合场景按当前镜头取用。
 - **文戏片段分镜规划**（`literary-clip-storyboard-planning`，1.1.0）：为生成片段稿约束文戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖武戏分镜规划。 详见 [说明](docs/skills/literary-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。

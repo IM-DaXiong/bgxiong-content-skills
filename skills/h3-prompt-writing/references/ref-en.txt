@@ -96,10 +96,10 @@ Each key appears once for the whole clip. Continue the same detailed_description
 
 ```text
 subject_definitions: <Subject 1>, the worker, follows the workwear in <Picture 1>.
-summary: The worker directs a colleague to set a box down.
-retention_analysis: <Subject 1> — preserve the referenced workwear.
+summary: [reference generation] The worker directs a colleague to set a box down.
+retention_analysis: <Subject 1> — fully_preserved
 detailed_description:
-[Shot 1] The worker (S1) looks up and says: <d>[Chinese] 把箱子放这里。</d>
+[Shot 1] <Subject 1> (S1) looks up and says: <d>[Chinese] 把箱子放这里。</d>
 [Shot 2] Hard cut to the cardboard box coming to rest on the workbench.
 overall_soundscape: Unspecified.
 non_diegetic_music: Unspecified.

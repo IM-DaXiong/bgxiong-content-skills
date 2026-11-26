@@ -1,6 +1,6 @@
 # 按参考素材写剧本与分镜
 
-状态：`source-approved`。版本：`1.0.0`。工作流：`clips-v1`。包目录：`skills/reference-led-clip-writing`。
+状态：`source-approved`。版本：`1.0.1`。工作流：`clips-v1`。包目录：`skills/reference-led-clip-writing`。
 
 ## 用途
 

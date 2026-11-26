@@ -1,6 +1,6 @@
 # H3 多参内容整理
 
-状态：`source-approved`。版本：`1.0.0`。工作流：`clips-v1`。包目录：`skills/h3-multi-reference-content`。
+状态：`source-approved`。版本：`1.0.2`。工作流：`clips-v1`。包目录：`skills/h3-multi-reference-content`。
 
 ## 用途
 

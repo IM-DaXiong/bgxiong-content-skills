@@ -2,7 +2,7 @@
   "name": "reference-led-clip-writing",
   "displayName": "按参考素材写剧本与分镜",
   "packagePath": "skills/reference-led-clip-writing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "workflow": "clips-v1",
   "hosts": [
     "story-chapters",
