@@ -235,6 +235,19 @@
       "workflow": "clips-v1",
       "distribution": "source-approved",
       "rights": "project-license"
+    },
+    {
+      "name": "reference-led-clip-writing",
+      "version": "1.0.0",
+      "path": "skills/reference-led-clip-writing",
+      "packageDigest": "sha256:01b9007cd5cd0fb51b7e603165f4fbbc8e1d10dd5e6a45c3fa8d681ce2371313",
+      "hosts": [
+        "story-chapters",
+        "clip-video-draft"
+      ],
+      "workflow": "clips-v1",
+      "distribution": "source-approved",
+      "rights": "project-license"
     }
   ]
 }
