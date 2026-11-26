@@ -14,6 +14,13 @@
 
 许可是仓库根 `LICENSE` 的自定义许可：可以学习，也可以在自有项目中使用；不能把这些材料单独做成付费技能包出售。这不是 OSI 开源许可证。
 
+## 最新更新 · 武戏分镜与静帧
+
+- **武戏片段分镜规划 1.2.0** 用于生成片段稿。根据剧情选择交手、错身、停手或反应，机位与剪辑跟随这一镜需要交代的信息。人物造型和道具沿用已绑定素材。[技能说明](docs/skills/action-clip-storyboard-planning.zh-CN.md)
+- **武戏片段静帧设计 1.1.0** 用于镜帧规划与图片提示词。同一时刻提供 35 mm 腰高侧拍和 85 mm 过肩近景两例，可分别突出人物间距与即时反应。[技能说明](docs/skills/action-clip-keyframe-design.zh-CN.md)
+
+在工作站「设置 → 创作 → 技能更新」检查更新，也可下载 ZIP 手动导入。[安装包](https://github.com/IM-DaXiong/bgxiong-content-skills/releases/tag/action-clip-methods-20261126)
+
 ## 先读什么
 
 1. [规范](docs/SPECIFICATION.zh-CN.md)
@@ -29,13 +36,13 @@
 
 本地上传目录为统一交付根下的 `cdn-bgxiong-content-skills/`。目录平铺全部 ZIP、正式签名 `latest.json` 和 `SHA256SUMS.txt`。在 SFTP 打开 `/var/www/r.bgxiong.com/client/ai-story/bgxiong-content-skills/`，把本地上传目录内的文件一起拖进去。上传工具可调整顺序时，把 `latest.json` 放在队尾。全部传完后，从公网读回索引，并在「设置 → 创作 → 技能更新」点「检查更新」。
 
-2026-11-23 已准备序号 2 待上传，含 17 个包，宿主范围为 `>=0.6.1123, <0.7.0`。客户端能力已按 0.6.1123 和 0.6.1125 正式发行源码核对。电商短视频创作待正式宿主提供两个批量商品用途后发行。序号 2 索引 SHA-256 为 `391a3f09f5b18c493d8ceca3f24b3064c3168510f40fe39fc7900568c97b9c95`。
+2026-11-26 已发布序号 5，含 19 个包，宿主范围为 `>=0.6.1123, <0.7.0`。已从公网回读签名索引和全部 ZIP。索引 SHA-256 为 `b66cfbb9a7466724985c69742043ade3fa1c4a3e45642502b7258e599a294e8b`。
 
 `scripts/publish_online_index.py` 复用标准包构建器，只接收 `source-approved` 的包。使用 `--prior-commit` 登记已核对的历史来源指纹，使用 `--signing-host` 和 `--public-trust` 在服务器完成签名并验证回执。CDN 源站用 `scripts/publish_online_cdn.py` 校验签名，先发布并回读不可变 ZIP，再更新并回读目录。正式首发序号为 1，兼容 `=0.6.1119`，已回读 16 个 ZIP，目录 SHA-256 为 `2030593f86e50474be9cdd4c1b6f24ead0696ff66155fd9d86b0bdc27bfc7ac3`。
 
 <!-- BEGIN GENERATED SKILL CATALOG -->
 
-正式收录、教学变体和未发行项分开列出。下载链接在公开资产发布前保持为空。
+正式收录、教学变体和未发行项分开列出。已发布的安装包见各技能说明。
 
 ### 当前可按 clips-v1 阅读的正式素材
 
