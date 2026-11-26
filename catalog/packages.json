@@ -251,9 +251,9 @@
     },
     {
       "name": "action-clip-keyframe-design",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "path": "skills/action-clip-keyframe-design",
-      "packageDigest": "sha256:7f9cf9c5af57543c7e28decbe46b1b8a29b731a061f6bb4ba2139fff65ba4319",
+      "packageDigest": "sha256:0839745b63c5d53b5a6e014f4594022cc8c6e9aba0ecf399778df6097cbc095b",
       "hosts": [
         "clip-frame-plan",
         "clip-frame-prompt"

@@ -2,20 +2,21 @@
   "name": "action-clip-keyframe-design",
   "displayName": "武戏片段静帧设计",
   "packagePath": "skills/action-clip-keyframe-design",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "workflow": "clips-v1",
   "hosts": [
     "clip-frame-plan",
     "clip-frame-prompt"
   ],
   "distribution": "source-approved",
-  "scenario": "为武戏片段选择可读的单帧瞬间，为已选镜帧写图片提示词或分析姿态。适合交手、闪避、腾挪及动作后的反应；混合场景按当前镜头取用。",
+  "scenario": "为动作戏、武戏片段选关键帧，为已选帧写图片提示词；可诊断动作摆拍、人物遮挡和前后时相混杂，给出局部改词。",
   "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
   "painPoints": [
     "从片段稿取一拍",
     "让动作在静图里读得出来",
     "按这一拍的叙事选择机位和焦段",
     "同一拍的两种机位",
+    "已有画面读不清时怎样改词",
     "沿用已绑定的参考"
   ],
   "intendedOutcome": [
