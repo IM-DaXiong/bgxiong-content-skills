@@ -2,23 +2,19 @@
   "name": "action-clip-storyboard-planning",
   "displayName": "武戏片段分镜规划",
   "packagePath": "skills/action-clip-storyboard-planning",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "workflow": "clips-v1",
   "hosts": [
     "clip-video-draft"
   ],
   "distribution": "source-approved",
-  "scenario": "为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。",
+  "scenario": "根据已有剧本为武戏片段写视频分镜，按剧情选择动作时刻、人物视角和镜头衔接，沿用本次参考素材绑定。",
   "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
   "painPoints": [
-    "基本策略",
-    "何时切换",
-    "打击感",
-    "第一视角",
-    "飘逸",
-    "人物朝向、站位与体态",
-    "表情",
-    "对峙与对话时的视线"
+    "按剧情决定这一镜留在哪里",
+    "按要看的内容选机位",
+    "让前后镜头接得上",
+    "沿用素材并交接静帧"
   ],
   "intendedOutcome": [
     "为单个片段写可独立提交的视频完整稿。"

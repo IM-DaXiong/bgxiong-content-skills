@@ -1,10 +1,10 @@
 # 武戏片段分镜规划
 
-状态：`source-approved`。版本：`1.0.1`。工作流：`clips-v1`。包目录：`skills/action-clip-storyboard-planning`。
+状态：`source-approved`。版本：`1.2.0`。工作流：`clips-v1`。包目录：`skills/action-clip-storyboard-planning`。
 
 ## 用途
 
-为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。
+根据已有剧本为武戏片段写视频分镜，按剧情选择动作时刻、人物视角和镜头衔接，沿用本次参考素材绑定。
 
 ## 适用场景
 
@@ -12,14 +12,10 @@
 
 ## 优化什么
 
-- 基本策略
-- 何时切换
-- 打击感
-- 第一视角
-- 飘逸
-- 人物朝向、站位与体态
-- 表情
-- 对峙与对话时的视线
+- 按剧情决定这一镜留在哪里
+- 按要看的内容选机位
+- 让前后镜头接得上
+- 沿用素材并交接静帧
 
 这些标题来自该包正文的章节，不是另一套执行规则。真正执行以包内 `SKILL.md` 为准。
 
@@ -47,4 +43,4 @@
 
 - 宿主只执行当前合同里存在的用途和 `clips-v1`。
 - 本页不保证跨模型质量、身份完全一致或固定帧数。
-- 没有公开安装包下载地址。源码页不是单包安装包。
+- [下载 1.2.0 安装包](https://github.com/IM-DaXiong/bgxiong-content-skills/releases/download/action-clip-methods-20261126/action-clip-storyboard-planning-1.2.0.zip)。

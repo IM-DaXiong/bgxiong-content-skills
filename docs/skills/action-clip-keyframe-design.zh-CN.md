@@ -1,6 +1,6 @@
 # 武戏片段静帧设计
 
-状态：`source-approved`。版本：`1.0.0`。工作流：`clips-v1`。包目录：`skills/action-clip-keyframe-design`。
+状态：`source-approved`。版本：`1.1.0`。工作流：`clips-v1`。包目录：`skills/action-clip-keyframe-design`。
 
 ## 用途
 
@@ -15,6 +15,7 @@
 - 从片段稿取一拍
 - 让动作在静图里读得出来
 - 按这一拍的叙事选择机位和焦段
+- 同一拍的两种机位
 - 沿用已绑定的参考
 
 这些标题来自该包正文的章节，不是另一套执行规则。真正执行以包内 `SKILL.md` 为准。
@@ -38,13 +39,13 @@
 
 ## 示例
 
-示例状态：待制作。没有前后对照，不能写成已经证明的提升。
+正文附同一时刻的两条机位提示词。模型出图对照待验证。
 
 ## 限制
 
 - 宿主只执行当前合同里存在的用途和 `clips-v1`。
 - 本页不保证跨模型质量、身份完全一致或固定帧数。
-- 没有公开安装包下载地址。源码页不是单包安装包。
+- [下载 1.1.0 安装包](https://github.com/IM-DaXiong/bgxiong-content-skills/releases/download/action-clip-methods-20261126/action-clip-keyframe-design-1.1.0.zip)。
 
 ## 摄影参考
 

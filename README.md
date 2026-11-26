@@ -58,7 +58,7 @@
 - [按参考素材写剧本与分镜](docs/skills/reference-led-clip-writing.zh-CN.md)。优化剧集剧本或撰写视频片段稿时，按用户原文和指定素材绑定主体、环境与音色，精简重复的外观描写和分镜说明。
 - [武戏片段静帧设计](docs/skills/action-clip-keyframe-design.zh-CN.md)。为武戏片段选择可读的单帧瞬间，为已选镜帧写图片提示词或分析姿态。适合交手、闪避、腾挪及动作后的反应；混合场景按当前镜头取用。
 - **文戏片段分镜规划**（`literary-clip-storyboard-planning`，1.1.0）：为生成片段稿约束文戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖武戏分镜规划。 详见 [说明](docs/skills/literary-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
-- **武戏片段分镜规划**（`action-clip-storyboard-planning`，1.1.0）：为生成片段稿约束武戏片段中的分镜提示词写法。不负责把剧集拆成多个片段，也不覆盖文戏分镜规划。 详见 [说明](docs/skills/action-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
+- **武戏片段分镜规划**（`action-clip-storyboard-planning`，1.2.0）：根据已有剧本为武戏片段写视频分镜，按剧情选择动作时刻、人物视角和镜头衔接，沿用本次参考素材绑定。 详见 [说明](docs/skills/action-clip-storyboard-planning.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 - **Seedream 5.5 图片提示词**（`seedream-5-5-prompt-writing`，1.0.0）：为豆包 Seedream 5.5 优化文生图、单图编辑和多参考图合成提示词。沿用用户语言和素材顺序，明确改动范围、保留项、画内文字与透明区域。供图片工作台的优化助手使用。 详见 [说明](docs/skills/seedream-5-5-prompt-writing.zh-CN.md)。效果：设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。
 
 ### 教学变体

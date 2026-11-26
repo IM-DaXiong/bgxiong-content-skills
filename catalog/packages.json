@@ -201,9 +201,9 @@
     },
     {
       "name": "action-clip-storyboard-planning",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "path": "skills/action-clip-storyboard-planning",
-      "packageDigest": "sha256:89fee01e1eaae3948481fdc9fea3439eb79d426dc5d99d4bba5d1938ddea509a",
+      "packageDigest": "sha256:a08641826e3238a97fef02c57f23a3332457505d0534a7a59619fa51180fcb60",
       "hosts": [
         "clip-video-draft"
       ],
@@ -251,9 +251,9 @@
     },
     {
       "name": "action-clip-keyframe-design",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "path": "skills/action-clip-keyframe-design",
-      "packageDigest": "sha256:9a04cf9ccf88cb98c6266819c998bf1dda1f540e7783f685aa8c593a44dc43b5",
+      "packageDigest": "sha256:7f9cf9c5af57543c7e28decbe46b1b8a29b731a061f6bb4ba2139fff65ba4319",
       "hosts": [
         "clip-frame-plan",
         "clip-frame-prompt"

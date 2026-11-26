@@ -2,7 +2,7 @@
   "name": "action-clip-keyframe-design",
   "displayName": "武戏片段静帧设计",
   "packagePath": "skills/action-clip-keyframe-design",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "workflow": "clips-v1",
   "hosts": [
     "clip-frame-plan",
@@ -15,6 +15,7 @@
     "从片段稿取一拍",
     "让动作在静图里读得出来",
     "按这一拍的叙事选择机位和焦段",
+    "同一拍的两种机位",
     "沿用已绑定的参考"
   ],
   "intendedOutcome": [
