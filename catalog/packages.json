@@ -2,9 +2,9 @@
   "packages": [
     {
       "name": "action-fight-prompt",
-      "version": "1.1.0",
+      "version": "1.6.0",
       "path": "skills/action-fight-prompt",
-      "packageDigest": "sha256:cc8b4908059ba8dc2f034802ad9e092dda84fe8f1711cd464a180dba8b2c69ac",
+      "packageDigest": "sha256:c820017debb11706a67f39f68152f0fc4583426a2c74206f645e7127565988cb",
       "hosts": [
         "optimize-segment",
         "clip-video-draft"

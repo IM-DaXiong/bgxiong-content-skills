@@ -2,30 +2,29 @@
   "name": "action-fight-prompt",
   "displayName": "动作打斗提示词",
   "packagePath": "skills/action-fight-prompt",
-  "version": "1.1.0",
+  "version": "1.6.0",
   "workflow": "clips-v1",
   "hosts": [
     "optimize-segment",
     "clip-video-draft"
   ],
   "distribution": "source-approved",
-  "scenario": "为片段初稿或当前视频稿整理动作打斗表达，保持人物、空间、因果、声音与逐字原话；适用于现代格斗、持械和多人对抗，镜头与时长不套固定模板。",
+  "scenario": "从用户的关键动作或旧稿编排连续表演，按观众需要看清的变化重写分镜、节奏和机位，保留事件结果、参考图与明确锁定项。",
   "audience": "正在使用比格熊创作工作台、并选择了上述用途的作者。",
   "painPoints": [
-    "片段与素材边界",
-    "动作表达",
-    "阶段输出",
-    "评审与交付"
+    "从原稿取出必须拍到的事",
+    "先连动作，再决定从哪里看",
+    "写成可直接使用的分镜"
   ],
   "intendedOutcome": [
     "检查片段连续性或表演问题，并给出仍可执行的修订建议。",
     "为单个片段写可独立提交的视频完整稿。"
   ],
   "observedEvidence": {
-    "status": "not-run",
-    "statement": "设计用途来自该包正文。本仓库没有为这个方法附上模型实测前后对照。"
+    "status": "recorded",
+    "statement": "1.6.0 经 MiniMax-M3 实测。四动作短稿保住了人物归属及空中结尾，但只返回一句动作概述。14 秒英文稿仍沿用旧切点，并重复第 3 镜，整场重排未通过。仅验证提示词文本。"
   },
-  "exampleStatus": "pending",
+  "exampleStatus": "recorded",
   "limits": [
     "不新增宿主工具、权限或输出 schema。",
     "缺少 clips-v1 或当前用途时，包可以阅读，当前执行不可用。",

@@ -2,7 +2,7 @@
 
 页面由 `scripts/build_skill_docs.py` 生成。讲解事实来自各包正文和 `catalog/descriptions/`。
 
-- [动作打斗提示词](action-fight-prompt.zh-CN.md)：source-approved。为片段初稿或当前视频稿整理动作打斗表达，保持人物、空间、因果、声音与逐字原话；适用于现代格斗、持械和多人对抗，镜头与时长不套固定模板。
+- [动作打斗提示词](action-fight-prompt.zh-CN.md)：source-approved。从用户的关键动作或旧稿编排连续表演，按观众需要看清的变化重写分镜、节奏和机位，保留事件结果、参考图与明确锁定项。
 - [角色服装参考](character-costume-reference.zh-CN.md)：source-approved。为同一人物设计可选服装参考：正背全身、脸部及服装细节，可按工作台选择分张或合成参考板；不作为片段或视频创作的前置。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。
 - [角色表情九宫格](character-expression-nine-grid.zh-CN.md)：source-approved。为同一人物设计可选表情参考，按工作台所选子模式分张或合成参考板；保持已有身份和服装，不要求先制作九张图片。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。
 - [角色多角度定妆](character-multi-angle-reference.zh-CN.md)：source-approved。为同一人物设计可选多角度与材质细节参考，按所选模板提供全身、脸部和局部视图；用于独立资产创作，不强制固定视频镜头或帧数。 同名素材若正文不同，以下变体分别保留，不以较高版本覆盖。
